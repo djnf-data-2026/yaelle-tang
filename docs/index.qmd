@@ -151,7 +151,7 @@ Journalists in New York earn $251,110 annually, more than twice the national ave
 
 ```
 
-#Medain hourly wage for actors
+## Medain hourly wage for actors
 ```{r}
 oes |> 
   filter(area_title %in% c("Pennsylvania","California","New York","District of Columbia")) |> 
@@ -159,7 +159,7 @@ oes |>
   select(prim_state, occ_title, tot_emp, h_median)
 
 ```
-#Medain hourly wage for surgeons
+## Medain hourly wage for surgeons
 ```{r}
 oes |>
     filter(area_title == "Pennsylvania") |> 
@@ -169,7 +169,7 @@ oes |>
 #For "Surgeons, All Other" Footnotes: (5) This wage is equal to or greater than $115.00 per hour or $239,200 per year.
 ```
 
-#journalists annual wage accross the country 
+## journalists annual wage accross the country 
 ```{r}
 
 oes |> 
@@ -186,7 +186,7 @@ philly |>
 
 ```
 
-#compare to state average
+## compare to state average
 ```{r}
 oes |>
   filter(area_title %in% c("New York", "District of Columbia")) |>
