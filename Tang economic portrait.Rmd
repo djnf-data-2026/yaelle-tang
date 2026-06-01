@@ -57,7 +57,7 @@ library(rio)
 ```{r}
 #note the mutate sequence, converts columns 12-32 into integers. Slick!
 
-oes <- read_excel("../data/OES_state_M2025_dl.xlsx") |> 
+oes <- read_excel("OES_state_M2025_dl.xlsx") |> 
   clean_names() |> 
    mutate(across(12:32, as.numeric))
 
@@ -86,7 +86,7 @@ oes |>
 
 ```{r}
 
-names <- read_excel("../data/OES_state_M2025_dl.xlsx", sheet='Field Descriptions') |> 
+names <- read_excel("OES_state_M2025_dl.xlsx", sheet='Field Descriptions') |> 
   apply(1, paste, collapse = ": ") |>
 sapply(\(x) c(strwrap(x, width = 80), "")) |>
   unlist() |>
@@ -119,16 +119,86 @@ glimpse(philly)
 
 Practice Questions
 ```   
-What is the median hourly wage for actors?
-What is the median hourly wage for surgeons?
-Compare journalists annual wage in two different states.
-How does that annual journalist salary compare to the state average?
-How could that be a story?
+*What is the median hourly wage for actors?*
+PA 27.22
+National 29.05
+CA N/A (8) Estimate not released.
+
+*What is the median hourly wage for surgeons?*
+"Surgeons, All Other" - equal to or greater than $115.00 per hour or $239,200 per year
+"Orthopedic Surgeons, Except Pediatric" - 174.80
+"Oral and Maxillofacial Surgeons" - 227.46
+
+*Compare journalists annual wage in two different states.
+NY    251110
+DC		174360
+PA    98170
+state   102460
+
+
+*How does that annual journalist salary compare to the state average?*
+DC all-111010 journ-174360 
+NY all-82460 journ-251110
+state   102460
+
+*How could that be a story?*
+Journalists in New York earn $251,110 annually, more than twice the national average of $102,460 and nearly three times what their counterparts in Pennsylvania make at $98,170. While media hubs like New York and Washington, D.C. continue to attract top salaries, Philadelphia area journalists earn below the national average. 
 
 ```
 
+#Medain hourly wage for actors
+```{r}
+oes |> 
+  filter(area_title %in% c("Pennsylvania","California","New York","District of Columbia")) |> 
+  filter(occ_title %in% c("Actors")) |> 
+  select(prim_state, occ_title, tot_emp, h_median)
+
+```
+#Medain hourly wage for surgeons
+```{r}
+oes |>
+    filter(area_title == "Pennsylvania") |> 
+  filter(occ_code %in% c("29-1022","29-1242","29-1249")) |> 
+  select(prim_state, occ_title, tot_emp, h_mean)
+
+#For "Surgeons, All Other" Footnotes: (5) This wage is equal to or greater than $115.00 per hour or $239,200 per year.
+```
+
+#journalists annual wage accross the country 
+```{r}
+
+oes |> 
+  distinct(area_title)
+
+oes |>
+  filter(occ_code == "27-3023") |> 
+  select(prim_state, occ_title, tot_emp, a_mean)|> 
+  arrange(desc(a_mean))
+
+philly |>
+  filter(occupation == "News Analysts, Reporters, and Journalists (27-3023)") |>
+  select(occupation, annual_mean_wage_2)
+
+```
+
+#compare to state average
+```{r}
+oes |>
+  filter(area_title %in% c("New York", "District of Columbia")) |>
+  filter(occ_code %in% c("27-3023", "00-0000")) |>
+  select(area_title, occ_title, occ_code, tot_emp, a_mean)
+```
+
+
 More pokin' around:
 Examine the OCC_CODE column. The occupations ending in "0000" are occupational categories. Filter OCC_CODE for "0000" and examine the 23  occupational categories.
+```{r}
+oes |>
+  filter(area_title == "Pennsylvania") |>
+  filter(grepl("0000", occ_code)) |>
+  select(occ_code, occ_title, tot_emp, a_mean) |>
+  arrange(occ_code)
+```
 
 
 
