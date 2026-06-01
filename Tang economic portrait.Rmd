@@ -5,7 +5,12 @@ editor_options:
   markdown: 
     wrap: 72
 ---
-yes, it works
+**Story Idea**
+I ended up with two story ideas because this file asked me to look at both occupational wages and greater Philadelphia GDP.(I don't know if I should follow the steps to keep both two ideas or I should choose one, but I do think the second one is a more potential story angle!)
+
+1. Journalists in New York earn $251,110 annually, more than twice the national average of $102,460 and nearly three times what their counterparts in Pennsylvania make at $98,170. While media hubs like New York and Washington, D.C. continue to attract top salaries, Philadelphia area journalists earn below the national average. 
+
+2. While most counties in the greater Philadelphia region saw modest economic growth between 2022 and 2024, greater Philadelphia area counties in New Jersy like Gloucester and Burlington outpaced their Pennsylvania counterparts, while Delaware County was the only county in the region to see its GDP shrink. Philadelphia County itself grew by just 2.3 percent, slower than three of the four New Jersey counties. A deeper look into which industries are driving growth in Gloucester County and what is holding back Delaware County could reveal how the region's economic weight is shifting away from its Pennsylvania core.
 
 # Economic Portrait of Greater Philadelphia region
 
