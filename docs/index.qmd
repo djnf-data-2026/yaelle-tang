@@ -62,7 +62,7 @@ library(rio)
 ```{r}
 #note the mutate sequence, converts columns 12-32 into integers. Slick!
 
-oes <- read_excel("OES_state_M2025_dl.xlsx") |> 
+oes <- read_excel("../OES_state_M2025_dl.xlsx") |> 
   clean_names() |> 
    mutate(across(12:32, as.numeric))
 
@@ -91,13 +91,13 @@ oes |>
 
 ```{r}
 
-names <- read_excel("OES_state_M2025_dl.xlsx", sheet='Field Descriptions') |> 
+names <- read_excel("../OES_state_M2025_dl.xlsx", sheet='Field Descriptions') |> 
   apply(1, paste, collapse = ": ") |>
 sapply(\(x) c(strwrap(x, width = 80), "")) |>
   unlist() |>
   writeLines("temp_text.txt")
 
-file.edit("temp_text.txt")
+# file.edit("temp_text.txt")
 ```
 
 

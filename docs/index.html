@@ -1,0 +1,938 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.25">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Economic portrait of greater Philadelphia</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="index_files/libs/clipboard/clipboard.min.js"></script>
+<script src="index_files/libs/quarto-html/quarto.js" type="module"></script>
+<script src="index_files/libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="index_files/libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="index_files/libs/quarto-html/popper.min.js"></script>
+<script src="index_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="index_files/libs/quarto-html/anchor.min.js"></script>
+<link href="index_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="index_files/libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="index_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="index_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="index_files/libs/bootstrap/bootstrap-d6a003b94517c951b2d65075d42fb01b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+
+
+</head>
+
+<body class="fullcontent quarto-light">
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Economic portrait of greater Philadelphia</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p><strong>Story Idea</strong> I ended up with two story ideas because this file asked me to look at both occupational wages and greater Philadelphia GDP.(I don’t know if I should follow the steps to keep both two ideas or I should choose one, but I do think the second one is a more potential story angle!)</p>
+<ol type="1">
+<li><p>Journalists in New York earn $251,110 annually, more than twice the national average of $102,460 and nearly three times what their counterparts in Pennsylvania make at $98,170. While media hubs like New York and Washington, D.C. continue to attract top salaries, Philadelphia area journalists earn below the national average.</p></li>
+<li><p>While most counties in the greater Philadelphia region saw modest economic growth between 2022 and 2024, greater Philadelphia area counties in New Jersy like Gloucester and Burlington outpaced their Pennsylvania counterparts, while Delaware County was the only county in the region to see its GDP shrink. Philadelphia County itself grew by just 2.3 percent, slower than three of the four New Jersey counties. A deeper look into which industries are driving growth in Gloucester County and what is holding back Delaware County could reveal how the region’s economic weight is shifting away from its Pennsylvania core.</p></li>
+</ol>
+<section id="economic-portrait-of-greater-philadelphia-region" class="level1">
+<h1>Economic Portrait of Greater Philadelphia region</h1>
+<p>For this assignment, you will explore the Bureau of Labor Statistics and Bureau of Economic Analysis databases to build a portrait of the major employers and economic trends in the greater Philadelphia area. Along the way, you will develop a story pitch about something you have discovered in the data.</p>
+<p>Memo from your newsroom:</p>
+<p>There isn’t a specific topic or dataset required for this role. It’s more important for the intern to begin thinking about how to shape story ideas around our coverage area. Since Yueyang is not from the region, becoming familiar with Philadelphia and the surrounding counties, including Montgomery County, Bucks County, Chester County, Delaware County, as well as Gloucester County, Camden County, and Burlington County, would be especially valuable.</p>
+<p>Our team works across the newsroom, so assignments may span a range of topics. We encourage the intern to pursue enterprise work on a topic of their choosing and begin developing those ideas during the training camp.</p>
+<blockquote class="blockquote">
+<p><strong>Learning Outcome:</strong>. <br> You will learn to how to retrieve and analyze employment and regional GDP data for their own counties or states and the steps to put it on a basic interactive charts.</p>
+</blockquote>
+</section>
+<section id="storytelling-with-employment-data" class="level1">
+<h1>Storytelling with Employment Data</h1>
+<p>In this exercise, we will find out how much the typical engineer makes versus the typical journalist.</p>
+<p>Follow this example for the counties in Pennsylvania and then we’ll have you do the same for New Jersey and Delaware</p>
+<blockquote class="blockquote">
+<p><a href="https://data.bls.gov/oes/#/home" target="_blank">Check out the Pennsylvania Occupational Employment and Wage Statistics GDP press release: “CNTL” + click for a New Tab</a></p>
+</blockquote>
+<p><br> <strong>Questions</strong>:</p>
+<pre><code>What is the median hourly wage for Chief Executives?
+What is the annual mean wage for Gambling Dealers?</code></pre>
+<p><br></p>
+<p>Let’s pull in the data and examine it</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co">#note the mutate sequence, converts columns 12-32 into integers. Slick!</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>oes <span class="ot">&lt;-</span> <span class="fu">read_excel</span>(<span class="st">"../OES_state_M2025_dl.xlsx"</span>) <span class="sc">|&gt;</span> </span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">clean_names</span>() <span class="sc">|&gt;</span> </span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>   <span class="fu">mutate</span>(<span class="fu">across</span>(<span class="dv">12</span><span class="sc">:</span><span class="dv">32</span>, as.numeric))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: There were 19 warnings in `mutate()`.
+The first warning was:
+ℹ In argument: `across(12:32, as.numeric)`.
+Caused by warning:
+! NAs introduced by coercion
+ℹ Run `dplyr::last_dplyr_warnings()` to see the 18 remaining warnings.</code></pre>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">glimpse</span>(oes)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Rows: 37,408
+Columns: 32
+$ area         &lt;chr&gt; "01", "01", "01", "01", "01", "01", "01", "01", "01", "01…
+$ area_title   &lt;chr&gt; "Alabama", "Alabama", "Alabama", "Alabama", "Alabama", "A…
+$ area_type    &lt;chr&gt; "2", "2", "2", "2", "2", "2", "2", "2", "2", "2", "2", "2…
+$ prim_state   &lt;chr&gt; "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL…
+$ naics        &lt;chr&gt; "000000", "000000", "000000", "000000", "000000", "000000…
+$ naics_title  &lt;chr&gt; "Cross-industry", "Cross-industry", "Cross-industry", "Cr…
+$ i_group      &lt;chr&gt; "cross-industry", "cross-industry", "cross-industry", "cr…
+$ own_code     &lt;chr&gt; "1235", "1235", "1235", "1235", "1235", "1235", "1235", "…
+$ occ_code     &lt;chr&gt; "00-0000", "11-0000", "11-1011", "11-1021", "11-2011", "1…
+$ occ_title    &lt;chr&gt; "All Occupations", "Management Occupations", "Chief Execu…
+$ o_group      &lt;chr&gt; "total", "major", "detailed", "detailed", "detailed", "de…
+$ tot_emp      &lt;dbl&gt; 2113660, 112960, 810, 30170, 60, 1540, 4670, 540, 210, 86…
+$ emp_prse     &lt;dbl&gt; 0.0, 1.1, 15.3, 2.9, 33.4, 7.9, 4.9, 13.2, 8.2, 6.0, 5.4,…
+$ jobs_1000    &lt;dbl&gt; 1000.000, 53.443, 0.382, 14.274, 0.030, 0.727, 2.212, 0.2…
+$ loc_quotient &lt;dbl&gt; 1.00, 0.75, 0.29, 0.63, 0.22, 0.29, 0.54, 0.53, 0.39, 0.2…
+$ pct_total    &lt;dbl&gt; NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, N…
+$ pct_rpt      &lt;dbl&gt; NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, N…
+$ h_mean       &lt;dbl&gt; 27.65, 58.94, 96.73, 66.23, 52.58, 65.06, 65.58, 54.08, 4…
+$ a_mean       &lt;dbl&gt; 57500, 122590, 201200, 137760, 109360, 135310, 136400, 11…
+$ mean_prse    &lt;dbl&gt; 0.3, 0.6, 4.4, 1.2, 23.2, 2.7, 2.2, 3.9, 3.7, 4.1, 1.5, 1…
+$ h_pct10      &lt;dbl&gt; 12.54, 27.37, 48.88, 26.52, 28.85, 34.03, 31.76, 30.47, 2…
+$ h_pct25      &lt;dbl&gt; 15.41, 37.11, 64.74, 36.94, 30.05, 43.24, 42.06, 38.49, 3…
+$ h_median     &lt;dbl&gt; 21.96, 49.99, 80.01, 53.75, 31.08, 57.77, 59.63, 47.22, 4…
+$ h_pct75      &lt;dbl&gt; 32.11, 72.94, 106.96, 81.50, 68.85, 79.23, 80.38, 61.30, …
+$ h_pct90      &lt;dbl&gt; 48.68, 100.05, 152.60, 117.11, 102.82, 108.32, 104.94, 84…
+$ a_pct10      &lt;dbl&gt; 26090, 56920, 101670, 55160, 60000, 70790, 66050, 63380, …
+$ a_pct25      &lt;dbl&gt; 32050, 77180, 134650, 76840, 62500, 89950, 87490, 80070, …
+$ a_median     &lt;dbl&gt; 45670, 103980, 166420, 111790, 64640, 120160, 124040, 982…
+$ a_pct75      &lt;dbl&gt; 66790, 151720, 222490, 169510, 143210, 164800, 167200, 12…
+$ a_pct90      &lt;dbl&gt; 101250, 208110, 317400, 243600, 213860, 225300, 218270, 1…
+$ annual       &lt;dbl&gt; NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, N…
+$ hourly       &lt;dbl&gt; NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, N…</code></pre>
+</div>
+</div>
+<p>Now check Pennsylvania totals</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>oes <span class="sc">|&gt;</span> </span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(area_title <span class="sc">==</span> <span class="st">"Pennsylvania"</span>) <span class="sc">|&gt;</span> </span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(prim_state, occ_title, tot_emp, h_mean, a_mean)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 814 × 5
+   prim_state occ_title                           tot_emp h_mean a_mean
+   &lt;chr&gt;      &lt;chr&gt;                                 &lt;dbl&gt;  &lt;dbl&gt;  &lt;dbl&gt;
+ 1 PA         All Occupations                     6064600   31.6  65730
+ 2 PA         Management Occupations               460720   64.3 133800
+ 3 PA         Chief Executives                       8850  146.  302990
+ 4 PA         General and Operations Managers      172010   60.7 126200
+ 5 PA         Advertising and Promotions Managers    1540   65.7 136590
+ 6 PA         Marketing Managers                    13840   76.6 159270
+ 7 PA         Sales Managers                        20460   70.8 147200
+ 8 PA         Public Relations Managers              2210   62.9 130880
+ 9 PA         Fundraising Managers                   1950   59.8 124320
+10 PA         Administrative Services Managers       4880   58.3 121220
+# ℹ 804 more rows</code></pre>
+</div>
+</div>
+</section>
+<section id="filter-pa-totals-to-specific-occupations" class="level1">
+<h1>Filter PA totals to specific occupations</h1>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="co">#note the search for the list: %in% checks whether each value is anywhere in the vector</span></span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>oes <span class="sc">|&gt;</span> </span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(area_title <span class="sc">==</span> <span class="st">"Pennsylvania"</span>) <span class="sc">|&gt;</span> </span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(occ_title <span class="sc">%in%</span> <span class="fu">c</span>(<span class="st">"Chief Executives"</span>, <span class="st">"News Analysts, Reporters, and Journalists"</span>, <span class="st">"Waiters and Waitresses"</span>)) <span class="sc">|&gt;</span> </span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(prim_state, occ_title, tot_emp, h_mean, a_mean)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 3 × 5
+  prim_state occ_title                                 tot_emp h_mean a_mean
+  &lt;chr&gt;      &lt;chr&gt;                                       &lt;dbl&gt;  &lt;dbl&gt;  &lt;dbl&gt;
+1 PA         Chief Executives                             8850  146.  302990
+2 PA         News Analysts, Reporters, and Journalists    1160   NA       NA
+3 PA         Waiters and Waitresses                      82300   18.3  38110</code></pre>
+</div>
+</div>
+</section>
+<section id="what-do-these-fields-mean" class="level1">
+<h1>What do these fields mean?</h1>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>names <span class="ot">&lt;-</span> <span class="fu">read_excel</span>(<span class="st">"../OES_state_M2025_dl.xlsx"</span>, <span class="at">sheet=</span><span class="st">'Field Descriptions'</span>) <span class="sc">|&gt;</span> </span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">apply</span>(<span class="dv">1</span>, paste, <span class="at">collapse =</span> <span class="st">": "</span>) <span class="sc">|&gt;</span></span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a><span class="fu">sapply</span>(\(x) <span class="fu">c</span>(<span class="fu">strwrap</span>(x, <span class="at">width =</span> <span class="dv">80</span>), <span class="st">""</span>)) <span class="sc">|&gt;</span></span>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">unlist</span>() <span class="sc">|&gt;</span></span>
+<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">writeLines</span>(<span class="st">"temp_text.txt"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>New names:
+• `` -&gt; `...2`
+• `` -&gt; `...3`</code></pre>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb12"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="co"># file.edit("temp_text.txt")</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<p>Source of the data: &gt; <a href="https://www.bls.gov/oes/tables.htm" target="_blank">Occupational Employment and Wage Statistics, national index, 2025. Select ‘State’ in HTML: “CNTL” + click for a New &gt; Tab</a></p>
+</section>
+<section id="look-at-philly-metro-area" class="level1">
+<h1>Look at Philly metro area</h1>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb13"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a>philly <span class="ot">&lt;-</span> rio<span class="sc">::</span><span class="fu">import</span>(<span class="st">"https://github.com/djnf-data-2026/master/raw/refs/heads/main/data/OES_Report_Philly_metro.xlsx"</span>, <span class="at">skip=</span><span class="dv">2</span>) <span class="sc">|&gt;</span> </span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">clean_names</span>() <span class="sc">|&gt;</span> </span>
+<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a>    <span class="fu">mutate</span>(<span class="fu">across</span>(<span class="dv">4</span><span class="sc">:</span><span class="dv">20</span>, as.numeric))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: There were 17 warnings in `mutate()`.
+The first warning was:
+ℹ In argument: `across(4:20, as.numeric)`.
+Caused by warning:
+! NAs introduced by coercion
+ℹ Run `dplyr::last_dplyr_warnings()` to see the 16 remaining warnings.</code></pre>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb15"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="fu">glimpse</span>(philly)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Rows: 769
+Columns: 20
+$ area                                         &lt;chr&gt; "Philadelphia-Camden-Wilm…
+$ industry                                     &lt;chr&gt; "Cross-Industry, Private,…
+$ occupation                                   &lt;chr&gt; "All Occupations (00-0000…
+$ employment_1                                 &lt;dbl&gt; 2897830, 222640, 4120, 68…
+$ employment_percent_relative_standard_error_3 &lt;dbl&gt; 0.0, 0.9, 5.6, 1.9, 17.9,…
+$ hourly_mean_wage                             &lt;dbl&gt; 34.49, 72.94, 162.72, 70.…
+$ annual_mean_wage_2                           &lt;dbl&gt; 71730, 151700, 338450, 14…
+$ wage_percent_relative_standard_error_3       &lt;dbl&gt; 0.3, 0.8, 3.2, 1.1, 5.3, …
+$ hourly_10th_percentile_wage                  &lt;dbl&gt; 15.00, 31.46, 60.00, 27.5…
+$ hourly_25th_percentile_wage                  &lt;dbl&gt; 18.00, 45.16, 87.15, 38.3…
+$ hourly_median_wage                           &lt;dbl&gt; 26.11, 63.44, 140.75, 58.…
+$ hourly_75th_percentile_wage                  &lt;dbl&gt; 40.76, 86.54, 216.43, 85.…
+$ hourly_90th_percentile_wage                  &lt;dbl&gt; 62.63, 127.40, 262.59, 13…
+$ annual_10th_percentile_wage_2                &lt;dbl&gt; 31200, 65430, 124800, 572…
+$ annual_25th_percentile_wage_2                &lt;dbl&gt; 37440, 93930, 181280, 797…
+$ annual_median_wage_2                         &lt;dbl&gt; 54310, 131960, 292770, 12…
+$ annual_75th_percentile_wage_2                &lt;dbl&gt; 84780, 180010, 450160, 17…
+$ annual_90th_percentile_wage_2                &lt;dbl&gt; 130280, 264990, 546180, 2…
+$ employment_per_1_000_jobs                    &lt;dbl&gt; 1000.000, 76.829, 1.423, …
+$ location_quotient                            &lt;dbl&gt; 1.00, 1.07, 1.08, 1.05, 1…</code></pre>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb17"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="co">#data source: https://data.bls.gov/oes/#/home</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<p>Practice Questions</p>
+<pre><code>*What is the median hourly wage for actors?*
+PA 27.22
+National 29.05
+CA N/A (8) Estimate not released.
+
+*What is the median hourly wage for surgeons?*
+"Surgeons, All Other" - equal to or greater than $115.00 per hour or $239,200 per year
+"Orthopedic Surgeons, Except Pediatric" - 174.80
+"Oral and Maxillofacial Surgeons" - 227.46
+
+*Compare journalists annual wage in two different states.
+NY    251110
+DC      174360
+PA    98170
+state   102460
+
+
+*How does that annual journalist salary compare to the state average?*
+DC all-111010 journ-174360 
+NY all-82460 journ-251110
+state   102460
+
+*How could that be a story?*
+Journalists in New York earn $251,110 annually, more than twice the national average of $102,460 and nearly three times what their counterparts in Pennsylvania make at $98,170. While media hubs like New York and Washington, D.C. continue to attract top salaries, Philadelphia area journalists earn below the national average. 
+</code></pre>
+<p>#Medain hourly wage for actors</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb19"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a>oes <span class="sc">|&gt;</span> </span>
+<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(area_title <span class="sc">%in%</span> <span class="fu">c</span>(<span class="st">"Pennsylvania"</span>,<span class="st">"California"</span>,<span class="st">"New York"</span>,<span class="st">"District of Columbia"</span>)) <span class="sc">|&gt;</span> </span>
+<span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(occ_title <span class="sc">%in%</span> <span class="fu">c</span>(<span class="st">"Actors"</span>)) <span class="sc">|&gt;</span> </span>
+<span id="cb19-4"><a href="#cb19-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(prim_state, occ_title, tot_emp, h_median)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 3 × 4
+  prim_state occ_title tot_emp h_median
+  &lt;chr&gt;      &lt;chr&gt;       &lt;dbl&gt;    &lt;dbl&gt;
+1 CA         Actors      26170     NA  
+2 NY         Actors       6630     28.4
+3 PA         Actors        890     22.2</code></pre>
+</div>
+</div>
+<p>#Medain hourly wage for surgeons</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb21"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a>oes <span class="sc">|&gt;</span></span>
+<span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a>    <span class="fu">filter</span>(area_title <span class="sc">==</span> <span class="st">"Pennsylvania"</span>) <span class="sc">|&gt;</span> </span>
+<span id="cb21-3"><a href="#cb21-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(occ_code <span class="sc">%in%</span> <span class="fu">c</span>(<span class="st">"29-1022"</span>,<span class="st">"29-1242"</span>,<span class="st">"29-1249"</span>)) <span class="sc">|&gt;</span> </span>
+<span id="cb21-4"><a href="#cb21-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(prim_state, occ_title, tot_emp, h_mean)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 3 × 4
+  prim_state occ_title                             tot_emp h_mean
+  &lt;chr&gt;      &lt;chr&gt;                                   &lt;dbl&gt;  &lt;dbl&gt;
+1 PA         Oral and Maxillofacial Surgeons            NA   227.
+2 PA         Orthopedic Surgeons, Except Pediatric     240   175.
+3 PA         Surgeons, All Other                        NA    NA </code></pre>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb23"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a><span class="co">#For "Surgeons, All Other" Footnotes: (5) This wage is equal to or greater than $115.00 per hour or $239,200 per year.</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<p>#journalists annual wage accross the country</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb24"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a>oes <span class="sc">|&gt;</span> </span>
+<span id="cb24-2"><a href="#cb24-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">distinct</span>(area_title)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 54 × 1
+   area_title          
+   &lt;chr&gt;               
+ 1 Alabama             
+ 2 Alaska              
+ 3 Arizona             
+ 4 Arkansas            
+ 5 California          
+ 6 Colorado            
+ 7 Connecticut         
+ 8 Delaware            
+ 9 District of Columbia
+10 Florida             
+# ℹ 44 more rows</code></pre>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb26"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a>oes <span class="sc">|&gt;</span></span>
+<span id="cb26-2"><a href="#cb26-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(occ_code <span class="sc">==</span> <span class="st">"27-3023"</span>) <span class="sc">|&gt;</span> </span>
+<span id="cb26-3"><a href="#cb26-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(prim_state, occ_title, tot_emp, a_mean)<span class="sc">|&gt;</span> </span>
+<span id="cb26-4"><a href="#cb26-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(<span class="fu">desc</span>(a_mean))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 52 × 4
+   prim_state occ_title                                 tot_emp a_mean
+   &lt;chr&gt;      &lt;chr&gt;                                       &lt;dbl&gt;  &lt;dbl&gt;
+ 1 NY         News Analysts, Reporters, and Journalists    5750 251110
+ 2 DC         News Analysts, Reporters, and Journalists    1720 174360
+ 3 CT         News Analysts, Reporters, and Journalists     470 105770
+ 4 IL         News Analysts, Reporters, and Journalists    1060  87560
+ 5 GA         News Analysts, Reporters, and Journalists    1520  87210
+ 6 NV         News Analysts, Reporters, and Journalists     370  83550
+ 7 MI         News Analysts, Reporters, and Journalists     960  81950
+ 8 MD         News Analysts, Reporters, and Journalists     580  77570
+ 9 UT         News Analysts, Reporters, and Journalists     240  77340
+10 VA         News Analysts, Reporters, and Journalists    1110  76820
+# ℹ 42 more rows</code></pre>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb28"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a>philly <span class="sc">|&gt;</span></span>
+<span id="cb28-2"><a href="#cb28-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(occupation <span class="sc">==</span> <span class="st">"News Analysts, Reporters, and Journalists (27-3023)"</span>) <span class="sc">|&gt;</span></span>
+<span id="cb28-3"><a href="#cb28-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(occupation, annual_mean_wage_2)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>                                           occupation annual_mean_wage_2
+1 News Analysts, Reporters, and Journalists (27-3023)              98170</code></pre>
+</div>
+</div>
+<p>#compare to state average</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb30"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a>oes <span class="sc">|&gt;</span></span>
+<span id="cb30-2"><a href="#cb30-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(area_title <span class="sc">%in%</span> <span class="fu">c</span>(<span class="st">"New York"</span>, <span class="st">"District of Columbia"</span>)) <span class="sc">|&gt;</span></span>
+<span id="cb30-3"><a href="#cb30-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(occ_code <span class="sc">%in%</span> <span class="fu">c</span>(<span class="st">"27-3023"</span>, <span class="st">"00-0000"</span>)) <span class="sc">|&gt;</span></span>
+<span id="cb30-4"><a href="#cb30-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(area_title, occ_title, occ_code, tot_emp, a_mean)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 4 × 5
+  area_title           occ_title                         occ_code tot_emp a_mean
+  &lt;chr&gt;                &lt;chr&gt;                             &lt;chr&gt;      &lt;dbl&gt;  &lt;dbl&gt;
+1 District of Columbia All Occupations                   00-0000   701920 111010
+2 District of Columbia News Analysts, Reporters, and Jo… 27-3023     1720 174360
+3 New York             All Occupations                   00-0000  9688000  82460
+4 New York             News Analysts, Reporters, and Jo… 27-3023     5750 251110</code></pre>
+</div>
+</div>
+<p>More pokin’ around: Examine the OCC_CODE column. The occupations ending in “0000” are occupational categories. Filter OCC_CODE for “0000” and examine the 23 occupational categories.</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb32"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb32-1"><a href="#cb32-1" aria-hidden="true" tabindex="-1"></a>oes <span class="sc">|&gt;</span></span>
+<span id="cb32-2"><a href="#cb32-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(area_title <span class="sc">==</span> <span class="st">"Pennsylvania"</span>) <span class="sc">|&gt;</span></span>
+<span id="cb32-3"><a href="#cb32-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(<span class="fu">grepl</span>(<span class="st">"0000"</span>, occ_code)) <span class="sc">|&gt;</span></span>
+<span id="cb32-4"><a href="#cb32-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(occ_code, occ_title, tot_emp, a_mean) <span class="sc">|&gt;</span></span>
+<span id="cb32-5"><a href="#cb32-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(occ_code)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 23 × 4
+   occ_code occ_title                                             tot_emp a_mean
+   &lt;chr&gt;    &lt;chr&gt;                                                   &lt;dbl&gt;  &lt;dbl&gt;
+ 1 00-0000  All Occupations                                       6064600  65730
+ 2 11-0000  Management Occupations                                 460720 133800
+ 3 13-0000  Business and Financial Operations Occupations          383000  89550
+ 4 15-0000  Computer and Mathematical Occupations                  181360 105590
+ 5 17-0000  Architecture and Engineering Occupations                91260  98360
+ 6 19-0000  Life, Physical, and Social Science Occupations          59660  94370
+ 7 21-0000  Community and Social Service Occupations               122720  57440
+ 8 23-0000  Legal Occupations                                       47170 127170
+ 9 25-0000  Educational Instruction and Library Occupations        368330  68520
+10 27-0000  Arts, Design, Entertainment, Sports, and Media Occup…   66910  67740
+# ℹ 13 more rows</code></pre>
+</div>
+</div>
+<ol start="4" type="1">
+<li>–Apply Filter to OCC_Code. –Select Filter by Condition. –Select Text contains. –Type in -0000 and apply You now will have a list of the 23 occupational categories</li>
+</ol>
+<p><br></p>
+<p><br></p>
+</section>
+<section id="step-2-storytelling-with-local-gdp-data" class="level1">
+<h1>Step 2: Storytelling with Local GDP Data</h1>
+<p><br></p>
+<p>GDP tells us if the economy is great or if it sucks.</p>
+<p>It’s the <strong>Big Daddy of economic indicators</strong>.</p>
+<p>What is Gross Domestic Product? It measures the value of all final goods and services produced in the country in a year.</p>
+<p>For example: that would be all of the stuff sold by Walmart and all of the beer sold by Liquor Barn and all of the gas pumped at Citgo, etc., AND A WHOLE LOT MORE, over a year.</p>
+<p>You get the idea.</p>
+<p>You can break it down to a state or a region, and also break it down into three month periods.</p>
+<p>As a reporter, you can use local GDP data to figure out what business sectors are doing well and which ones stink. It can lead you to excellent stories.</p>
+<p>This section will analyze the storytelling possibilities with the Gross Domestic Product by County data.</p>
+<p><a href="https://www.bea.gov/newsreleases/regional/gdp_metro/gdp_metro_newsrelease.htm" target="_blank">Check out the local GDP press release for 2024 (yes, 2024 is the latest.)</a></p>
+<blockquote class="blockquote">
+<p>What’s in the GDP data</p>
+</blockquote>
+<p>“Gross domestic product (GDP) by metropolitan area is the sub-state counterpart of the Nation’s gross domestic product (GDP), the Bureau’s featured and most comprehensive measure of U.S. economic activity. GDP by metropolitan area is derived as the sum of the GDP originating in all the industries in the metropolitan area.</p>
+<p>Contributions to growth are an industry’s contribution to the state’s overall percent change in real GDP. The contributions are additive and can be summed to the state’s overall percent change. The statistics of GDP by metropolitan area released today are consistent with statistics of GDP by state.</p>
+<p>GDP at chained volume measure is adjusted for the effect of inflation to give a measure of ‘real GDP’.”</p>
+<p><strong>Data limitations</strong></p>
+<p>This data series lags significantly. We are working with 2024 data, the most recent available. But it is still the best you can get and you can’t beat the price.</p>
+<p><br></p>
+<section id="retrieve-gdp-data" class="level3">
+<h3 class="anchored" data-anchor-id="retrieve-gdp-data">Retrieve GDP Data</h3>
+<p>GDP CAGDP1 County gross domestic product (GDP) summary Real Gross Domestic Product (GDP) (Thousands of chained 2017 dollars) Source Page https://www.bea.gov/news/2026/gross-domestic-product-county-and-personal-income-county-2024</p>
+<p>And more detail: https://www.bea.gov/data/gdp/gdp-by-county</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb34"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb34-1"><a href="#cb34-1" aria-hidden="true" tabindex="-1"></a>gdp_county <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(<span class="st">"https://raw.githubusercontent.com/djnf-data-2026/master/refs/heads/main/data/bea_gdp_2024_county_CAGDP1.csv"</span>, <span class="at">skip=</span><span class="dv">3</span>) <span class="sc">|&gt;</span> </span>
+<span id="cb34-2"><a href="#cb34-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">clean_names</span>() <span class="sc">|&gt;</span> </span>
+<span id="cb34-3"><a href="#cb34-3" aria-hidden="true" tabindex="-1"></a>    <span class="fu">mutate</span>(<span class="fu">across</span>(<span class="dv">3</span><span class="sc">:</span><span class="dv">5</span>, as.numeric))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: One or more parsing issues, call `problems()` on your data frame for details,
+e.g.:
+  dat &lt;- vroom(...)
+  problems(dat)</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Rows: 3138 Columns: 5
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (5): GeoFIPS, GeoName, 2022, 2023, 2024
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: There were 3 warnings in `mutate()`.
+The first warning was:
+ℹ In argument: `across(3:5, as.numeric)`.
+Caused by warning:
+! NAs introduced by coercion
+ℹ Run `dplyr::last_dplyr_warnings()` to see the 2 remaining warnings.</code></pre>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb38"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb38-1"><a href="#cb38-1" aria-hidden="true" tabindex="-1"></a><span class="fu">glimpse</span>(gdp_county)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Rows: 3,138
+Columns: 5
+$ geo_fips &lt;chr&gt; "01001", "01003", "01005", "01007", "01009", "01011", "01013"…
+$ geo_name &lt;chr&gt; "Autauga, AL", "Baldwin, AL", "Barbour, AL", "Bibb, AL", "Blo…
+$ x2022    &lt;dbl&gt; 1883611, 9224845, 748152, 458937, 1041201, 258330, 647451, 46…
+$ x2023    &lt;dbl&gt; 1907174, 9928360, 730176, 471817, 1086171, 281803, 665432, 48…
+$ x2024    &lt;dbl&gt; 1758017, 10208956, 747750, 476273, 1174999, 292695, 702420, 4…</code></pre>
+</div>
+</div>
+<p>Calculate change 2024 vs 2022; split out state</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb40"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb40-1"><a href="#cb40-1" aria-hidden="true" tabindex="-1"></a>gdp_county <span class="ot">&lt;-</span> gdp_county <span class="sc">|&gt;</span> </span>
+<span id="cb40-2"><a href="#cb40-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">pct_24_v_22 =</span> (x2024<span class="sc">-</span>x2022)<span class="sc">/</span>x2022,</span>
+<span id="cb40-3"><a href="#cb40-3" aria-hidden="true" tabindex="-1"></a>          <span class="at">state =</span> <span class="fu">str_split_fixed</span>(geo_name, <span class="st">", "</span>, <span class="dv">2</span>)[, <span class="dv">2</span>],</span>
+<span id="cb40-4"><a href="#cb40-4" aria-hidden="true" tabindex="-1"></a>         <span class="at">county =</span> <span class="fu">str_split_fixed</span>(geo_name, <span class="st">", "</span>, <span class="dv">2</span>)[, <span class="dv">1</span>])  </span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb41"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb41-1"><a href="#cb41-1" aria-hidden="true" tabindex="-1"></a>gdp_county <span class="sc">|&gt;</span></span>
+<span id="cb41-2"><a href="#cb41-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(state <span class="sc">==</span> <span class="st">"PA"</span> <span class="sc">|</span> state <span class="sc">==</span> <span class="st">"NJ"</span>) <span class="sc">|&gt;</span></span>
+<span id="cb41-3"><a href="#cb41-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(county <span class="sc">%in%</span> <span class="fu">c</span>(<span class="st">"Philadelphia"</span>, <span class="st">"Montgomery"</span>, </span>
+<span id="cb41-4"><a href="#cb41-4" aria-hidden="true" tabindex="-1"></a>                        <span class="st">"Bucks"</span>, <span class="st">"Chester"</span>, </span>
+<span id="cb41-5"><a href="#cb41-5" aria-hidden="true" tabindex="-1"></a>                        <span class="st">"Delaware"</span>, <span class="st">"Gloucester"</span>, </span>
+<span id="cb41-6"><a href="#cb41-6" aria-hidden="true" tabindex="-1"></a>                        <span class="st">"Camden"</span>, <span class="st">"Burlington"</span>)) <span class="sc">|&gt;</span></span>
+<span id="cb41-7"><a href="#cb41-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(county, state, x2022, x2024, pct_24_v_22) <span class="sc">|&gt;</span></span>
+<span id="cb41-8"><a href="#cb41-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(<span class="fu">desc</span>(pct_24_v_22))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 8 × 5
+  county       state     x2022     x2024 pct_24_v_22
+  &lt;chr&gt;        &lt;chr&gt;     &lt;dbl&gt;     &lt;dbl&gt;       &lt;dbl&gt;
+1 Gloucester   NJ     13994075  14722428     0.0520 
+2 Burlington   NJ     30915417  32395824     0.0479 
+3 Chester      PA     47391773  49491894     0.0443 
+4 Camden       NJ     26094892  27237865     0.0438 
+5 Bucks        PA     36888334  38241897     0.0367 
+6 Philadelphia PA    106999472 109412657     0.0226 
+7 Montgomery   PA     88989489  90035254     0.0118 
+8 Delaware     PA     34288808  34058368    -0.00672</code></pre>
+</div>
+</div>
+<p><strong>Possible story angle</strong> While most counties in the greater Philadelphia region saw modest economic growth between 2022 and 2024, greater Philadelphia area counties in New Jersy like Gloucester and Burlington outpaced their Pennsylvania counterparts, while Delaware County was the only county in the region to see its GDP shrink. Philadelphia County itself grew by just 2.3 percent, slower than three of the four New Jersey counties. A deeper look into which industries are driving growth in Gloucester County and what is holding back Delaware County could reveal how the region’s economic weight is shifting away from its Pennsylvania core.</p>
+<p>Check now for Personal Income data</p>
+<p>CAINC1 County personal income summary: personal income, population, per capita personal income</p>
+<p>Personal income (Thousands of dollars) https://www.bea.gov/news/2026/gross-domestic-product-county-and-personal-income-county-2024</p>
+</section>
+</section>
+
+</main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
