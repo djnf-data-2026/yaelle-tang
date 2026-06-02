@@ -10,45 +10,97 @@ editor_options:
     wrap: 72
 ---
 
+**Rsw comment:** Yaelle - You've done a tremendous amount of work and
+carefully followed my guidance from yesterday. This project is in good
+shape at this point. It is also quite long so we want to find ways to
+cut it back and emphasize the main findings. I put a few comments under
+**rsw comment** below.
+
 # Pitch Memo
 
 ## In two sentences, what is this story about?
 
-Delaware County is the only county in the greater Philadelphia region whose GDP shrank between 2022 and 2024. Manufacturing industry in Dalaware County lost more than $428 million in output, showing a 12% decline. Meanwhile, neighboring counties like Bucks and Burlington saw their manufacturing GDP grow by double digits over the same period.
+**rsw comment** - great focus on an important trend. really captures
+your attention
+
+Delaware County is the only county in the greater Philadelphia region
+whose GDP shrank between 2022 and 2024. Manufacturing industry in
+**spelling \\ Dalaware** County lost more than \$428 million in output,
+showing a 12% decline. Meanwhile, neighboring counties like Bucks and
+Burlington saw their manufacturing GDP grow by double digits over the
+same period.
 
 ## In one sentence, why tell this story NOW?
-The Bureau of Economic Analysis (BEA) released its 2024 county-level GDP data on February 5, 2026, offering the most current picture of how the greater Philadelphia region's economy has shifted. 
+
+The Bureau of Economic Analysis (BEA) released its 2024 county-level GDP
+data on February 5, 2026, offering the most current picture of how the
+greater Philadelphia region's economy has shifted.
 
 ## Who is your target audience?
+
 Residents and workers in the greater Philadelphia area
 
 ## Three people you can interview for this story
+
 Working on it...
 
 ## Potential impact
-A sustained decline in Delaware County's manufacturing output likely means fewer stable jobs for working-class residents, reduced tax revenue for local services, and a widening gap between the county and its neighbors.
+
+A sustained decline in Delaware County's manufacturing output likely
+means fewer stable jobs for working-class residents, reduced tax revenue
+for local services, and a widening gap between the county and its
+neighbors.
 
 ## What are three things that surprised or interested you about this story?
-1. Delaware County's GDP shrank even as personal income grew by 10%. Residents may be earning more by commuting to jobs elsewhere while local economic activity continues to decline. How to explore this with data?
-2. Philadelphia's manufacturing sector actually fell harder than Delaware County's (14% vs. 12%), but Philadelphia's overall GDP remained positive. Delaware County's economy is far more dependent on manufacturing and has fewer industries to fill the gap.
-3. Manufacturing's share of the economy is shrinking across nearly every county in greater Philadelphia. 
+
+**rsw comment** great observation. let's show this in a chart below.
+
+1.  Delaware County's GDP shrank even as personal income grew by 10%.
+    Residents may be earning more by commuting to jobs elsewhere while
+    local economic activity continues to decline. How to explore this
+    with data?
+2.  Philadelphia's manufacturing sector actually fell harder than
+    Delaware County's (14% vs. 12%), but Philadelphia's overall GDP
+    remained positive. Delaware County's economy is far more dependent
+    on manufacturing and has fewer industries to fill the gap.
+3.  Manufacturing's share of the economy is shrinking across nearly
+    every county in greater Philadelphia.
+
+**rsw comment: how does the decline in manufacturing compare to national
+trends? it will be on the BEA GDP press release**
 
 ## Context: Summarize any previous coverage.
-[WHYY reported in 2023](https://whyy.org/articles/manufacturing-downturn-economy-federal-reserve/) that the greater Philadelphia region experienced nine consecutive months of manufacturing slowdown, with factory closures and layoffs in Philadelphia and King of Prussia. But previous coverage treated the region as a whole. No reporting has specifically asked why Delaware County, alone among its neighbors, failed to compensate for manufacturing losses with growth in other sectors
+
+[WHYY reported in
+2023](https://whyy.org/articles/manufacturing-downturn-economy-federal-reserve/)
+that the greater Philadelphia region experienced nine consecutive months
+of manufacturing slowdown, with factory closures and layoffs in
+Philadelphia and King of Prussia. But previous coverage treated the
+region as a whole. No reporting has specifically asked why Delaware
+County, alone among its neighbors, failed to compensate for
+manufacturing losses with growth in other sectors
 
 ## Photos, video, graphics - How will you make this story visual?
 
-![Manufacturing GDP Change by County in Greater Philadelphia](../img/GDP_Growth_by_County.png)
+**rsw comments: these charts aren't displaying properly**
 
-![Manufacturing GDP Change by County in Greater Philadelphia](../img/Manufacturing_GDP_Change.png)
-![Percentage change](../img/Manufacturing_GDP_Percentage_Change.png)
+![Manufacturing GDP Change by County in Greater
+Philadelphia](../img/GDP_Growth_by_County.png)
 
+![Manufacturing GDP Change by County in Greater
+Philadelphia](../img/Manufacturing_GDP_Change.png) ![Percentage
+change](../img/Manufacturing_GDP_Percentage_Change.png)
 
-## What other information do you need to gather? 
-- Employment data for Delaware County to understand where workers went as manufacturing shrank, and why personal income continued to rise despite the GDP decline. 
-- Population change data would help confirm whether residents are leaving the county.
-- Any specific factory closures during this period? 
-- A deeper breakdown of manufacturing sub-sectors would identify which specific industries drove the decline.
+## What other information do you need to gather?
+
+-   Employment data for Delaware County to understand where workers went
+    as manufacturing shrank, and why personal income continued to rise
+    despite the GDP decline.
+-   Population change data would help confirm whether residents are
+    leaving the county.
+-   Any specific factory closures during this period?
+-   A deeper breakdown of manufacturing sub-sectors would identify which
+    specific industries drove the decline.
 
 ## Estimated delivery
 
@@ -60,9 +112,8 @@ This data series lags significantly. We are working with 2024 data, the
 most recent available. But it is still the best you can get and you
 can't beat the price.
 
-
-
 ## Setup
+
 ```{r include=FALSE}
 #Load libraries
 #install.packages("rio")
@@ -73,6 +124,7 @@ library(rio)
 ```
 
 ## Regional GDP by County
+
 **Data limitations**
 
 This data series lags significantly. We are working with 2024 data, the
@@ -83,15 +135,12 @@ can't beat the price.
 
 ### Retrieve GDP Data
 
-
-GDP
-CAGDP1 County gross domestic product (GDP) summary
-Real Gross Domestic Product (GDP) (Thousands of chained 2017 dollars)
-Source Page
+GDP CAGDP1 County gross domestic product (GDP) summary Real Gross
+Domestic Product (GDP) (Thousands of chained 2017 dollars) Source Page
 https://www.bea.gov/news/2026/gross-domestic-product-county-and-personal-income-county-2024
 
-And more detail:
-https://www.bea.gov/data/gdp/gdp-by-county
+And more detail: https://www.bea.gov/data/gdp/gdp-by-county
+
 ```{r}
 gdp_county <- read_csv("https://raw.githubusercontent.com/djnf-data-2026/master/refs/heads/main/data/bea_gdp_2024_county_CAGDP1.csv", skip=3) |> 
   clean_names() |> 
@@ -101,6 +150,7 @@ glimpse(gdp_county)
 ```
 
 ### Calculate change 2024 vs 2022; split out state
+
 ```{r}
 
 gdp_county <- gdp_county |> 
@@ -124,7 +174,9 @@ philly_gdp <- gdp_county |>
 
 philly_gdp
 ```
+
 ### Chart: GDP Growth by County
+**rsw comment: you'll want this chart at the top of your page**
 ```{r chart-gdp-growth}
 # AI assisted
 ggplot(philly_gdp, aes(x = reorder(county, pct_24_v_22), y = pct_24_v_22, fill = state)) +
@@ -140,12 +192,12 @@ ggplot(philly_gdp, aes(x = reorder(county, pct_24_v_22), y = pct_24_v_22, fill =
   theme_minimal()
 ```
 
-> **Finding:** Delaware County was the only county in the region to see its GDP shrink between 2022 and 2024. 
+> **Finding:** Delaware County was the only county in the region to see
+> its GDP shrink between 2022 and 2024.
 
 ## Part 2: Personal Income by County
+
 ### Load and Clean Data
-
-
 
 ```{r}
 # [Personal income (Thousands of dollars)](https://www.bea.gov/news/2026/gross-domestic-product-county-and-personal-income-county-2024)
@@ -162,6 +214,7 @@ cainc1 <- read_csv("../bea_gdp_2024_personal_income_county_CAINC1.csv", skip=3) 
 ```
 
 ### Filter Greater Philadelphia
+
 ```{r}
 philly_income <- cainc1 |>
   filter(str_detect(geo_name, "Philadelphia, PA|Montgomery, PA|Bucks, PA|Chester, PA|Delaware, PA|Gloucester, NJ|Camden, NJ|Burlington, NJ")) |>
@@ -171,7 +224,9 @@ philly_income <- cainc1 |>
 
 philly_income
 ```
+
 ### Chart: Personal Income Growth by County
+
 ```{r}
 # AI assisted
 ggplot(philly_income, aes(x = reorder(county, pct_24_v_22), y = pct_24_v_22, fill = state)) +
@@ -187,14 +242,19 @@ ggplot(philly_income, aes(x = reorder(county, pct_24_v_22), y = pct_24_v_22, fil
   theme_minimal()
 
 ```
-> **Finding:** Personal income in Delaware County grew 10.98% between 2022 and 2024, yet its GDP was the only one in the region to shrink. Residents may be earning more by working elsewhere while local industries are losing ground.
+
+> **Finding:** Personal income in Delaware County grew 10.98% between
+> 2022 and 2024, yet its GDP was the only one in the region to shrink.
+> Residents may be earning more by working elsewhere while local
+> industries are losing ground.
 
 ## Part 3: GDP by Industry
 
 ### Load and Clean Data
 
-*BEA CAGDP2 — GDP by Industry (Current dollars)*
-![CAGDP2 GDP by industry in current dollars](https://apps.bea.gov/itable/?ReqID=70&step=1&_gl=1*ov6bhy*_ga*OTk4Njc0OTc1LjE3ODAyODAzNTY.*_ga_J4698JNNFT*czE3ODAzNDIwNjgkbzQkZzEkdDE3ODAzNDIxMzIkajYwJGwwJGgw#eyJhcHBpZCI6NzAsInN0ZXBzIjpbMSwyOSwyNSwzMV0sImRhdGEiOltbIlRhYmxlSWQiLCI1MDEiXSxbIk1ham9yX0FyZWEiLCI0Il1dfQ== )
+*BEA CAGDP2 — GDP by Industry (Current dollars)* ![CAGDP2 GDP by
+industry in current
+dollars](https://apps.bea.gov/itable/?ReqID=70&step=1&_gl=1*ov6bhy*_ga*OTk4Njc0OTc1LjE3ODAyODAzNTY.*_ga_J4698JNNFT*czE3ODAzNDIwNjgkbzQkZzEkdDE3ODAzNDIxMzIkajYwJGwwJGgw#eyJhcHBpZCI6NzAsInN0ZXBzIjpbMSwyOSwyNSwzMV0sImRhdGEiOltbIlRhYmxlSWQiLCI1MDEiXSxbIk1ham9yX0FyZWEiLCI0Il1dfQ==)
 
 ```{r}
 # Merge Pennsylvania and New Jersey industry files
@@ -207,6 +267,7 @@ glimpse(gdp_industry)
 ```
 
 ### Filter Private Industry Sub-sectors for Greater Philadelphia
+
 ```{r}
 # Using Private industries sub-categories only (excluding aggregates to avoid double counting)
 gdp_industry <- gdp_industry |>
@@ -231,6 +292,7 @@ gdp_industry|>
   distinct(description) |>
   print(n = 36)
 ```
+
 ```{r}
 greater_philly_industry <- gdp_industry |>
   filter(str_detect(geo_name, "Philadelphia, PA|Montgomery, PA|Bucks, PA|Chester, PA|Delaware, PA|Gloucester, NJ|Camden, NJ|Burlington, NJ"))  |>
@@ -259,15 +321,21 @@ glimpse(greater_philly_industry)
 ```
 
 ### Top 10 Industries with Largest Decline Across the Region
+
 ```{r}
 greater_philly_industry |>
   slice_min(x24_v_22, n = 10)
 ```
-> **Finding:** Delaware County's manufacturing sector ranks third on the list, which likely explains why it is the only county in the region with negative GDP growth. I decide to have a closer look at Delaware County's industry breakdown.
+
+> **Finding:** Delaware County's manufacturing sector ranks third on the
+> list, which likely explains why it is the only county in the region
+> with negative GDP growth. I decide to have a closer look at Delaware
+> County's industry breakdown.
 
 ### Which Industries Are Shrinking in Delaware County
 
 Focus on Delaware County to identify the main driver of GDP decline
+
 ```{r}
 delaware_gdp_industry <- greater_philly_industry |>
   filter(geo_name == "Delaware, PA") |>
@@ -278,9 +346,12 @@ delaware_gdp_industry <- greater_philly_industry |>
 delaware_gdp_industry
 ```
 
-> **Finding:** Manufacturing is the primary driver of Delaware County's GDP decline, with output falling 12.3% and losing over $428 million between 2022 and 2024.
+> **Finding:** Manufacturing is the primary driver of Delaware County's
+> GDP decline, with output falling 12.3% and losing over \$428 million
+> between 2022 and 2024.
 
 ### Manufacturing Across Greater Philadelphia
+
 ```{r}
 philly_manufacturing <- greater_philly_industry |>
   filter(description == "Manufacturing") |>
@@ -293,7 +364,9 @@ philly_manufacturing
 ```
 
 ### Manufacturing Share of Total GDP by County
+
 Compare manufacturing's share of each county's economy in 2022 vs 2024
+
 ```{r}
 gdp_industry |>
   filter(str_detect(geo_name, "Philadelphia, PA|Montgomery, PA|Bucks, PA|Chester, PA|Delaware, PA|Gloucester, NJ|Camden, NJ|Burlington, NJ")) |>
@@ -308,9 +381,12 @@ gdp_industry |>
   arrange(desc(manufacturing_share_22))
 ```
 
-> **Findings:** Manufacturing's share of GDP declined in nearly every county across greater Philadelphia between 2022 and 2024. Manufacturing in Delaware County is shrinking fastest.
+> **Findings:** Manufacturing's share of GDP declined in nearly every
+> county across greater Philadelphia between 2022 and 2024.
+> Manufacturing in Delaware County is shrinking fastest.
 
 ### Charts: Manufacturing GDP Change by County
+
 ```{r}
 #AI-assister
 ggplot(philly_manufacturing, aes(x = reorder(county, pct_24_v_22), y = pct_24_v_22, fill = state)) +
@@ -338,4 +414,10 @@ ggplot(philly_manufacturing, aes(x = reorder(county, abs_change), y =abs_change 
   ) +
   theme_minimal()
 ```
-> **Findings:** Philadelphia had the largest manufacturing decline both in percentage terms and absolute value, but its overall GDP remained positive. Delaware County, by contrast, lost 12% of its manufacturing output and saw its overall GDP turn negative. Maybe its economy is more vulnerable and lacks other industries to fill the gap left by manufacturing's decline.
+
+> **Findings:** Philadelphia had the largest manufacturing decline both
+> in percentage terms and absolute value, but its overall GDP remained
+> positive. Delaware County, by contrast, lost 12% of its manufacturing
+> output and saw its overall GDP turn negative. Maybe its economy is
+> more vulnerable and lacks other industries to fill the gap left by
+> manufacturing's decline.
