@@ -1,0 +1,524 @@
+---
+title: "Practice"
+output: html_document
+date: "2026-06-02"
+---
+
+***
+# Archive
+
+**Story Idea**
+I ended up with two story ideas because this file asked me to look at both occupational wages and greater Philadelphia GDP.(I don't know if I should follow the steps to keep both two ideas or I should choose one, but I do think the second one is a more potential story angle!)
+
+1. Journalists in New York earn $251,110 annually, more than twice the national average of $102,460 and nearly three times what their counterparts in Pennsylvania make at $98,170. While media hubs like New York and Washington, D.C. continue to attract top salaries, Philadelphia area journalists earn below the national average. 
+
+2. While most counties in the greater Philadelphia region saw modest economic growth between 2022 and 2024, greater Philadelphia area counties in New Jersy like Gloucester and Burlington outpaced their Pennsylvania counterparts, while Delaware County was the only county in the region to see its GDP shrink. Philadelphia County itself grew by just 2.3 percent, slower than three of the four New Jersey counties. A deeper look into which industries are driving growth in Gloucester County and what is holding back Delaware County could reveal how the region's economic weight is shifting away from its Pennsylvania core.
+
+
+# Economic Portrait of Greater Philadelphia region
+
+For this assignment, you will explore the Bureau of Labor Statistics and Bureau of Economic Analysis databases to build a portrait of the major employers and economic trends in the greater Philadelphia area. Along the way, you will develop a story pitch about something you have discovered in the data.
+
+Memo from your newsroom:
+
+There isn’t a specific topic or dataset required for this role. It’s more important for the intern to begin thinking about how to shape story ideas around our coverage area. Since Yueyang is not from the region, becoming familiar with Philadelphia and the surrounding counties, including Montgomery County, Bucks County, Chester County, Delaware County, as well as Gloucester County, Camden County, and Burlington County, would be especially valuable.
+
+Our team works across the newsroom, so assignments may span a range of topics. We encourage the intern to pursue enterprise work on a topic of their choosing and begin developing those ideas during the training camp.
+
+> **Learning Outcome:**. <br> You will learn to how to retrieve and
+> analyze employment and regional GDP data for their own counties or
+> states and the steps to put it on a basic interactive charts. 
+
+# Storytelling with Employment Data
+
+In this exercise, we will find out how much the typical engineer makes
+versus the typical journalist.
+
+Follow this example for the counties in Pennsylvania and then we'll have you do the same for New Jersey and Delaware
+
+> [Check out the Pennsylvania Occupational Employment and Wage Statistics
+> GDP press release: "CNTL" + click for a New
+> Tab](https://data.bls.gov/oes/#/home){target="_blank"}
+
+
+<br> **Questions**:
+
+```         
+What is the median hourly wage for Chief Executives?
+What is the annual mean wage for Gambling Dealers?
+```
+
+<br>
+
+Let's pull in the data and examine it
+
+```{r include=FALSE}
+#Load libraries
+#install.packages("rio")
+library(tidyverse)
+library(readxl)
+library(janitor)
+library(rio)
+```
+
+
+```{r}
+#note the mutate sequence, converts columns 12-32 into integers. Slick!
+
+oes <- read_excel("../OES_state_M2025_dl.xlsx") |> 
+  clean_names() |> 
+   mutate(across(12:32, as.numeric))
+
+glimpse(oes)
+```
+
+Now check Pennsylvania totals
+```{r}
+oes |> 
+  filter(area_title == "Pennsylvania") |> 
+  select(prim_state, occ_title, tot_emp, h_mean, a_mean)
+
+```
+
+# Filter PA totals to specific occupations
+```{r}
+#note the search for the list: %in% checks whether each value is anywhere in the vector
+oes |> 
+  filter(area_title == "Pennsylvania") |> 
+  filter(occ_title %in% c("Chief Executives", "News Analysts, Reporters, and Journalists", "Waiters and Waitresses")) |> 
+  select(prim_state, occ_title, tot_emp, h_mean, a_mean)
+
+```
+
+# What do these fields mean?
+
+```{r}
+
+names <- read_excel("../OES_state_M2025_dl.xlsx", sheet='Field Descriptions') |> 
+  apply(1, paste, collapse = ": ") |>
+sapply(\(x) c(strwrap(x, width = 80), "")) |>
+  unlist() |>
+  writeLines("temp_text.txt")
+
+# file.edit("temp_text.txt")
+```
+
+
+Source of the data:
+> [Occupational Employment and Wage Statistics, national index, 2025. Select 'State' in HTML: "CNTL" + click for a New
+> Tab](https://www.bls.gov/oes/tables.htm){target="_blank"}
+
+
+# Look at Philly metro area
+```{r}
+
+philly <- rio::import("https://github.com/djnf-data-2026/master/raw/refs/heads/main/data/OES_Report_Philly_metro.xlsx", skip=2) |> 
+  clean_names() |> 
+    mutate(across(4:20, as.numeric))
+
+glimpse(philly)
+
+#data source: https://data.bls.gov/oes/#/home
+
+```
+
+
+
+
+Practice Questions
+```   
+*What is the median hourly wage for actors?*
+PA 27.22
+National 29.05
+CA N/A (8) Estimate not released.
+
+*What is the median hourly wage for surgeons?*
+"Surgeons, All Other" - equal to or greater than $115.00 per hour or $239,200 per year
+"Orthopedic Surgeons, Except Pediatric" - 174.80
+"Oral and Maxillofacial Surgeons" - 227.46
+
+*Compare journalists annual wage in two different states.
+NY    251110
+DC		174360
+PA    98170
+state   102460
+
+
+*How does that annual journalist salary compare to the state average?*
+DC all-111010 journ-174360 
+NY all-82460 journ-251110
+state   102460
+
+*How could that be a story?*
+Journalists in New York earn $251,110 annually, more than twice the national average of $102,460 and nearly three times what their counterparts in Pennsylvania make at $98,170. While media hubs like New York and Washington, D.C. continue to attract top salaries, Philadelphia area journalists earn below the national average. 
+
+```
+
+## Medain hourly wage for actors
+```{r}
+oes |> 
+  filter(area_title %in% c("Pennsylvania","California","New York","District of Columbia")) |> 
+  filter(occ_title %in% c("Actors")) |> 
+  select(prim_state, occ_title, tot_emp, h_median)
+
+```
+## Medain hourly wage for surgeons
+```{r}
+oes |>
+    filter(area_title == "Pennsylvania") |> 
+  filter(occ_code %in% c("29-1022","29-1242","29-1249")) |> 
+  select(prim_state, occ_title, tot_emp, h_mean)
+
+#For "Surgeons, All Other" Footnotes: (5) This wage is equal to or greater than $115.00 per hour or $239,200 per year.
+```
+
+## journalists annual wage accross the country 
+```{r}
+
+oes |> 
+  distinct(area_title)
+
+oes |>
+  filter(occ_code == "27-3023") |> 
+  select(prim_state, occ_title, tot_emp, a_mean)|> 
+  arrange(desc(a_mean))
+
+philly |>
+  filter(occupation == "News Analysts, Reporters, and Journalists (27-3023)") |>
+  select(occupation, annual_mean_wage_2)
+
+```
+
+## compare to state average
+```{r}
+oes |>
+  filter(area_title %in% c("New York", "District of Columbia")) |>
+  filter(occ_code %in% c("27-3023", "00-0000")) |>
+  select(area_title, occ_title, occ_code, tot_emp, a_mean)
+```
+
+
+More pokin' around:
+Examine the OCC_CODE column. The occupations ending in "0000" are occupational categories. Filter OCC_CODE for "0000" and examine the 23  occupational categories.
+```{r}
+oes |>
+  filter(area_title == "Pennsylvania") |>
+  filter(grepl("0000", occ_code)) |>
+  select(occ_code, occ_title, tot_emp, a_mean) |>
+  arrange(occ_code)
+```
+
+
+
+4) 
+--Apply Filter to OCC_Code. 
+--Select Filter by Condition. 
+--Select Text contains. 
+--Type in -0000 and apply
+You now will have a list of the 23 occupational categories
+
+<br>
+
+<br>
+
+
+# Step 2: Storytelling with Local GDP Data
+
+<br>
+
+GDP tells us if the economy is great or if it sucks.
+
+It's the **Big Daddy of economic indicators**.
+
+What is Gross Domestic Product? It measures the value of all final goods
+and services produced in the country in a year.
+
+For example: that would be all of the stuff sold by Walmart and all of
+the beer sold by Liquor Barn and all of the gas pumped at Citgo, etc.,
+AND A WHOLE LOT MORE, over a year.
+
+You get the idea.
+
+You can break it down to a state or a region, and also break it down
+into three month periods.
+
+As a reporter, you can use local GDP data to figure out what business
+sectors are doing well and which ones stink. It can lead you to
+excellent stories.
+
+This section will analyze the storytelling possibilities with the Gross
+Domestic Product by County data.
+
+[Check out the local GDP press
+release for 2024 (yes, 2024 is the latest.)](https://www.bea.gov/newsreleases/regional/gdp_metro/gdp_metro_newsrelease.htm){target="_blank"}
+
+> What's in the GDP data
+
+"Gross domestic product (GDP) by metropolitan area is the sub-state
+counterpart of the Nation's gross domestic product (GDP), the Bureau's
+featured and most comprehensive measure of U.S. economic activity. GDP
+by metropolitan area is derived as the sum of the GDP originating in all
+the industries in the metropolitan area.
+
+Contributions to growth are an industry's contribution to the state's
+overall percent change in real GDP. The contributions are additive and
+can be summed to the state's overall percent change. The statistics of
+GDP by metropolitan area released today are consistent with statistics
+of GDP by state.
+
+GDP at chained volume measure is adjusted for the effect of inflation to
+give a measure of ‘real GDP’."
+
+**Data limitations**
+
+This data series lags significantly. We are working with 2024 data, the
+most recent available. But it is still the best you can get and you
+can't beat the price.
+
+<br>
+
+### Retrieve GDP Data
+
+
+GDP
+CAGDP1 County gross domestic product (GDP) summary
+Real Gross Domestic Product (GDP) (Thousands of chained 2017 dollars)
+Source Page
+https://www.bea.gov/news/2026/gross-domestic-product-county-and-personal-income-county-2024
+
+And more detail:
+https://www.bea.gov/data/gdp/gdp-by-county
+
+
+```{r}
+gdp_county <- read_csv("https://raw.githubusercontent.com/djnf-data-2026/master/refs/heads/main/data/bea_gdp_2024_county_CAGDP1.csv", skip=3) |> 
+  clean_names() |> 
+    mutate(across(3:5, as.numeric))
+
+glimpse(gdp_county)
+```
+
+
+Calculate change 2024 vs 2022; split out state
+```{r}
+
+gdp_county <- gdp_county |> 
+  mutate(pct_24_v_22 = (x2024-x2022)/x2022,
+          state = str_split_fixed(geo_name, ", ", 2)[, 2],
+         county = str_split_fixed(geo_name, ", ", 2)[, 1])  
+
+```
+
+```{r}
+philly_gdp <- gdp_county |>
+  filter(state == "PA" | state == "NJ") |>
+  filter(county %in% c("Philadelphia", "Montgomery", 
+                        "Bucks", "Chester", 
+                        "Delaware", "Gloucester", 
+                        "Camden", "Burlington")) |>
+  select(county, state, x2022, x2024, pct_24_v_22) |>
+  mutate(rank(x2022)) |>
+  mutate(rank(x2024)) |>
+  arrange(desc(pct_24_v_22))
+
+philly_gdp
+```
+
+```{r}
+#AI assisted
+ggplot(philly_gdp, aes(x = reorder(county, pct_24_v_22), y = pct_24_v_22, fill = state)) +
+  geom_col() +
+  coord_flip() +
+  scale_y_continuous(labels = scales::percent) +
+  labs(
+    title = "GDP Growth by County in Greater Philadelphia (2022-2024)",
+    x = NULL,
+    y = "Percent Change",
+    fill = "State"
+  ) +
+  theme_minimal()
+```
+
+**Possible story angle**
+While most counties in the greater Philadelphia region saw modest economic growth between 2022 and 2024, greater Philadelphia area counties in New Jersy like Gloucester and Burlington outpaced their Pennsylvania counterparts, while Delaware County was the only county in the region to see its GDP shrink. Philadelphia County itself grew by just 2.3 percent, slower than three of the four New Jersey counties. A deeper look into which industries are driving growth in Gloucester County and what is holding back Delaware County could reveal how the region's economic weight is shifting away from its Pennsylvania core.
+
+# Check for Personal Income data
+
+CAINC1 County personal income summary: personal income, population, per capita personal income
+
+# Personal income (Thousands of dollars)
+https://www.bea.gov/news/2026/gross-domestic-product-county-and-personal-income-county-2024 
+
+
+```{r}
+cainc1 <- read_csv("../bea_gdp_2024_personal_income_county_CAINC1.csv", skip=3) |> 
+  clean_names()
+
+glimpse(cainc1)
+```
+```{r}
+cainc1 <- cainc1 |> 
+  mutate(across(x2022:x2024, as.numeric)) |> 
+  mutate(
+    pct_23_v_22 = round((x2023 - x2022) / x2022,4),
+    pct_24_v_23 = round((x2024 - x2023) / x2023,4),
+    pct_24_v_22 = round((x2024 - x2022) / x2022,4)
+  )
+
+glimpse(cainc1)
+```
+```{r}
+philly_income <- cainc1 |>
+  filter(str_detect(geo_name, "Philadelphia, PA|Montgomery, PA|Bucks, PA|Chester, PA|Delaware, PA|Gloucester, NJ|Camden, NJ|Burlington, NJ")) |>
+  select(geo_name, x2022, x2024, pct_24_v_22) |>
+  separate(geo_name, into = c("county", "state"), sep = ", ") |>
+  arrange(desc(pct_24_v_22))
+
+philly_income
+```
+```{r}
+# AI assisted
+ggplot(philly_income, aes(x = reorder(county, pct_24_v_22), y = pct_24_v_22, fill = state)) +
+  geom_col() +
+  coord_flip() +
+  scale_y_continuous(labels = scales::percent) +
+  labs(
+    title = "Personal Income Growth by County in Greater Philadelphia (2022-2024)",
+    x = NULL,
+    y = "Percent Change",
+    fill = "State"
+  ) +
+  theme_minimal()
+
+```
+
+**Possible story angle**
+Personal income in Delaware County grew 10.98% between 2022 and 2024, yet GDP was the only one in the region to shrink. Residents may be earning more by working elsewhere while local industries are losing ground. This disconnect could be worth a closer look.
+
+# GDP by industry (in thousands of current dollars)
+```{r}
+#merge two csv together
+gdp_industry <- bind_rows(
+  read_csv("../CAGDP2_GPD_PA_Industry.csv", skip = 3) |> clean_names(),
+  read_csv("../CAGDP2_GPD_NJ_Industry.csv", skip = 3) |> clean_names()
+)
+
+glimpse(gdp_industry)
+```
+```{r}
+gdp_industry <- gdp_industry |>
+ mutate(
+  x2022 = as.numeric(x2022),
+  x2023 = as.numeric(x2023),
+  x2024 = as.numeric(x2024)
+)
+
+greater_philly_total <- gdp_industry |>
+  filter(str_detect(geo_name, "Philadelphia, PA|Montgomery, PA|Bucks, PA|Chester, PA|Delaware, PA|Gloucester, NJ|Camden, NJ|Burlington, NJ")) |>
+  filter(line_code == 1) |> 
+  select(geo_name, description, x2022, x2023, x2024) |>
+  mutate(pct_24_v_22 = round((x2024 - x2022) / x2022, 4)) |>
+  arrange(desc(pct_24_v_22))
+
+glimpse(greater_philly_total)
+
+gdp_industry|>
+  distinct(description) |>
+  print(n = 36)
+```
+```{r}
+greater_philly_industry <- gdp_industry |>
+  filter(str_detect(geo_name, "Philadelphia, PA|Montgomery, PA|Bucks, PA|Chester, PA|Delaware, PA|Gloucester, NJ|Camden, NJ|Burlington, NJ"))  |>
+  filter(description %in% c(
+    "Agriculture, forestry, fishing and hunting",
+    "Mining, quarrying, and oil and gas extraction",
+    "Utilities",
+    "Construction",
+    "Manufacturing",
+    "Wholesale trade",
+    "Retail trade",
+    "Transportation and warehousing",
+    "Information",
+    "Finance, insurance, real estate, rental, and leasing",
+    "Professional and business services",
+    "Educational services, health care, and social assistance",
+    "Arts, entertainment, recreation, accommodation, and food services",
+    "Other services (except government and government enterprises)"
+  )) |>
+  select(geo_name, description, x2022, x2024) |>
+  mutate(pct_24_v_22 = round((x2024 - x2022) / x2022, 4)) |>
+  mutate(x24_v_22 = x2024 - x2022) |>
+  arrange(desc(x24_v_22))
+
+glimpse(greater_philly_industry)
+```
+```{r}
+change_most <- greater_philly_industry |>
+  slice_min(x24_v_22, n = 10)
+
+view(change_most)
+```
+
+```{r}
+delaware_gdp_industry <- greater_philly_industry |>
+  filter(geo_name == "Delaware, PA") |>
+  filter(x2022 > 0) |>
+  mutate(abs_change = x2024 - x2022) |>
+  arrange(abs_change)
+
+view(delaware_gdp_industry)
+```
+
+```{r}
+philly_manufacturing <- greater_philly_industry |>
+  filter(description == "Manufacturing") |>
+  filter(x2022 > 0) |> #AI-assisted
+  mutate(abs_change = x2024 - x2022) |>
+  separate(geo_name, into = c("county", "state"), sep = ", ") |>
+  arrange(abs_change)
+
+view(philly_manufacturing)
+```
+
+```{r}
+#AI-assister
+ggplot(philly_manufacturing, aes(x = reorder(county, pct_24_v_22), y = pct_24_v_22, fill = state)) +
+  geom_col() +
+  coord_flip() +
+  scale_y_continuous(labels = scales::percent) +
+  labs(
+    title = "Manufacturing GDP Percentage Change by County in Greater Philadelphia (2022-2024)",
+    x = NULL,
+    y = "Percent Change",
+    fill = "State"
+  ) +
+  theme_minimal()
+
+ggplot(philly_manufacturing, aes(x = reorder(county, abs_change), y =abs_change , fill = state)) +
+  geom_col() +
+  coord_flip() +
+  scale_y_continuous(labels = scales::comma) +
+  labs(
+    title = "Manufacturing GDP Change by County in Greater Philadelphia (2022-2024)",
+    subtitle = "In thousands of dollars",
+    x = NULL,
+    y = "Absolute Change",
+    fill = "State"
+  ) +
+  theme_minimal()
+```
+
+```{r}
+gdp_industry |>
+  filter(str_detect(geo_name, "Philadelphia, PA|Montgomery, PA|Bucks, PA|Chester, PA|Delaware, PA|Gloucester, NJ|Camden, NJ|Burlington, NJ")) |>
+  filter(description %in% c("All industry total", "Manufacturing")) |>
+  filter(x2022 > 0) |>
+  select(geo_name, description, x2022, x2024) |>
+  pivot_wider(names_from = description, values_from = c(x2022,x2024)) |>
+  mutate(
+    manufacturing_share_22 = round(x2022_Manufacturing / `x2022_All industry total`, 4),
+    manufacturing_share_24 = round(x2024_Manufacturing / `x2024_All industry total`, 4),) |>
+  separate(geo_name, into = c("county", "state"), sep = ", ") |>
+  arrange(desc(manufacturing_share_22))
+```
+

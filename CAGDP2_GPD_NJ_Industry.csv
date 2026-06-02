@@ -1,0 +1,781 @@
+CAGDP2 Gross domestic product (GDP) by county 1
+CAGDP2 Gross domestic product (GDP) by county 1
+County
+GeoFIPS,GeoName,LineCode,Description,2022,2023,2024
+34000,New Jersey,1,All industry total,756465556,806894027,846000400
+34000,New Jersey,2,"  Private industries",686392501,732899618,768143155
+34000,New Jersey,3,"    Agriculture, forestry, fishing and hunting",1610793,1342253,1368852
+34000,New Jersey,6,"    Mining, quarrying, and oil and gas extraction",470630,551234,793307
+34000,New Jersey,10,"    Utilities",11424314,11747415,11943955
+34000,New Jersey,11,"    Construction",25690540,28546658,29641257
+34000,New Jersey,12,"    Manufacturing",63950225,67106818,70872401
+34000,New Jersey,13,"      Durable goods manufacturing",19831285,20846665,21257816
+34000,New Jersey,25,"      Nondurable goods manufacturing",44118941,46260152,49614585
+34000,New Jersey,34,"    Wholesale trade",65383612,64394966,66037771
+34000,New Jersey,35,"    Retail trade",47339090,51255924,52742547
+34000,New Jersey,36,"    Transportation and warehousing",30898446,32224121,33109175
+34000,New Jersey,45,"    Information",34007245,37298018,40031640
+34000,New Jersey,50,"    Finance, insurance, real estate, rental, and leasing",168811231,181810533,190789033
+34000,New Jersey,51,"      Finance and insurance",48483956,51916549,54046852
+34000,New Jersey,56,"      Real estate and rental and leasing",120327275,129893983,136742180
+34000,New Jersey,59,"    Professional and business services",126657856,133522561,137801843
+34000,New Jersey,60,"      Professional, scientific, and technical services",75596242,80559258,83007374
+34000,New Jersey,64,"      Management of companies and enterprises",20749655,20556965,21370355
+34000,New Jersey,65,"      Administrative and support and waste management and remediation services",30311960,32406337,33424114
+34000,New Jersey,68,"    Educational services, health care, and social assistance",69183135,76128781,82470777
+34000,New Jersey,69,"      Educational services",8787731,9352797,9915327
+34000,New Jersey,70,"      Health care and social assistance",60395404,66775983,72555450
+34000,New Jersey,75,"    Arts, entertainment, recreation, accommodation, and food services",25314567,30120789,32655359
+34000,New Jersey,76,"      Arts, entertainment, and recreation",6766591,8169730,8787804
+34000,New Jersey,79,"      Accommodation and food services",18547976,21951058,23867556
+34000,New Jersey,82,"    Other services (except government and government enterprises)",15650817,16849550,17885237
+34000,New Jersey,83,Government and government enterprises,70073055,73994409,77857245
+34000,New Jersey,,Addenda:,,,
+34000,New Jersey,87,Natural resources and mining,2081423,1893487,2162159
+34000,New Jersey,88,Trade,112722702,115650890,118780318
+34000,New Jersey,89,Transportation and utilities,42322760,43971536,45053130
+34000,New Jersey,90,Manufacturing and information,97957470,104404836,110904041
+34000,New Jersey,91,Private goods-producing industries 2,91722189,97546962,102675817
+34000,New Jersey,92,Private services-providing industries 3,594670312,635352656,665467337
+34001,"Atlantic, NJ",1,All industry total,17328663,18563490,19423169
+34001,"Atlantic, NJ",2,"  Private industries",14628609,15705845,16416482
+34001,"Atlantic, NJ",3,"    Agriculture, forestry, fishing and hunting",92154,74080,(D)
+34001,"Atlantic, NJ",6,"    Mining, quarrying, and oil and gas extraction",(D),(D),12558
+34001,"Atlantic, NJ",10,"    Utilities",176494,177469,(D)
+34001,"Atlantic, NJ",11,"    Construction",802217,843491,861826
+34001,"Atlantic, NJ",12,"    Manufacturing",(D),(D),(D)
+34001,"Atlantic, NJ",13,"      Durable goods manufacturing",(D),(D),(D)
+34001,"Atlantic, NJ",25,"      Nondurable goods manufacturing",194923,208556,223223
+34001,"Atlantic, NJ",34,"    Wholesale trade",476852,479844,474763
+34001,"Atlantic, NJ",35,"    Retail trade",1338873,1459106,1517595
+34001,"Atlantic, NJ",36,"    Transportation and warehousing",255720,249579,268935
+34001,"Atlantic, NJ",45,"    Information",224567,246375,(D)
+34001,"Atlantic, NJ",50,"    Finance, insurance, real estate, rental, and leasing",3634764,3697346,3871356
+34001,"Atlantic, NJ",51,"      Finance and insurance",523781,496841,493776
+34001,"Atlantic, NJ",56,"      Real estate and rental and leasing",3110983,3200505,3377580
+34001,"Atlantic, NJ",59,"    Professional and business services",1583322,1702280,1735545
+34001,"Atlantic, NJ",60,"      Professional, scientific, and technical services",848020,904794,910426
+34001,"Atlantic, NJ",64,"      Management of companies and enterprises",249324,265813,255045
+34001,"Atlantic, NJ",65,"      Administrative and support and waste management and remediation services",485977,531673,570074
+34001,"Atlantic, NJ",68,"    Educational services, health care, and social assistance",1925937,2068906,2189738
+34001,"Atlantic, NJ",69,"      Educational services",60521,61709,60642
+34001,"Atlantic, NJ",70,"      Health care and social assistance",1865416,2007196,2129096
+34001,"Atlantic, NJ",75,"    Arts, entertainment, recreation, accommodation, and food services",3439479,3973309,4237616
+34001,"Atlantic, NJ",76,"      Arts, entertainment, and recreation",260050,283802,305619
+34001,"Atlantic, NJ",79,"      Accommodation and food services",3179429,3689507,3931997
+34001,"Atlantic, NJ",82,"    Other services (except government and government enterprises)",365985,400622,427165
+34001,"Atlantic, NJ",83,Government and government enterprises,2700054,2857646,3006687
+34001,"Atlantic, NJ",,Addenda:,,,
+34001,"Atlantic, NJ",87,Natural resources and mining,(D),(D),(D)
+34001,"Atlantic, NJ",88,Trade,1815725,1938950,1992358
+34001,"Atlantic, NJ",89,Transportation and utilities,432214,427049,(D)
+34001,"Atlantic, NJ",90,Manufacturing and information,(D),(D),599693
+34001,"Atlantic, NJ",91,Private goods-producing industries 2,1206615,1251007,1257079
+34001,"Atlantic, NJ",92,Private services-providing industries 3,13421994,14454837,15159403
+34003,"Bergen, NJ",1,All industry total,95542894,101808177,105804508
+34003,"Bergen, NJ",2,"  Private industries",89859539,95865279,99572522
+34003,"Bergen, NJ",3,"    Agriculture, forestry, fishing and hunting",13375,10379,11032
+34003,"Bergen, NJ",6,"    Mining, quarrying, and oil and gas extraction",9008,6290,9045
+34003,"Bergen, NJ",10,"    Utilities",613120,693235,680093
+34003,"Bergen, NJ",11,"    Construction",2683440,3065858,3135750
+34003,"Bergen, NJ",12,"    Manufacturing",5419636,5731969,6148700
+34003,"Bergen, NJ",13,"      Durable goods manufacturing",2851916,3022131,3227255
+34003,"Bergen, NJ",25,"      Nondurable goods manufacturing",2567720,2709838,2921446
+34003,"Bergen, NJ",34,"    Wholesale trade",18760974,18258275,18416802
+34003,"Bergen, NJ",35,"    Retail trade",5831597,6377336,6634811
+34003,"Bergen, NJ",36,"    Transportation and warehousing",2200294,2244257,2287050
+34003,"Bergen, NJ",45,"    Information",5901283,6031136,6385459
+34003,"Bergen, NJ",50,"    Finance, insurance, real estate, rental, and leasing",18542806,20731586,21597262
+34003,"Bergen, NJ",51,"      Finance and insurance",3494600,3866634,4087282
+34003,"Bergen, NJ",56,"      Real estate and rental and leasing",15048205,16864952,17509981
+34003,"Bergen, NJ",59,"    Professional and business services",14223154,15116385,15139545
+34003,"Bergen, NJ",60,"      Professional, scientific, and technical services",8241878,8968846,9088626
+34003,"Bergen, NJ",64,"      Management of companies and enterprises",2680412,2571582,2579799
+34003,"Bergen, NJ",65,"      Administrative and support and waste management and remediation services",3300864,3575957,3471120
+34003,"Bergen, NJ",68,"    Educational services, health care, and social assistance",10774089,11892534,13028698
+34003,"Bergen, NJ",69,"      Educational services",962526,1018068,1072080
+34003,"Bergen, NJ",70,"      Health care and social assistance",9811563,10874466,11956617
+34003,"Bergen, NJ",75,"    Arts, entertainment, recreation, accommodation, and food services",2944252,3596144,3853058
+34003,"Bergen, NJ",76,"      Arts, entertainment, and recreation",1053086,1329716,1404086
+34003,"Bergen, NJ",79,"      Accommodation and food services",1891166,2266429,2448972
+34003,"Bergen, NJ",82,"    Other services (except government and government enterprises)",1942512,2109894,2245217
+34003,"Bergen, NJ",83,Government and government enterprises,5683355,5942899,6231986
+34003,"Bergen, NJ",,Addenda:,,,
+34003,"Bergen, NJ",87,Natural resources and mining,22383,16669,20077
+34003,"Bergen, NJ",88,Trade,24592571,24635611,25051614
+34003,"Bergen, NJ",89,Transportation and utilities,2813414,2937492,2967143
+34003,"Bergen, NJ",90,Manufacturing and information,11320918,11763105,12534160
+34003,"Bergen, NJ",91,Private goods-producing industries 2,8125459,8814496,9304527
+34003,"Bergen, NJ",92,Private services-providing industries 3,81734081,87050782,90267995
+34005,"Burlington, NJ",1,All industry total,36147688,38949141,40867224
+34005,"Burlington, NJ",2,"  Private industries",31715613,34281150,35913416
+34005,"Burlington, NJ",3,"    Agriculture, forestry, fishing and hunting",140032,80257,71887
+34005,"Burlington, NJ",6,"    Mining, quarrying, and oil and gas extraction",7036,8727,11176
+34005,"Burlington, NJ",10,"    Utilities",174849,168875,171572
+34005,"Burlington, NJ",11,"    Construction",1280158,1336723,1350332
+34005,"Burlington, NJ",12,"    Manufacturing",2583053,2892202,3022758
+34005,"Burlington, NJ",13,"      Durable goods manufacturing",2034607,2219829,2332160
+34005,"Burlington, NJ",25,"      Nondurable goods manufacturing",548446,672373,690598
+34005,"Burlington, NJ",34,"    Wholesale trade",3093508,3034140,3060564
+34005,"Burlington, NJ",35,"    Retail trade",2728613,2980652,3080399
+34005,"Burlington, NJ",36,"    Transportation and warehousing",1253824,1260542,1320169
+34005,"Burlington, NJ",45,"    Information",1730807,2047044,2276703
+34005,"Burlington, NJ",50,"    Finance, insurance, real estate, rental, and leasing",8861011,9773062,10082250
+34005,"Burlington, NJ",51,"      Finance and insurance",2715664,2786566,2826518
+34005,"Burlington, NJ",56,"      Real estate and rental and leasing",6145346,6986496,7255732
+34005,"Burlington, NJ",59,"    Professional and business services",4975574,5252612,5635725
+34005,"Burlington, NJ",60,"      Professional, scientific, and technical services",2717838,3012394,3077786
+34005,"Burlington, NJ",64,"      Management of companies and enterprises",557602,518614,736920
+34005,"Burlington, NJ",65,"      Administrative and support and waste management and remediation services",1700134,1721604,1821019
+34005,"Burlington, NJ",68,"    Educational services, health care, and social assistance",3418731,3776729,3993115
+34005,"Burlington, NJ",69,"      Educational services",192885,190005,269276
+34005,"Burlington, NJ",70,"      Health care and social assistance",3225847,3586723,3723840
+34005,"Burlington, NJ",75,"    Arts, entertainment, recreation, accommodation, and food services",844610,992526,1117823
+34005,"Burlington, NJ",76,"      Arts, entertainment, and recreation",190156,225210,278496
+34005,"Burlington, NJ",79,"      Accommodation and food services",654454,767316,839326
+34005,"Burlington, NJ",82,"    Other services (except government and government enterprises)",623807,677057,718943
+34005,"Burlington, NJ",83,Government and government enterprises,4432075,4667991,4953808
+34005,"Burlington, NJ",,Addenda:,,,
+34005,"Burlington, NJ",87,Natural resources and mining,147068,88984,83063
+34005,"Burlington, NJ",88,Trade,5822121,6014792,6140964
+34005,"Burlington, NJ",89,Transportation and utilities,1428673,1429417,1491740
+34005,"Burlington, NJ",90,Manufacturing and information,4313860,4939246,5299461
+34005,"Burlington, NJ",91,Private goods-producing industries 2,4010279,4317910,4456153
+34005,"Burlington, NJ",92,Private services-providing industries 3,27705334,29963240,31457263
+34007,"Camden, NJ",1,All industry total,30564484,32644548,34619814
+34007,"Camden, NJ",2,"  Private industries",26931615,28799302,30605672
+34007,"Camden, NJ",3,"    Agriculture, forestry, fishing and hunting",48567,32419,29939
+34007,"Camden, NJ",6,"    Mining, quarrying, and oil and gas extraction",(D),1992,3128
+34007,"Camden, NJ",10,"    Utilities",(D),102998,122824
+34007,"Camden, NJ",11,"    Construction",1224334,1221688,1222530
+34007,"Camden, NJ",12,"    Manufacturing",2289084,2067792,2152285
+34007,"Camden, NJ",13,"      Durable goods manufacturing",1113887,1113143,1101603
+34007,"Camden, NJ",25,"      Nondurable goods manufacturing",1175198,954649,1050682
+34007,"Camden, NJ",34,"    Wholesale trade",1884937,1946718,2099984
+34007,"Camden, NJ",35,"    Retail trade",2402465,2552873,2622937
+34007,"Camden, NJ",36,"    Transportation and warehousing",951277,933802,989665
+34007,"Camden, NJ",45,"    Information",518560,569342,580022
+34007,"Camden, NJ",50,"    Finance, insurance, real estate, rental, and leasing",(D),7013086,7501076
+34007,"Camden, NJ",51,"      Finance and insurance",1076759,1142855,1177380
+34007,"Camden, NJ",56,"      Real estate and rental and leasing",(D),5870231,6323696
+34007,"Camden, NJ",59,"    Professional and business services",4673936,4863917,5137163
+34007,"Camden, NJ",60,"      Professional, scientific, and technical services",2179181,2316699,2411496
+34007,"Camden, NJ",64,"      Management of companies and enterprises",960345,927725,1025885
+34007,"Camden, NJ",65,"      Administrative and support and waste management and remediation services",1534410,1619493,1699782
+34007,"Camden, NJ",68,"    Educational services, health care, and social assistance",4594843,5100276,5572323
+34007,"Camden, NJ",69,"      Educational services",355613,375768,339048
+34007,"Camden, NJ",70,"      Health care and social assistance",4239230,4724508,5233274
+34007,"Camden, NJ",75,"    Arts, entertainment, recreation, accommodation, and food services",1297091,1638061,1771453
+34007,"Camden, NJ",76,"      Arts, entertainment, and recreation",572810,758579,795830
+34007,"Camden, NJ",79,"      Accommodation and food services",724282,879482,975623
+34007,"Camden, NJ",82,"    Other services (except government and government enterprises)",700425,754338,800344
+34007,"Camden, NJ",83,Government and government enterprises,3632868,3845246,4014143
+34007,"Camden, NJ",,Addenda:,,,
+34007,"Camden, NJ",87,Natural resources and mining,(D),34410,33067
+34007,"Camden, NJ",88,Trade,4287401,4499591,4722921
+34007,"Camden, NJ",89,Transportation and utilities,(D),1036801,1112489
+34007,"Camden, NJ",90,Manufacturing and information,2807644,2637134,2732307
+34007,"Camden, NJ",91,Private goods-producing industries 2,(D),3323890,3407881
+34007,"Camden, NJ",92,Private services-providing industries 3,(D),25475412,27197790
+34009,"Cape May, NJ",1,All industry total,7032759,7417657,7801173
+34009,"Cape May, NJ",2,"  Private industries",5976850,6270250,6588858
+34009,"Cape May, NJ",3,"    Agriculture, forestry, fishing and hunting",64925,61522,(D)
+34009,"Cape May, NJ",6,"    Mining, quarrying, and oil and gas extraction",(D),(D),12375
+34009,"Cape May, NJ",10,"    Utilities",16240,(D),17038
+34009,"Cape May, NJ",11,"    Construction",431190,461398,481300
+34009,"Cape May, NJ",12,"    Manufacturing",(D),(D),(D)
+34009,"Cape May, NJ",13,"      Durable goods manufacturing",(D),(D),(D)
+34009,"Cape May, NJ",25,"      Nondurable goods manufacturing",(D),(D),120712
+34009,"Cape May, NJ",34,"    Wholesale trade",134042,134236,136100
+34009,"Cape May, NJ",35,"    Retail trade",571645,615973,633609
+34009,"Cape May, NJ",36,"    Transportation and warehousing",(D),(D),(D)
+34009,"Cape May, NJ",45,"    Information",51955,61873,(D)
+34009,"Cape May, NJ",50,"    Finance, insurance, real estate, rental, and leasing",2704643,(D),2856126
+34009,"Cape May, NJ",51,"      Finance and insurance",144473,153279,158610
+34009,"Cape May, NJ",56,"      Real estate and rental and leasing",2560170,(D),2697516
+34009,"Cape May, NJ",59,"    Professional and business services",(D),393870,(D)
+34009,"Cape May, NJ",60,"      Professional, scientific, and technical services",203600,216780,224288
+34009,"Cape May, NJ",64,"      Management of companies and enterprises",18872,16627,16918
+34009,"Cape May, NJ",65,"      Administrative and support and waste management and remediation services",(D),160463,(D)
+34009,"Cape May, NJ",68,"    Educational services, health care, and social assistance",363434,385569,421447
+34009,"Cape May, NJ",69,"      Educational services",10453,10810,10649
+34009,"Cape May, NJ",70,"      Health care and social assistance",352981,374758,410798
+34009,"Cape May, NJ",75,"    Arts, entertainment, recreation, accommodation, and food services",955414,1059111,1137708
+34009,"Cape May, NJ",76,"      Arts, entertainment, and recreation",268460,302317,316214
+34009,"Cape May, NJ",79,"      Accommodation and food services",686954,756795,821494
+34009,"Cape May, NJ",82,"    Other services (except government and government enterprises)",148079,164016,171279
+34009,"Cape May, NJ",83,Government and government enterprises,1055909,1147407,1212315
+34009,"Cape May, NJ",,Addenda:,,,
+34009,"Cape May, NJ",87,Natural resources and mining,(D),(D),(D)
+34009,"Cape May, NJ",88,Trade,705688,750209,769709
+34009,"Cape May, NJ",89,Transportation and utilities,(D),(D),(D)
+34009,"Cape May, NJ",90,Manufacturing and information,(D),(D),211551
+34009,"Cape May, NJ",91,Private goods-producing industries 2,626873,665783,(D)
+34009,"Cape May, NJ",92,Private services-providing industries 3,5349976,5604466,(D)
+34011,"Cumberland, NJ",1,All industry total,7719386,8126189,8513548
+34011,"Cumberland, NJ",2,"  Private industries",6395985,6743926,7048055
+34011,"Cumberland, NJ",3,"    Agriculture, forestry, fishing and hunting",276370,310150,346000
+34011,"Cumberland, NJ",6,"    Mining, quarrying, and oil and gas extraction",47562,56538,80790
+34011,"Cumberland, NJ",10,"    Utilities",62548,64420,65082
+34011,"Cumberland, NJ",11,"    Construction",383667,409340,434524
+34011,"Cumberland, NJ",12,"    Manufacturing",1123319,1135437,1166032
+34011,"Cumberland, NJ",13,"      Durable goods manufacturing",575990,600340,584460
+34011,"Cumberland, NJ",25,"      Nondurable goods manufacturing",547329,535097,581572
+34011,"Cumberland, NJ",34,"    Wholesale trade",644468,622101,624060
+34011,"Cumberland, NJ",35,"    Retail trade",637151,685248,724069
+34011,"Cumberland, NJ",36,"    Transportation and warehousing",278857,310096,(D)
+34011,"Cumberland, NJ",45,"    Information",175191,188348,(D)
+34011,"Cumberland, NJ",50,"    Finance, insurance, real estate, rental, and leasing",1139767,(D),(D)
+34011,"Cumberland, NJ",51,"      Finance and insurance",111262,120215,(D)
+34011,"Cumberland, NJ",56,"      Real estate and rental and leasing",1028505,(D),1147501
+34011,"Cumberland, NJ",59,"    Professional and business services",(D),(D),406548
+34011,"Cumberland, NJ",60,"      Professional, scientific, and technical services",122851,(D),(D)
+34011,"Cumberland, NJ",64,"      Management of companies and enterprises",(D),(D),(D)
+34011,"Cumberland, NJ",65,"      Administrative and support and waste management and remediation services",222064,230853,245955
+34011,"Cumberland, NJ",68,"    Educational services, health care, and social assistance",954172,995274,1070033
+34011,"Cumberland, NJ",69,"      Educational services",29641,29184,30003
+34011,"Cumberland, NJ",70,"      Health care and social assistance",924531,966090,1040029
+34011,"Cumberland, NJ",75,"    Arts, entertainment, recreation, accommodation, and food services",(D),193140,212341
+34011,"Cumberland, NJ",76,"      Arts, entertainment, and recreation",(D),35972,38722
+34011,"Cumberland, NJ",79,"      Accommodation and food services",136407,157168,173619
+34011,"Cumberland, NJ",82,"    Other services (except government and government enterprises)",145891,155427,165347
+34011,"Cumberland, NJ",83,Government and government enterprises,1323402,1382263,1465493
+34011,"Cumberland, NJ",,Addenda:,,,
+34011,"Cumberland, NJ",87,Natural resources and mining,323932,366688,426790
+34011,"Cumberland, NJ",88,Trade,1281619,1307349,1348130
+34011,"Cumberland, NJ",89,Transportation and utilities,341406,374516,(D)
+34011,"Cumberland, NJ",90,Manufacturing and information,1298509,1323786,(D)
+34011,"Cumberland, NJ",91,Private goods-producing industries 2,1830918,1911465,2027346
+34011,"Cumberland, NJ",92,Private services-providing industries 3,4565067,4832461,5020709
+34013,"Essex, NJ",1,All industry total,66387714,71653805,76179529
+34013,"Essex, NJ",2,"  Private industries",57154529,61868071,65791749
+34013,"Essex, NJ",3,"    Agriculture, forestry, fishing and hunting",1497,10575,8976
+34013,"Essex, NJ",6,"    Mining, quarrying, and oil and gas extraction",3255,4408,5962
+34013,"Essex, NJ",10,"    Utilities",996759,947540,906299
+34013,"Essex, NJ",11,"    Construction",1773421,1822932,1883103
+34013,"Essex, NJ",12,"    Manufacturing",2438562,2508908,2683713
+34013,"Essex, NJ",13,"      Durable goods manufacturing",940723,892006,982037
+34013,"Essex, NJ",25,"      Nondurable goods manufacturing",1497840,1616902,1701675
+34013,"Essex, NJ",34,"    Wholesale trade",3741396,3495423,3868391
+34013,"Essex, NJ",35,"    Retail trade",2346365,2583584,2688254
+34013,"Essex, NJ",36,"    Transportation and warehousing",7913857,9486232,9664043
+34013,"Essex, NJ",45,"    Information",2847381,3339031,3940742
+34013,"Essex, NJ",50,"    Finance, insurance, real estate, rental, and leasing",15606504,16686154,18035833
+34013,"Essex, NJ",51,"      Finance and insurance",6053599,6563636,7302038
+34013,"Essex, NJ",56,"      Real estate and rental and leasing",9552905,10122518,10733795
+34013,"Essex, NJ",59,"    Professional and business services",10271428,10629991,10967761
+34013,"Essex, NJ",60,"      Professional, scientific, and technical services",6440545,6782321,7406253
+34013,"Essex, NJ",64,"      Management of companies and enterprises",1921131,1768898,1405371
+34013,"Essex, NJ",65,"      Administrative and support and waste management and remediation services",1909752,2078772,2156137
+34013,"Essex, NJ",68,"    Educational services, health care, and social assistance",5849956,6414213,6903862
+34013,"Essex, NJ",69,"      Educational services",948105,961855,1012381
+34013,"Essex, NJ",70,"      Health care and social assistance",4901851,5452358,5891481
+34013,"Essex, NJ",75,"    Arts, entertainment, recreation, accommodation, and food services",1997090,2478878,2687093
+34013,"Essex, NJ",76,"      Arts, entertainment, and recreation",571234,743614,806608
+34013,"Essex, NJ",79,"      Accommodation and food services",1425857,1735263,1880484
+34013,"Essex, NJ",82,"    Other services (except government and government enterprises)",1367057,1460203,1547718
+34013,"Essex, NJ",83,Government and government enterprises,9233184,9785734,10387781
+34013,"Essex, NJ",,Addenda:,,,
+34013,"Essex, NJ",87,Natural resources and mining,4753,14983,14938
+34013,"Essex, NJ",88,Trade,6087762,6079006,6556645
+34013,"Essex, NJ",89,Transportation and utilities,8910616,10433772,10570342
+34013,"Essex, NJ",90,Manufacturing and information,5285944,5847940,6624454
+34013,"Essex, NJ",91,Private goods-producing industries 2,4216736,4346823,4581753
+34013,"Essex, NJ",92,Private services-providing industries 3,52937793,57521248,61209995
+34015,"Gloucester, NJ",1,All industry total,17242493,18245349,19111129
+34015,"Gloucester, NJ",2,"  Private industries",15238388,16098204,16854140
+34015,"Gloucester, NJ",3,"    Agriculture, forestry, fishing and hunting",91068,85735,96711
+34015,"Gloucester, NJ",6,"    Mining, quarrying, and oil and gas extraction",(D),2962,4603
+34015,"Gloucester, NJ",10,"    Utilities",404255,430152,308993
+34015,"Gloucester, NJ",11,"    Construction",850480,945029,1011023
+34015,"Gloucester, NJ",12,"    Manufacturing",1715514,1833540,1896243
+34015,"Gloucester, NJ",13,"      Durable goods manufacturing",555457,600576,579780
+34015,"Gloucester, NJ",25,"      Nondurable goods manufacturing",1160057,1232964,1316464
+34015,"Gloucester, NJ",34,"    Wholesale trade",2156001,2088903,2121729
+34015,"Gloucester, NJ",35,"    Retail trade",1977233,2112146,2174367
+34015,"Gloucester, NJ",36,"    Transportation and warehousing",845900,833825,920886
+34015,"Gloucester, NJ",45,"    Information",321904,372973,384725
+34015,"Gloucester, NJ",50,"    Finance, insurance, real estate, rental, and leasing",(D),3562746,3814476
+34015,"Gloucester, NJ",51,"      Finance and insurance",295704,306674,325190
+34015,"Gloucester, NJ",56,"      Real estate and rental and leasing",(D),3256072,3489286
+34015,"Gloucester, NJ",59,"    Professional and business services",(D),1227331,1286700
+34015,"Gloucester, NJ",60,"      Professional, scientific, and technical services",533683,573726,603005
+34015,"Gloucester, NJ",64,"      Management of companies and enterprises",(D),39967,24072
+34015,"Gloucester, NJ",65,"      Administrative and support and waste management and remediation services",570938,613639,659623
+34015,"Gloucester, NJ",68,"    Educational services, health care, and social assistance",1372551,1556134,1703624
+34015,"Gloucester, NJ",69,"      Educational services",56567,60620,65238
+34015,"Gloucester, NJ",70,"      Health care and social assistance",1315983,1495514,1638386
+34015,"Gloucester, NJ",75,"    Arts, entertainment, recreation, accommodation, and food services",564411,621748,679664
+34015,"Gloucester, NJ",76,"      Arts, entertainment, and recreation",96830,116595,123169
+34015,"Gloucester, NJ",79,"      Accommodation and food services",467581,505154,556495
+34015,"Gloucester, NJ",82,"    Other services (except government and government enterprises)",397117,424978,450396
+34015,"Gloucester, NJ",83,Government and government enterprises,2004106,2147145,2256989
+34015,"Gloucester, NJ",,Addenda:,,,
+34015,"Gloucester, NJ",87,Natural resources and mining,(D),88697,101314
+34015,"Gloucester, NJ",88,Trade,4133234,4201049,4296096
+34015,"Gloucester, NJ",89,Transportation and utilities,1250155,1263977,1229879
+34015,"Gloucester, NJ",90,Manufacturing and information,2037418,2206513,2280969
+34015,"Gloucester, NJ",91,Private goods-producing industries 2,(D),2867266,3008580
+34015,"Gloucester, NJ",92,Private services-providing industries 3,(D),13230938,13845560
+34017,"Hudson, NJ",1,All industry total,58459528,62688963,65735570
+34017,"Hudson, NJ",2,"  Private industries",53548505,57607955,60424405
+34017,"Hudson, NJ",3,"    Agriculture, forestry, fishing and hunting",558,839,(D)
+34017,"Hudson, NJ",6,"    Mining, quarrying, and oil and gas extraction",(D),(D),0
+34017,"Hudson, NJ",10,"    Utilities",(D),(D),355847
+34017,"Hudson, NJ",11,"    Construction",865113,1151215,(D)
+34017,"Hudson, NJ",12,"    Manufacturing",1647442,1717686,1764448
+34017,"Hudson, NJ",13,"      Durable goods manufacturing",707339,793738,801443
+34017,"Hudson, NJ",25,"      Nondurable goods manufacturing",940103,923948,963005
+34017,"Hudson, NJ",34,"    Wholesale trade",(D),(D),(D)
+34017,"Hudson, NJ",35,"    Retail trade",3009942,3311792,3360555
+34017,"Hudson, NJ",36,"    Transportation and warehousing",3883210,3693042,3794642
+34017,"Hudson, NJ",45,"    Information",3788809,4326521,(D)
+34017,"Hudson, NJ",50,"    Finance, insurance, real estate, rental, and leasing",21160617,22500252,23663711
+34017,"Hudson, NJ",51,"      Finance and insurance",11835887,12766587,13028676
+34017,"Hudson, NJ",56,"      Real estate and rental and leasing",9324731,9733665,10635034
+34017,"Hudson, NJ",59,"    Professional and business services",9011331,10089042,10280813
+34017,"Hudson, NJ",60,"      Professional, scientific, and technical services",4388462,4744164,4780833
+34017,"Hudson, NJ",64,"      Management of companies and enterprises",1073405,1051573,1163801
+34017,"Hudson, NJ",65,"      Administrative and support and waste management and remediation services",3549463,4293305,4336179
+34017,"Hudson, NJ",68,"    Educational services, health care, and social assistance",3244321,3554870,3847188
+34017,"Hudson, NJ",69,"      Educational services",540622,580048,631438
+34017,"Hudson, NJ",70,"      Health care and social assistance",2703699,2974821,3215750
+34017,"Hudson, NJ",75,"    Arts, entertainment, recreation, accommodation, and food services",1738814,2118898,2386284
+34017,"Hudson, NJ",76,"      Arts, entertainment, and recreation",523703,653382,744685
+34017,"Hudson, NJ",79,"      Accommodation and food services",1215111,1465516,1641598
+34017,"Hudson, NJ",82,"    Other services (except government and government enterprises)",1047942,1166941,1299773
+34017,"Hudson, NJ",83,Government and government enterprises,4911024,5081008,5311165
+34017,"Hudson, NJ",,Addenda:,,,
+34017,"Hudson, NJ",87,Natural resources and mining,(D),(D),(D)
+34017,"Hudson, NJ",88,Trade,(D),(D),(D)
+34017,"Hudson, NJ",89,Transportation and utilities,(D),(D),4150489
+34017,"Hudson, NJ",90,Manufacturing and information,5436251,6044207,(D)
+34017,"Hudson, NJ",91,Private goods-producing industries 2,(D),(D),3021544
+34017,"Hudson, NJ",92,Private services-providing industries 3,(D),(D),57402861
+34019,"Hunterdon, NJ",1,All industry total,8865727,9342494,9867058
+34019,"Hunterdon, NJ",2,"  Private industries",8012670,8449564,8929621
+34019,"Hunterdon, NJ",3,"    Agriculture, forestry, fishing and hunting",114762,32122,(D)
+34019,"Hunterdon, NJ",6,"    Mining, quarrying, and oil and gas extraction",21053,22943,32140
+34019,"Hunterdon, NJ",10,"    Utilities",41541,34100,(D)
+34019,"Hunterdon, NJ",11,"    Construction",557703,634752,678948
+34019,"Hunterdon, NJ",12,"    Manufacturing",390789,387556,417716
+34019,"Hunterdon, NJ",13,"      Durable goods manufacturing",219551,228734,234037
+34019,"Hunterdon, NJ",25,"      Nondurable goods manufacturing",171238,158822,183678
+34019,"Hunterdon, NJ",34,"    Wholesale trade",503487,480198,482102
+34019,"Hunterdon, NJ",35,"    Retail trade",738524,798837,818271
+34019,"Hunterdon, NJ",36,"    Transportation and warehousing",89840,110187,109054
+34019,"Hunterdon, NJ",45,"    Information",384834,446822,469509
+34019,"Hunterdon, NJ",50,"    Finance, insurance, real estate, rental, and leasing",2682063,2854667,(D)
+34019,"Hunterdon, NJ",51,"      Finance and insurance",1191608,1282231,(D)
+34019,"Hunterdon, NJ",56,"      Real estate and rental and leasing",1490455,1572435,1677684
+34019,"Hunterdon, NJ",59,"    Professional and business services",1364042,1385831,1443964
+34019,"Hunterdon, NJ",60,"      Professional, scientific, and technical services",1040312,1045060,1076496
+34019,"Hunterdon, NJ",64,"      Management of companies and enterprises",87142,83236,85562
+34019,"Hunterdon, NJ",65,"      Administrative and support and waste management and remediation services",236587,257535,281906
+34019,"Hunterdon, NJ",68,"    Educational services, health care, and social assistance",681361,760218,821938
+34019,"Hunterdon, NJ",69,"      Educational services",55672,63795,66085
+34019,"Hunterdon, NJ",70,"      Health care and social assistance",625689,696424,755852
+34019,"Hunterdon, NJ",75,"    Arts, entertainment, recreation, accommodation, and food services",225337,268044,291942
+34019,"Hunterdon, NJ",76,"      Arts, entertainment, and recreation",69038,78042,81800
+34019,"Hunterdon, NJ",79,"      Accommodation and food services",156299,190001,210142
+34019,"Hunterdon, NJ",82,"    Other services (except government and government enterprises)",217335,233288,246147
+34019,"Hunterdon, NJ",83,Government and government enterprises,853058,892930,937437
+34019,"Hunterdon, NJ",,Addenda:,,,
+34019,"Hunterdon, NJ",87,Natural resources and mining,135815,55065,(D)
+34019,"Hunterdon, NJ",88,Trade,1242011,1279035,1300374
+34019,"Hunterdon, NJ",89,Transportation and utilities,131381,144287,(D)
+34019,"Hunterdon, NJ",90,Manufacturing and information,775623,834378,887224
+34019,"Hunterdon, NJ",91,Private goods-producing industries 2,1084306,1077372,(D)
+34019,"Hunterdon, NJ",92,Private services-providing industries 3,6928363,7372192,(D)
+34021,"Mercer, NJ",1,All industry total,50793665,54422592,56806586
+34021,"Mercer, NJ",2,"  Private industries",45953341,49374316,51420912
+34021,"Mercer, NJ",3,"    Agriculture, forestry, fishing and hunting",34409,18362,33690
+34021,"Mercer, NJ",6,"    Mining, quarrying, and oil and gas extraction",5845,3543,6308
+34021,"Mercer, NJ",10,"    Utilities",178781,174985,177408
+34021,"Mercer, NJ",11,"    Construction",983141,1140142,1220017
+34021,"Mercer, NJ",12,"    Manufacturing",11382351,12389940,13173071
+34021,"Mercer, NJ",13,"      Durable goods manufacturing",587481,606773,615541
+34021,"Mercer, NJ",25,"      Nondurable goods manufacturing",10794870,11783167,12557530
+34021,"Mercer, NJ",34,"    Wholesale trade",3502664,3396591,3455790
+34021,"Mercer, NJ",35,"    Retail trade",1872846,2055631,2150173
+34021,"Mercer, NJ",36,"    Transportation and warehousing",1003296,973541,1014901
+34021,"Mercer, NJ",45,"    Information",1875375,2093850,2075879
+34021,"Mercer, NJ",50,"    Finance, insurance, real estate, rental, and leasing",8801503,9503379,9635249
+34021,"Mercer, NJ",51,"      Finance and insurance",3739371,3939217,3910692
+34021,"Mercer, NJ",56,"      Real estate and rental and leasing",5062132,5564162,5724556
+34021,"Mercer, NJ",59,"    Professional and business services",9444748,10118442,10385213
+34021,"Mercer, NJ",60,"      Professional, scientific, and technical services",6505320,7191518,7345992
+34021,"Mercer, NJ",64,"      Management of companies and enterprises",1263113,1244058,1530444
+34021,"Mercer, NJ",65,"      Administrative and support and waste management and remediation services",1676315,1682866,1508777
+34021,"Mercer, NJ",68,"    Educational services, health care, and social assistance",5222768,5648880,6118430
+34021,"Mercer, NJ",69,"      Educational services",2549180,2793010,3009452
+34021,"Mercer, NJ",70,"      Health care and social assistance",2673588,2855871,3108978
+34021,"Mercer, NJ",75,"    Arts, entertainment, recreation, accommodation, and food services",856394,1018485,1101639
+34021,"Mercer, NJ",76,"      Arts, entertainment, and recreation",184470,220523,227454
+34021,"Mercer, NJ",79,"      Accommodation and food services",671924,797962,874185
+34021,"Mercer, NJ",82,"    Other services (except government and government enterprises)",789221,838545,873143
+34021,"Mercer, NJ",83,Government and government enterprises,4840324,5048276,5385675
+34021,"Mercer, NJ",,Addenda:,,,
+34021,"Mercer, NJ",87,Natural resources and mining,40254,21905,39998
+34021,"Mercer, NJ",88,Trade,5375510,5452222,5605963
+34021,"Mercer, NJ",89,Transportation and utilities,1182077,1148525,1192309
+34021,"Mercer, NJ",90,Manufacturing and information,13257726,14483790,15248951
+34021,"Mercer, NJ",91,Private goods-producing industries 2,12405745,13551987,14433086
+34021,"Mercer, NJ",92,Private services-providing industries 3,33547596,35822329,36987826
+34023,"Middlesex, NJ",1,All industry total,78519686,83127918,86704508
+34023,"Middlesex, NJ",2,"  Private industries",71719776,75639104,78822246
+34023,"Middlesex, NJ",3,"    Agriculture, forestry, fishing and hunting",34322,19182,26190
+34023,"Middlesex, NJ",6,"    Mining, quarrying, and oil and gas extraction",24990,35796,44444
+34023,"Middlesex, NJ",10,"    Utilities",1671691,1794334,1750989
+34023,"Middlesex, NJ",11,"    Construction",2460067,2761627,2792091
+34023,"Middlesex, NJ",12,"    Manufacturing",6641538,6943181,7300700
+34023,"Middlesex, NJ",13,"      Durable goods manufacturing",2038089,2084910,2068992
+34023,"Middlesex, NJ",25,"      Nondurable goods manufacturing",4603448,4858271,5231709
+34023,"Middlesex, NJ",34,"    Wholesale trade",8352081,8156470,8521587
+34023,"Middlesex, NJ",35,"    Retail trade",4157279,4460806,4531247
+34023,"Middlesex, NJ",36,"    Transportation and warehousing",4815603,4775462,4940139
+34023,"Middlesex, NJ",45,"    Information",4092659,3975429,4181309
+34023,"Middlesex, NJ",50,"    Finance, insurance, real estate, rental, and leasing",13897075,15578427,16393763
+34023,"Middlesex, NJ",51,"      Finance and insurance",2623938,2910625,3261562
+34023,"Middlesex, NJ",56,"      Real estate and rental and leasing",11273137,12667802,13132201
+34023,"Middlesex, NJ",59,"    Professional and business services",16716596,17404803,17899757
+34023,"Middlesex, NJ",60,"      Professional, scientific, and technical services",9977650,10815948,10796419
+34023,"Middlesex, NJ",64,"      Management of companies and enterprises",2700463,2689371,2902993
+34023,"Middlesex, NJ",65,"      Administrative and support and waste management and remediation services",4038483,3899484,4200344
+34023,"Middlesex, NJ",68,"    Educational services, health care, and social assistance",5542306,6009165,6553788
+34023,"Middlesex, NJ",69,"      Educational services",365237,342747,331199
+34023,"Middlesex, NJ",70,"      Health care and social assistance",5177068,5666418,6222589
+34023,"Middlesex, NJ",75,"    Arts, entertainment, recreation, accommodation, and food services",1524062,1807284,1923583
+34023,"Middlesex, NJ",76,"      Arts, entertainment, and recreation",308275,380585,383047
+34023,"Middlesex, NJ",79,"      Accommodation and food services",1215787,1426699,1540536
+34023,"Middlesex, NJ",82,"    Other services (except government and government enterprises)",1789505,1917139,1962659
+34023,"Middlesex, NJ",83,Government and government enterprises,6799910,7488814,7882262
+34023,"Middlesex, NJ",,Addenda:,,,
+34023,"Middlesex, NJ",87,Natural resources and mining,59312,54978,70633
+34023,"Middlesex, NJ",88,Trade,12509360,12617275,13052835
+34023,"Middlesex, NJ",89,Transportation and utilities,6487294,6569796,6691128
+34023,"Middlesex, NJ",90,Manufacturing and information,10734197,10918610,11482009
+34023,"Middlesex, NJ",91,Private goods-producing industries 2,9160917,9759786,10163425
+34023,"Middlesex, NJ",92,Private services-providing industries 3,62558858,65879318,68658821
+34025,"Monmouth, NJ",1,All industry total,46851044,50060217,52693317
+34025,"Monmouth, NJ",2,"  Private industries",42905017,45961385,48421297
+34025,"Monmouth, NJ",3,"    Agriculture, forestry, fishing and hunting",144764,90115,99391
+34025,"Monmouth, NJ",6,"    Mining, quarrying, and oil and gas extraction",3880,3306,5009
+34025,"Monmouth, NJ",10,"    Utilities",341715,349519,387280
+34025,"Monmouth, NJ",11,"    Construction",2703155,3093455,3264530
+34025,"Monmouth, NJ",12,"    Manufacturing",1453911,1552394,1593559
+34025,"Monmouth, NJ",13,"      Durable goods manufacturing",757110,804568,837040
+34025,"Monmouth, NJ",25,"      Nondurable goods manufacturing",696801,747826,756520
+34025,"Monmouth, NJ",34,"    Wholesale trade",2279806,2307004,2298040
+34025,"Monmouth, NJ",35,"    Retail trade",3687465,4020907,4155760
+34025,"Monmouth, NJ",36,"    Transportation and warehousing",680196,678696,674121
+34025,"Monmouth, NJ",45,"    Information",2700680,2853399,2950349
+34025,"Monmouth, NJ",50,"    Finance, insurance, real estate, rental, and leasing",12037196,12216867,12728322
+34025,"Monmouth, NJ",51,"      Finance and insurance",2386646,2455313,2576470
+34025,"Monmouth, NJ",56,"      Real estate and rental and leasing",9650551,9761554,10151852
+34025,"Monmouth, NJ",59,"    Professional and business services",7249948,7808070,8361361
+34025,"Monmouth, NJ",60,"      Professional, scientific, and technical services",4787432,5245220,5587191
+34025,"Monmouth, NJ",64,"      Management of companies and enterprises",699255,683273,750051
+34025,"Monmouth, NJ",65,"      Administrative and support and waste management and remediation services",1763260,1879578,2024119
+34025,"Monmouth, NJ",68,"    Educational services, health care, and social assistance",6276206,7095908,7682736
+34025,"Monmouth, NJ",69,"      Educational services",570144,610989,634242
+34025,"Monmouth, NJ",70,"      Health care and social assistance",5706062,6484919,7048494
+34025,"Monmouth, NJ",75,"    Arts, entertainment, recreation, accommodation, and food services",2042855,2488463,2733431
+34025,"Monmouth, NJ",76,"      Arts, entertainment, and recreation",632379,752179,805996
+34025,"Monmouth, NJ",79,"      Accommodation and food services",1410476,1736284,1927435
+34025,"Monmouth, NJ",82,"    Other services (except government and government enterprises)",1303239,1403281,1487408
+34025,"Monmouth, NJ",83,Government and government enterprises,3946027,4098832,4272020
+34025,"Monmouth, NJ",,Addenda:,,,
+34025,"Monmouth, NJ",87,Natural resources and mining,148644,93422,104400
+34025,"Monmouth, NJ",88,Trade,5967271,6327912,6453800
+34025,"Monmouth, NJ",89,Transportation and utilities,1021911,1028215,1061401
+34025,"Monmouth, NJ",90,Manufacturing and information,4154592,4405793,4543908
+34025,"Monmouth, NJ",91,Private goods-producing industries 2,4305710,4739270,4962489
+34025,"Monmouth, NJ",92,Private services-providing industries 3,38599307,41222115,43458807
+34027,"Morris, NJ",1,All industry total,68067232,71337072,74395289
+34027,"Morris, NJ",2,"  Private industries",63908336,66953928,69776031
+34027,"Morris, NJ",3,"    Agriculture, forestry, fishing and hunting",74537,28843,24524
+34027,"Morris, NJ",6,"    Mining, quarrying, and oil and gas extraction",26185,26107,39260
+34027,"Morris, NJ",10,"    Utilities",138308,149793,172407
+34027,"Morris, NJ",11,"    Construction",2063501,2267797,2433770
+34027,"Morris, NJ",12,"    Manufacturing",6590968,6906146,7295331
+34027,"Morris, NJ",13,"      Durable goods manufacturing",2533456,2695153,2743217
+34027,"Morris, NJ",25,"      Nondurable goods manufacturing",4057512,4210993,4552114
+34027,"Morris, NJ",34,"    Wholesale trade",5141730,5405568,5357736
+34027,"Morris, NJ",35,"    Retail trade",3817858,3930153,4021273
+34027,"Morris, NJ",36,"    Transportation and warehousing",1144206,1116862,1167966
+34027,"Morris, NJ",45,"    Information",2338020,2474901,2620767
+34027,"Morris, NJ",50,"    Finance, insurance, real estate, rental, and leasing",15386239,15918302,16560406
+34027,"Morris, NJ",51,"      Finance and insurance",5965236,6297530,6509512
+34027,"Morris, NJ",56,"      Real estate and rental and leasing",9421003,9620772,10050894
+34027,"Morris, NJ",59,"    Professional and business services",18745724,19362353,20027393
+34027,"Morris, NJ",60,"      Professional, scientific, and technical services",12471517,13097200,13184484
+34027,"Morris, NJ",64,"      Management of companies and enterprises",3241271,3175017,3577858
+34027,"Morris, NJ",65,"      Administrative and support and waste management and remediation services",3032936,3090137,3265051
+34027,"Morris, NJ",68,"    Educational services, health care, and social assistance",5152337,5629651,6052837
+34027,"Morris, NJ",69,"      Educational services",659558,701740,728929
+34027,"Morris, NJ",70,"      Health care and social assistance",4492779,4927911,5323908
+34027,"Morris, NJ",75,"    Arts, entertainment, recreation, accommodation, and food services",2201114,2523477,2731710
+34027,"Morris, NJ",76,"      Arts, entertainment, and recreation",819196,893003,976291
+34027,"Morris, NJ",79,"      Accommodation and food services",1381918,1630474,1755419
+34027,"Morris, NJ",82,"    Other services (except government and government enterprises)",1087609,1213974,1270651
+34027,"Morris, NJ",83,Government and government enterprises,4158896,4383145,4619258
+34027,"Morris, NJ",,Addenda:,,,
+34027,"Morris, NJ",87,Natural resources and mining,100722,54950,63784
+34027,"Morris, NJ",88,Trade,8959588,9335721,9379009
+34027,"Morris, NJ",89,Transportation and utilities,1282514,1266655,1340374
+34027,"Morris, NJ",90,Manufacturing and information,8928988,9381047,9916098
+34027,"Morris, NJ",91,Private goods-producing industries 2,8755190,9228893,9792884
+34027,"Morris, NJ",92,Private services-providing industries 3,55153145,57725035,59983147
+34029,"Ocean, NJ",1,All industry total,27807356,30343223,31708748
+34029,"Ocean, NJ",2,"  Private industries",24452920,26806948,28040879
+34029,"Ocean, NJ",3,"    Agriculture, forestry, fishing and hunting",74871,68113,66069
+34029,"Ocean, NJ",6,"    Mining, quarrying, and oil and gas extraction",34114,38180,76486
+34029,"Ocean, NJ",10,"    Utilities",199293,197087,204045
+34029,"Ocean, NJ",11,"    Construction",1641814,1906373,2006661
+34029,"Ocean, NJ",12,"    Manufacturing",778766,788629,819928
+34029,"Ocean, NJ",13,"      Durable goods manufacturing",310388,(D),324660
+34029,"Ocean, NJ",25,"      Nondurable goods manufacturing",468378,(D),495268
+34029,"Ocean, NJ",34,"    Wholesale trade",842991,880311,887169
+34029,"Ocean, NJ",35,"    Retail trade",2759428,3040067,3154059
+34029,"Ocean, NJ",36,"    Transportation and warehousing",419330,440819,456877
+34029,"Ocean, NJ",45,"    Information",283582,326108,355766
+34029,"Ocean, NJ",50,"    Finance, insurance, real estate, rental, and leasing",8593219,9348368,9452826
+34029,"Ocean, NJ",51,"      Finance and insurance",759940,774590,794269
+34029,"Ocean, NJ",56,"      Real estate and rental and leasing",7833279,8573778,8658557
+34029,"Ocean, NJ",59,"    Professional and business services",2718896,3098406,3271828
+34029,"Ocean, NJ",60,"      Professional, scientific, and technical services",1678077,1872470,1969458
+34029,"Ocean, NJ",64,"      Management of companies and enterprises",63089,79559,83417
+34029,"Ocean, NJ",65,"      Administrative and support and waste management and remediation services",977731,1146376,1218953
+34029,"Ocean, NJ",68,"    Educational services, health care, and social assistance",3893996,4252796,4678395
+34029,"Ocean, NJ",69,"      Educational services",489611,541520,576990
+34029,"Ocean, NJ",70,"      Health care and social assistance",3404385,3711276,4101405
+34029,"Ocean, NJ",75,"    Arts, entertainment, recreation, accommodation, and food services",1358562,1543434,1664735
+34029,"Ocean, NJ",76,"      Arts, entertainment, and recreation",474014,553978,595705
+34029,"Ocean, NJ",79,"      Accommodation and food services",884548,989456,1069030
+34029,"Ocean, NJ",82,"    Other services (except government and government enterprises)",854057,878258,946036
+34029,"Ocean, NJ",83,Government and government enterprises,3354437,3536275,3667869
+34029,"Ocean, NJ",,Addenda:,,,
+34029,"Ocean, NJ",87,Natural resources and mining,108985,106293,142556
+34029,"Ocean, NJ",88,Trade,3602419,3920378,4041228
+34029,"Ocean, NJ",89,Transportation and utilities,618623,637906,660922
+34029,"Ocean, NJ",90,Manufacturing and information,1062349,1114738,1175694
+34029,"Ocean, NJ",91,Private goods-producing industries 2,2529566,2801295,2969145
+34029,"Ocean, NJ",92,Private services-providing industries 3,21923354,24005653,25071735
+34031,"Passaic, NJ",1,All industry total,25752979,27670468,29073802
+34031,"Passaic, NJ",2,"  Private industries",22426499,24214814,25465418
+34031,"Passaic, NJ",3,"    Agriculture, forestry, fishing and hunting",9202,8311,8068
+34031,"Passaic, NJ",6,"    Mining, quarrying, and oil and gas extraction",(D),(D),133730
+34031,"Passaic, NJ",10,"    Utilities",147749,149470,162598
+34031,"Passaic, NJ",11,"    Construction",1225792,1336852,1360063
+34031,"Passaic, NJ",12,"    Manufacturing",3570730,3772915,3929210
+34031,"Passaic, NJ",13,"      Durable goods manufacturing",1448670,1493923,1488659
+34031,"Passaic, NJ",25,"      Nondurable goods manufacturing",2122060,2278992,2440552
+34031,"Passaic, NJ",34,"    Wholesale trade",1766123,1811873,1854147
+34031,"Passaic, NJ",35,"    Retail trade",2320797,2549174,2594325
+34031,"Passaic, NJ",36,"    Transportation and warehousing",(D),(D),(D)
+34031,"Passaic, NJ",45,"    Information",300769,342843,349706
+34031,"Passaic, NJ",50,"    Finance, insurance, real estate, rental, and leasing",(D),(D),(D)
+34031,"Passaic, NJ",51,"      Finance and insurance",821035,864739,839144
+34031,"Passaic, NJ",56,"      Real estate and rental and leasing",(D),(D),(D)
+34031,"Passaic, NJ",59,"    Professional and business services",2742091,3041473,3055648
+34031,"Passaic, NJ",60,"      Professional, scientific, and technical services",1302382,1440048,1492152
+34031,"Passaic, NJ",64,"      Management of companies and enterprises",324913,323031,259803
+34031,"Passaic, NJ",65,"      Administrative and support and waste management and remediation services",1114796,1278394,1303693
+34031,"Passaic, NJ",68,"    Educational services, health care, and social assistance",2717360,2982928,3199031
+34031,"Passaic, NJ",69,"      Educational services",250352,280527,297559
+34031,"Passaic, NJ",70,"      Health care and social assistance",2467008,2702400,2901472
+34031,"Passaic, NJ",75,"    Arts, entertainment, recreation, accommodation, and food services",708605,821345,895517
+34031,"Passaic, NJ",76,"      Arts, entertainment, and recreation",127502,155438,163179
+34031,"Passaic, NJ",79,"      Accommodation and food services",581103,665907,732337
+34031,"Passaic, NJ",82,"    Other services (except government and government enterprises)",740986,807327,876049
+34031,"Passaic, NJ",83,Government and government enterprises,3326480,3455654,3608384
+34031,"Passaic, NJ",,Addenda:,,,
+34031,"Passaic, NJ",87,Natural resources and mining,(D),(D),141797
+34031,"Passaic, NJ",88,Trade,4086920,4361047,4448473
+34031,"Passaic, NJ",89,Transportation and utilities,(D),(D),(D)
+34031,"Passaic, NJ",90,Manufacturing and information,3871499,4115758,4278916
+34031,"Passaic, NJ",91,Private goods-producing industries 2,(D),(D),5431071
+34031,"Passaic, NJ",92,Private services-providing industries 3,(D),(D),20034347
+34033,"Salem, NJ",1,All industry total,6701666,7097817,7363384
+34033,"Salem, NJ",2,"  Private industries",6276330,6653735,6900886
+34033,"Salem, NJ",3,"    Agriculture, forestry, fishing and hunting",86517,101230,83162
+34033,"Salem, NJ",6,"    Mining, quarrying, and oil and gas extraction",(D),(D),4991
+34033,"Salem, NJ",10,"    Utilities",3990354,4109888,4254965
+34033,"Salem, NJ",11,"    Construction",(D),(D),(D)
+34033,"Salem, NJ",12,"    Manufacturing",293416,295019,(D)
+34033,"Salem, NJ",13,"      Durable goods manufacturing",(D),(D),(D)
+34033,"Salem, NJ",25,"      Nondurable goods manufacturing",(D),(D),246901
+34033,"Salem, NJ",34,"    Wholesale trade",(D),139678,(D)
+34033,"Salem, NJ",35,"    Retail trade",239505,265645,290272
+34033,"Salem, NJ",36,"    Transportation and warehousing",252332,296923,271547
+34033,"Salem, NJ",45,"    Information",10725,13277,(D)
+34033,"Salem, NJ",50,"    Finance, insurance, real estate, rental, and leasing",528263,(D),(D)
+34033,"Salem, NJ",51,"      Finance and insurance",38163,45106,(D)
+34033,"Salem, NJ",56,"      Real estate and rental and leasing",490100,(D),(D)
+34033,"Salem, NJ",59,"    Professional and business services",171915,(D),(D)
+34033,"Salem, NJ",60,"      Professional, scientific, and technical services",109918,(D),127397
+34033,"Salem, NJ",64,"      Management of companies and enterprises",(D),(D),(D)
+34033,"Salem, NJ",65,"      Administrative and support and waste management and remediation services",(D),60773,(D)
+34033,"Salem, NJ",68,"    Educational services, health care, and social assistance",238094,286319,302632
+34033,"Salem, NJ",69,"      Educational services",20112,23899,27265
+34033,"Salem, NJ",70,"      Health care and social assistance",217982,262420,275367
+34033,"Salem, NJ",75,"    Arts, entertainment, recreation, accommodation, and food services",(D),75044,77587
+34033,"Salem, NJ",76,"      Arts, entertainment, and recreation",(D),15583,15203
+34033,"Salem, NJ",79,"      Accommodation and food services",50657,59461,62384
+34033,"Salem, NJ",82,"    Other services (except government and government enterprises)",90041,66724,71695
+34033,"Salem, NJ",83,Government and government enterprises,425336,444083,462498
+34033,"Salem, NJ",,Addenda:,,,
+34033,"Salem, NJ",87,Natural resources and mining,(D),(D),88153
+34033,"Salem, NJ",88,Trade,(D),405323,(D)
+34033,"Salem, NJ",89,Transportation and utilities,4242686,4406811,4526511
+34033,"Salem, NJ",90,Manufacturing and information,304141,308296,312958
+34033,"Salem, NJ",91,Private goods-producing industries 2,562432,626064,(D)
+34033,"Salem, NJ",92,Private services-providing industries 3,5713898,6027671,(D)
+34035,"Somerset, NJ",1,All industry total,49217005,51764365,54494111
+34035,"Somerset, NJ",2,"  Private industries",47055000,49491179,52109554
+34035,"Somerset, NJ",3,"    Agriculture, forestry, fishing and hunting",49451,9175,9076
+34035,"Somerset, NJ",6,"    Mining, quarrying, and oil and gas extraction",135456,152186,214302
+34035,"Somerset, NJ",10,"    Utilities",67606,66457,71892
+34035,"Somerset, NJ",11,"    Construction",1195442,1310310,1312587
+34035,"Somerset, NJ",12,"    Manufacturing",6698548,5876182,6035691
+34035,"Somerset, NJ",13,"      Durable goods manufacturing",1348841,1444020,1467326
+34035,"Somerset, NJ",25,"      Nondurable goods manufacturing",5349707,4432163,4568365
+34035,"Somerset, NJ",34,"    Wholesale trade",4808461,4817003,4861883
+34035,"Somerset, NJ",35,"    Retail trade",3252562,3524511,3558987
+34035,"Somerset, NJ",36,"    Transportation and warehousing",884246,949797,980241
+34035,"Somerset, NJ",45,"    Information",5330903,6197704,6938662
+34035,"Somerset, NJ",50,"    Finance, insurance, real estate, rental, and leasing",8922164,9394768,9796145
+34035,"Somerset, NJ",51,"      Finance and insurance",2413302,2523662,2601283
+34035,"Somerset, NJ",56,"      Real estate and rental and leasing",6508862,6871106,7194862
+34035,"Somerset, NJ",59,"    Professional and business services",11758680,12750601,13522785
+34035,"Somerset, NJ",60,"      Professional, scientific, and technical services",6234850,6817740,7652362
+34035,"Somerset, NJ",64,"      Management of companies and enterprises",3584471,3936847,3786896
+34035,"Somerset, NJ",65,"      Administrative and support and waste management and remediation services",1939359,1996013,2083527
+34035,"Somerset, NJ",68,"    Educational services, health care, and social assistance",2520094,2759085,2972491
+34035,"Somerset, NJ",69,"      Educational services",316366,329092,342546
+34035,"Somerset, NJ",70,"      Health care and social assistance",2203728,2429993,2629944
+34035,"Somerset, NJ",75,"    Arts, entertainment, recreation, accommodation, and food services",887864,1094308,1206093
+34035,"Somerset, NJ",76,"      Arts, entertainment, and recreation",234613,277147,303282
+34035,"Somerset, NJ",79,"      Accommodation and food services",653252,817162,902812
+34035,"Somerset, NJ",82,"    Other services (except government and government enterprises)",543523,589093,628721
+34035,"Somerset, NJ",83,Government and government enterprises,2162005,2273185,2384557
+34035,"Somerset, NJ",,Addenda:,,,
+34035,"Somerset, NJ",87,Natural resources and mining,184907,161361,223377
+34035,"Somerset, NJ",88,Trade,8061023,8341514,8420870
+34035,"Somerset, NJ",89,Transportation and utilities,951853,1016254,1052133
+34035,"Somerset, NJ",90,Manufacturing and information,12029451,12073887,12974353
+34035,"Somerset, NJ",91,Private goods-producing industries 2,8078897,7347853,7571655
+34035,"Somerset, NJ",92,Private services-providing industries 3,38976103,42143326,44537899
+34037,"Sussex, NJ",1,All industry total,6165320,6426360,6728777
+34037,"Sussex, NJ",2,"  Private industries",5376806,5610565,5879459
+34037,"Sussex, NJ",3,"    Agriculture, forestry, fishing and hunting",42655,8331,(D)
+34037,"Sussex, NJ",6,"    Mining, quarrying, and oil and gas extraction",22631,44776,70914
+34037,"Sussex, NJ",10,"    Utilities",37357,37212,(D)
+34037,"Sussex, NJ",11,"    Construction",343516,380512,(D)
+34037,"Sussex, NJ",12,"    Manufacturing",397013,420939,424408
+34037,"Sussex, NJ",13,"      Durable goods manufacturing",295388,330527,330234
+34037,"Sussex, NJ",25,"      Nondurable goods manufacturing",101625,90412,94175
+34037,"Sussex, NJ",34,"    Wholesale trade",176638,175714,178980
+34037,"Sussex, NJ",35,"    Retail trade",488367,548998,568474
+34037,"Sussex, NJ",36,"    Transportation and warehousing",106890,121783,121364
+34037,"Sussex, NJ",45,"    Information",82330,92364,(D)
+34037,"Sussex, NJ",50,"    Finance, insurance, real estate, rental, and leasing",1953963,1938291,2032580
+34037,"Sussex, NJ",51,"      Finance and insurance",263964,293482,288354
+34037,"Sussex, NJ",56,"      Real estate and rental and leasing",1689999,1644809,1744226
+34037,"Sussex, NJ",59,"    Professional and business services",687787,714967,718971
+34037,"Sussex, NJ",60,"      Professional, scientific, and technical services",341302,339607,344274
+34037,"Sussex, NJ",64,"      Management of companies and enterprises",185362,193251,192522
+34037,"Sussex, NJ",65,"      Administrative and support and waste management and remediation services",161123,182109,182175
+34037,"Sussex, NJ",68,"    Educational services, health care, and social assistance",556311,587705,639191
+34037,"Sussex, NJ",69,"      Educational services",41109,42356,44648
+34037,"Sussex, NJ",70,"      Health care and social assistance",515202,545349,594543
+34037,"Sussex, NJ",75,"    Arts, entertainment, recreation, accommodation, and food services",278064,311651,343524
+34037,"Sussex, NJ",76,"      Arts, entertainment, and recreation",72707,84739,88878
+34037,"Sussex, NJ",79,"      Accommodation and food services",205357,226912,254646
+34037,"Sussex, NJ",82,"    Other services (except government and government enterprises)",203284,227322,240337
+34037,"Sussex, NJ",83,Government and government enterprises,788514,815795,849319
+34037,"Sussex, NJ",,Addenda:,,,
+34037,"Sussex, NJ",87,Natural resources and mining,65286,53107,(D)
+34037,"Sussex, NJ",88,Trade,665005,724712,747454
+34037,"Sussex, NJ",89,Transportation and utilities,144247,158995,(D)
+34037,"Sussex, NJ",90,Manufacturing and information,479344,513303,(D)
+34037,"Sussex, NJ",91,Private goods-producing industries 2,805816,854558,906843
+34037,"Sussex, NJ",92,Private services-providing industries 3,4570990,4756007,4972616
+34039,"Union, NJ",1,All industry total,46213898,49459494,51947451
+34039,"Union, NJ",2,"  Private industries",42332145,45348328,47615193
+34039,"Union, NJ",3,"    Agriculture, forestry, fishing and hunting",1183,2437,1809
+34039,"Union, NJ",6,"    Mining, quarrying, and oil and gas extraction",6005,6690,8498
+34039,"Union, NJ",10,"    Utilities",1630844,1696539,1837968
+34039,"Union, NJ",11,"    Construction",1832718,1999686,2021259
+34039,"Union, NJ",12,"    Manufacturing",7499122,8759991,9606276
+34039,"Union, NJ",13,"      Durable goods manufacturing",1063106,1113456,1068957
+34039,"Union, NJ",25,"      Nondurable goods manufacturing",6436016,7646535,8537319
+34039,"Union, NJ",34,"    Wholesale trade",3016610,2916607,3081640
+34039,"Union, NJ",35,"    Retail trade",2677896,2864675,2921598
+34039,"Union, NJ",36,"    Transportation and warehousing",3155056,2923035,3004198
+34039,"Union, NJ",45,"    Information",991651,1115050,1148531
+34039,"Union, NJ",50,"    Finance, insurance, real estate, rental, and leasing",8122701,9418959,10014659
+34039,"Union, NJ",51,"      Finance and insurance",1958070,2250535,2239696
+34039,"Union, NJ",56,"      Real estate and rental and leasing",6164631,7168424,7774963
+34039,"Union, NJ",59,"    Professional and business services",7810770,7342231,7226489
+34039,"Union, NJ",60,"      Professional, scientific, and technical services",5222405,4673242,4535961
+34039,"Union, NJ",64,"      Management of companies and enterprises",839028,719506,700391
+34039,"Union, NJ",65,"      Administrative and support and waste management and remediation services",1749337,1949483,1990138
+34039,"Union, NJ",68,"    Educational services, health care, and social assistance",3379710,3779538,4046990
+34039,"Union, NJ",69,"      Educational services",249997,268877,295751
+34039,"Union, NJ",70,"      Health care and social assistance",3129713,3510661,3751239
+34039,"Union, NJ",75,"    Arts, entertainment, recreation, accommodation, and food services",1066041,1325823,1412718
+34039,"Union, NJ",76,"      Arts, entertainment, and recreation",236564,272625,293829
+34039,"Union, NJ",79,"      Accommodation and food services",829477,1053198,1118889
+34039,"Union, NJ",82,"    Other services (except government and government enterprises)",1141840,1197065,1282559
+34039,"Union, NJ",83,Government and government enterprises,3881753,4111166,4332257
+34039,"Union, NJ",,Addenda:,,,
+34039,"Union, NJ",87,Natural resources and mining,7187,9127,10307
+34039,"Union, NJ",88,Trade,5694505,5781282,6003238
+34039,"Union, NJ",89,Transportation and utilities,4785900,4619575,4842167
+34039,"Union, NJ",90,Manufacturing and information,8490773,9875041,10754807
+34039,"Union, NJ",91,Private goods-producing industries 2,9339026,10768805,11637843
+34039,"Union, NJ",92,Private services-providing industries 3,32993118,34579523,35977351
+34041,"Warren, NJ",1,All industry total,5084368,5744688,6161707
+34041,"Warren, NJ",2,"  Private industries",4524030,5155773,5546361
+34041,"Warren, NJ",3,"    Agriculture, forestry, fishing and hunting",215573,290076,(D)
+34041,"Warren, NJ",6,"    Mining, quarrying, and oil and gas extraction",(D),(D),17588
+34041,"Warren, NJ",10,"    Utilities",35580,36191,37577
+34041,"Warren, NJ",11,"    Construction",(D),(D),(D)
+34041,"Warren, NJ",12,"    Manufacturing",609945,668324,662745
+34041,"Warren, NJ",13,"      Durable goods manufacturing",266163,277148,281667
+34041,"Warren, NJ",25,"      Nondurable goods manufacturing",343783,391177,381078
+34041,"Warren, NJ",34,"    Wholesale trade",(D),(D),271836
+34041,"Warren, NJ",35,"    Retail trade",482678,517809,541509
+34041,"Warren, NJ",36,"    Transportation and warehousing",136130,137680,121046
+34041,"Warren, NJ",45,"    Information",55258,183626,(D)
+34041,"Warren, NJ",50,"    Finance, insurance, real estate, rental, and leasing",(D),(D),(D)
+34041,"Warren, NJ",51,"      Finance and insurance",70956,76232,(D)
+34041,"Warren, NJ",56,"      Real estate and rental and leasing",(D),(D),1320304
+34041,"Warren, NJ",59,"    Professional and business services",625582,649597,694514
+34041,"Warren, NJ",60,"      Professional, scientific, and technical services",249017,241354,(D)
+34041,"Warren, NJ",64,"      Management of companies and enterprises",236879,250414,(D)
+34041,"Warren, NJ",65,"      Administrative and support and waste management and remediation services",139687,157830,170950
+34041,"Warren, NJ",68,"    Educational services, health care, and social assistance",504558,592084,672291
+34041,"Warren, NJ",69,"      Educational services",63459,66178,69904
+34041,"Warren, NJ",70,"      Health care and social assistance",441099,525906,602387
+34041,"Warren, NJ",75,"    Arts, entertainment, recreation, accommodation, and food services",156886,171614,189841
+34041,"Warren, NJ",76,"      Arts, entertainment, and recreation",30948,36701,39709
+34041,"Warren, NJ",79,"      Accommodation and food services",125938,134913,150132
+34041,"Warren, NJ",82,"    Other services (except government and government enterprises)",151363,164056,173652
+34041,"Warren, NJ",83,Government and government enterprises,560338,588915,615345
+34041,"Warren, NJ",,Addenda:,,,
+34041,"Warren, NJ",87,Natural resources and mining,(D),(D),(D)
+34041,"Warren, NJ",88,Trade,(D),(D),813345
+34041,"Warren, NJ",89,Transportation and utilities,171710,173871,158624
+34041,"Warren, NJ",90,Manufacturing and information,665204,851951,(D)
+34041,"Warren, NJ",91,Private goods-producing industries 2,1048844,1206246,1245387
+34041,"Warren, NJ",92,Private services-providing industries 3,3475187,3949526,4300975
+
+Legend/Footnotes
+1. Gross Domestic Product (GDP) is in thousands of current dollars (not adjusted for inflation). Industry detail is based on the 2017 North American Industry Classification System (NAICS).
+"2. The private goods-producing industries consist of agriculture, forestry, fishing, and hunting; mining, quarrying, and oil and gas extraction; construction; and manufacturing."
+"3. The private services-producing industries consist of utilities; wholesale trade; retail trade; transportation and warehousing, excluding Postal Service; information; finance and insurance; real estate, rental, and leasing; professional, scientific, and technical services; management of companies; administrative and support and waste management and remediation services; educational services; health care and social assistance; arts, entertainment, and recreation; accommodation and food services; and other services (except government and government enterprises)."
+(D) Not shown to avoid disclosure of confidential information; estimates are included in higher-level totals.
+"  Last updated: February 5, 2026-- new statistics for 2024; revised statistics for 2020-2023."

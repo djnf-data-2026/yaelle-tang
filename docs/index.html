@@ -6,6 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Yaelle Tang">
+<meta name="dcterms.date" content="2026-06-01">
 
 <title>Economic portrait of greater Philadelphia</title>
 <style>
@@ -89,7 +91,19 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Yaelle Tang <a href="mailto:yueyang_tang@berkeley.edu" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">June 1, 2026</p>
+    </div>
+  </div>
   
     
   </div>
@@ -99,353 +113,72 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<p><strong>Story Idea</strong> I ended up with two story ideas because this file asked me to look at both occupational wages and greater Philadelphia GDP.(I don’t know if I should follow the steps to keep both two ideas or I should choose one, but I do think the second one is a more potential story angle!)</p>
+<section id="pitch-memo" class="level1">
+<h1>Pitch Memo</h1>
+<section id="in-two-sentences-what-is-this-story-about" class="level2">
+<h2 class="anchored" data-anchor-id="in-two-sentences-what-is-this-story-about">In two sentences, what is this story about?</h2>
+<p>Delaware County is the only county in the greater Philadelphia region whose GDP shrank between 2022 and 2024. Manufacturing industry in Dalaware County lost more than $428 million in output, showing a 12% decline. Meanwhile, neighboring counties like Bucks and Burlington saw their manufacturing GDP grow by double digits over the same period.</p>
+</section>
+<section id="in-one-sentence-why-tell-this-story-now" class="level2">
+<h2 class="anchored" data-anchor-id="in-one-sentence-why-tell-this-story-now">In one sentence, why tell this story NOW?</h2>
+<p>The Bureau of Economic Analysis (BEA) released its 2024 county-level GDP data on February 5, 2026, offering the most current picture of how the greater Philadelphia region’s economy has shifted.</p>
+</section>
+<section id="who-is-your-target-audience" class="level2">
+<h2 class="anchored" data-anchor-id="who-is-your-target-audience">Who is your target audience?</h2>
+<p>Residents and workers in the greater Philadelphia area</p>
+</section>
+<section id="three-people-you-can-interview-for-this-story" class="level2">
+<h2 class="anchored" data-anchor-id="three-people-you-can-interview-for-this-story">Three people you can interview for this story</h2>
+<p>Working on it…</p>
+</section>
+<section id="potential-impact" class="level2">
+<h2 class="anchored" data-anchor-id="potential-impact">Potential impact</h2>
+<p>A sustained decline in Delaware County’s manufacturing output likely means fewer stable jobs for working-class residents, reduced tax revenue for local services, and a widening gap between the county and its neighbors.</p>
+</section>
+<section id="what-are-three-things-that-surprised-or-interested-you-about-this-story" class="level2">
+<h2 class="anchored" data-anchor-id="what-are-three-things-that-surprised-or-interested-you-about-this-story">What are three things that surprised or interested you about this story?</h2>
 <ol type="1">
-<li><p>Journalists in New York earn $251,110 annually, more than twice the national average of $102,460 and nearly three times what their counterparts in Pennsylvania make at $98,170. While media hubs like New York and Washington, D.C. continue to attract top salaries, Philadelphia area journalists earn below the national average.</p></li>
-<li><p>While most counties in the greater Philadelphia region saw modest economic growth between 2022 and 2024, greater Philadelphia area counties in New Jersy like Gloucester and Burlington outpaced their Pennsylvania counterparts, while Delaware County was the only county in the region to see its GDP shrink. Philadelphia County itself grew by just 2.3 percent, slower than three of the four New Jersey counties. A deeper look into which industries are driving growth in Gloucester County and what is holding back Delaware County could reveal how the region’s economic weight is shifting away from its Pennsylvania core.</p></li>
+<li>Delaware County’s GDP shrank even as personal income grew by 10%. Residents may be earning more by commuting to jobs elsewhere while local economic activity continues to decline. How to explore this with data?</li>
+<li>Philadelphia’s manufacturing sector actually fell harder than Delaware County’s (14% vs.&nbsp;12%), but Philadelphia’s overall GDP remained positive. Delaware County’s economy is far more dependent on manufacturing and has fewer industries to fill the gap.</li>
+<li>Manufacturing’s share of the economy is shrinking across nearly every county in greater Philadelphia.</li>
 </ol>
-<section id="economic-portrait-of-greater-philadelphia-region" class="level1">
-<h1>Economic Portrait of Greater Philadelphia region</h1>
-<p>For this assignment, you will explore the Bureau of Labor Statistics and Bureau of Economic Analysis databases to build a portrait of the major employers and economic trends in the greater Philadelphia area. Along the way, you will develop a story pitch about something you have discovered in the data.</p>
-<p>Memo from your newsroom:</p>
-<p>There isn’t a specific topic or dataset required for this role. It’s more important for the intern to begin thinking about how to shape story ideas around our coverage area. Since Yueyang is not from the region, becoming familiar with Philadelphia and the surrounding counties, including Montgomery County, Bucks County, Chester County, Delaware County, as well as Gloucester County, Camden County, and Burlington County, would be especially valuable.</p>
-<p>Our team works across the newsroom, so assignments may span a range of topics. We encourage the intern to pursue enterprise work on a topic of their choosing and begin developing those ideas during the training camp.</p>
-<blockquote class="blockquote">
-<p><strong>Learning Outcome:</strong>. <br> You will learn to how to retrieve and analyze employment and regional GDP data for their own counties or states and the steps to put it on a basic interactive charts.</p>
-</blockquote>
 </section>
-<section id="storytelling-with-employment-data" class="level1">
-<h1>Storytelling with Employment Data</h1>
-<p>In this exercise, we will find out how much the typical engineer makes versus the typical journalist.</p>
-<p>Follow this example for the counties in Pennsylvania and then we’ll have you do the same for New Jersey and Delaware</p>
-<blockquote class="blockquote">
-<p><a href="https://data.bls.gov/oes/#/home" target="_blank">Check out the Pennsylvania Occupational Employment and Wage Statistics GDP press release: “CNTL” + click for a New Tab</a></p>
-</blockquote>
-<p><br> <strong>Questions</strong>:</p>
-<pre><code>What is the median hourly wage for Chief Executives?
-What is the annual mean wage for Gambling Dealers?</code></pre>
-<p><br></p>
-<p>Let’s pull in the data and examine it</p>
-<div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co">#note the mutate sequence, converts columns 12-32 into integers. Slick!</span></span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>oes <span class="ot">&lt;-</span> <span class="fu">read_excel</span>(<span class="st">"../OES_state_M2025_dl.xlsx"</span>) <span class="sc">|&gt;</span> </span>
-<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">clean_names</span>() <span class="sc">|&gt;</span> </span>
-<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>   <span class="fu">mutate</span>(<span class="fu">across</span>(<span class="dv">12</span><span class="sc">:</span><span class="dv">32</span>, as.numeric))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output cell-output-stderr">
-<pre><code>Warning: There were 19 warnings in `mutate()`.
-The first warning was:
-ℹ In argument: `across(12:32, as.numeric)`.
-Caused by warning:
-! NAs introduced by coercion
-ℹ Run `dplyr::last_dplyr_warnings()` to see the 18 remaining warnings.</code></pre>
-</div>
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">glimpse</span>(oes)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>Rows: 37,408
-Columns: 32
-$ area         &lt;chr&gt; "01", "01", "01", "01", "01", "01", "01", "01", "01", "01…
-$ area_title   &lt;chr&gt; "Alabama", "Alabama", "Alabama", "Alabama", "Alabama", "A…
-$ area_type    &lt;chr&gt; "2", "2", "2", "2", "2", "2", "2", "2", "2", "2", "2", "2…
-$ prim_state   &lt;chr&gt; "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL…
-$ naics        &lt;chr&gt; "000000", "000000", "000000", "000000", "000000", "000000…
-$ naics_title  &lt;chr&gt; "Cross-industry", "Cross-industry", "Cross-industry", "Cr…
-$ i_group      &lt;chr&gt; "cross-industry", "cross-industry", "cross-industry", "cr…
-$ own_code     &lt;chr&gt; "1235", "1235", "1235", "1235", "1235", "1235", "1235", "…
-$ occ_code     &lt;chr&gt; "00-0000", "11-0000", "11-1011", "11-1021", "11-2011", "1…
-$ occ_title    &lt;chr&gt; "All Occupations", "Management Occupations", "Chief Execu…
-$ o_group      &lt;chr&gt; "total", "major", "detailed", "detailed", "detailed", "de…
-$ tot_emp      &lt;dbl&gt; 2113660, 112960, 810, 30170, 60, 1540, 4670, 540, 210, 86…
-$ emp_prse     &lt;dbl&gt; 0.0, 1.1, 15.3, 2.9, 33.4, 7.9, 4.9, 13.2, 8.2, 6.0, 5.4,…
-$ jobs_1000    &lt;dbl&gt; 1000.000, 53.443, 0.382, 14.274, 0.030, 0.727, 2.212, 0.2…
-$ loc_quotient &lt;dbl&gt; 1.00, 0.75, 0.29, 0.63, 0.22, 0.29, 0.54, 0.53, 0.39, 0.2…
-$ pct_total    &lt;dbl&gt; NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, N…
-$ pct_rpt      &lt;dbl&gt; NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, N…
-$ h_mean       &lt;dbl&gt; 27.65, 58.94, 96.73, 66.23, 52.58, 65.06, 65.58, 54.08, 4…
-$ a_mean       &lt;dbl&gt; 57500, 122590, 201200, 137760, 109360, 135310, 136400, 11…
-$ mean_prse    &lt;dbl&gt; 0.3, 0.6, 4.4, 1.2, 23.2, 2.7, 2.2, 3.9, 3.7, 4.1, 1.5, 1…
-$ h_pct10      &lt;dbl&gt; 12.54, 27.37, 48.88, 26.52, 28.85, 34.03, 31.76, 30.47, 2…
-$ h_pct25      &lt;dbl&gt; 15.41, 37.11, 64.74, 36.94, 30.05, 43.24, 42.06, 38.49, 3…
-$ h_median     &lt;dbl&gt; 21.96, 49.99, 80.01, 53.75, 31.08, 57.77, 59.63, 47.22, 4…
-$ h_pct75      &lt;dbl&gt; 32.11, 72.94, 106.96, 81.50, 68.85, 79.23, 80.38, 61.30, …
-$ h_pct90      &lt;dbl&gt; 48.68, 100.05, 152.60, 117.11, 102.82, 108.32, 104.94, 84…
-$ a_pct10      &lt;dbl&gt; 26090, 56920, 101670, 55160, 60000, 70790, 66050, 63380, …
-$ a_pct25      &lt;dbl&gt; 32050, 77180, 134650, 76840, 62500, 89950, 87490, 80070, …
-$ a_median     &lt;dbl&gt; 45670, 103980, 166420, 111790, 64640, 120160, 124040, 982…
-$ a_pct75      &lt;dbl&gt; 66790, 151720, 222490, 169510, 143210, 164800, 167200, 12…
-$ a_pct90      &lt;dbl&gt; 101250, 208110, 317400, 243600, 213860, 225300, 218270, 1…
-$ annual       &lt;dbl&gt; NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, N…
-$ hourly       &lt;dbl&gt; NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, N…</code></pre>
-</div>
-</div>
-<p>Now check Pennsylvania totals</p>
-<div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>oes <span class="sc">|&gt;</span> </span>
-<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(area_title <span class="sc">==</span> <span class="st">"Pennsylvania"</span>) <span class="sc">|&gt;</span> </span>
-<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(prim_state, occ_title, tot_emp, h_mean, a_mean)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output cell-output-stdout">
-<pre><code># A tibble: 814 × 5
-   prim_state occ_title                           tot_emp h_mean a_mean
-   &lt;chr&gt;      &lt;chr&gt;                                 &lt;dbl&gt;  &lt;dbl&gt;  &lt;dbl&gt;
- 1 PA         All Occupations                     6064600   31.6  65730
- 2 PA         Management Occupations               460720   64.3 133800
- 3 PA         Chief Executives                       8850  146.  302990
- 4 PA         General and Operations Managers      172010   60.7 126200
- 5 PA         Advertising and Promotions Managers    1540   65.7 136590
- 6 PA         Marketing Managers                    13840   76.6 159270
- 7 PA         Sales Managers                        20460   70.8 147200
- 8 PA         Public Relations Managers              2210   62.9 130880
- 9 PA         Fundraising Managers                   1950   59.8 124320
-10 PA         Administrative Services Managers       4880   58.3 121220
-# ℹ 804 more rows</code></pre>
-</div>
-</div>
+<section id="context-summarize-any-previous-coverage." class="level2">
+<h2 class="anchored" data-anchor-id="context-summarize-any-previous-coverage.">Context: Summarize any previous coverage.</h2>
+<p><a href="https://whyy.org/articles/manufacturing-downturn-economy-federal-reserve/">WHYY reported in 2023</a> that the greater Philadelphia region experienced nine consecutive months of manufacturing slowdown, with factory closures and layoffs in Philadelphia and King of Prussia. But previous coverage treated the region as a whole. No reporting has specifically asked why Delaware County, alone among its neighbors, failed to compensate for manufacturing losses with growth in other sectors</p>
 </section>
-<section id="filter-pa-totals-to-specific-occupations" class="level1">
-<h1>Filter PA totals to specific occupations</h1>
-<div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="co">#note the search for the list: %in% checks whether each value is anywhere in the vector</span></span>
-<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>oes <span class="sc">|&gt;</span> </span>
-<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(area_title <span class="sc">==</span> <span class="st">"Pennsylvania"</span>) <span class="sc">|&gt;</span> </span>
-<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(occ_title <span class="sc">%in%</span> <span class="fu">c</span>(<span class="st">"Chief Executives"</span>, <span class="st">"News Analysts, Reporters, and Journalists"</span>, <span class="st">"Waiters and Waitresses"</span>)) <span class="sc">|&gt;</span> </span>
-<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(prim_state, occ_title, tot_emp, h_mean, a_mean)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output cell-output-stdout">
-<pre><code># A tibble: 3 × 5
-  prim_state occ_title                                 tot_emp h_mean a_mean
-  &lt;chr&gt;      &lt;chr&gt;                                       &lt;dbl&gt;  &lt;dbl&gt;  &lt;dbl&gt;
-1 PA         Chief Executives                             8850  146.  302990
-2 PA         News Analysts, Reporters, and Journalists    1160   NA       NA
-3 PA         Waiters and Waitresses                      82300   18.3  38110</code></pre>
+<section id="photos-video-graphics---how-will-you-make-this-story-visual" class="level2">
+<h2 class="anchored" data-anchor-id="photos-video-graphics---how-will-you-make-this-story-visual">Photos, video, graphics - How will you make this story visual?</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../img/GDP_Growth_by_County.png" class="img-fluid figure-img"></p>
+<figcaption>Manufacturing GDP Change by County in Greater Philadelphia</figcaption>
+</figure>
 </div>
-</div>
+<p><img src="../img/Manufacturing_GDP_Change.png" class="img-fluid" alt="Manufacturing GDP Change by County in Greater Philadelphia"> <img src="../img/Manufacturing_GDP_Percentage_Change.png" class="img-fluid" alt="Percentage change"></p>
 </section>
-<section id="what-do-these-fields-mean" class="level1">
-<h1>What do these fields mean?</h1>
-<div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>names <span class="ot">&lt;-</span> <span class="fu">read_excel</span>(<span class="st">"../OES_state_M2025_dl.xlsx"</span>, <span class="at">sheet=</span><span class="st">'Field Descriptions'</span>) <span class="sc">|&gt;</span> </span>
-<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">apply</span>(<span class="dv">1</span>, paste, <span class="at">collapse =</span> <span class="st">": "</span>) <span class="sc">|&gt;</span></span>
-<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a><span class="fu">sapply</span>(\(x) <span class="fu">c</span>(<span class="fu">strwrap</span>(x, <span class="at">width =</span> <span class="dv">80</span>), <span class="st">""</span>)) <span class="sc">|&gt;</span></span>
-<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">unlist</span>() <span class="sc">|&gt;</span></span>
-<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">writeLines</span>(<span class="st">"temp_text.txt"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output cell-output-stderr">
-<pre><code>New names:
-• `` -&gt; `...2`
-• `` -&gt; `...3`</code></pre>
-</div>
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb12"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="co"># file.edit("temp_text.txt")</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-</div>
-<p>Source of the data: &gt; <a href="https://www.bls.gov/oes/tables.htm" target="_blank">Occupational Employment and Wage Statistics, national index, 2025. Select ‘State’ in HTML: “CNTL” + click for a New &gt; Tab</a></p>
+<section id="what-other-information-do-you-need-to-gather" class="level2">
+<h2 class="anchored" data-anchor-id="what-other-information-do-you-need-to-gather">What other information do you need to gather?</h2>
+<ul>
+<li>Employment data for Delaware County to understand where workers went as manufacturing shrank, and why personal income continued to rise despite the GDP decline.</li>
+<li>Population change data would help confirm whether residents are leaving the county.</li>
+<li>Any specific factory closures during this period?</li>
+<li>A deeper breakdown of manufacturing sub-sectors would identify which specific industries drove the decline.</li>
+</ul>
 </section>
-<section id="look-at-philly-metro-area" class="level1">
-<h1>Look at Philly metro area</h1>
-<div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb13"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a>philly <span class="ot">&lt;-</span> rio<span class="sc">::</span><span class="fu">import</span>(<span class="st">"https://github.com/djnf-data-2026/master/raw/refs/heads/main/data/OES_Report_Philly_metro.xlsx"</span>, <span class="at">skip=</span><span class="dv">2</span>) <span class="sc">|&gt;</span> </span>
-<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">clean_names</span>() <span class="sc">|&gt;</span> </span>
-<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a>    <span class="fu">mutate</span>(<span class="fu">across</span>(<span class="dv">4</span><span class="sc">:</span><span class="dv">20</span>, as.numeric))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output cell-output-stderr">
-<pre><code>Warning: There were 17 warnings in `mutate()`.
-The first warning was:
-ℹ In argument: `across(4:20, as.numeric)`.
-Caused by warning:
-! NAs introduced by coercion
-ℹ Run `dplyr::last_dplyr_warnings()` to see the 16 remaining warnings.</code></pre>
-</div>
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb15"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="fu">glimpse</span>(philly)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>Rows: 769
-Columns: 20
-$ area                                         &lt;chr&gt; "Philadelphia-Camden-Wilm…
-$ industry                                     &lt;chr&gt; "Cross-Industry, Private,…
-$ occupation                                   &lt;chr&gt; "All Occupations (00-0000…
-$ employment_1                                 &lt;dbl&gt; 2897830, 222640, 4120, 68…
-$ employment_percent_relative_standard_error_3 &lt;dbl&gt; 0.0, 0.9, 5.6, 1.9, 17.9,…
-$ hourly_mean_wage                             &lt;dbl&gt; 34.49, 72.94, 162.72, 70.…
-$ annual_mean_wage_2                           &lt;dbl&gt; 71730, 151700, 338450, 14…
-$ wage_percent_relative_standard_error_3       &lt;dbl&gt; 0.3, 0.8, 3.2, 1.1, 5.3, …
-$ hourly_10th_percentile_wage                  &lt;dbl&gt; 15.00, 31.46, 60.00, 27.5…
-$ hourly_25th_percentile_wage                  &lt;dbl&gt; 18.00, 45.16, 87.15, 38.3…
-$ hourly_median_wage                           &lt;dbl&gt; 26.11, 63.44, 140.75, 58.…
-$ hourly_75th_percentile_wage                  &lt;dbl&gt; 40.76, 86.54, 216.43, 85.…
-$ hourly_90th_percentile_wage                  &lt;dbl&gt; 62.63, 127.40, 262.59, 13…
-$ annual_10th_percentile_wage_2                &lt;dbl&gt; 31200, 65430, 124800, 572…
-$ annual_25th_percentile_wage_2                &lt;dbl&gt; 37440, 93930, 181280, 797…
-$ annual_median_wage_2                         &lt;dbl&gt; 54310, 131960, 292770, 12…
-$ annual_75th_percentile_wage_2                &lt;dbl&gt; 84780, 180010, 450160, 17…
-$ annual_90th_percentile_wage_2                &lt;dbl&gt; 130280, 264990, 546180, 2…
-$ employment_per_1_000_jobs                    &lt;dbl&gt; 1000.000, 76.829, 1.423, …
-$ location_quotient                            &lt;dbl&gt; 1.00, 1.07, 1.08, 1.05, 1…</code></pre>
-</div>
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb17"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="co">#data source: https://data.bls.gov/oes/#/home</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-</div>
-<p>Practice Questions</p>
-<pre><code>*What is the median hourly wage for actors?*
-PA 27.22
-National 29.05
-CA N/A (8) Estimate not released.
-
-*What is the median hourly wage for surgeons?*
-"Surgeons, All Other" - equal to or greater than $115.00 per hour or $239,200 per year
-"Orthopedic Surgeons, Except Pediatric" - 174.80
-"Oral and Maxillofacial Surgeons" - 227.46
-
-*Compare journalists annual wage in two different states.
-NY    251110
-DC      174360
-PA    98170
-state   102460
-
-
-*How does that annual journalist salary compare to the state average?*
-DC all-111010 journ-174360 
-NY all-82460 journ-251110
-state   102460
-
-*How could that be a story?*
-Journalists in New York earn $251,110 annually, more than twice the national average of $102,460 and nearly three times what their counterparts in Pennsylvania make at $98,170. While media hubs like New York and Washington, D.C. continue to attract top salaries, Philadelphia area journalists earn below the national average. 
-</code></pre>
-<p>#Medain hourly wage for actors</p>
-<div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb19"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a>oes <span class="sc">|&gt;</span> </span>
-<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(area_title <span class="sc">%in%</span> <span class="fu">c</span>(<span class="st">"Pennsylvania"</span>,<span class="st">"California"</span>,<span class="st">"New York"</span>,<span class="st">"District of Columbia"</span>)) <span class="sc">|&gt;</span> </span>
-<span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(occ_title <span class="sc">%in%</span> <span class="fu">c</span>(<span class="st">"Actors"</span>)) <span class="sc">|&gt;</span> </span>
-<span id="cb19-4"><a href="#cb19-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(prim_state, occ_title, tot_emp, h_median)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output cell-output-stdout">
-<pre><code># A tibble: 3 × 4
-  prim_state occ_title tot_emp h_median
-  &lt;chr&gt;      &lt;chr&gt;       &lt;dbl&gt;    &lt;dbl&gt;
-1 CA         Actors      26170     NA  
-2 NY         Actors       6630     28.4
-3 PA         Actors        890     22.2</code></pre>
-</div>
-</div>
-<p>#Medain hourly wage for surgeons</p>
-<div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb21"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a>oes <span class="sc">|&gt;</span></span>
-<span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a>    <span class="fu">filter</span>(area_title <span class="sc">==</span> <span class="st">"Pennsylvania"</span>) <span class="sc">|&gt;</span> </span>
-<span id="cb21-3"><a href="#cb21-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(occ_code <span class="sc">%in%</span> <span class="fu">c</span>(<span class="st">"29-1022"</span>,<span class="st">"29-1242"</span>,<span class="st">"29-1249"</span>)) <span class="sc">|&gt;</span> </span>
-<span id="cb21-4"><a href="#cb21-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(prim_state, occ_title, tot_emp, h_mean)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output cell-output-stdout">
-<pre><code># A tibble: 3 × 4
-  prim_state occ_title                             tot_emp h_mean
-  &lt;chr&gt;      &lt;chr&gt;                                   &lt;dbl&gt;  &lt;dbl&gt;
-1 PA         Oral and Maxillofacial Surgeons            NA   227.
-2 PA         Orthopedic Surgeons, Except Pediatric     240   175.
-3 PA         Surgeons, All Other                        NA    NA </code></pre>
-</div>
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb23"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a><span class="co">#For "Surgeons, All Other" Footnotes: (5) This wage is equal to or greater than $115.00 per hour or $239,200 per year.</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-</div>
-<p>#journalists annual wage accross the country</p>
-<div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb24"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a>oes <span class="sc">|&gt;</span> </span>
-<span id="cb24-2"><a href="#cb24-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">distinct</span>(area_title)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output cell-output-stdout">
-<pre><code># A tibble: 54 × 1
-   area_title          
-   &lt;chr&gt;               
- 1 Alabama             
- 2 Alaska              
- 3 Arizona             
- 4 Arkansas            
- 5 California          
- 6 Colorado            
- 7 Connecticut         
- 8 Delaware            
- 9 District of Columbia
-10 Florida             
-# ℹ 44 more rows</code></pre>
-</div>
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb26"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a>oes <span class="sc">|&gt;</span></span>
-<span id="cb26-2"><a href="#cb26-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(occ_code <span class="sc">==</span> <span class="st">"27-3023"</span>) <span class="sc">|&gt;</span> </span>
-<span id="cb26-3"><a href="#cb26-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(prim_state, occ_title, tot_emp, a_mean)<span class="sc">|&gt;</span> </span>
-<span id="cb26-4"><a href="#cb26-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(<span class="fu">desc</span>(a_mean))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output cell-output-stdout">
-<pre><code># A tibble: 52 × 4
-   prim_state occ_title                                 tot_emp a_mean
-   &lt;chr&gt;      &lt;chr&gt;                                       &lt;dbl&gt;  &lt;dbl&gt;
- 1 NY         News Analysts, Reporters, and Journalists    5750 251110
- 2 DC         News Analysts, Reporters, and Journalists    1720 174360
- 3 CT         News Analysts, Reporters, and Journalists     470 105770
- 4 IL         News Analysts, Reporters, and Journalists    1060  87560
- 5 GA         News Analysts, Reporters, and Journalists    1520  87210
- 6 NV         News Analysts, Reporters, and Journalists     370  83550
- 7 MI         News Analysts, Reporters, and Journalists     960  81950
- 8 MD         News Analysts, Reporters, and Journalists     580  77570
- 9 UT         News Analysts, Reporters, and Journalists     240  77340
-10 VA         News Analysts, Reporters, and Journalists    1110  76820
-# ℹ 42 more rows</code></pre>
-</div>
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb28"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a>philly <span class="sc">|&gt;</span></span>
-<span id="cb28-2"><a href="#cb28-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(occupation <span class="sc">==</span> <span class="st">"News Analysts, Reporters, and Journalists (27-3023)"</span>) <span class="sc">|&gt;</span></span>
-<span id="cb28-3"><a href="#cb28-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(occupation, annual_mean_wage_2)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>                                           occupation annual_mean_wage_2
-1 News Analysts, Reporters, and Journalists (27-3023)              98170</code></pre>
-</div>
-</div>
-<p>#compare to state average</p>
-<div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb30"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a>oes <span class="sc">|&gt;</span></span>
-<span id="cb30-2"><a href="#cb30-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(area_title <span class="sc">%in%</span> <span class="fu">c</span>(<span class="st">"New York"</span>, <span class="st">"District of Columbia"</span>)) <span class="sc">|&gt;</span></span>
-<span id="cb30-3"><a href="#cb30-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(occ_code <span class="sc">%in%</span> <span class="fu">c</span>(<span class="st">"27-3023"</span>, <span class="st">"00-0000"</span>)) <span class="sc">|&gt;</span></span>
-<span id="cb30-4"><a href="#cb30-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(area_title, occ_title, occ_code, tot_emp, a_mean)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output cell-output-stdout">
-<pre><code># A tibble: 4 × 5
-  area_title           occ_title                         occ_code tot_emp a_mean
-  &lt;chr&gt;                &lt;chr&gt;                             &lt;chr&gt;      &lt;dbl&gt;  &lt;dbl&gt;
-1 District of Columbia All Occupations                   00-0000   701920 111010
-2 District of Columbia News Analysts, Reporters, and Jo… 27-3023     1720 174360
-3 New York             All Occupations                   00-0000  9688000  82460
-4 New York             News Analysts, Reporters, and Jo… 27-3023     5750 251110</code></pre>
-</div>
-</div>
-<p>More pokin’ around: Examine the OCC_CODE column. The occupations ending in “0000” are occupational categories. Filter OCC_CODE for “0000” and examine the 23 occupational categories.</p>
-<div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb32"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb32-1"><a href="#cb32-1" aria-hidden="true" tabindex="-1"></a>oes <span class="sc">|&gt;</span></span>
-<span id="cb32-2"><a href="#cb32-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(area_title <span class="sc">==</span> <span class="st">"Pennsylvania"</span>) <span class="sc">|&gt;</span></span>
-<span id="cb32-3"><a href="#cb32-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(<span class="fu">grepl</span>(<span class="st">"0000"</span>, occ_code)) <span class="sc">|&gt;</span></span>
-<span id="cb32-4"><a href="#cb32-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(occ_code, occ_title, tot_emp, a_mean) <span class="sc">|&gt;</span></span>
-<span id="cb32-5"><a href="#cb32-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(occ_code)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output cell-output-stdout">
-<pre><code># A tibble: 23 × 4
-   occ_code occ_title                                             tot_emp a_mean
-   &lt;chr&gt;    &lt;chr&gt;                                                   &lt;dbl&gt;  &lt;dbl&gt;
- 1 00-0000  All Occupations                                       6064600  65730
- 2 11-0000  Management Occupations                                 460720 133800
- 3 13-0000  Business and Financial Operations Occupations          383000  89550
- 4 15-0000  Computer and Mathematical Occupations                  181360 105590
- 5 17-0000  Architecture and Engineering Occupations                91260  98360
- 6 19-0000  Life, Physical, and Social Science Occupations          59660  94370
- 7 21-0000  Community and Social Service Occupations               122720  57440
- 8 23-0000  Legal Occupations                                       47170 127170
- 9 25-0000  Educational Instruction and Library Occupations        368330  68520
-10 27-0000  Arts, Design, Entertainment, Sports, and Media Occup…   66910  67740
-# ℹ 13 more rows</code></pre>
-</div>
-</div>
-<ol start="4" type="1">
-<li>–Apply Filter to OCC_Code. –Select Filter by Condition. –Select Text contains. –Type in -0000 and apply You now will have a list of the 23 occupational categories</li>
-</ol>
-<p><br></p>
-<p><br></p>
+<section id="estimated-delivery" class="level2">
+<h2 class="anchored" data-anchor-id="estimated-delivery">Estimated delivery</h2>
 </section>
-<section id="step-2-storytelling-with-local-gdp-data" class="level1">
-<h1>Step 2: Storytelling with Local GDP Data</h1>
-<p><br></p>
-<p>GDP tells us if the economy is great or if it sucks.</p>
-<p>It’s the <strong>Big Daddy of economic indicators</strong>.</p>
-<p>What is Gross Domestic Product? It measures the value of all final goods and services produced in the country in a year.</p>
-<p>For example: that would be all of the stuff sold by Walmart and all of the beer sold by Liquor Barn and all of the gas pumped at Citgo, etc., AND A WHOLE LOT MORE, over a year.</p>
-<p>You get the idea.</p>
-<p>You can break it down to a state or a region, and also break it down into three month periods.</p>
-<p>As a reporter, you can use local GDP data to figure out what business sectors are doing well and which ones stink. It can lead you to excellent stories.</p>
-<p>This section will analyze the storytelling possibilities with the Gross Domestic Product by County data.</p>
-<p><a href="https://www.bea.gov/newsreleases/regional/gdp_metro/gdp_metro_newsrelease.htm" target="_blank">Check out the local GDP press release for 2024 (yes, 2024 is the latest.)</a></p>
-<blockquote class="blockquote">
-<p>What’s in the GDP data</p>
-</blockquote>
-<p>“Gross domestic product (GDP) by metropolitan area is the sub-state counterpart of the Nation’s gross domestic product (GDP), the Bureau’s featured and most comprehensive measure of U.S. economic activity. GDP by metropolitan area is derived as the sum of the GDP originating in all the industries in the metropolitan area.</p>
-<p>Contributions to growth are an industry’s contribution to the state’s overall percent change in real GDP. The contributions are additive and can be summed to the state’s overall percent change. The statistics of GDP by metropolitan area released today are consistent with statistics of GDP by state.</p>
-<p>GDP at chained volume measure is adjusted for the effect of inflation to give a measure of ‘real GDP’.”</p>
+</section>
+<section id="code-memo" class="level1">
+<h1>Code Memo</h1>
+<p><strong>Data limitations</strong></p>
+<p>This data series lags significantly. We are working with 2024 data, the most recent available. But it is still the best you can get and you can’t beat the price.</p>
+<section id="setup" class="level2">
+<h2 class="anchored" data-anchor-id="setup">Setup</h2>
+</section>
+<section id="regional-gdp-by-county" class="level2">
+<h2 class="anchored" data-anchor-id="regional-gdp-by-county">Regional GDP by County</h2>
 <p><strong>Data limitations</strong></p>
 <p>This data series lags significantly. We are working with 2024 data, the most recent available. But it is still the best you can get and you can’t beat the price.</p>
 <p><br></p>
@@ -454,9 +187,9 @@ Journalists in New York earn $251,110 annually, more than twice the national ave
 <p>GDP CAGDP1 County gross domestic product (GDP) summary Real Gross Domestic Product (GDP) (Thousands of chained 2017 dollars) Source Page https://www.bea.gov/news/2026/gross-domestic-product-county-and-personal-income-county-2024</p>
 <p>And more detail: https://www.bea.gov/data/gdp/gdp-by-county</p>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb34"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb34-1"><a href="#cb34-1" aria-hidden="true" tabindex="-1"></a>gdp_county <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(<span class="st">"https://raw.githubusercontent.com/djnf-data-2026/master/refs/heads/main/data/bea_gdp_2024_county_CAGDP1.csv"</span>, <span class="at">skip=</span><span class="dv">3</span>) <span class="sc">|&gt;</span> </span>
-<span id="cb34-2"><a href="#cb34-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">clean_names</span>() <span class="sc">|&gt;</span> </span>
-<span id="cb34-3"><a href="#cb34-3" aria-hidden="true" tabindex="-1"></a>    <span class="fu">mutate</span>(<span class="fu">across</span>(<span class="dv">3</span><span class="sc">:</span><span class="dv">5</span>, as.numeric))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>gdp_county <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(<span class="st">"https://raw.githubusercontent.com/djnf-data-2026/master/refs/heads/main/data/bea_gdp_2024_county_CAGDP1.csv"</span>, <span class="at">skip=</span><span class="dv">3</span>) <span class="sc">|&gt;</span> </span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">clean_names</span>() <span class="sc">|&gt;</span> </span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>    <span class="fu">mutate</span>(<span class="fu">across</span>(<span class="dv">3</span><span class="sc">:</span><span class="dv">5</span>, as.numeric))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stderr">
 <pre><code>Warning: One or more parsing issues, call `problems()` on your data frame for details,
 e.g.:
@@ -480,7 +213,7 @@ Caused by warning:
 ! NAs introduced by coercion
 ℹ Run `dplyr::last_dplyr_warnings()` to see the 2 remaining warnings.</code></pre>
 </div>
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb38"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb38-1"><a href="#cb38-1" aria-hidden="true" tabindex="-1"></a><span class="fu">glimpse</span>(gdp_county)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">glimpse</span>(gdp_county)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>Rows: 3,138
 Columns: 5
@@ -491,40 +224,510 @@ $ x2023    &lt;dbl&gt; 1907174, 9928360, 730176, 471817, 1086171, 281803, 665432
 $ x2024    &lt;dbl&gt; 1758017, 10208956, 747750, 476273, 1174999, 292695, 702420, 4…</code></pre>
 </div>
 </div>
-<p>Calculate change 2024 vs 2022; split out state</p>
+</section>
+<section id="calculate-change-2024-vs-2022-split-out-state" class="level3">
+<h3 class="anchored" data-anchor-id="calculate-change-2024-vs-2022-split-out-state">Calculate change 2024 vs 2022; split out state</h3>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb40"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb40-1"><a href="#cb40-1" aria-hidden="true" tabindex="-1"></a>gdp_county <span class="ot">&lt;-</span> gdp_county <span class="sc">|&gt;</span> </span>
-<span id="cb40-2"><a href="#cb40-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">pct_24_v_22 =</span> (x2024<span class="sc">-</span>x2022)<span class="sc">/</span>x2022,</span>
-<span id="cb40-3"><a href="#cb40-3" aria-hidden="true" tabindex="-1"></a>          <span class="at">state =</span> <span class="fu">str_split_fixed</span>(geo_name, <span class="st">", "</span>, <span class="dv">2</span>)[, <span class="dv">2</span>],</span>
-<span id="cb40-4"><a href="#cb40-4" aria-hidden="true" tabindex="-1"></a>         <span class="at">county =</span> <span class="fu">str_split_fixed</span>(geo_name, <span class="st">", "</span>, <span class="dv">2</span>)[, <span class="dv">1</span>])  </span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>gdp_county <span class="ot">&lt;-</span> gdp_county <span class="sc">|&gt;</span> </span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">pct_24_v_22 =</span> (x2024<span class="sc">-</span>x2022)<span class="sc">/</span>x2022,</span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>          <span class="at">state =</span> <span class="fu">str_split_fixed</span>(geo_name, <span class="st">", "</span>, <span class="dv">2</span>)[, <span class="dv">2</span>],</span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>         <span class="at">county =</span> <span class="fu">str_split_fixed</span>(geo_name, <span class="st">", "</span>, <span class="dv">2</span>)[, <span class="dv">1</span>])  </span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb41"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb41-1"><a href="#cb41-1" aria-hidden="true" tabindex="-1"></a>gdp_county <span class="sc">|&gt;</span></span>
-<span id="cb41-2"><a href="#cb41-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(state <span class="sc">==</span> <span class="st">"PA"</span> <span class="sc">|</span> state <span class="sc">==</span> <span class="st">"NJ"</span>) <span class="sc">|&gt;</span></span>
-<span id="cb41-3"><a href="#cb41-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(county <span class="sc">%in%</span> <span class="fu">c</span>(<span class="st">"Philadelphia"</span>, <span class="st">"Montgomery"</span>, </span>
-<span id="cb41-4"><a href="#cb41-4" aria-hidden="true" tabindex="-1"></a>                        <span class="st">"Bucks"</span>, <span class="st">"Chester"</span>, </span>
-<span id="cb41-5"><a href="#cb41-5" aria-hidden="true" tabindex="-1"></a>                        <span class="st">"Delaware"</span>, <span class="st">"Gloucester"</span>, </span>
-<span id="cb41-6"><a href="#cb41-6" aria-hidden="true" tabindex="-1"></a>                        <span class="st">"Camden"</span>, <span class="st">"Burlington"</span>)) <span class="sc">|&gt;</span></span>
-<span id="cb41-7"><a href="#cb41-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(county, state, x2022, x2024, pct_24_v_22) <span class="sc">|&gt;</span></span>
-<span id="cb41-8"><a href="#cb41-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(<span class="fu">desc</span>(pct_24_v_22))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>philly_gdp <span class="ot">&lt;-</span> gdp_county <span class="sc">|&gt;</span></span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(state <span class="sc">==</span> <span class="st">"PA"</span> <span class="sc">|</span> state <span class="sc">==</span> <span class="st">"NJ"</span>) <span class="sc">|&gt;</span></span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(county <span class="sc">%in%</span> <span class="fu">c</span>(<span class="st">"Philadelphia"</span>, <span class="st">"Montgomery"</span>, </span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a>                        <span class="st">"Bucks"</span>, <span class="st">"Chester"</span>, </span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a>                        <span class="st">"Delaware"</span>, <span class="st">"Gloucester"</span>, </span>
+<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a>                        <span class="st">"Camden"</span>, <span class="st">"Burlington"</span>)) <span class="sc">|&gt;</span></span>
+<span id="cb8-7"><a href="#cb8-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(county, state, x2022, x2024, pct_24_v_22) <span class="sc">|&gt;</span></span>
+<span id="cb8-8"><a href="#cb8-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="fu">rank</span>(x2022)) <span class="sc">|&gt;</span></span>
+<span id="cb8-9"><a href="#cb8-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="fu">rank</span>(x2024)) <span class="sc">|&gt;</span></span>
+<span id="cb8-10"><a href="#cb8-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(<span class="fu">desc</span>(pct_24_v_22))</span>
+<span id="cb8-11"><a href="#cb8-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-12"><a href="#cb8-12" aria-hidden="true" tabindex="-1"></a>philly_gdp</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 8 × 7
+  county       state     x2022     x2024 pct_24_v_22 `rank(x2022)` `rank(x2024)`
+  &lt;chr&gt;        &lt;chr&gt;     &lt;dbl&gt;     &lt;dbl&gt;       &lt;dbl&gt;         &lt;dbl&gt;         &lt;dbl&gt;
+1 Gloucester   NJ     13994075  14722428     0.0520              1             1
+2 Burlington   NJ     30915417  32395824     0.0479              3             3
+3 Chester      PA     47391773  49491894     0.0443              6             6
+4 Camden       NJ     26094892  27237865     0.0438              2             2
+5 Bucks        PA     36888334  38241897     0.0367              5             5
+6 Philadelphia PA    106999472 109412657     0.0226              8             8
+7 Montgomery   PA     88989489  90035254     0.0118              7             7
+8 Delaware     PA     34288808  34058368    -0.00672             4             4</code></pre>
+</div>
+</div>
+</section>
+<section id="chart-gdp-growth-by-county" class="level3">
+<h3 class="anchored" data-anchor-id="chart-gdp-growth-by-county">Chart: GDP Growth by County</h3>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="co"># AI assisted</span></span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(philly_gdp, <span class="fu">aes</span>(<span class="at">x =</span> <span class="fu">reorder</span>(county, pct_24_v_22), <span class="at">y =</span> pct_24_v_22, <span class="at">fill =</span> state)) <span class="sc">+</span></span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_col</span>() <span class="sc">+</span></span>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">coord_flip</span>() <span class="sc">+</span></span>
+<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_y_continuous</span>(<span class="at">labels =</span> scales<span class="sc">::</span>percent) <span class="sc">+</span></span>
+<span id="cb10-6"><a href="#cb10-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(</span>
+<span id="cb10-7"><a href="#cb10-7" aria-hidden="true" tabindex="-1"></a>    <span class="at">title =</span> <span class="st">"GDP Growth by County in Greater Philadelphia (2022-2024)"</span>,</span>
+<span id="cb10-8"><a href="#cb10-8" aria-hidden="true" tabindex="-1"></a>    <span class="at">x =</span> <span class="cn">NULL</span>,</span>
+<span id="cb10-9"><a href="#cb10-9" aria-hidden="true" tabindex="-1"></a>    <span class="at">y =</span> <span class="st">"Percent Change"</span>,</span>
+<span id="cb10-10"><a href="#cb10-10" aria-hidden="true" tabindex="-1"></a>    <span class="at">fill =</span> <span class="st">"State"</span></span>
+<span id="cb10-11"><a href="#cb10-11" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
+<span id="cb10-12"><a href="#cb10-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="index_files/figure-html/chart-gdp-growth-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+<blockquote class="blockquote">
+<p><strong>Finding:</strong> Delaware County was the only county in the region to see its GDP shrink between 2022 and 2024.</p>
+</blockquote>
+</section>
+</section>
+<section id="part-2-personal-income-by-county" class="level2">
+<h2 class="anchored" data-anchor-id="part-2-personal-income-by-county">Part 2: Personal Income by County</h2>
+<section id="load-and-clean-data" class="level3">
+<h3 class="anchored" data-anchor-id="load-and-clean-data">Load and Clean Data</h3>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="co"># [Personal income (Thousands of dollars)](https://www.bea.gov/news/2026/gross-domestic-product-county-and-personal-income-county-2024)</span></span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a><span class="co"># BEA CAINC1 - County Personal Income Summary</span></span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a><span class="co"># CAINC1 County personal income summary: personal income, population, per capita personal income</span></span>
+<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a>cainc1 <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(<span class="st">"../bea_gdp_2024_personal_income_county_CAINC1.csv"</span>, <span class="at">skip=</span><span class="dv">3</span>) <span class="sc">|&gt;</span> </span>
+<span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">clean_names</span>() <span class="sc">|&gt;</span> </span>
+<span id="cb11-6"><a href="#cb11-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="fu">across</span>(x2022<span class="sc">:</span>x2024, as.numeric)) <span class="sc">|&gt;</span> </span>
+<span id="cb11-7"><a href="#cb11-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(</span>
+<span id="cb11-8"><a href="#cb11-8" aria-hidden="true" tabindex="-1"></a>    <span class="at">pct_23_v_22 =</span> <span class="fu">round</span>((x2023 <span class="sc">-</span> x2022) <span class="sc">/</span> x2022, <span class="dv">4</span>),</span>
+<span id="cb11-9"><a href="#cb11-9" aria-hidden="true" tabindex="-1"></a>    <span class="at">pct_24_v_23 =</span> <span class="fu">round</span>((x2024 <span class="sc">-</span> x2023) <span class="sc">/</span> x2023, <span class="dv">4</span>),</span>
+<span id="cb11-10"><a href="#cb11-10" aria-hidden="true" tabindex="-1"></a>    <span class="at">pct_24_v_22 =</span> <span class="fu">round</span>((x2024 <span class="sc">-</span> x2022) <span class="sc">/</span> x2022, <span class="dv">4</span>)</span>
+<span id="cb11-11"><a href="#cb11-11" aria-hidden="true" tabindex="-1"></a>  )</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: One or more parsing issues, call `problems()` on your data frame for details,
+e.g.:
+  dat &lt;- vroom(...)
+  problems(dat)</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Rows: 3167 Columns: 5
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (5): GeoFIPS, GeoName, 2022, 2023, 2024
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: There were 3 warnings in `mutate()`.
+The first warning was:
+ℹ In argument: `across(x2022:x2024, as.numeric)`.
+Caused by warning:
+! NAs introduced by coercion
+ℹ Run `dplyr::last_dplyr_warnings()` to see the 2 remaining warnings.</code></pre>
+</div>
+</div>
+</section>
+<section id="filter-greater-philadelphia" class="level3">
+<h3 class="anchored" data-anchor-id="filter-greater-philadelphia">Filter Greater Philadelphia</h3>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb15"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a>philly_income <span class="ot">&lt;-</span> cainc1 <span class="sc">|&gt;</span></span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(<span class="fu">str_detect</span>(geo_name, <span class="st">"Philadelphia, PA|Montgomery, PA|Bucks, PA|Chester, PA|Delaware, PA|Gloucester, NJ|Camden, NJ|Burlington, NJ"</span>)) <span class="sc">|&gt;</span></span>
+<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(geo_name, x2022, x2024, pct_24_v_22) <span class="sc">|&gt;</span></span>
+<span id="cb15-4"><a href="#cb15-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">separate</span>(geo_name, <span class="at">into =</span> <span class="fu">c</span>(<span class="st">"county"</span>, <span class="st">"state"</span>), <span class="at">sep =</span> <span class="st">", "</span>) <span class="sc">|&gt;</span></span>
+<span id="cb15-5"><a href="#cb15-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(<span class="fu">desc</span>(pct_24_v_22))</span>
+<span id="cb15-6"><a href="#cb15-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-7"><a href="#cb15-7" aria-hidden="true" tabindex="-1"></a>philly_income</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code># A tibble: 8 × 5
-  county       state     x2022     x2024 pct_24_v_22
-  &lt;chr&gt;        &lt;chr&gt;     &lt;dbl&gt;     &lt;dbl&gt;       &lt;dbl&gt;
-1 Gloucester   NJ     13994075  14722428     0.0520 
-2 Burlington   NJ     30915417  32395824     0.0479 
-3 Chester      PA     47391773  49491894     0.0443 
-4 Camden       NJ     26094892  27237865     0.0438 
-5 Bucks        PA     36888334  38241897     0.0367 
-6 Philadelphia PA    106999472 109412657     0.0226 
-7 Montgomery   PA     88989489  90035254     0.0118 
-8 Delaware     PA     34288808  34058368    -0.00672</code></pre>
+  county       state    x2022    x2024 pct_24_v_22
+  &lt;chr&gt;        &lt;chr&gt;    &lt;dbl&gt;    &lt;dbl&gt;       &lt;dbl&gt;
+1 Burlington   NJ    33094170 37195463      0.124 
+2 Chester      PA    55399329 62177057      0.122 
+3 Montgomery   PA    81829035 91769650      0.122 
+4 Bucks        PA    56456435 62844148      0.113 
+5 Camden       NJ    32535048 36195828      0.112 
+6 Gloucester   NJ    19213771 21323961      0.110 
+7 Delaware     PA    45267843 49769749      0.0995
+8 Philadelphia PA    91887036 96312500      0.0482</code></pre>
 </div>
 </div>
-<p><strong>Possible story angle</strong> While most counties in the greater Philadelphia region saw modest economic growth between 2022 and 2024, greater Philadelphia area counties in New Jersy like Gloucester and Burlington outpaced their Pennsylvania counterparts, while Delaware County was the only county in the region to see its GDP shrink. Philadelphia County itself grew by just 2.3 percent, slower than three of the four New Jersey counties. A deeper look into which industries are driving growth in Gloucester County and what is holding back Delaware County could reveal how the region’s economic weight is shifting away from its Pennsylvania core.</p>
-<p>Check now for Personal Income data</p>
-<p>CAINC1 County personal income summary: personal income, population, per capita personal income</p>
-<p>Personal income (Thousands of dollars) https://www.bea.gov/news/2026/gross-domestic-product-county-and-personal-income-county-2024</p>
+</section>
+<section id="chart-personal-income-growth-by-county" class="level3">
+<h3 class="anchored" data-anchor-id="chart-personal-income-growth-by-county">Chart: Personal Income Growth by County</h3>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb17"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="co"># AI assisted</span></span>
+<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(philly_income, <span class="fu">aes</span>(<span class="at">x =</span> <span class="fu">reorder</span>(county, pct_24_v_22), <span class="at">y =</span> pct_24_v_22, <span class="at">fill =</span> state)) <span class="sc">+</span></span>
+<span id="cb17-3"><a href="#cb17-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_col</span>() <span class="sc">+</span></span>
+<span id="cb17-4"><a href="#cb17-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">coord_flip</span>() <span class="sc">+</span></span>
+<span id="cb17-5"><a href="#cb17-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_y_continuous</span>(<span class="at">labels =</span> scales<span class="sc">::</span>percent) <span class="sc">+</span></span>
+<span id="cb17-6"><a href="#cb17-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(</span>
+<span id="cb17-7"><a href="#cb17-7" aria-hidden="true" tabindex="-1"></a>    <span class="at">title =</span> <span class="st">"Personal Income Growth by County in Greater Philadelphia (2022-2024)"</span>,</span>
+<span id="cb17-8"><a href="#cb17-8" aria-hidden="true" tabindex="-1"></a>    <span class="at">x =</span> <span class="cn">NULL</span>,</span>
+<span id="cb17-9"><a href="#cb17-9" aria-hidden="true" tabindex="-1"></a>    <span class="at">y =</span> <span class="st">"Percent Change"</span>,</span>
+<span id="cb17-10"><a href="#cb17-10" aria-hidden="true" tabindex="-1"></a>    <span class="at">fill =</span> <span class="st">"State"</span></span>
+<span id="cb17-11"><a href="#cb17-11" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
+<span id="cb17-12"><a href="#cb17-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="index_files/figure-html/unnamed-chunk-7-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+<blockquote class="blockquote">
+<p><strong>Finding:</strong> Personal income in Delaware County grew 10.98% between 2022 and 2024, yet its GDP was the only one in the region to shrink. Residents may be earning more by working elsewhere while local industries are losing ground.</p>
+</blockquote>
+</section>
+</section>
+<section id="part-3-gdp-by-industry" class="level2">
+<h2 class="anchored" data-anchor-id="part-3-gdp-by-industry">Part 3: GDP by Industry</h2>
+<section id="load-and-clean-data-1" class="level3">
+<h3 class="anchored" data-anchor-id="load-and-clean-data-1">Load and Clean Data</h3>
+<p><em>BEA CAGDP2 — GDP by Industry (Current dollars)</em> <img src="https://apps.bea.gov/itable/?ReqID=70&amp;step=1&amp;_gl=1*ov6bhy*_ga*OTk4Njc0OTc1LjE3ODAyODAzNTY.*_ga_J4698JNNFT*czE3ODAzNDIwNjgkbzQkZzEkdDE3ODAzNDIxMzIkajYwJGwwJGgw#eyJhcHBpZCI6NzAsInN0ZXBzIjpbMSwyOSwyNSwzMV0sImRhdGEiOltbIlRhYmxlSWQiLCI1MDEiXSxbIk1ham9yX0FyZWEiLCI0Il1dfQ==" class="img-fluid" alt="CAGDP2 GDP by industry in current dollars"></p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb18"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Merge Pennsylvania and New Jersey industry files</span></span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a>gdp_industry <span class="ot">&lt;-</span> <span class="fu">bind_rows</span>(</span>
+<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">read_csv</span>(<span class="st">"../CAGDP2_GPD_PA_Industry.csv"</span>, <span class="at">skip =</span> <span class="dv">3</span>) <span class="sc">|&gt;</span> <span class="fu">clean_names</span>(),</span>
+<span id="cb18-4"><a href="#cb18-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">read_csv</span>(<span class="st">"../CAGDP2_GPD_NJ_Industry.csv"</span>, <span class="at">skip =</span> <span class="dv">3</span>) <span class="sc">|&gt;</span> <span class="fu">clean_names</span>()</span>
+<span id="cb18-5"><a href="#cb18-5" aria-hidden="true" tabindex="-1"></a>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: One or more parsing issues, call `problems()` on your data frame for details,
+e.g.:
+  dat &lt;- vroom(...)
+  problems(dat)</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Rows: 2386 Columns: 7
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (6): GeoFIPS, GeoName, Description, 2022, 2023, 2024
+dbl (1): LineCode
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: One or more parsing issues, call `problems()` on your data frame for details,
+e.g.:
+  dat &lt;- vroom(...)
+  problems(dat)</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Rows: 776 Columns: 7
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (6): GeoFIPS, GeoName, Description, 2022, 2023, 2024
+dbl (1): LineCode
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.</code></pre>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb23"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a><span class="fu">glimpse</span>(gdp_industry)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Rows: 3,162
+Columns: 7
+$ geo_fips    &lt;chr&gt; "42000", "42000", "42000", "42000", "42000", "42000", "420…
+$ geo_name    &lt;chr&gt; "Pennsylvania", "Pennsylvania", "Pennsylvania", "Pennsylva…
+$ line_code   &lt;dbl&gt; 1, 2, 3, 6, 10, 11, 12, 13, 25, 34, 35, 36, 45, 50, 51, 56…
+$ description &lt;chr&gt; "All industry total", "Private industries", "Agriculture, …
+$ x2022       &lt;chr&gt; "916861672", "837704426", "6078968", "19169572", "14932820…
+$ x2023       &lt;chr&gt; "966444007", "883788000", "4552763", "15830492", "15417615…
+$ x2024       &lt;chr&gt; "1007873940", "920912820", "4792528", "14162210", "1520457…</code></pre>
+</div>
+</div>
+</section>
+<section id="filter-private-industry-sub-sectors-for-greater-philadelphia" class="level3">
+<h3 class="anchored" data-anchor-id="filter-private-industry-sub-sectors-for-greater-philadelphia">Filter Private Industry Sub-sectors for Greater Philadelphia</h3>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb25"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Using Private industries sub-categories only (excluding aggregates to avoid double counting)</span></span>
+<span id="cb25-2"><a href="#cb25-2" aria-hidden="true" tabindex="-1"></a>gdp_industry <span class="ot">&lt;-</span> gdp_industry <span class="sc">|&gt;</span></span>
+<span id="cb25-3"><a href="#cb25-3" aria-hidden="true" tabindex="-1"></a> <span class="fu">mutate</span>(</span>
+<span id="cb25-4"><a href="#cb25-4" aria-hidden="true" tabindex="-1"></a>  <span class="at">x2022 =</span> <span class="fu">as.numeric</span>(x2022),</span>
+<span id="cb25-5"><a href="#cb25-5" aria-hidden="true" tabindex="-1"></a>  <span class="at">x2023 =</span> <span class="fu">as.numeric</span>(x2023),</span>
+<span id="cb25-6"><a href="#cb25-6" aria-hidden="true" tabindex="-1"></a>  <span class="at">x2024 =</span> <span class="fu">as.numeric</span>(x2024)</span>
+<span id="cb25-7"><a href="#cb25-7" aria-hidden="true" tabindex="-1"></a>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: There were 3 warnings in `mutate()`.
+The first warning was:
+ℹ In argument: `x2022 = as.numeric(x2022)`.
+Caused by warning:
+! NAs introduced by coercion
+ℹ Run `dplyr::last_dplyr_warnings()` to see the 2 remaining warnings.</code></pre>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb27"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a><span class="co"># AI-assisted</span></span>
+<span id="cb27-2"><a href="#cb27-2" aria-hidden="true" tabindex="-1"></a>greater_philly_total <span class="ot">&lt;-</span> gdp_industry <span class="sc">|&gt;</span></span>
+<span id="cb27-3"><a href="#cb27-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(<span class="fu">str_detect</span>(geo_name, <span class="st">"Philadelphia, PA|Montgomery, PA|Bucks, PA|Chester, PA|Delaware, PA|Gloucester, NJ|Camden, NJ|Burlington, NJ"</span>)) <span class="sc">|&gt;</span></span>
+<span id="cb27-4"><a href="#cb27-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(line_code <span class="sc">==</span> <span class="dv">1</span>) <span class="sc">|&gt;</span> </span>
+<span id="cb27-5"><a href="#cb27-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(geo_name, description, x2022, x2023, x2024) <span class="sc">|&gt;</span></span>
+<span id="cb27-6"><a href="#cb27-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">pct_24_v_22 =</span> <span class="fu">round</span>((x2024 <span class="sc">-</span> x2022) <span class="sc">/</span> x2022, <span class="dv">4</span>)) <span class="sc">|&gt;</span></span>
+<span id="cb27-7"><a href="#cb27-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(<span class="fu">desc</span>(pct_24_v_22))</span>
+<span id="cb27-8"><a href="#cb27-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-9"><a href="#cb27-9" aria-hidden="true" tabindex="-1"></a><span class="fu">glimpse</span>(greater_philly_total)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Rows: 8
+Columns: 6
+$ geo_name    &lt;chr&gt; "Camden, NJ", "Burlington, NJ", "Bucks, PA", "Chester, PA"…
+$ description &lt;chr&gt; "All industry total", "All industry total", "All industry …
+$ x2022       &lt;dbl&gt; 30564484, 36147688, 43581226, 53823173, 17242493, 12207860…
+$ x2023       &lt;dbl&gt; 32644548, 38949141, 46255811, 57280652, 18245349, 12868541…
+$ x2024       &lt;dbl&gt; 34619814, 40867224, 48826773, 60160228, 19111129, 13498894…
+$ pct_24_v_22 &lt;dbl&gt; 0.1327, 0.1306, 0.1204, 0.1177, 0.1084, 0.1058, 0.0827, 0.…</code></pre>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb29"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a><span class="co"># check what industry included</span></span>
+<span id="cb29-2"><a href="#cb29-2" aria-hidden="true" tabindex="-1"></a>gdp_industry<span class="sc">|&gt;</span></span>
+<span id="cb29-3"><a href="#cb29-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">distinct</span>(description) <span class="sc">|&gt;</span></span>
+<span id="cb29-4"><a href="#cb29-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">print</span>(<span class="at">n =</span> <span class="dv">36</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 36 × 1
+   description                                                             
+   &lt;chr&gt;                                                                   
+ 1 All industry total                                                      
+ 2 Private industries                                                      
+ 3 Agriculture, forestry, fishing and hunting                              
+ 4 Mining, quarrying, and oil and gas extraction                           
+ 5 Utilities                                                               
+ 6 Construction                                                            
+ 7 Manufacturing                                                           
+ 8 Durable goods manufacturing                                             
+ 9 Nondurable goods manufacturing                                          
+10 Wholesale trade                                                         
+11 Retail trade                                                            
+12 Transportation and warehousing                                          
+13 Information                                                             
+14 Finance, insurance, real estate, rental, and leasing                    
+15 Finance and insurance                                                   
+16 Real estate and rental and leasing                                      
+17 Professional and business services                                      
+18 Professional, scientific, and technical services                        
+19 Management of companies and enterprises                                 
+20 Administrative and support and waste management and remediation services
+21 Educational services, health care, and social assistance                
+22 Educational services                                                    
+23 Health care and social assistance                                       
+24 Arts, entertainment, recreation, accommodation, and food services       
+25 Arts, entertainment, and recreation                                     
+26 Accommodation and food services                                         
+27 Other services (except government and government enterprises)           
+28 Government and government enterprises                                   
+29 Addenda:                                                                
+30 Natural resources and mining                                            
+31 Trade                                                                   
+32 Transportation and utilities                                            
+33 Manufacturing and information                                           
+34 Private goods-producing industries 2                                    
+35 Private services-providing industries 3                                 
+36 &lt;NA&gt;                                                                    </code></pre>
+</div>
+</div>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb31"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a>greater_philly_industry <span class="ot">&lt;-</span> gdp_industry <span class="sc">|&gt;</span></span>
+<span id="cb31-2"><a href="#cb31-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(<span class="fu">str_detect</span>(geo_name, <span class="st">"Philadelphia, PA|Montgomery, PA|Bucks, PA|Chester, PA|Delaware, PA|Gloucester, NJ|Camden, NJ|Burlington, NJ"</span>))  <span class="sc">|&gt;</span></span>
+<span id="cb31-3"><a href="#cb31-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(description <span class="sc">%in%</span> <span class="fu">c</span>(</span>
+<span id="cb31-4"><a href="#cb31-4" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Agriculture, forestry, fishing and hunting"</span>,</span>
+<span id="cb31-5"><a href="#cb31-5" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Mining, quarrying, and oil and gas extraction"</span>,</span>
+<span id="cb31-6"><a href="#cb31-6" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Utilities"</span>,</span>
+<span id="cb31-7"><a href="#cb31-7" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Construction"</span>,</span>
+<span id="cb31-8"><a href="#cb31-8" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Manufacturing"</span>,</span>
+<span id="cb31-9"><a href="#cb31-9" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Wholesale trade"</span>,</span>
+<span id="cb31-10"><a href="#cb31-10" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Retail trade"</span>,</span>
+<span id="cb31-11"><a href="#cb31-11" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Transportation and warehousing"</span>,</span>
+<span id="cb31-12"><a href="#cb31-12" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Information"</span>,</span>
+<span id="cb31-13"><a href="#cb31-13" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Finance, insurance, real estate, rental, and leasing"</span>,</span>
+<span id="cb31-14"><a href="#cb31-14" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Professional and business services"</span>,</span>
+<span id="cb31-15"><a href="#cb31-15" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Educational services, health care, and social assistance"</span>,</span>
+<span id="cb31-16"><a href="#cb31-16" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Arts, entertainment, recreation, accommodation, and food services"</span>,</span>
+<span id="cb31-17"><a href="#cb31-17" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Other services (except government and government enterprises)"</span></span>
+<span id="cb31-18"><a href="#cb31-18" aria-hidden="true" tabindex="-1"></a>  )) <span class="sc">|&gt;</span></span>
+<span id="cb31-19"><a href="#cb31-19" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(geo_name, description, x2022, x2024) <span class="sc">|&gt;</span></span>
+<span id="cb31-20"><a href="#cb31-20" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">pct_24_v_22 =</span> <span class="fu">round</span>((x2024 <span class="sc">-</span> x2022) <span class="sc">/</span> x2022, <span class="dv">4</span>)) <span class="sc">|&gt;</span></span>
+<span id="cb31-21"><a href="#cb31-21" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">x24_v_22 =</span> x2024 <span class="sc">-</span> x2022) <span class="sc">|&gt;</span></span>
+<span id="cb31-22"><a href="#cb31-22" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(<span class="fu">desc</span>(x24_v_22))</span>
+<span id="cb31-23"><a href="#cb31-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb31-24"><a href="#cb31-24" aria-hidden="true" tabindex="-1"></a><span class="fu">glimpse</span>(greater_philly_industry)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Rows: 112
+Columns: 6
+$ geo_name    &lt;chr&gt; "Philadelphia, PA", "Chester, PA", "Philadelphia, PA", "Ph…
+$ description &lt;chr&gt; "Educational services, health care, and social assistance"…
+$ x2022       &lt;dbl&gt; 23786295, 14402941, 25276382, 21743795, 21130722, 5569479,…
+$ x2024       &lt;dbl&gt; 28019109, 17349374, 28188153, 24421374, 23475546, 7328615,…
+$ pct_24_v_22 &lt;dbl&gt; 0.1780, 0.2046, 0.1152, 0.1231, 0.1110, 0.3159, 0.1690, 0.…
+$ x24_v_22    &lt;dbl&gt; 4232814, 2946433, 2911771, 2677579, 2344824, 1759136, 1584…</code></pre>
+</div>
+</div>
+</section>
+<section id="top-10-industries-with-largest-decline-across-the-region" class="level3">
+<h3 class="anchored" data-anchor-id="top-10-industries-with-largest-decline-across-the-region">Top 10 Industries with Largest Decline Across the Region</h3>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb33"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a>greater_philly_industry <span class="sc">|&gt;</span></span>
+<span id="cb33-2"><a href="#cb33-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">slice_min</span>(x24_v_22, <span class="at">n =</span> <span class="dv">10</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 10 × 6
+   geo_name         description                x2022  x2024 pct_24_v_22 x24_v_22
+   &lt;chr&gt;            &lt;chr&gt;                      &lt;dbl&gt;  &lt;dbl&gt;       &lt;dbl&gt;    &lt;dbl&gt;
+ 1 Philadelphia, PA Information               8.50e6 6.48e6     -0.238  -2021288
+ 2 Philadelphia, PA Manufacturing             5.56e6 4.78e6     -0.140   -780623
+ 3 Delaware, PA     Manufacturing             3.49e6 3.06e6     -0.123   -428787
+ 4 Chester, PA      Information               6.22e6 5.91e6     -0.0493  -306887
+ 5 Montgomery, PA   Manufacturing             1.52e7 1.51e7     -0.0115  -175826
+ 6 Camden, NJ       Manufacturing             2.29e6 2.15e6     -0.0598  -136799
+ 7 Chester, PA      Agriculture, forestry, f… 4.01e5 2.93e5     -0.269   -107686
+ 8 Gloucester, NJ   Utilities                 4.04e5 3.09e5     -0.236    -95262
+ 9 Burlington, NJ   Agriculture, forestry, f… 1.40e5 7.19e4     -0.487    -68145
+10 Bucks, PA        Agriculture, forestry, f… 7.55e4 2.22e4     -0.706    -53294</code></pre>
+</div>
+</div>
+<blockquote class="blockquote">
+<p><strong>Finding:</strong> Delaware County’s manufacturing sector ranks third on the list, which likely explains why it is the only county in the region with negative GDP growth. I decide to have a closer look at Delaware County’s industry breakdown.</p>
+</blockquote>
+</section>
+<section id="which-industries-are-shrinking-in-delaware-county" class="level3">
+<h3 class="anchored" data-anchor-id="which-industries-are-shrinking-in-delaware-county">Which Industries Are Shrinking in Delaware County</h3>
+<p>Focus on Delaware County to identify the main driver of GDP decline</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb35"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb35-1"><a href="#cb35-1" aria-hidden="true" tabindex="-1"></a>delaware_gdp_industry <span class="ot">&lt;-</span> greater_philly_industry <span class="sc">|&gt;</span></span>
+<span id="cb35-2"><a href="#cb35-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(geo_name <span class="sc">==</span> <span class="st">"Delaware, PA"</span>) <span class="sc">|&gt;</span></span>
+<span id="cb35-3"><a href="#cb35-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(x2022 <span class="sc">&gt;</span> <span class="dv">0</span>) <span class="sc">|&gt;</span></span>
+<span id="cb35-4"><a href="#cb35-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">abs_change =</span> x2024 <span class="sc">-</span> x2022) <span class="sc">|&gt;</span></span>
+<span id="cb35-5"><a href="#cb35-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(abs_change)</span>
+<span id="cb35-6"><a href="#cb35-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb35-7"><a href="#cb35-7" aria-hidden="true" tabindex="-1"></a>delaware_gdp_industry</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 14 × 7
+   geo_name     description         x2022  x2024 pct_24_v_22 x24_v_22 abs_change
+   &lt;chr&gt;        &lt;chr&gt;               &lt;dbl&gt;  &lt;dbl&gt;       &lt;dbl&gt;    &lt;dbl&gt;      &lt;dbl&gt;
+ 1 Delaware, PA Manufacturing      3.49e6 3.06e6     -0.123   -428787    -428787
+ 2 Delaware, PA Transportation an… 2.45e6 2.40e6     -0.0184   -45002     -45002
+ 3 Delaware, PA Information        1.89e6 1.86e6     -0.0155   -29394     -29394
+ 4 Delaware, PA Mining, quarrying… 2.06e4 4.96e3     -0.759    -15660     -15660
+ 5 Delaware, PA Agriculture, fore… 4.35e3 1.20e4      1.77       7690       7690
+ 6 Delaware, PA Wholesale trade    1.50e6 1.54e6      0.0306    45824      45824
+ 7 Delaware, PA Utilities          5.61e5 6.42e5      0.144     80743      80743
+ 8 Delaware, PA Construction       1.82e6 1.91e6      0.0529    96130      96130
+ 9 Delaware, PA Other services (e… 9.55e5 1.09e6      0.140    133672     133672
+10 Delaware, PA Retail trade       2.57e6 2.88e6      0.123    314699     314699
+11 Delaware, PA Arts, entertainme… 1.19e6 1.51e6      0.264    315840     315840
+12 Delaware, PA Finance, insuranc… 9.88e6 1.04e7      0.054    533901     533901
+13 Delaware, PA Educational servi… 5.08e6 5.76e6      0.134    678699     678699
+14 Delaware, PA Professional and … 5.85e6 6.57e6      0.124    727266     727266</code></pre>
+</div>
+</div>
+<blockquote class="blockquote">
+<p><strong>Finding:</strong> Manufacturing is the primary driver of Delaware County’s GDP decline, with output falling 12.3% and losing over $428 million between 2022 and 2024.</p>
+</blockquote>
+</section>
+<section id="manufacturing-across-greater-philadelphia" class="level3">
+<h3 class="anchored" data-anchor-id="manufacturing-across-greater-philadelphia">Manufacturing Across Greater Philadelphia</h3>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb37"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb37-1"><a href="#cb37-1" aria-hidden="true" tabindex="-1"></a>philly_manufacturing <span class="ot">&lt;-</span> greater_philly_industry <span class="sc">|&gt;</span></span>
+<span id="cb37-2"><a href="#cb37-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(description <span class="sc">==</span> <span class="st">"Manufacturing"</span>) <span class="sc">|&gt;</span></span>
+<span id="cb37-3"><a href="#cb37-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(x2022 <span class="sc">&gt;</span> <span class="dv">0</span>) <span class="sc">|&gt;</span> <span class="co">#AI-assisted</span></span>
+<span id="cb37-4"><a href="#cb37-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">abs_change =</span> x2024 <span class="sc">-</span> x2022) <span class="sc">|&gt;</span></span>
+<span id="cb37-5"><a href="#cb37-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">separate</span>(geo_name, <span class="at">into =</span> <span class="fu">c</span>(<span class="st">"county"</span>, <span class="st">"state"</span>), <span class="at">sep =</span> <span class="st">", "</span>) <span class="sc">|&gt;</span></span>
+<span id="cb37-6"><a href="#cb37-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(abs_change)</span>
+<span id="cb37-7"><a href="#cb37-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-8"><a href="#cb37-8" aria-hidden="true" tabindex="-1"></a>philly_manufacturing</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 8 × 8
+  county       state description    x2022  x2024 pct_24_v_22 x24_v_22 abs_change
+  &lt;chr&gt;        &lt;chr&gt; &lt;chr&gt;          &lt;dbl&gt;  &lt;dbl&gt;       &lt;dbl&gt;    &lt;dbl&gt;      &lt;dbl&gt;
+1 Philadelphia PA    Manufacturing 5.56e6 4.78e6     -0.140   -780623    -780623
+2 Delaware     PA    Manufacturing 3.49e6 3.06e6     -0.123   -428787    -428787
+3 Montgomery   PA    Manufacturing 1.52e7 1.51e7     -0.0115  -175826    -175826
+4 Camden       NJ    Manufacturing 2.29e6 2.15e6     -0.0598  -136799    -136799
+5 Gloucester   NJ    Manufacturing 1.72e6 1.90e6      0.105    180729     180729
+6 Chester      PA    Manufacturing 3.77e6 3.99e6      0.0571   215287     215287
+7 Burlington   NJ    Manufacturing 2.58e6 3.02e6      0.170    439705     439705
+8 Bucks        PA    Manufacturing 4.87e6 5.41e6      0.111    541079     541079</code></pre>
+</div>
+</div>
+</section>
+<section id="manufacturing-share-of-total-gdp-by-county" class="level3">
+<h3 class="anchored" data-anchor-id="manufacturing-share-of-total-gdp-by-county">Manufacturing Share of Total GDP by County</h3>
+<p>Compare manufacturing’s share of each county’s economy in 2022 vs 2024</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb39"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb39-1"><a href="#cb39-1" aria-hidden="true" tabindex="-1"></a>gdp_industry <span class="sc">|&gt;</span></span>
+<span id="cb39-2"><a href="#cb39-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(<span class="fu">str_detect</span>(geo_name, <span class="st">"Philadelphia, PA|Montgomery, PA|Bucks, PA|Chester, PA|Delaware, PA|Gloucester, NJ|Camden, NJ|Burlington, NJ"</span>)) <span class="sc">|&gt;</span></span>
+<span id="cb39-3"><a href="#cb39-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(description <span class="sc">%in%</span> <span class="fu">c</span>(<span class="st">"All industry total"</span>, <span class="st">"Manufacturing"</span>)) <span class="sc">|&gt;</span></span>
+<span id="cb39-4"><a href="#cb39-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(x2022 <span class="sc">&gt;</span> <span class="dv">0</span>) <span class="sc">|&gt;</span></span>
+<span id="cb39-5"><a href="#cb39-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(geo_name, description, x2022, x2024) <span class="sc">|&gt;</span></span>
+<span id="cb39-6"><a href="#cb39-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">pivot_wider</span>(<span class="at">names_from =</span> description, <span class="at">values_from =</span> <span class="fu">c</span>(x2022,x2024)) <span class="sc">|&gt;</span></span>
+<span id="cb39-7"><a href="#cb39-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(</span>
+<span id="cb39-8"><a href="#cb39-8" aria-hidden="true" tabindex="-1"></a>    <span class="at">manufacturing_share_22 =</span> <span class="fu">round</span>(x2022_Manufacturing <span class="sc">/</span> <span class="st">`</span><span class="at">x2022_All industry total</span><span class="st">`</span>, <span class="dv">4</span>),</span>
+<span id="cb39-9"><a href="#cb39-9" aria-hidden="true" tabindex="-1"></a>    <span class="at">manufacturing_share_24 =</span> <span class="fu">round</span>(x2024_Manufacturing <span class="sc">/</span> <span class="st">`</span><span class="at">x2024_All industry total</span><span class="st">`</span>, <span class="dv">4</span>),) <span class="sc">|&gt;</span></span>
+<span id="cb39-10"><a href="#cb39-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">separate</span>(geo_name, <span class="at">into =</span> <span class="fu">c</span>(<span class="st">"county"</span>, <span class="st">"state"</span>), <span class="at">sep =</span> <span class="st">", "</span>) <span class="sc">|&gt;</span></span>
+<span id="cb39-11"><a href="#cb39-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(<span class="fu">desc</span>(manufacturing_share_22))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 8 × 8
+  county state x2022_All industry t…¹ x2022_Manufacturing x2024_All industry t…²
+  &lt;chr&gt;  &lt;chr&gt;                  &lt;dbl&gt;               &lt;dbl&gt;                  &lt;dbl&gt;
+1 Montg… PA                 101985467            15248985              110422372
+2 Bucks  PA                  43581226             4870776               48826773
+3 Glouc… NJ                  17242493             1715514               19111129
+4 Delaw… PA                  39895570             3489174               42607881
+5 Camden NJ                  30564484             2289084               34619814
+6 Burli… NJ                  36147688             2583053               40867224
+7 Chest… PA                  53823173             3772843               60160228
+8 Phila… PA                 122078607             5559680              134988949
+# ℹ abbreviated names: ¹​`x2022_All industry total`, ²​`x2024_All industry total`
+# ℹ 3 more variables: x2024_Manufacturing &lt;dbl&gt;, manufacturing_share_22 &lt;dbl&gt;,
+#   manufacturing_share_24 &lt;dbl&gt;</code></pre>
+</div>
+</div>
+<blockquote class="blockquote">
+<p><strong>Findings:</strong> Manufacturing’s share of GDP declined in nearly every county across greater Philadelphia between 2022 and 2024. Manufacturing in Delaware County is shrinking fastest.</p>
+</blockquote>
+</section>
+<section id="charts-manufacturing-gdp-change-by-county" class="level3">
+<h3 class="anchored" data-anchor-id="charts-manufacturing-gdp-change-by-county">Charts: Manufacturing GDP Change by County</h3>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb41"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb41-1"><a href="#cb41-1" aria-hidden="true" tabindex="-1"></a><span class="co">#AI-assister</span></span>
+<span id="cb41-2"><a href="#cb41-2" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(philly_manufacturing, <span class="fu">aes</span>(<span class="at">x =</span> <span class="fu">reorder</span>(county, pct_24_v_22), <span class="at">y =</span> pct_24_v_22, <span class="at">fill =</span> state)) <span class="sc">+</span></span>
+<span id="cb41-3"><a href="#cb41-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_col</span>() <span class="sc">+</span></span>
+<span id="cb41-4"><a href="#cb41-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">coord_flip</span>() <span class="sc">+</span></span>
+<span id="cb41-5"><a href="#cb41-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_y_continuous</span>(<span class="at">labels =</span> scales<span class="sc">::</span>percent) <span class="sc">+</span></span>
+<span id="cb41-6"><a href="#cb41-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(</span>
+<span id="cb41-7"><a href="#cb41-7" aria-hidden="true" tabindex="-1"></a>    <span class="at">title =</span> <span class="st">"Manufacturing GDP Percentage Change by County in Greater Philadelphia (2022-2024)"</span>,</span>
+<span id="cb41-8"><a href="#cb41-8" aria-hidden="true" tabindex="-1"></a>    <span class="at">x =</span> <span class="cn">NULL</span>,</span>
+<span id="cb41-9"><a href="#cb41-9" aria-hidden="true" tabindex="-1"></a>    <span class="at">y =</span> <span class="st">"Percent Change"</span>,</span>
+<span id="cb41-10"><a href="#cb41-10" aria-hidden="true" tabindex="-1"></a>    <span class="at">fill =</span> <span class="st">"State"</span></span>
+<span id="cb41-11"><a href="#cb41-11" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
+<span id="cb41-12"><a href="#cb41-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="index_files/figure-html/unnamed-chunk-15-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb42"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb42-1"><a href="#cb42-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(philly_manufacturing, <span class="fu">aes</span>(<span class="at">x =</span> <span class="fu">reorder</span>(county, abs_change), <span class="at">y =</span>abs_change , <span class="at">fill =</span> state)) <span class="sc">+</span></span>
+<span id="cb42-2"><a href="#cb42-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_col</span>() <span class="sc">+</span></span>
+<span id="cb42-3"><a href="#cb42-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">coord_flip</span>() <span class="sc">+</span></span>
+<span id="cb42-4"><a href="#cb42-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_y_continuous</span>(<span class="at">labels =</span> scales<span class="sc">::</span>comma) <span class="sc">+</span></span>
+<span id="cb42-5"><a href="#cb42-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(</span>
+<span id="cb42-6"><a href="#cb42-6" aria-hidden="true" tabindex="-1"></a>    <span class="at">title =</span> <span class="st">"Manufacturing GDP Change by County in Greater Philadelphia (2022-2024)"</span>,</span>
+<span id="cb42-7"><a href="#cb42-7" aria-hidden="true" tabindex="-1"></a>    <span class="at">subtitle =</span> <span class="st">"In thousands of dollars"</span>,</span>
+<span id="cb42-8"><a href="#cb42-8" aria-hidden="true" tabindex="-1"></a>    <span class="at">x =</span> <span class="cn">NULL</span>,</span>
+<span id="cb42-9"><a href="#cb42-9" aria-hidden="true" tabindex="-1"></a>    <span class="at">y =</span> <span class="st">"Absolute Change"</span>,</span>
+<span id="cb42-10"><a href="#cb42-10" aria-hidden="true" tabindex="-1"></a>    <span class="at">fill =</span> <span class="st">"State"</span></span>
+<span id="cb42-11"><a href="#cb42-11" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
+<span id="cb42-12"><a href="#cb42-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="index_files/figure-html/unnamed-chunk-15-2.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+<blockquote class="blockquote">
+<p><strong>Findings:</strong> Philadelphia had the largest manufacturing decline both in percentage terms and absolute value, but its overall GDP remained positive. Delaware County, by contrast, lost 12% of its manufacturing output and saw its overall GDP turn negative. Maybe its economy is more vulnerable and lacks other industries to fill the gap left by manufacturing’s decline.</p>
+</blockquote>
+</section>
 </section>
 </section>
 

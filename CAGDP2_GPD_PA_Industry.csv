@@ -1,0 +1,2391 @@
+CAGDP2 Gross domestic product (GDP) by county 1
+CAGDP2 Gross domestic product (GDP) by county 1
+County
+GeoFIPS,GeoName,LineCode,Description,2022,2023,2024
+42000,Pennsylvania,1,All industry total,916861672,966444007,1007873940
+42000,Pennsylvania,2,"  Private industries",837704426,883788000,920912820
+42000,Pennsylvania,3,"    Agriculture, forestry, fishing and hunting",6078968,4552763,4792528
+42000,Pennsylvania,6,"    Mining, quarrying, and oil and gas extraction",19169572,15830492,14162210
+42000,Pennsylvania,10,"    Utilities",14932820,15417615,15204573
+42000,Pennsylvania,11,"    Construction",36147410,39388087,41189692
+42000,Pennsylvania,12,"    Manufacturing",101274933,106948731,107806300
+42000,Pennsylvania,13,"      Durable goods manufacturing",48007106,50482393,50756518
+42000,Pennsylvania,25,"      Nondurable goods manufacturing",53267827,56466338,57049782
+42000,Pennsylvania,34,"    Wholesale trade",53432328,56023977,58308928
+42000,Pennsylvania,35,"    Retail trade",56449496,61263649,63326493
+42000,Pennsylvania,36,"    Transportation and warehousing",36441736,37584108,39065689
+42000,Pennsylvania,45,"    Information",43587339,40720327,41533890
+42000,Pennsylvania,50,"    Finance, insurance, real estate, rental, and leasing",178180919,191026843,201888220
+42000,Pennsylvania,51,"      Finance and insurance",63546684,66722174,72141163
+42000,Pennsylvania,56,"      Real estate and rental and leasing",114634235,124304669,129747057
+42000,Pennsylvania,59,"    Professional and business services",127476423,134624563,141110334
+42000,Pennsylvania,60,"      Professional, scientific, and technical services",74214265,77961224,82060716
+42000,Pennsylvania,64,"      Management of companies and enterprises",28292212,30331144,32132385
+42000,Pennsylvania,65,"      Administrative and support and waste management and remediation services",24969945,26332195,26917233
+42000,Pennsylvania,68,"    Educational services, health care, and social assistance",111966834,121219150,129912550
+42000,Pennsylvania,69,"      Educational services",21537373,22850633,24163555
+42000,Pennsylvania,70,"      Health care and social assistance",90429461,98368518,105748995
+42000,Pennsylvania,75,"    Arts, entertainment, recreation, accommodation, and food services",31907235,37016307,38877014
+42000,Pennsylvania,76,"      Arts, entertainment, and recreation",9594799,11470453,12230872
+42000,Pennsylvania,79,"      Accommodation and food services",22312436,25545854,26646142
+42000,Pennsylvania,82,"    Other services (except government and government enterprises)",20658412,22171387,23734398
+42000,Pennsylvania,83,Government and government enterprises,79157246,82656007,86961120
+42000,Pennsylvania,,Addenda:,,,
+42000,Pennsylvania,87,Natural resources and mining,25248540,20383255,18954739
+42000,Pennsylvania,88,Trade,109881824,117287626,121635422
+42000,Pennsylvania,89,Transportation and utilities,51374556,53001723,54270262
+42000,Pennsylvania,90,Manufacturing and information,144862272,147669058,149340190
+42000,Pennsylvania,91,Private goods-producing industries 2,162670882,166720074,167950731
+42000,Pennsylvania,92,Private services-providing industries 3,675033544,717067926,752962089
+42001,"Adams, PA",1,All industry total,4490521,4578173,4729052
+42001,"Adams, PA",2,"  Private industries",4024304,4077540,4214748
+42001,"Adams, PA",3,"    Agriculture, forestry, fishing and hunting",126703,26258,50221
+42001,"Adams, PA",6,"    Mining, quarrying, and oil and gas extraction",22627,21643,8384
+42001,"Adams, PA",10,"    Utilities",282077,259159,268580
+42001,"Adams, PA",11,"    Construction",252897,262217,266897
+42001,"Adams, PA",12,"    Manufacturing",876014,931987,924335
+42001,"Adams, PA",13,"      Durable goods manufacturing",291411,296083,293695
+42001,"Adams, PA",25,"      Nondurable goods manufacturing",584603,635904,630640
+42001,"Adams, PA",34,"    Wholesale trade",70753,80743,81685
+42001,"Adams, PA",35,"    Retail trade",300889,319800,337238
+42001,"Adams, PA",36,"    Transportation and warehousing",166039,156064,163049
+42001,"Adams, PA",45,"    Information",53505,51755,58949
+42001,"Adams, PA",50,"    Finance, insurance, real estate, rental, and leasing",790651,808353,829254
+42001,"Adams, PA",51,"      Finance and insurance",112852,120110,133139
+42001,"Adams, PA",56,"      Real estate and rental and leasing",677799,688243,696115
+42001,"Adams, PA",59,"    Professional and business services",231534,256721,269793
+42001,"Adams, PA",60,"      Professional, scientific, and technical services",117697,131462,137284
+42001,"Adams, PA",64,"      Management of companies and enterprises",46923,49957,53623
+42001,"Adams, PA",65,"      Administrative and support and waste management and remediation services",66914,75302,78885
+42001,"Adams, PA",68,"    Educational services, health care, and social assistance",496640,520320,550258
+42001,"Adams, PA",69,"      Educational services",(D),(D),120281
+42001,"Adams, PA",70,"      Health care and social assistance",(D),(D),429977
+42001,"Adams, PA",75,"    Arts, entertainment, recreation, accommodation, and food services",226389,248326,259982
+42001,"Adams, PA",76,"      Arts, entertainment, and recreation",43400,50042,53220
+42001,"Adams, PA",79,"      Accommodation and food services",182989,198284,206762
+42001,"Adams, PA",82,"    Other services (except government and government enterprises)",127586,134196,146123
+42001,"Adams, PA",83,Government and government enterprises,466217,500633,514304
+42001,"Adams, PA",,Addenda:,,,
+42001,"Adams, PA",87,Natural resources and mining,149331,47901,58605
+42001,"Adams, PA",88,Trade,371642,400543,418923
+42001,"Adams, PA",89,Transportation and utilities,448116,415223,431629
+42001,"Adams, PA",90,Manufacturing and information,929519,983742,983284
+42001,"Adams, PA",91,Private goods-producing industries 2,1278241,1242105,1249837
+42001,"Adams, PA",92,Private services-providing industries 3,2746063,2835436,2964911
+42003,"Allegheny, PA",1,All industry total,119610193,127286970,132891899
+42003,"Allegheny, PA",2,"  Private industries",111684437,118904513,124061756
+42003,"Allegheny, PA",3,"    Agriculture, forestry, fishing and hunting",16701,20603,9021
+42003,"Allegheny, PA",6,"    Mining, quarrying, and oil and gas extraction",550509,474275,758196
+42003,"Allegheny, PA",10,"    Utilities",658043,632434,615991
+42003,"Allegheny, PA",11,"    Construction",4163359,4466850,4626874
+42003,"Allegheny, PA",12,"    Manufacturing",5890744,6298729,6216480
+42003,"Allegheny, PA",13,"      Durable goods manufacturing",4509561,4701586,4620825
+42003,"Allegheny, PA",25,"      Nondurable goods manufacturing",1381183,1597142,1595655
+42003,"Allegheny, PA",34,"    Wholesale trade",8072500,8453691,8661927
+42003,"Allegheny, PA",35,"    Retail trade",9736581,10749501,11163695
+42003,"Allegheny, PA",36,"    Transportation and warehousing",4361517,4316960,4167300
+42003,"Allegheny, PA",45,"    Information",7517564,7567760,7811748
+42003,"Allegheny, PA",50,"    Finance, insurance, real estate, rental, and leasing",25688513,27289199,29481082
+42003,"Allegheny, PA",51,"      Finance and insurance",12608629,12882883,14717727
+42003,"Allegheny, PA",56,"      Real estate and rental and leasing",13079885,14406316,14763356
+42003,"Allegheny, PA",59,"    Professional and business services",21857050,23501783,23681864
+42003,"Allegheny, PA",60,"      Professional, scientific, and technical services",11987986,12853782,13598239
+42003,"Allegheny, PA",64,"      Management of companies and enterprises",6716520,7373445,6827515
+42003,"Allegheny, PA",65,"      Administrative and support and waste management and remediation services",3152543,3274556,3256110
+42003,"Allegheny, PA",68,"    Educational services, health care, and social assistance",16194820,17323854,18549761
+42003,"Allegheny, PA",69,"      Educational services",4101110,4405551,4702234
+42003,"Allegheny, PA",70,"      Health care and social assistance",12093710,12918302,13847527
+42003,"Allegheny, PA",75,"    Arts, entertainment, recreation, accommodation, and food services",4677135,5330314,5653993
+42003,"Allegheny, PA",76,"      Arts, entertainment, and recreation",1892852,2149199,2312962
+42003,"Allegheny, PA",79,"      Accommodation and food services",2784283,3181115,3341030
+42003,"Allegheny, PA",82,"    Other services (except government and government enterprises)",2299401,2478560,2663824
+42003,"Allegheny, PA",83,Government and government enterprises,7925757,8382456,8830142
+42003,"Allegheny, PA",,Addenda:,,,
+42003,"Allegheny, PA",87,Natural resources and mining,567210,494878,767216
+42003,"Allegheny, PA",88,Trade,17809081,19203192,19825622
+42003,"Allegheny, PA",89,Transportation and utilities,5019559,4949395,4783291
+42003,"Allegheny, PA",90,Manufacturing and information,13408308,13866489,14028228
+42003,"Allegheny, PA",91,Private goods-producing industries 2,10621314,11260457,11610571
+42003,"Allegheny, PA",92,Private services-providing industries 3,101063123,107644056,112451185
+42005,"Armstrong, PA",1,All industry total,2500451,2461050,2797574
+42005,"Armstrong, PA",2,"  Private industries",2292171,2245139,2575307
+42005,"Armstrong, PA",3,"    Agriculture, forestry, fishing and hunting",25176,28474,7134
+42005,"Armstrong, PA",6,"    Mining, quarrying, and oil and gas extraction",395712,319120,616925
+42005,"Armstrong, PA",10,"    Utilities",331568,229801,228828
+42005,"Armstrong, PA",11,"    Construction",91835,115823,127808
+42005,"Armstrong, PA",12,"    Manufacturing",205316,214523,215075
+42005,"Armstrong, PA",13,"      Durable goods manufacturing",175767,183053,181500
+42005,"Armstrong, PA",25,"      Nondurable goods manufacturing",29549,31470,33575
+42005,"Armstrong, PA",34,"    Wholesale trade",67586,68754,71956
+42005,"Armstrong, PA",35,"    Retail trade",144695,158099,163583
+42005,"Armstrong, PA",36,"    Transportation and warehousing",99984,102302,108235
+42005,"Armstrong, PA",45,"    Information",84775,92165,92130
+42005,"Armstrong, PA",50,"    Finance, insurance, real estate, rental, and leasing",403424,441699,452680
+42005,"Armstrong, PA",51,"      Finance and insurance",79874,89453,96135
+42005,"Armstrong, PA",56,"      Real estate and rental and leasing",323549,352246,356544
+42005,"Armstrong, PA",59,"    Professional and business services",88107,94403,94863
+42005,"Armstrong, PA",60,"      Professional, scientific, and technical services",37482,38371,41009
+42005,"Armstrong, PA",64,"      Management of companies and enterprises",21854,24251,23758
+42005,"Armstrong, PA",65,"      Administrative and support and waste management and remediation services",28771,31781,30096
+42005,"Armstrong, PA",68,"    Educational services, health care, and social assistance",227201,238295,252615
+42005,"Armstrong, PA",69,"      Educational services",5027,5708,6114
+42005,"Armstrong, PA",70,"      Health care and social assistance",222174,232587,246501
+42005,"Armstrong, PA",75,"    Arts, entertainment, recreation, accommodation, and food services",50670,55481,56636
+42005,"Armstrong, PA",76,"      Arts, entertainment, and recreation",8737,9864,8774
+42005,"Armstrong, PA",79,"      Accommodation and food services",41933,45617,47863
+42005,"Armstrong, PA",82,"    Other services (except government and government enterprises)",76122,86200,86839
+42005,"Armstrong, PA",83,Government and government enterprises,208280,215911,222267
+42005,"Armstrong, PA",,Addenda:,,,
+42005,"Armstrong, PA",87,Natural resources and mining,420888,347594,624059
+42005,"Armstrong, PA",88,Trade,212282,226853,235540
+42005,"Armstrong, PA",89,Transportation and utilities,431552,332103,337062
+42005,"Armstrong, PA",90,Manufacturing and information,290091,306688,307205
+42005,"Armstrong, PA",91,Private goods-producing industries 2,718039,677941,966942
+42005,"Armstrong, PA",92,Private services-providing industries 3,1574132,1567199,1608365
+42007,"Beaver, PA",1,All industry total,7866516,7893082,8032503
+42007,"Beaver, PA",2,"  Private industries",7204657,7209826,7326152
+42007,"Beaver, PA",3,"    Agriculture, forestry, fishing and hunting",9869,1110,2769
+42007,"Beaver, PA",6,"    Mining, quarrying, and oil and gas extraction",149876,113053,81406
+42007,"Beaver, PA",10,"    Utilities",931786,987902,945292
+42007,"Beaver, PA",11,"    Construction",635130,405719,419139
+42007,"Beaver, PA",12,"    Manufacturing",1452727,1579373,1566216
+42007,"Beaver, PA",13,"      Durable goods manufacturing",953708,1023334,1011785
+42007,"Beaver, PA",25,"      Nondurable goods manufacturing",499020,556039,554431
+42007,"Beaver, PA",34,"    Wholesale trade",266252,279127,295172
+42007,"Beaver, PA",35,"    Retail trade",446304,484173,494493
+42007,"Beaver, PA",36,"    Transportation and warehousing",395641,405141,421698
+42007,"Beaver, PA",45,"    Information",79104,68307,72270
+42007,"Beaver, PA",50,"    Finance, insurance, real estate, rental, and leasing",1237527,1195730,1237686
+42007,"Beaver, PA",51,"      Finance and insurance",171269,184108,194547
+42007,"Beaver, PA",56,"      Real estate and rental and leasing",1066258,1011622,1043139
+42007,"Beaver, PA",59,"    Professional and business services",509860,518184,559617
+42007,"Beaver, PA",60,"      Professional, scientific, and technical services",270347,271664,287411
+42007,"Beaver, PA",64,"      Management of companies and enterprises",59530,48936,51252
+42007,"Beaver, PA",65,"      Administrative and support and waste management and remediation services",179982,197584,220954
+42007,"Beaver, PA",68,"    Educational services, health care, and social assistance",708984,757311,792088
+42007,"Beaver, PA",69,"      Educational services",52447,58286,66410
+42007,"Beaver, PA",70,"      Health care and social assistance",656537,699024,725678
+42007,"Beaver, PA",75,"    Arts, entertainment, recreation, accommodation, and food services",214800,231279,241141
+42007,"Beaver, PA",76,"      Arts, entertainment, and recreation",47248,46759,49459
+42007,"Beaver, PA",79,"      Accommodation and food services",167552,184520,191682
+42007,"Beaver, PA",82,"    Other services (except government and government enterprises)",166798,183418,197165
+42007,"Beaver, PA",83,Government and government enterprises,661860,683256,706351
+42007,"Beaver, PA",,Addenda:,,,
+42007,"Beaver, PA",87,Natural resources and mining,159744,114163,84175
+42007,"Beaver, PA",88,Trade,712556,763300,789665
+42007,"Beaver, PA",89,Transportation and utilities,1327426,1393043,1366990
+42007,"Beaver, PA",90,Manufacturing and information,1531832,1647680,1638487
+42007,"Beaver, PA",91,Private goods-producing industries 2,2247602,2099255,2069530
+42007,"Beaver, PA",92,Private services-providing industries 3,4957055,5110571,5256622
+42009,"Bedford, PA",1,All industry total,1844948,1941005,2040603
+42009,"Bedford, PA",2,"  Private industries",1670397,1758540,1850863
+42009,"Bedford, PA",3,"    Agriculture, forestry, fishing and hunting",70421,17472,13030
+42009,"Bedford, PA",6,"    Mining, quarrying, and oil and gas extraction",7704,8925,3392
+42009,"Bedford, PA",10,"    Utilities",5804,5630,5985
+42009,"Bedford, PA",11,"    Construction",142494,162691,176407
+42009,"Bedford, PA",12,"    Manufacturing",350589,371649,413240
+42009,"Bedford, PA",13,"      Durable goods manufacturing",290568,313552,347653
+42009,"Bedford, PA",25,"      Nondurable goods manufacturing",60021,58097,65586
+42009,"Bedford, PA",34,"    Wholesale trade",44998,46189,47827
+42009,"Bedford, PA",35,"    Retail trade",164616,183161,193469
+42009,"Bedford, PA",36,"    Transportation and warehousing",206560,226607,227266
+42009,"Bedford, PA",45,"    Information",28648,30760,30735
+42009,"Bedford, PA",50,"    Finance, insurance, real estate, rental, and leasing",293644,321404,327691
+42009,"Bedford, PA",51,"      Finance and insurance",62687,69348,74554
+42009,"Bedford, PA",56,"      Real estate and rental and leasing",230956,252056,253137
+42009,"Bedford, PA",59,"    Professional and business services",89120,94906,98732
+42009,"Bedford, PA",60,"      Professional, scientific, and technical services",31260,32514,34037
+42009,"Bedford, PA",64,"      Management of companies and enterprises",8524,11571,13403
+42009,"Bedford, PA",65,"      Administrative and support and waste management and remediation services",49336,50821,51292
+42009,"Bedford, PA",68,"    Educational services, health care, and social assistance",127169,138527,152572
+42009,"Bedford, PA",69,"      Educational services",(D),2373,(D)
+42009,"Bedford, PA",70,"      Health care and social assistance",(D),136154,(D)
+42009,"Bedford, PA",75,"    Arts, entertainment, recreation, accommodation, and food services",72852,80632,83842
+42009,"Bedford, PA",76,"      Arts, entertainment, and recreation",5568,6386,6700
+42009,"Bedford, PA",79,"      Accommodation and food services",67283,74246,77142
+42009,"Bedford, PA",82,"    Other services (except government and government enterprises)",65781,69986,76676
+42009,"Bedford, PA",83,Government and government enterprises,174551,182465,189740
+42009,"Bedford, PA",,Addenda:,,,
+42009,"Bedford, PA",87,Natural resources and mining,78124,26397,16422
+42009,"Bedford, PA",88,Trade,209614,229350,241296
+42009,"Bedford, PA",89,Transportation and utilities,212363,232237,233251
+42009,"Bedford, PA",90,Manufacturing and information,379237,402409,443975
+42009,"Bedford, PA",91,Private goods-producing industries 2,571207,560737,606069
+42009,"Bedford, PA",92,Private services-providing industries 3,1099190,1197803,1244794
+42011,"Berks, PA",1,All industry total,24056316,25397072,26580119
+42011,"Berks, PA",2,"  Private industries",22088074,23343528,24408483
+42011,"Berks, PA",3,"    Agriculture, forestry, fishing and hunting",382904,293790,314028
+42011,"Berks, PA",6,"    Mining, quarrying, and oil and gas extraction",62834,70766,27989
+42011,"Berks, PA",10,"    Utilities",426251,451976,436609
+42011,"Berks, PA",11,"    Construction",1043883,1127008,1194917
+42011,"Berks, PA",12,"    Manufacturing",3845148,4230201,4357118
+42011,"Berks, PA",13,"      Durable goods manufacturing",2700310,2950911,3083609
+42011,"Berks, PA",25,"      Nondurable goods manufacturing",1144839,1279290,1273509
+42011,"Berks, PA",34,"    Wholesale trade",1279288,1384426,1385969
+42011,"Berks, PA",35,"    Retail trade",1491441,1616221,1681070
+42011,"Berks, PA",36,"    Transportation and warehousing",1198995,1015566,1167449
+42011,"Berks, PA",45,"    Information",485477,444660,442089
+42011,"Berks, PA",50,"    Finance, insurance, real estate, rental, and leasing",5030109,5315563,5504459
+42011,"Berks, PA",51,"      Finance and insurance",1258915,1356619,1348154
+42011,"Berks, PA",56,"      Real estate and rental and leasing",3771193,3958945,4156305
+42011,"Berks, PA",59,"    Professional and business services",2756578,2948120,3193033
+42011,"Berks, PA",60,"      Professional, scientific, and technical services",1135938,1203190,1275692
+42011,"Berks, PA",64,"      Management of companies and enterprises",892232,943994,1100266
+42011,"Berks, PA",65,"      Administrative and support and waste management and remediation services",728408,800936,817075
+42011,"Berks, PA",68,"    Educational services, health care, and social assistance",2771595,2968645,3147029
+42011,"Berks, PA",69,"      Educational services",189505,197286,209418
+42011,"Berks, PA",70,"      Health care and social assistance",2582090,2771359,2937611
+42011,"Berks, PA",75,"    Arts, entertainment, recreation, accommodation, and food services",713697,811888,843159
+42011,"Berks, PA",76,"      Arts, entertainment, and recreation",124647,168717,181433
+42011,"Berks, PA",79,"      Accommodation and food services",589050,643172,661727
+42011,"Berks, PA",82,"    Other services (except government and government enterprises)",599873,664697,713565
+42011,"Berks, PA",83,Government and government enterprises,1968242,2053544,2171636
+42011,"Berks, PA",,Addenda:,,,
+42011,"Berks, PA",87,Natural resources and mining,445738,364556,342017
+42011,"Berks, PA",88,Trade,2770729,3000647,3067038
+42011,"Berks, PA",89,Transportation and utilities,1625247,1467542,1604058
+42011,"Berks, PA",90,Manufacturing and information,4330625,4674861,4799207
+42011,"Berks, PA",91,Private goods-producing industries 2,5334769,5721765,5894053
+42011,"Berks, PA",92,Private services-providing industries 3,16753305,17621763,18514431
+42013,"Blair, PA",1,All industry total,7229919,7678496,8000149
+42013,"Blair, PA",2,"  Private industries",6412996,6807345,7098845
+42013,"Blair, PA",3,"    Agriculture, forestry, fishing and hunting",92726,45145,38115
+42013,"Blair, PA",6,"    Mining, quarrying, and oil and gas extraction",50166,56989,22902
+42013,"Blair, PA",10,"    Utilities",36818,35590,39394
+42013,"Blair, PA",11,"    Construction",237627,269720,295193
+42013,"Blair, PA",12,"    Manufacturing",873071,952566,992458
+42013,"Blair, PA",13,"      Durable goods manufacturing",375481,402270,422103
+42013,"Blair, PA",25,"      Nondurable goods manufacturing",497591,550297,570354
+42013,"Blair, PA",34,"    Wholesale trade",518111,551693,566284
+42013,"Blair, PA",35,"    Retail trade",740302,805935,842582
+42013,"Blair, PA",36,"    Transportation and warehousing",543917,512715,528415
+42013,"Blair, PA",45,"    Information",465115,445378,443066
+42013,"Blair, PA",50,"    Finance, insurance, real estate, rental, and leasing",915115,1051542,1114515
+42013,"Blair, PA",51,"      Finance and insurance",197808,220654,233009
+42013,"Blair, PA",56,"      Real estate and rental and leasing",717306,830888,881506
+42013,"Blair, PA",59,"    Professional and business services",571260,615071,692456
+42013,"Blair, PA",60,"      Professional, scientific, and technical services",226258,240705,265545
+42013,"Blair, PA",64,"      Management of companies and enterprises",205187,205881,250755
+42013,"Blair, PA",65,"      Administrative and support and waste management and remediation services",139814,168485,176156
+42013,"Blair, PA",68,"    Educational services, health care, and social assistance",952240,1005701,1046829
+42013,"Blair, PA",69,"      Educational services",27052,29919,32223
+42013,"Blair, PA",70,"      Health care and social assistance",925188,975781,1014606
+42013,"Blair, PA",75,"    Arts, entertainment, recreation, accommodation, and food services",241949,272899,274986
+42013,"Blair, PA",76,"      Arts, entertainment, and recreation",58347,61828,64951
+42013,"Blair, PA",79,"      Accommodation and food services",183602,211071,210034
+42013,"Blair, PA",82,"    Other services (except government and government enterprises)",174581,186403,201651
+42013,"Blair, PA",83,Government and government enterprises,816923,871151,901304
+42013,"Blair, PA",,Addenda:,,,
+42013,"Blair, PA",87,Natural resources and mining,142892,102133,61017
+42013,"Blair, PA",88,Trade,1258413,1357628,1408867
+42013,"Blair, PA",89,Transportation and utilities,580735,548305,567809
+42013,"Blair, PA",90,Manufacturing and information,1338186,1397944,1435524
+42013,"Blair, PA",91,Private goods-producing industries 2,1253590,1324419,1348667
+42013,"Blair, PA",92,Private services-providing industries 3,5159406,5482926,5750178
+42015,"Bradford, PA",1,All industry total,5681386,6281787,6798065
+42015,"Bradford, PA",2,"  Private industries",5428077,6018729,6526312
+42015,"Bradford, PA",3,"    Agriculture, forestry, fishing and hunting",104665,64699,31598
+42015,"Bradford, PA",6,"    Mining, quarrying, and oil and gas extraction",1991232,1402020,1124650
+42015,"Bradford, PA",10,"    Utilities",315649,343710,316573
+42015,"Bradford, PA",11,"    Construction",79286,87423,93340
+42015,"Bradford, PA",12,"    Manufacturing",1236175,2152018,2900183
+42015,"Bradford, PA",13,"      Durable goods manufacturing",249270,250235,227495
+42015,"Bradford, PA",25,"      Nondurable goods manufacturing",986905,1901784,2672687
+42015,"Bradford, PA",34,"    Wholesale trade",68676,70662,72156
+42015,"Bradford, PA",35,"    Retail trade",203195,225634,234293
+42015,"Bradford, PA",36,"    Transportation and warehousing",165504,298990,302039
+42015,"Bradford, PA",45,"    Information",38247,39361,42119
+42015,"Bradford, PA",50,"    Finance, insurance, real estate, rental, and leasing",441562,481994,488699
+42015,"Bradford, PA",51,"      Finance and insurance",101113,119586,122631
+42015,"Bradford, PA",56,"      Real estate and rental and leasing",340449,362409,366068
+42015,"Bradford, PA",59,"    Professional and business services",180759,194059,204629
+42015,"Bradford, PA",60,"      Professional, scientific, and technical services",56143,58038,61194
+42015,"Bradford, PA",64,"      Management of companies and enterprises",89748,101291,105663
+42015,"Bradford, PA",65,"      Administrative and support and waste management and remediation services",34868,34731,37772
+42015,"Bradford, PA",68,"    Educational services, health care, and social assistance",473899,523231,573650
+42015,"Bradford, PA",69,"      Educational services",5945,5902,6763
+42015,"Bradford, PA",70,"      Health care and social assistance",467953,517328,566888
+42015,"Bradford, PA",75,"    Arts, entertainment, recreation, accommodation, and food services",65617,68845,71944
+42015,"Bradford, PA",76,"      Arts, entertainment, and recreation",5676,5643,5905
+42015,"Bradford, PA",79,"      Accommodation and food services",59940,63202,66040
+42015,"Bradford, PA",82,"    Other services (except government and government enterprises)",63611,66083,70439
+42015,"Bradford, PA",83,Government and government enterprises,253309,263058,271753
+42015,"Bradford, PA",,Addenda:,,,
+42015,"Bradford, PA",87,Natural resources and mining,2095897,1466718,1156248
+42015,"Bradford, PA",88,Trade,271871,296296,306449
+42015,"Bradford, PA",89,Transportation and utilities,481153,642700,618612
+42015,"Bradford, PA",90,Manufacturing and information,1274422,2191380,2942302
+42015,"Bradford, PA",91,Private goods-producing industries 2,3411358,3706160,4149771
+42015,"Bradford, PA",92,Private services-providing industries 3,2016719,2312570,2376542
+42017,"Bucks, PA",1,All industry total,43581226,46255811,48826773
+42017,"Bucks, PA",2,"  Private industries",40951816,43501888,45947098
+42017,"Bucks, PA",3,"    Agriculture, forestry, fishing and hunting",75503,74154,22209
+42017,"Bucks, PA",6,"    Mining, quarrying, and oil and gas extraction",33798,36860,167354
+42017,"Bucks, PA",10,"    Utilities",507331,551606,526613
+42017,"Bucks, PA",11,"    Construction",2463412,2681943,2725608
+42017,"Bucks, PA",12,"    Manufacturing",4870776,5349086,5411855
+42017,"Bucks, PA",13,"      Durable goods manufacturing",2248098,2309657,2359889
+42017,"Bucks, PA",25,"      Nondurable goods manufacturing",2622678,3039430,3051966
+42017,"Bucks, PA",34,"    Wholesale trade",3821599,3961979,4117808
+42017,"Bucks, PA",35,"    Retail trade",2971680,3215145,3368358
+42017,"Bucks, PA",36,"    Transportation and warehousing",1197075,1052629,1181758
+42017,"Bucks, PA",45,"    Information",1942169,1859590,1918076
+42017,"Bucks, PA",50,"    Finance, insurance, real estate, rental, and leasing",9376859,10194856,10961776
+42017,"Bucks, PA",51,"      Finance and insurance",2219525,2364442,2532014
+42017,"Bucks, PA",56,"      Real estate and rental and leasing",7157334,7830414,8429762
+42017,"Bucks, PA",59,"    Professional and business services",5951284,6035139,6383869
+42017,"Bucks, PA",60,"      Professional, scientific, and technical services",3851274,3899172,4133808
+42017,"Bucks, PA",64,"      Management of companies and enterprises",718144,640585,729112
+42017,"Bucks, PA",65,"      Administrative and support and waste management and remediation services",1381866,1495382,1520949
+42017,"Bucks, PA",68,"    Educational services, health care, and social assistance",4901521,5321637,5837048
+42017,"Bucks, PA",69,"      Educational services",534169,509528,541255
+42017,"Bucks, PA",70,"      Health care and social assistance",4367352,4812109,5295794
+42017,"Bucks, PA",75,"    Arts, entertainment, recreation, accommodation, and food services",1625737,1884565,1963239
+42017,"Bucks, PA",76,"      Arts, entertainment, and recreation",613743,672834,703722
+42017,"Bucks, PA",79,"      Accommodation and food services",1011994,1211732,1259517
+42017,"Bucks, PA",82,"    Other services (except government and government enterprises)",1213071,1282700,1361528
+42017,"Bucks, PA",83,Government and government enterprises,2629410,2753923,2879676
+42017,"Bucks, PA",,Addenda:,,,
+42017,"Bucks, PA",87,Natural resources and mining,109301,111014,189563
+42017,"Bucks, PA",88,Trade,6793278,7177124,7486166
+42017,"Bucks, PA",89,Transportation and utilities,1704407,1604235,1708371
+42017,"Bucks, PA",90,Manufacturing and information,6812946,7208677,7329931
+42017,"Bucks, PA",91,Private goods-producing industries 2,7443489,8142043,8327025
+42017,"Bucks, PA",92,Private services-providing industries 3,33508327,35359845,37620073
+42019,"Butler, PA",1,All industry total,12878907,13905640,14517627
+42019,"Butler, PA",2,"  Private industries",11553880,12493979,13032363
+42019,"Butler, PA",3,"    Agriculture, forestry, fishing and hunting",25690,25043,11866
+42019,"Butler, PA",6,"    Mining, quarrying, and oil and gas extraction",641810,522262,467880
+42019,"Butler, PA",10,"    Utilities",36608,33318,37684
+42019,"Butler, PA",11,"    Construction",605205,675660,685334
+42019,"Butler, PA",12,"    Manufacturing",1891180,2005592,1939289
+42019,"Butler, PA",13,"      Durable goods manufacturing",1403967,1444616,1435956
+42019,"Butler, PA",25,"      Nondurable goods manufacturing",487213,560976,503333
+42019,"Butler, PA",34,"    Wholesale trade",918785,954329,1032490
+42019,"Butler, PA",35,"    Retail trade",863963,947058,988946
+42019,"Butler, PA",36,"    Transportation and warehousing",398290,379590,396341
+42019,"Butler, PA",45,"    Information",511312,536138,572999
+42019,"Butler, PA",50,"    Finance, insurance, real estate, rental, and leasing",1989103,2293857,2492336
+42019,"Butler, PA",51,"      Finance and insurance",402869,435101,466344
+42019,"Butler, PA",56,"      Real estate and rental and leasing",1586234,1858756,2025992
+42019,"Butler, PA",59,"    Professional and business services",1839928,2142144,2250702
+42019,"Butler, PA",60,"      Professional, scientific, and technical services",736536,817959,863177
+42019,"Butler, PA",64,"      Management of companies and enterprises",757481,942779,983650
+42019,"Butler, PA",65,"      Administrative and support and waste management and remediation services",345911,381407,403876
+42019,"Butler, PA",68,"    Educational services, health care, and social assistance",1120663,1196470,1323234
+42019,"Butler, PA",69,"      Educational services",58526,64550,86475
+42019,"Butler, PA",70,"      Health care and social assistance",1062137,1131920,1236759
+42019,"Butler, PA",75,"    Arts, entertainment, recreation, accommodation, and food services",418713,462638,490644
+42019,"Butler, PA",76,"      Arts, entertainment, and recreation",75500,82761,87121
+42019,"Butler, PA",79,"      Accommodation and food services",343213,379876,403523
+42019,"Butler, PA",82,"    Other services (except government and government enterprises)",292632,319881,342616
+42019,"Butler, PA",83,Government and government enterprises,1325027,1411662,1485264
+42019,"Butler, PA",,Addenda:,,,
+42019,"Butler, PA",87,Natural resources and mining,667500,547304,479746
+42019,"Butler, PA",88,Trade,1782748,1901386,2021436
+42019,"Butler, PA",89,Transportation and utilities,434897,412908,434025
+42019,"Butler, PA",90,Manufacturing and information,2402491,2541731,2512288
+42019,"Butler, PA",91,Private goods-producing industries 2,3163885,3228557,3104370
+42019,"Butler, PA",92,Private services-providing industries 3,8389995,9265422,9927993
+42021,"Cambria, PA",1,All industry total,5601473,5984827,6208141
+42021,"Cambria, PA",2,"  Private industries",4914199,5263185,5453875
+42021,"Cambria, PA",3,"    Agriculture, forestry, fishing and hunting",11476,5722,5448
+42021,"Cambria, PA",6,"    Mining, quarrying, and oil and gas extraction",67491,73707,68123
+42021,"Cambria, PA",10,"    Utilities",460107,462881,470125
+42021,"Cambria, PA",11,"    Construction",155666,193158,194609
+42021,"Cambria, PA",12,"    Manufacturing",507408,546656,552789
+42021,"Cambria, PA",13,"      Durable goods manufacturing",367895,389846,399378
+42021,"Cambria, PA",25,"      Nondurable goods manufacturing",139513,156809,153411
+42021,"Cambria, PA",34,"    Wholesale trade",219812,229507,222580
+42021,"Cambria, PA",35,"    Retail trade",482330,525759,544121
+42021,"Cambria, PA",36,"    Transportation and warehousing",172950,203539,224947
+42021,"Cambria, PA",45,"    Information",132942,131480,132494
+42021,"Cambria, PA",50,"    Finance, insurance, real estate, rental, and leasing",1003218,1040301,1069217
+42021,"Cambria, PA",51,"      Finance and insurance",325169,345197,351648
+42021,"Cambria, PA",56,"      Real estate and rental and leasing",678049,695104,717569
+42021,"Cambria, PA",59,"    Professional and business services",455470,501818,545400
+42021,"Cambria, PA",60,"      Professional, scientific, and technical services",253001,286019,313566
+42021,"Cambria, PA",64,"      Management of companies and enterprises",58054,67938,72659
+42021,"Cambria, PA",65,"      Administrative and support and waste management and remediation services",144414,147861,159175
+42021,"Cambria, PA",68,"    Educational services, health care, and social assistance",905366,977050,1032608
+42021,"Cambria, PA",69,"      Educational services",129126,133276,139798
+42021,"Cambria, PA",70,"      Health care and social assistance",776239,843774,892810
+42021,"Cambria, PA",75,"    Arts, entertainment, recreation, accommodation, and food services",170334,191961,201210
+42021,"Cambria, PA",76,"      Arts, entertainment, and recreation",33029,39167,41308
+42021,"Cambria, PA",79,"      Accommodation and food services",137305,152793,159902
+42021,"Cambria, PA",82,"    Other services (except government and government enterprises)",169629,179646,190205
+42021,"Cambria, PA",83,Government and government enterprises,687274,721642,754266
+42021,"Cambria, PA",,Addenda:,,,
+42021,"Cambria, PA",87,Natural resources and mining,78967,79429,73571
+42021,"Cambria, PA",88,Trade,702142,755266,766701
+42021,"Cambria, PA",89,Transportation and utilities,633057,666420,695072
+42021,"Cambria, PA",90,Manufacturing and information,640351,678136,685283
+42021,"Cambria, PA",91,Private goods-producing industries 2,742041,819243,820969
+42021,"Cambria, PA",92,Private services-providing industries 3,4172158,4443942,4632907
+42023,"Cameron, PA",1,All industry total,304459,297835,267928
+42023,"Cameron, PA",2,"  Private industries",275812,268333,236936
+42023,"Cameron, PA",3,"    Agriculture, forestry, fishing and hunting",3114,4371,(D)
+42023,"Cameron, PA",6,"    Mining, quarrying, and oil and gas extraction",(D),(D),43521
+42023,"Cameron, PA",10,"    Utilities",533,387,413
+42023,"Cameron, PA",11,"    Construction",(D),(D),(D)
+42023,"Cameron, PA",12,"    Manufacturing",97966,100513,95980
+42023,"Cameron, PA",13,"      Durable goods manufacturing",(D),100032,95505
+42023,"Cameron, PA",25,"      Nondurable goods manufacturing",(D),481,475
+42023,"Cameron, PA",34,"    Wholesale trade",6115,6476,(D)
+42023,"Cameron, PA",35,"    Retail trade",6286,7539,7547
+42023,"Cameron, PA",36,"    Transportation and warehousing",(D),(D),(D)
+42023,"Cameron, PA",45,"    Information",1881,1668,(D)
+42023,"Cameron, PA",50,"    Finance, insurance, real estate, rental, and leasing",(D),(D),(D)
+42023,"Cameron, PA",51,"      Finance and insurance",(D),(D),(D)
+42023,"Cameron, PA",56,"      Real estate and rental and leasing",31203,41126,43236
+42023,"Cameron, PA",59,"    Professional and business services",4980,5262,5532
+42023,"Cameron, PA",60,"      Professional, scientific, and technical services",(D),(D),(D)
+42023,"Cameron, PA",64,"      Management of companies and enterprises",(D),(D),(D)
+42023,"Cameron, PA",65,"      Administrative and support and waste management and remediation services",424,551,(D)
+42023,"Cameron, PA",68,"    Educational services, health care, and social assistance",9738,10187,9820
+42023,"Cameron, PA",69,"      Educational services",177,297,310
+42023,"Cameron, PA",70,"      Health care and social assistance",9561,9890,9510
+42023,"Cameron, PA",75,"    Arts, entertainment, recreation, accommodation, and food services",(D),(D),(D)
+42023,"Cameron, PA",76,"      Arts, entertainment, and recreation",(D),(D),(D)
+42023,"Cameron, PA",79,"      Accommodation and food services",(D),(D),(D)
+42023,"Cameron, PA",82,"    Other services (except government and government enterprises)",3559,3650,3721
+42023,"Cameron, PA",83,Government and government enterprises,28647,29502,30992
+42023,"Cameron, PA",,Addenda:,,,
+42023,"Cameron, PA",87,Natural resources and mining,(D),(D),(D)
+42023,"Cameron, PA",88,Trade,12401,14016,(D)
+42023,"Cameron, PA",89,Transportation and utilities,(D),(D),(D)
+42023,"Cameron, PA",90,Manufacturing and information,99847,102180,(D)
+42023,"Cameron, PA",91,Private goods-producing industries 2,202743,(D),146245
+42023,"Cameron, PA",92,Private services-providing industries 3,73070,(D),90691
+42025,"Carbon, PA",1,All industry total,2759410,2685716,2798297
+42025,"Carbon, PA",2,"  Private industries",2546098,2467304,2568782
+42025,"Carbon, PA",3,"    Agriculture, forestry, fishing and hunting",844,7600,(D)
+42025,"Carbon, PA",6,"    Mining, quarrying, and oil and gas extraction",31361,(D),29992
+42025,"Carbon, PA",10,"    Utilities",18467,(D),(D)
+42025,"Carbon, PA",11,"    Construction",75578,85039,87745
+42025,"Carbon, PA",12,"    Manufacturing",237601,254361,245403
+42025,"Carbon, PA",13,"      Durable goods manufacturing",155935,155452,154347
+42025,"Carbon, PA",25,"      Nondurable goods manufacturing",81666,98909,91056
+42025,"Carbon, PA",34,"    Wholesale trade",51683,(D),(D)
+42025,"Carbon, PA",35,"    Retail trade",156211,171194,176662
+42025,"Carbon, PA",36,"    Transportation and warehousing",56541,43025,46288
+42025,"Carbon, PA",45,"    Information",777971,502705,531724
+42025,"Carbon, PA",50,"    Finance, insurance, real estate, rental, and leasing",589046,680591,724991
+42025,"Carbon, PA",51,"      Finance and insurance",49325,52600,56754
+42025,"Carbon, PA",56,"      Real estate and rental and leasing",539722,627990,668237
+42025,"Carbon, PA",59,"    Professional and business services",74511,81185,89161
+42025,"Carbon, PA",60,"      Professional, scientific, and technical services",42890,45597,52095
+42025,"Carbon, PA",64,"      Management of companies and enterprises",2184,2564,2714
+42025,"Carbon, PA",65,"      Administrative and support and waste management and remediation services",29437,33024,34351
+42025,"Carbon, PA",68,"    Educational services, health care, and social assistance",270171,305406,313725
+42025,"Carbon, PA",69,"      Educational services",27921,30555,32196
+42025,"Carbon, PA",70,"      Health care and social assistance",242250,274851,281529
+42025,"Carbon, PA",75,"    Arts, entertainment, recreation, accommodation, and food services",143484,156462,161787
+42025,"Carbon, PA",76,"      Arts, entertainment, and recreation",64325,71269,73695
+42025,"Carbon, PA",79,"      Accommodation and food services",79159,85193,88092
+42025,"Carbon, PA",82,"    Other services (except government and government enterprises)",62629,67837,73159
+42025,"Carbon, PA",83,Government and government enterprises,213312,218412,229515
+42025,"Carbon, PA",,Addenda:,,,
+42025,"Carbon, PA",87,Natural resources and mining,32205,(D),(D)
+42025,"Carbon, PA",88,Trade,207894,(D),(D)
+42025,"Carbon, PA",89,Transportation and utilities,75008,(D),(D)
+42025,"Carbon, PA",90,Manufacturing and information,1015572,757065,777127
+42025,"Carbon, PA",91,Private goods-producing industries 2,345383,(D),(D)
+42025,"Carbon, PA",92,Private services-providing industries 3,2200714,(D),(D)
+42027,"Centre, PA",1,All industry total,10255959,10743134,11249015
+42027,"Centre, PA",2,"  Private industries",6493815,6903598,7209113
+42027,"Centre, PA",3,"    Agriculture, forestry, fishing and hunting",85434,72129,39206
+42027,"Centre, PA",6,"    Mining, quarrying, and oil and gas extraction",57143,47443,94445
+42027,"Centre, PA",10,"    Utilities",22352,26260,33399
+42027,"Centre, PA",11,"    Construction",415242,471747,506599
+42027,"Centre, PA",12,"    Manufacturing",551971,581937,566042
+42027,"Centre, PA",13,"      Durable goods manufacturing",432038,455183,441741
+42027,"Centre, PA",25,"      Nondurable goods manufacturing",119933,126754,124301
+42027,"Centre, PA",34,"    Wholesale trade",110628,123557,136006
+42027,"Centre, PA",35,"    Retail trade",532774,573180,584204
+42027,"Centre, PA",36,"    Transportation and warehousing",163386,178234,183355
+42027,"Centre, PA",45,"    Information",579623,605491,625372
+42027,"Centre, PA",50,"    Finance, insurance, real estate, rental, and leasing",1656921,1763879,1823691
+42027,"Centre, PA",51,"      Finance and insurance",315851,338533,359038
+42027,"Centre, PA",56,"      Real estate and rental and leasing",1341070,1425346,1464653
+42027,"Centre, PA",59,"    Professional and business services",805942,853006,887500
+42027,"Centre, PA",60,"      Professional, scientific, and technical services",577472,601294,622387
+42027,"Centre, PA",64,"      Management of companies and enterprises",65100,75545,95927
+42027,"Centre, PA",65,"      Administrative and support and waste management and remediation services",163370,176167,169186
+42027,"Centre, PA",68,"    Educational services, health care, and social assistance",898606,979054,1053919
+42027,"Centre, PA",69,"      Educational services",41584,41960,43953
+42027,"Centre, PA",70,"      Health care and social assistance",857021,937094,1009966
+42027,"Centre, PA",75,"    Arts, entertainment, recreation, accommodation, and food services",428697,431345,460431
+42027,"Centre, PA",76,"      Arts, entertainment, and recreation",54511,61022,64315
+42027,"Centre, PA",79,"      Accommodation and food services",374186,370324,396116
+42027,"Centre, PA",82,"    Other services (except government and government enterprises)",185095,196335,214944
+42027,"Centre, PA",83,Government and government enterprises,3762144,3839535,4039901
+42027,"Centre, PA",,Addenda:,,,
+42027,"Centre, PA",87,Natural resources and mining,142577,119572,133651
+42027,"Centre, PA",88,Trade,643403,696737,720210
+42027,"Centre, PA",89,Transportation and utilities,185738,204494,216754
+42027,"Centre, PA",90,Manufacturing and information,1131594,1187428,1191415
+42027,"Centre, PA",91,Private goods-producing industries 2,1109789,1173256,1206292
+42027,"Centre, PA",92,Private services-providing industries 3,5384025,5730343,6002822
+42029,"Chester, PA",1,All industry total,53823173,57280652,60160228
+42029,"Chester, PA",2,"  Private industries",51062092,54356019,57046813
+42029,"Chester, PA",3,"    Agriculture, forestry, fishing and hunting",400747,335846,293061
+42029,"Chester, PA",6,"    Mining, quarrying, and oil and gas extraction",35545,36755,144309
+42029,"Chester, PA",10,"    Utilities",129526,130529,136054
+42029,"Chester, PA",11,"    Construction",2036861,2259194,2363910
+42029,"Chester, PA",12,"    Manufacturing",3772843,4012052,3988130
+42029,"Chester, PA",13,"      Durable goods manufacturing",1619024,1673262,1731209
+42029,"Chester, PA",25,"      Nondurable goods manufacturing",2153819,2338790,2256921
+42029,"Chester, PA",34,"    Wholesale trade",3824470,3950277,4035568
+42029,"Chester, PA",35,"    Retail trade",3204822,3471334,3510220
+42029,"Chester, PA",36,"    Transportation and warehousing",718333,925780,973891
+42029,"Chester, PA",45,"    Information",6220903,5931565,5914016
+42029,"Chester, PA",50,"    Finance, insurance, real estate, rental, and leasing",14402941,15467862,17349374
+42029,"Chester, PA",51,"      Finance and insurance",7004613,7258940,8772559
+42029,"Chester, PA",56,"      Real estate and rental and leasing",7398328,8208922,8576816
+42029,"Chester, PA",59,"    Professional and business services",10901782,11891641,11942745
+42029,"Chester, PA",60,"      Professional, scientific, and technical services",6885759,7684921,7748590
+42029,"Chester, PA",64,"      Management of companies and enterprises",2612197,2715688,2707940
+42029,"Chester, PA",65,"      Administrative and support and waste management and remediation services",1403826,1491033,1486215
+42029,"Chester, PA",68,"    Educational services, health care, and social assistance",3211715,3481594,3751010
+42029,"Chester, PA",69,"      Educational services",570342,598367,608230
+42029,"Chester, PA",70,"      Health care and social assistance",2641373,2883227,3142781
+42029,"Chester, PA",75,"    Arts, entertainment, recreation, accommodation, and food services",1149508,1310321,1401718
+42029,"Chester, PA",76,"      Arts, entertainment, and recreation",393717,442294,479866
+42029,"Chester, PA",79,"      Accommodation and food services",755791,868027,921852
+42029,"Chester, PA",82,"    Other services (except government and government enterprises)",1052097,1151269,1242807
+42029,"Chester, PA",83,Government and government enterprises,2761081,2924634,3113414
+42029,"Chester, PA",,Addenda:,,,
+42029,"Chester, PA",87,Natural resources and mining,436292,372600,437370
+42029,"Chester, PA",88,Trade,7029292,7421610,7545788
+42029,"Chester, PA",89,Transportation and utilities,847859,1056309,1109945
+42029,"Chester, PA",90,Manufacturing and information,9993746,9943617,9902146
+42029,"Chester, PA",91,Private goods-producing industries 2,6245995,6643846,6789410
+42029,"Chester, PA",92,Private services-providing industries 3,44816097,47712172,50257403
+42031,"Clarion, PA",1,All industry total,1387214,1405918,1431875
+42031,"Clarion, PA",2,"  Private industries",1144180,1166903,1183871
+42031,"Clarion, PA",3,"    Agriculture, forestry, fishing and hunting",21411,26080,10853
+42031,"Clarion, PA",6,"    Mining, quarrying, and oil and gas extraction",46767,42384,27009
+42031,"Clarion, PA",10,"    Utilities",10051,8062,8532
+42031,"Clarion, PA",11,"    Construction",76992,86331,91224
+42031,"Clarion, PA",12,"    Manufacturing",157165,154860,166493
+42031,"Clarion, PA",13,"      Durable goods manufacturing",125615,116315,128191
+42031,"Clarion, PA",25,"      Nondurable goods manufacturing",31550,38545,38302
+42031,"Clarion, PA",34,"    Wholesale trade",35249,38658,38814
+42031,"Clarion, PA",35,"    Retail trade",122917,136053,141953
+42031,"Clarion, PA",36,"    Transportation and warehousing",77102,57376,60240
+42031,"Clarion, PA",45,"    Information",25839,25981,25928
+42031,"Clarion, PA",50,"    Finance, insurance, real estate, rental, and leasing",240183,239678,246851
+42031,"Clarion, PA",51,"      Finance and insurance",50425,54475,59670
+42031,"Clarion, PA",56,"      Real estate and rental and leasing",189758,185202,187181
+42031,"Clarion, PA",59,"    Professional and business services",55657,60069,63570
+42031,"Clarion, PA",60,"      Professional, scientific, and technical services",25313,26848,29440
+42031,"Clarion, PA",64,"      Management of companies and enterprises",4739,5111,5022
+42031,"Clarion, PA",65,"      Administrative and support and waste management and remediation services",25606,28110,29108
+42031,"Clarion, PA",68,"    Educational services, health care, and social assistance",160543,166595,175369
+42031,"Clarion, PA",69,"      Educational services",6469,6810,7224
+42031,"Clarion, PA",70,"      Health care and social assistance",154074,159784,168145
+42031,"Clarion, PA",75,"    Arts, entertainment, recreation, accommodation, and food services",52230,57511,58891
+42031,"Clarion, PA",76,"      Arts, entertainment, and recreation",4789,5271,5742
+42031,"Clarion, PA",79,"      Accommodation and food services",47441,52239,53149
+42031,"Clarion, PA",82,"    Other services (except government and government enterprises)",62074,67267,68146
+42031,"Clarion, PA",83,Government and government enterprises,243034,239016,248004
+42031,"Clarion, PA",,Addenda:,,,
+42031,"Clarion, PA",87,Natural resources and mining,68177,68464,37861
+42031,"Clarion, PA",88,Trade,158166,174711,180767
+42031,"Clarion, PA",89,Transportation and utilities,87153,65438,68772
+42031,"Clarion, PA",90,Manufacturing and information,183005,180840,192421
+42031,"Clarion, PA",91,Private goods-producing industries 2,302335,309654,295579
+42031,"Clarion, PA",92,Private services-providing industries 3,841845,857248,888292
+42033,"Clearfield, PA",1,All industry total,3608305,3866822,4033114
+42033,"Clearfield, PA",2,"  Private industries",3182611,3427991,3577194
+42033,"Clearfield, PA",3,"    Agriculture, forestry, fishing and hunting",27660,16635,15642
+42033,"Clearfield, PA",6,"    Mining, quarrying, and oil and gas extraction",131753,129072,123255
+42033,"Clearfield, PA",10,"    Utilities",70235,100409,100805
+42033,"Clearfield, PA",11,"    Construction",92484,108342,114224
+42033,"Clearfield, PA",12,"    Manufacturing",690750,620230,626888
+42033,"Clearfield, PA",13,"      Durable goods manufacturing",219982,259419,264043
+42033,"Clearfield, PA",25,"      Nondurable goods manufacturing",470768,360811,362845
+42033,"Clearfield, PA",34,"    Wholesale trade",117976,122753,127446
+42033,"Clearfield, PA",35,"    Retail trade",311583,336731,351633
+42033,"Clearfield, PA",36,"    Transportation and warehousing",264415,304239,317977
+42033,"Clearfield, PA",45,"    Information",61881,62531,64745
+42033,"Clearfield, PA",50,"    Finance, insurance, real estate, rental, and leasing",475329,585560,632531
+42033,"Clearfield, PA",51,"      Finance and insurance",115774,128034,140498
+42033,"Clearfield, PA",56,"      Real estate and rental and leasing",359555,457527,492033
+42033,"Clearfield, PA",59,"    Professional and business services",212226,274686,288379
+42033,"Clearfield, PA",60,"      Professional, scientific, and technical services",71128,76137,81600
+42033,"Clearfield, PA",64,"      Management of companies and enterprises",75504,84416,91982
+42033,"Clearfield, PA",65,"      Administrative and support and waste management and remediation services",65595,114133,114797
+42033,"Clearfield, PA",68,"    Educational services, health care, and social assistance",513309,531572,565395
+42033,"Clearfield, PA",69,"      Educational services",19273,19593,21323
+42033,"Clearfield, PA",70,"      Health care and social assistance",494036,511979,544072
+42033,"Clearfield, PA",75,"    Arts, entertainment, recreation, accommodation, and food services",88540,102361,104940
+42033,"Clearfield, PA",76,"      Arts, entertainment, and recreation",8831,9931,10231
+42033,"Clearfield, PA",79,"      Accommodation and food services",79708,92430,94709
+42033,"Clearfield, PA",82,"    Other services (except government and government enterprises)",124470,132871,143333
+42033,"Clearfield, PA",83,Government and government enterprises,425693,438831,455920
+42033,"Clearfield, PA",,Addenda:,,,
+42033,"Clearfield, PA",87,Natural resources and mining,159413,145706,138897
+42033,"Clearfield, PA",88,Trade,429559,459484,479079
+42033,"Clearfield, PA",89,Transportation and utilities,334650,404648,418782
+42033,"Clearfield, PA",90,Manufacturing and information,752632,682761,691633
+42033,"Clearfield, PA",91,Private goods-producing industries 2,942647,874278,880009
+42033,"Clearfield, PA",92,Private services-providing industries 3,2239964,2553713,2697184
+42035,"Clinton, PA",1,All industry total,1658728,1948790,1963098
+42035,"Clinton, PA",2,"  Private industries",1426211,1718265,1725484
+42035,"Clinton, PA",3,"    Agriculture, forestry, fishing and hunting",37676,23359,14128
+42035,"Clinton, PA",6,"    Mining, quarrying, and oil and gas extraction",93583,163489,107984
+42035,"Clinton, PA",10,"    Utilities",5359,3487,3808
+42035,"Clinton, PA",11,"    Construction",76652,86559,91980
+42035,"Clinton, PA",12,"    Manufacturing",506106,534065,551589
+42035,"Clinton, PA",13,"      Durable goods manufacturing",94138,95350,91683
+42035,"Clinton, PA",25,"      Nondurable goods manufacturing",411968,438715,459906
+42035,"Clinton, PA",34,"    Wholesale trade",47725,60630,64863
+42035,"Clinton, PA",35,"    Retail trade",124375,134893,141845
+42035,"Clinton, PA",36,"    Transportation and warehousing",44248,129299,139673
+42035,"Clinton, PA",45,"    Information",19971,24003,24448
+42035,"Clinton, PA",50,"    Finance, insurance, real estate, rental, and leasing",233456,287012,297838
+42035,"Clinton, PA",51,"      Finance and insurance",39301,41722,45207
+42035,"Clinton, PA",56,"      Real estate and rental and leasing",194155,245290,252631
+42035,"Clinton, PA",59,"    Professional and business services",42917,52225,54512
+42035,"Clinton, PA",60,"      Professional, scientific, and technical services",23084,28119,30048
+42035,"Clinton, PA",64,"      Management of companies and enterprises",1201,3894,1763
+42035,"Clinton, PA",65,"      Administrative and support and waste management and remediation services",18631,20213,22700
+42035,"Clinton, PA",68,"    Educational services, health care, and social assistance",108570,124177,133812
+42035,"Clinton, PA",69,"      Educational services",(D),(D),(D)
+42035,"Clinton, PA",70,"      Health care and social assistance",(D),(D),(D)
+42035,"Clinton, PA",75,"    Arts, entertainment, recreation, accommodation, and food services",43940,48861,50607
+42035,"Clinton, PA",76,"      Arts, entertainment, and recreation",3822,4741,5105
+42035,"Clinton, PA",79,"      Accommodation and food services",40118,44120,45502
+42035,"Clinton, PA",82,"    Other services (except government and government enterprises)",41634,46205,48398
+42035,"Clinton, PA",83,Government and government enterprises,232517,230525,237614
+42035,"Clinton, PA",,Addenda:,,,
+42035,"Clinton, PA",87,Natural resources and mining,131259,186848,122112
+42035,"Clinton, PA",88,Trade,172101,195523,206708
+42035,"Clinton, PA",89,Transportation and utilities,49607,132786,143481
+42035,"Clinton, PA",90,Manufacturing and information,526077,558068,576036
+42035,"Clinton, PA",91,Private goods-producing industries 2,714016,807472,765680
+42035,"Clinton, PA",92,Private services-providing industries 3,712195,910792,959804
+42037,"Columbia, PA",1,All industry total,2873516,3149814,3276472
+42037,"Columbia, PA",2,"  Private industries",2495587,2767793,2882085
+42037,"Columbia, PA",3,"    Agriculture, forestry, fishing and hunting",36854,21424,10055
+42037,"Columbia, PA",6,"    Mining, quarrying, and oil and gas extraction",7889,8735,7304
+42037,"Columbia, PA",10,"    Utilities",11509,31627,34790
+42037,"Columbia, PA",11,"    Construction",113864,113513,113500
+42037,"Columbia, PA",12,"    Manufacturing",565922,628257,625192
+42037,"Columbia, PA",13,"      Durable goods manufacturing",332300,367331,352086
+42037,"Columbia, PA",25,"      Nondurable goods manufacturing",233623,260926,273107
+42037,"Columbia, PA",34,"    Wholesale trade",58371,63546,65501
+42037,"Columbia, PA",35,"    Retail trade",268988,293106,307228
+42037,"Columbia, PA",36,"    Transportation and warehousing",191681,215848,228799
+42037,"Columbia, PA",45,"    Information",85775,83946,88352
+42037,"Columbia, PA",50,"    Finance, insurance, real estate, rental, and leasing",468804,567103,615086
+42037,"Columbia, PA",51,"      Finance and insurance",92608,99869,108360
+42037,"Columbia, PA",56,"      Real estate and rental and leasing",376196,467234,506726
+42037,"Columbia, PA",59,"    Professional and business services",268500,292093,306803
+42037,"Columbia, PA",60,"      Professional, scientific, and technical services",86742,103546,107413
+42037,"Columbia, PA",64,"      Management of companies and enterprises",135869,140009,147146
+42037,"Columbia, PA",65,"      Administrative and support and waste management and remediation services",45890,48539,52245
+42037,"Columbia, PA",68,"    Educational services, health care, and social assistance",225490,227449,245476
+42037,"Columbia, PA",69,"      Educational services",19893,19468,18855
+42037,"Columbia, PA",70,"      Health care and social assistance",205597,207982,226621
+42037,"Columbia, PA",75,"    Arts, entertainment, recreation, accommodation, and food services",112202,133949,139673
+42037,"Columbia, PA",76,"      Arts, entertainment, and recreation",15230,19840,20992
+42037,"Columbia, PA",79,"      Accommodation and food services",96972,114109,118680
+42037,"Columbia, PA",82,"    Other services (except government and government enterprises)",79737,87196,94326
+42037,"Columbia, PA",83,Government and government enterprises,377929,382021,394388
+42037,"Columbia, PA",,Addenda:,,,
+42037,"Columbia, PA",87,Natural resources and mining,44743,30159,17359
+42037,"Columbia, PA",88,Trade,327359,356652,372729
+42037,"Columbia, PA",89,Transportation and utilities,203190,247475,263589
+42037,"Columbia, PA",90,Manufacturing and information,651697,712203,713544
+42037,"Columbia, PA",91,Private goods-producing industries 2,724530,771929,756052
+42037,"Columbia, PA",92,Private services-providing industries 3,1771058,1995864,2126033
+42039,"Crawford, PA",1,All industry total,3481080,3555855,3664748
+42039,"Crawford, PA",2,"  Private industries",3123804,3188673,3292851
+42039,"Crawford, PA",3,"    Agriculture, forestry, fishing and hunting",104682,73289,80822
+42039,"Crawford, PA",6,"    Mining, quarrying, and oil and gas extraction",55923,58860,77657
+42039,"Crawford, PA",10,"    Utilities",14422,15404,16084
+42039,"Crawford, PA",11,"    Construction",137742,153676,169527
+42039,"Crawford, PA",12,"    Manufacturing",907629,964739,961595
+42039,"Crawford, PA",13,"      Durable goods manufacturing",505344,533546,539045
+42039,"Crawford, PA",25,"      Nondurable goods manufacturing",402285,431193,422550
+42039,"Crawford, PA",34,"    Wholesale trade",80344,80167,83484
+42039,"Crawford, PA",35,"    Retail trade",247028,268290,277109
+42039,"Crawford, PA",36,"    Transportation and warehousing",79350,59755,60019
+42039,"Crawford, PA",45,"    Information",95010,84068,87346
+42039,"Crawford, PA",50,"    Finance, insurance, real estate, rental, and leasing",572592,542484,546519
+42039,"Crawford, PA",51,"      Finance and insurance",99338,107767,108253
+42039,"Crawford, PA",56,"      Real estate and rental and leasing",473254,434717,438266
+42039,"Crawford, PA",59,"    Professional and business services",158131,159900,156284
+42039,"Crawford, PA",60,"      Professional, scientific, and technical services",81583,86872,91456
+42039,"Crawford, PA",64,"      Management of companies and enterprises",16042,15841,11075
+42039,"Crawford, PA",65,"      Administrative and support and waste management and remediation services",60506,57188,53753
+42039,"Crawford, PA",68,"    Educational services, health care, and social assistance",468856,505649,544428
+42039,"Crawford, PA",69,"      Educational services",59403,58746,61028
+42039,"Crawford, PA",70,"      Health care and social assistance",409452,446904,483401
+42039,"Crawford, PA",75,"    Arts, entertainment, recreation, accommodation, and food services",85291,95841,98955
+42039,"Crawford, PA",76,"      Arts, entertainment, and recreation",9303,9948,10245
+42039,"Crawford, PA",79,"      Accommodation and food services",75988,85892,88710
+42039,"Crawford, PA",82,"    Other services (except government and government enterprises)",116806,126549,133023
+42039,"Crawford, PA",83,Government and government enterprises,357276,367182,371897
+42039,"Crawford, PA",,Addenda:,,,
+42039,"Crawford, PA",87,Natural resources and mining,160604,132150,158478
+42039,"Crawford, PA",88,Trade,327371,348457,360593
+42039,"Crawford, PA",89,Transportation and utilities,93773,75160,76103
+42039,"Crawford, PA",90,Manufacturing and information,1002638,1048807,1048941
+42039,"Crawford, PA",91,Private goods-producing industries 2,1205975,1250565,1289600
+42039,"Crawford, PA",92,Private services-providing industries 3,1917830,1938108,2003250
+42041,"Cumberland, PA",1,All industry total,20501708,21783105,23098142
+42041,"Cumberland, PA",2,"  Private industries",18323414,19522258,20749941
+42041,"Cumberland, PA",3,"    Agriculture, forestry, fishing and hunting",208140,179144,130078
+42041,"Cumberland, PA",6,"    Mining, quarrying, and oil and gas extraction",17638,19460,13175
+42041,"Cumberland, PA",10,"    Utilities",26414,27477,28851
+42041,"Cumberland, PA",11,"    Construction",721050,768503,793096
+42041,"Cumberland, PA",12,"    Manufacturing",1329550,1421884,1435788
+42041,"Cumberland, PA",13,"      Durable goods manufacturing",413620,433081,416986
+42041,"Cumberland, PA",25,"      Nondurable goods manufacturing",915930,988803,1018802
+42041,"Cumberland, PA",34,"    Wholesale trade",949717,1023311,1121704
+42041,"Cumberland, PA",35,"    Retail trade",1479386,1626441,1687122
+42041,"Cumberland, PA",36,"    Transportation and warehousing",2034453,1933450,1966964
+42041,"Cumberland, PA",45,"    Information",639955,627695,622457
+42041,"Cumberland, PA",50,"    Finance, insurance, real estate, rental, and leasing",4153166,4607088,4966949
+42041,"Cumberland, PA",51,"      Finance and insurance",1737500,1884057,2053621
+42041,"Cumberland, PA",56,"      Real estate and rental and leasing",2415666,2723031,2913329
+42041,"Cumberland, PA",59,"    Professional and business services",3254095,3331882,3746903
+42041,"Cumberland, PA",60,"      Professional, scientific, and technical services",1902345,1939470,2118556
+42041,"Cumberland, PA",64,"      Management of companies and enterprises",765254,812907,1030596
+42041,"Cumberland, PA",65,"      Administrative and support and waste management and remediation services",586497,579505,597751
+42041,"Cumberland, PA",68,"    Educational services, health care, and social assistance",2442116,2750334,2990196
+42041,"Cumberland, PA",69,"      Educational services",284516,300920,317633
+42041,"Cumberland, PA",70,"      Health care and social assistance",2157600,2449414,2672563
+42041,"Cumberland, PA",75,"    Arts, entertainment, recreation, accommodation, and food services",565440,644499,664922
+42041,"Cumberland, PA",76,"      Arts, entertainment, and recreation",99284,130478,143165
+42041,"Cumberland, PA",79,"      Accommodation and food services",466156,514020,521757
+42041,"Cumberland, PA",82,"    Other services (except government and government enterprises)",502295,561091,581736
+42041,"Cumberland, PA",83,Government and government enterprises,2178294,2260847,2348201
+42041,"Cumberland, PA",,Addenda:,,,
+42041,"Cumberland, PA",87,Natural resources and mining,225778,198603,143254
+42041,"Cumberland, PA",88,Trade,2429103,2649751,2808826
+42041,"Cumberland, PA",89,Transportation and utilities,2060867,1960928,1995815
+42041,"Cumberland, PA",90,Manufacturing and information,1969505,2049579,2058245
+42041,"Cumberland, PA",91,Private goods-producing industries 2,2276378,2388990,2372138
+42041,"Cumberland, PA",92,Private services-providing industries 3,16047036,17133268,18377803
+42043,"Dauphin, PA",1,All industry total,26191483,27667486,28909442
+42043,"Dauphin, PA",2,"  Private industries",21955416,23297690,24265767
+42043,"Dauphin, PA",3,"    Agriculture, forestry, fishing and hunting",111859,103955,81007
+42043,"Dauphin, PA",6,"    Mining, quarrying, and oil and gas extraction",9578,10577,7175
+42043,"Dauphin, PA",10,"    Utilities",87965,66330,69395
+42043,"Dauphin, PA",11,"    Construction",794200,825005,936038
+42043,"Dauphin, PA",12,"    Manufacturing",1997546,2117563,2148436
+42043,"Dauphin, PA",13,"      Durable goods manufacturing",1171146,1194738,1233716
+42043,"Dauphin, PA",25,"      Nondurable goods manufacturing",826401,922825,914720
+42043,"Dauphin, PA",34,"    Wholesale trade",1753228,1810013,1822478
+42043,"Dauphin, PA",35,"    Retail trade",1140116,1246063,1293563
+42043,"Dauphin, PA",36,"    Transportation and warehousing",1425168,1436943,1480806
+42043,"Dauphin, PA",45,"    Information",754364,730654,714142
+42043,"Dauphin, PA",50,"    Finance, insurance, real estate, rental, and leasing",4578340,4979315,5205519
+42043,"Dauphin, PA",51,"      Finance and insurance",2289862,2477974,2507137
+42043,"Dauphin, PA",56,"      Real estate and rental and leasing",2288478,2501341,2698381
+42043,"Dauphin, PA",59,"    Professional and business services",3362046,3589434,3763144
+42043,"Dauphin, PA",60,"      Professional, scientific, and technical services",1541248,1639586,1755662
+42043,"Dauphin, PA",64,"      Management of companies and enterprises",984115,1078766,1146763
+42043,"Dauphin, PA",65,"      Administrative and support and waste management and remediation services",836682,871082,860718
+42043,"Dauphin, PA",68,"    Educational services, health care, and social assistance",4055235,4362818,4598229
+42043,"Dauphin, PA",69,"      Educational services",430083,455275,460348
+42043,"Dauphin, PA",70,"      Health care and social assistance",3625152,3907544,4137882
+42043,"Dauphin, PA",75,"    Arts, entertainment, recreation, accommodation, and food services",1270185,1364250,1420882
+42043,"Dauphin, PA",76,"      Arts, entertainment, and recreation",560438,608456,640291
+42043,"Dauphin, PA",79,"      Accommodation and food services",709747,755795,780591
+42043,"Dauphin, PA",82,"    Other services (except government and government enterprises)",615587,654768,724951
+42043,"Dauphin, PA",83,Government and government enterprises,4236067,4369797,4643675
+42043,"Dauphin, PA",,Addenda:,,,
+42043,"Dauphin, PA",87,Natural resources and mining,121437,114533,88183
+42043,"Dauphin, PA",88,Trade,2893343,3056076,3116041
+42043,"Dauphin, PA",89,Transportation and utilities,1513133,1503273,1550202
+42043,"Dauphin, PA",90,Manufacturing and information,2751911,2848217,2862578
+42043,"Dauphin, PA",91,Private goods-producing industries 2,2913183,3057101,3172657
+42043,"Dauphin, PA",92,Private services-providing industries 3,19042233,20240589,21093109
+42045,"Delaware, PA",1,All industry total,39895570,41201828,42607881
+42045,"Delaware, PA",2,"  Private industries",37254085,38423527,39669703
+42045,"Delaware, PA",3,"    Agriculture, forestry, fishing and hunting",4347,13213,12037
+42045,"Delaware, PA",6,"    Mining, quarrying, and oil and gas extraction",20624,20007,4964
+42045,"Delaware, PA",10,"    Utilities",561172,637883,641915
+42045,"Delaware, PA",11,"    Construction",1817083,1832328,1913213
+42045,"Delaware, PA",12,"    Manufacturing",3489174,3163616,3060387
+42045,"Delaware, PA",13,"      Durable goods manufacturing",1534316,1598616,1535486
+42045,"Delaware, PA",25,"      Nondurable goods manufacturing",1954858,1565001,1524900
+42045,"Delaware, PA",34,"    Wholesale trade",1497048,1552348,1542872
+42045,"Delaware, PA",35,"    Retail trade",2565054,2768492,2879753
+42045,"Delaware, PA",36,"    Transportation and warehousing",2447554,2327807,2402552
+42045,"Delaware, PA",45,"    Information",1890381,1865749,1860987
+42045,"Delaware, PA",50,"    Finance, insurance, real estate, rental, and leasing",9883246,10131375,10417147
+42045,"Delaware, PA",51,"      Finance and insurance",3560386,3332259,3359316
+42045,"Delaware, PA",56,"      Real estate and rental and leasing",6322860,6799115,7057831
+42045,"Delaware, PA",59,"    Professional and business services",5846761,6183601,6574027
+42045,"Delaware, PA",60,"      Professional, scientific, and technical services",2405604,2593498,2655880
+42045,"Delaware, PA",64,"      Management of companies and enterprises",2059072,2191871,2487805
+42045,"Delaware, PA",65,"      Administrative and support and waste management and remediation services",1382085,1398233,1430341
+42045,"Delaware, PA",68,"    Educational services, health care, and social assistance",5081865,5448302,5760564
+42045,"Delaware, PA",69,"      Educational services",1376255,1442554,1549672
+42045,"Delaware, PA",70,"      Health care and social assistance",3705610,4005748,4210891
+42045,"Delaware, PA",75,"    Arts, entertainment, recreation, accommodation, and food services",1194474,1451443,1510314
+42045,"Delaware, PA",76,"      Arts, entertainment, and recreation",417908,496823,521287
+42045,"Delaware, PA",79,"      Accommodation and food services",776566,954619,989027
+42045,"Delaware, PA",82,"    Other services (except government and government enterprises)",955302,1027363,1088974
+42045,"Delaware, PA",83,Government and government enterprises,2641485,2778302,2938177
+42045,"Delaware, PA",,Addenda:,,,
+42045,"Delaware, PA",87,Natural resources and mining,24970,33220,17000
+42045,"Delaware, PA",88,Trade,4062102,4320840,4422624
+42045,"Delaware, PA",89,Transportation and utilities,3008726,2965690,3044467
+42045,"Delaware, PA",90,Manufacturing and information,5379555,5029365,4921373
+42045,"Delaware, PA",91,Private goods-producing industries 2,5331227,5029164,4990600
+42045,"Delaware, PA",92,Private services-providing industries 3,31922858,33394362,34679104
+42047,"Elk, PA",1,All industry total,1665964,1787689,1830032
+42047,"Elk, PA",2,"  Private industries",1562947,1680191,1719133
+42047,"Elk, PA",3,"    Agriculture, forestry, fishing and hunting",6656,4686,5159
+42047,"Elk, PA",6,"    Mining, quarrying, and oil and gas extraction",119008,81160,70557
+42047,"Elk, PA",10,"    Utilities",13477,9742,8766
+42047,"Elk, PA",11,"    Construction",47511,54760,59437
+42047,"Elk, PA",12,"    Manufacturing",732318,778847,783167
+42047,"Elk, PA",13,"      Durable goods manufacturing",580626,611953,611697
+42047,"Elk, PA",25,"      Nondurable goods manufacturing",151692,166894,171470
+42047,"Elk, PA",34,"    Wholesale trade",(D),(D),(D)
+42047,"Elk, PA",35,"    Retail trade",88194,94281,98729
+42047,"Elk, PA",36,"    Transportation and warehousing",42299,83661,83896
+42047,"Elk, PA",45,"    Information",21964,22333,21978
+42047,"Elk, PA",50,"    Finance, insurance, real estate, rental, and leasing",(D),(D),(D)
+42047,"Elk, PA",51,"      Finance and insurance",44636,48510,52351
+42047,"Elk, PA",56,"      Real estate and rental and leasing",(D),(D),(D)
+42047,"Elk, PA",59,"    Professional and business services",60254,65748,66486
+42047,"Elk, PA",60,"      Professional, scientific, and technical services",26602,28749,30831
+42047,"Elk, PA",64,"      Management of companies and enterprises",15279,16780,16581
+42047,"Elk, PA",65,"      Administrative and support and waste management and remediation services",18372,20219,19074
+42047,"Elk, PA",68,"    Educational services, health care, and social assistance",118896,118644,121843
+42047,"Elk, PA",69,"      Educational services",(D),(D),(D)
+42047,"Elk, PA",70,"      Health care and social assistance",(D),(D),(D)
+42047,"Elk, PA",75,"    Arts, entertainment, recreation, accommodation, and food services",28046,31730,33041
+42047,"Elk, PA",76,"      Arts, entertainment, and recreation",4275,4362,3428
+42047,"Elk, PA",79,"      Accommodation and food services",23770,27368,29613
+42047,"Elk, PA",82,"    Other services (except government and government enterprises)",40778,42950,45884
+42047,"Elk, PA",83,Government and government enterprises,103017,107499,110899
+42047,"Elk, PA",,Addenda:,,,
+42047,"Elk, PA",87,Natural resources and mining,125665,85846,75716
+42047,"Elk, PA",88,Trade,(D),(D),(D)
+42047,"Elk, PA",89,Transportation and utilities,55777,93403,92661
+42047,"Elk, PA",90,Manufacturing and information,754282,801180,805145
+42047,"Elk, PA",91,Private goods-producing industries 2,905494,919453,918321
+42047,"Elk, PA",92,Private services-providing industries 3,657453,760738,800812
+42049,"Erie, PA",1,All industry total,13273353,14335119,15023861
+42049,"Erie, PA",2,"  Private industries",11691971,12709756,13329926
+42049,"Erie, PA",3,"    Agriculture, forestry, fishing and hunting",27739,9482,21940
+42049,"Erie, PA",6,"    Mining, quarrying, and oil and gas extraction",8125,8576,6638
+42049,"Erie, PA",10,"    Utilities",59104,61314,64804
+42049,"Erie, PA",11,"    Construction",458768,498541,521123
+42049,"Erie, PA",12,"    Manufacturing",2185390,2345478,2401589
+42049,"Erie, PA",13,"      Durable goods manufacturing",1336636,1411769,1453564
+42049,"Erie, PA",25,"      Nondurable goods manufacturing",848754,933708,948025
+42049,"Erie, PA",34,"    Wholesale trade",415664,431578,462431
+42049,"Erie, PA",35,"    Retail trade",1023335,1100442,1133666
+42049,"Erie, PA",36,"    Transportation and warehousing",304504,525970,549886
+42049,"Erie, PA",45,"    Information",478756,474859,483394
+42049,"Erie, PA",50,"    Finance, insurance, real estate, rental, and leasing",2684176,2906837,3093252
+42049,"Erie, PA",51,"      Finance and insurance",1127551,1250109,1382238
+42049,"Erie, PA",56,"      Real estate and rental and leasing",1556625,1656728,1711014
+42049,"Erie, PA",59,"    Professional and business services",830552,888205,924439
+42049,"Erie, PA",60,"      Professional, scientific, and technical services",460382,502497,538103
+42049,"Erie, PA",64,"      Management of companies and enterprises",75670,73548,73743
+42049,"Erie, PA",65,"      Administrative and support and waste management and remediation services",294500,312160,312593
+42049,"Erie, PA",68,"    Educational services, health care, and social assistance",2150918,2316057,2487390
+42049,"Erie, PA",69,"      Educational services",260690,273623,285062
+42049,"Erie, PA",70,"      Health care and social assistance",1890228,2042434,2202327
+42049,"Erie, PA",75,"    Arts, entertainment, recreation, accommodation, and food services",631150,680574,710631
+42049,"Erie, PA",76,"      Arts, entertainment, and recreation",148950,165812,176990
+42049,"Erie, PA",79,"      Accommodation and food services",482200,514763,533641
+42049,"Erie, PA",82,"    Other services (except government and government enterprises)",433790,461843,468743
+42049,"Erie, PA",83,Government and government enterprises,1581382,1625363,1693936
+42049,"Erie, PA",,Addenda:,,,
+42049,"Erie, PA",87,Natural resources and mining,35864,18057,28578
+42049,"Erie, PA",88,Trade,1439000,1532020,1596097
+42049,"Erie, PA",89,Transportation and utilities,363607,587284,614690
+42049,"Erie, PA",90,Manufacturing and information,2664146,2820337,2884982
+42049,"Erie, PA",91,Private goods-producing industries 2,2680022,2862076,2951290
+42049,"Erie, PA",92,Private services-providing industries 3,9011949,9847680,10378636
+42051,"Fayette, PA",1,All industry total,4960950,5393659,5442345
+42051,"Fayette, PA",2,"  Private industries",4374368,4792560,4823356
+42051,"Fayette, PA",3,"    Agriculture, forestry, fishing and hunting",12716,4022,4007
+42051,"Fayette, PA",6,"    Mining, quarrying, and oil and gas extraction",415075,407423,278171
+42051,"Fayette, PA",10,"    Utilities",281281,319523,299965
+42051,"Fayette, PA",11,"    Construction",166656,195024,204429
+42051,"Fayette, PA",12,"    Manufacturing",549044,576577,590555
+42051,"Fayette, PA",13,"      Durable goods manufacturing",384751,397531,408288
+42051,"Fayette, PA",25,"      Nondurable goods manufacturing",164294,179046,182266
+42051,"Fayette, PA",34,"    Wholesale trade",192157,204037,219192
+42051,"Fayette, PA",35,"    Retail trade",428311,464504,474372
+42051,"Fayette, PA",36,"    Transportation and warehousing",193644,351012,363751
+42051,"Fayette, PA",45,"    Information",222738,216501,211133
+42051,"Fayette, PA",50,"    Finance, insurance, real estate, rental, and leasing",718269,752553,782056
+42051,"Fayette, PA",51,"      Finance and insurance",109398,121438,134901
+42051,"Fayette, PA",56,"      Real estate and rental and leasing",608871,631116,647155
+42051,"Fayette, PA",59,"    Professional and business services",251653,277391,288701
+42051,"Fayette, PA",60,"      Professional, scientific, and technical services",106881,121721,133812
+42051,"Fayette, PA",64,"      Management of companies and enterprises",19425,22128,21667
+42051,"Fayette, PA",65,"      Administrative and support and waste management and remediation services",125347,133542,133221
+42051,"Fayette, PA",68,"    Educational services, health care, and social assistance",521230,559984,602873
+42051,"Fayette, PA",69,"      Educational services",18780,21393,27976
+42051,"Fayette, PA",70,"      Health care and social assistance",502450,538591,574898
+42051,"Fayette, PA",75,"    Arts, entertainment, recreation, accommodation, and food services",274929,305615,336065
+42051,"Fayette, PA",76,"      Arts, entertainment, and recreation",50488,55559,58813
+42051,"Fayette, PA",79,"      Accommodation and food services",224441,250057,277252
+42051,"Fayette, PA",82,"    Other services (except government and government enterprises)",146664,158394,168086
+42051,"Fayette, PA",83,Government and government enterprises,586582,601099,618990
+42051,"Fayette, PA",,Addenda:,,,
+42051,"Fayette, PA",87,Natural resources and mining,427790,411445,282177
+42051,"Fayette, PA",88,Trade,620468,668541,693564
+42051,"Fayette, PA",89,Transportation and utilities,474925,670535,663716
+42051,"Fayette, PA",90,Manufacturing and information,771782,793078,801688
+42051,"Fayette, PA",91,Private goods-producing industries 2,1143491,1183046,1077161
+42051,"Fayette, PA",92,Private services-providing industries 3,3230877,3609514,3746195
+42053,"Forest, PA",1,All industry total,264915,267105,269719
+42053,"Forest, PA",2,"  Private industries",144099,143184,142295
+42053,"Forest, PA",3,"    Agriculture, forestry, fishing and hunting",15033,15617,15775
+42053,"Forest, PA",6,"    Mining, quarrying, and oil and gas extraction",8068,(D),7422
+42053,"Forest, PA",10,"    Utilities",(D),14,0
+42053,"Forest, PA",11,"    Construction",3486,3557,(D)
+42053,"Forest, PA",12,"    Manufacturing",12794,(D),(D)
+42053,"Forest, PA",13,"      Durable goods manufacturing",12147,(D),(D)
+42053,"Forest, PA",25,"      Nondurable goods manufacturing",647,290,287
+42053,"Forest, PA",34,"    Wholesale trade",2015,(D),(D)
+42053,"Forest, PA",35,"    Retail trade",6856,7891,8426
+42053,"Forest, PA",36,"    Transportation and warehousing",2218,(D),(D)
+42053,"Forest, PA",45,"    Information",(D),(D),(D)
+42053,"Forest, PA",50,"    Finance, insurance, real estate, rental, and leasing",(D),(D),(D)
+42053,"Forest, PA",51,"      Finance and insurance",(D),(D),(D)
+42053,"Forest, PA",56,"      Real estate and rental and leasing",61482,59760,57952
+42053,"Forest, PA",59,"    Professional and business services",(D),(D),(D)
+42053,"Forest, PA",60,"      Professional, scientific, and technical services",(D),(D),(D)
+42053,"Forest, PA",64,"      Management of companies and enterprises",(D),0,0
+42053,"Forest, PA",65,"      Administrative and support and waste management and remediation services",635,548,(D)
+42053,"Forest, PA",68,"    Educational services, health care, and social assistance",18806,18861,19728
+42053,"Forest, PA",69,"      Educational services",186,242,253
+42053,"Forest, PA",70,"      Health care and social assistance",18620,18619,19475
+42053,"Forest, PA",75,"    Arts, entertainment, recreation, accommodation, and food services",6059,6529,6564
+42053,"Forest, PA",76,"      Arts, entertainment, and recreation",534,223,241
+42053,"Forest, PA",79,"      Accommodation and food services",5525,6306,6323
+42053,"Forest, PA",82,"    Other services (except government and government enterprises)",2789,3013,3319
+42053,"Forest, PA",83,Government and government enterprises,120815,123921,127424
+42053,"Forest, PA",,Addenda:,,,
+42053,"Forest, PA",87,Natural resources and mining,23101,(D),23197
+42053,"Forest, PA",88,Trade,8871,(D),(D)
+42053,"Forest, PA",89,Transportation and utilities,(D),(D),(D)
+42053,"Forest, PA",90,Manufacturing and information,(D),13765,12678
+42053,"Forest, PA",91,Private goods-producing industries 2,39380,39673,38328
+42053,"Forest, PA",92,Private services-providing industries 3,104719,103511,103967
+42055,"Franklin, PA",1,All industry total,7629390,7950023,8378505
+42055,"Franklin, PA",2,"  Private industries",6731492,7013011,7393894
+42055,"Franklin, PA",3,"    Agriculture, forestry, fishing and hunting",398751,277176,317607
+42055,"Franklin, PA",6,"    Mining, quarrying, and oil and gas extraction",38202,43912,17627
+42055,"Franklin, PA",10,"    Utilities",28266,31852,33443
+42055,"Franklin, PA",11,"    Construction",367251,410137,423846
+42055,"Franklin, PA",12,"    Manufacturing",1401534,1576092,1607470
+42055,"Franklin, PA",13,"      Durable goods manufacturing",1004624,1137639,1160588
+42055,"Franklin, PA",25,"      Nondurable goods manufacturing",396910,438453,446882
+42055,"Franklin, PA",34,"    Wholesale trade",224173,228077,254963
+42055,"Franklin, PA",35,"    Retail trade",585250,626349,646799
+42055,"Franklin, PA",36,"    Transportation and warehousing",658796,692516,789107
+42055,"Franklin, PA",45,"    Information",77136,71775,72084
+42055,"Franklin, PA",50,"    Finance, insurance, real estate, rental, and leasing",1167778,1188045,1253333
+42055,"Franklin, PA",51,"      Finance and insurance",185956,206587,226141
+42055,"Franklin, PA",56,"      Real estate and rental and leasing",981822,981458,1027192
+42055,"Franklin, PA",59,"    Professional and business services",554825,610410,666567
+42055,"Franklin, PA",60,"      Professional, scientific, and technical services",251700,285913,309163
+42055,"Franklin, PA",64,"      Management of companies and enterprises",43007,76058,117433
+42055,"Franklin, PA",65,"      Administrative and support and waste management and remediation services",260117,248439,239972
+42055,"Franklin, PA",68,"    Educational services, health care, and social assistance",778911,770502,796644
+42055,"Franklin, PA",69,"      Educational services",68739,64614,68525
+42055,"Franklin, PA",70,"      Health care and social assistance",710172,705888,728119
+42055,"Franklin, PA",75,"    Arts, entertainment, recreation, accommodation, and food services",221562,242068,249741
+42055,"Franklin, PA",76,"      Arts, entertainment, and recreation",39320,43607,45640
+42055,"Franklin, PA",79,"      Accommodation and food services",182242,198461,204102
+42055,"Franklin, PA",82,"    Other services (except government and government enterprises)",229057,244099,264662
+42055,"Franklin, PA",83,Government and government enterprises,897898,937012,984611
+42055,"Franklin, PA",,Addenda:,,,
+42055,"Franklin, PA",87,Natural resources and mining,436953,321088,335233
+42055,"Franklin, PA",88,Trade,809423,854426,901762
+42055,"Franklin, PA",89,Transportation and utilities,687062,724367,822550
+42055,"Franklin, PA",90,Manufacturing and information,1478670,1647867,1679554
+42055,"Franklin, PA",91,Private goods-producing industries 2,2205738,2307318,2366550
+42055,"Franklin, PA",92,Private services-providing industries 3,4525754,4705694,5027344
+42057,"Fulton, PA",1,All industry total,747676,805806,831103
+42057,"Fulton, PA",2,"  Private industries",691347,748629,770800
+42057,"Fulton, PA",3,"    Agriculture, forestry, fishing and hunting",56281,27488,40724
+42057,"Fulton, PA",6,"    Mining, quarrying, and oil and gas extraction",59508,74241,4681
+42057,"Fulton, PA",10,"    Utilities",2694,2525,6634
+42057,"Fulton, PA",11,"    Construction",43101,42390,44818
+42057,"Fulton, PA",12,"    Manufacturing",320321,386208,450734
+42057,"Fulton, PA",13,"      Durable goods manufacturing",319588,(D),(D)
+42057,"Fulton, PA",25,"      Nondurable goods manufacturing",732,(D),(D)
+42057,"Fulton, PA",34,"    Wholesale trade",8771,9748,9913
+42057,"Fulton, PA",35,"    Retail trade",23253,26405,27773
+42057,"Fulton, PA",36,"    Transportation and warehousing",(D),(D),(D)
+42057,"Fulton, PA",45,"    Information",5743,(D),6311
+42057,"Fulton, PA",50,"    Finance, insurance, real estate, rental, and leasing",75766,80500,81519
+42057,"Fulton, PA",51,"      Finance and insurance",11911,11836,11958
+42057,"Fulton, PA",56,"      Real estate and rental and leasing",63855,68664,69561
+42057,"Fulton, PA",59,"    Professional and business services",(D),8761,(D)
+42057,"Fulton, PA",60,"      Professional, scientific, and technical services",(D),4720,(D)
+42057,"Fulton, PA",64,"      Management of companies and enterprises",(D),(D),(D)
+42057,"Fulton, PA",65,"      Administrative and support and waste management and remediation services",(D),(D),(D)
+42057,"Fulton, PA",68,"    Educational services, health care, and social assistance",41563,43750,45565
+42057,"Fulton, PA",69,"      Educational services",(D),(D),278
+42057,"Fulton, PA",70,"      Health care and social assistance",(D),(D),45286
+42057,"Fulton, PA",75,"    Arts, entertainment, recreation, accommodation, and food services",8847,10626,10782
+42057,"Fulton, PA",76,"      Arts, entertainment, and recreation",(D),(D),(D)
+42057,"Fulton, PA",79,"      Accommodation and food services",(D),(D),(D)
+42057,"Fulton, PA",82,"    Other services (except government and government enterprises)",16363,17930,18948
+42057,"Fulton, PA",83,Government and government enterprises,56329,57177,60303
+42057,"Fulton, PA",,Addenda:,,,
+42057,"Fulton, PA",87,Natural resources and mining,115789,101729,45405
+42057,"Fulton, PA",88,Trade,32024,36154,37686
+42057,"Fulton, PA",89,Transportation and utilities,(D),(D),(D)
+42057,"Fulton, PA",90,Manufacturing and information,326064,(D),457045
+42057,"Fulton, PA",91,Private goods-producing industries 2,479211,530327,540957
+42057,"Fulton, PA",92,Private services-providing industries 3,212135,218302,229844
+42059,"Greene, PA",1,All industry total,4932734,4815441,4624079
+42059,"Greene, PA",2,"  Private industries",4690082,4571422,4374958
+42059,"Greene, PA",3,"    Agriculture, forestry, fishing and hunting",16583,10252,1255
+42059,"Greene, PA",6,"    Mining, quarrying, and oil and gas extraction",3359815,3004577,2716435
+42059,"Greene, PA",10,"    Utilities",202028,204431,246145
+42059,"Greene, PA",11,"    Construction",86072,103423,104853
+42059,"Greene, PA",12,"    Manufacturing",45706,47195,48024
+42059,"Greene, PA",13,"      Durable goods manufacturing",22811,23347,22245
+42059,"Greene, PA",25,"      Nondurable goods manufacturing",22895,23848,25778
+42059,"Greene, PA",34,"    Wholesale trade",57786,61591,62617
+42059,"Greene, PA",35,"    Retail trade",126856,136745,140708
+42059,"Greene, PA",36,"    Transportation and warehousing",262808,412535,443510
+42059,"Greene, PA",45,"    Information",23458,20694,19314
+42059,"Greene, PA",50,"    Finance, insurance, real estate, rental, and leasing",256037,297869,305360
+42059,"Greene, PA",51,"      Finance and insurance",46235,50277,56851
+42059,"Greene, PA",56,"      Real estate and rental and leasing",209802,247592,248509
+42059,"Greene, PA",59,"    Professional and business services",57692,62806,70450
+42059,"Greene, PA",60,"      Professional, scientific, and technical services",34483,37243,40265
+42059,"Greene, PA",64,"      Management of companies and enterprises",10835,12320,(D)
+42059,"Greene, PA",65,"      Administrative and support and waste management and remediation services",12374,13243,(D)
+42059,"Greene, PA",68,"    Educational services, health care, and social assistance",127320,134815,137939
+42059,"Greene, PA",69,"      Educational services",(D),(D),(D)
+42059,"Greene, PA",70,"      Health care and social assistance",(D),(D),(D)
+42059,"Greene, PA",75,"    Arts, entertainment, recreation, accommodation, and food services",33046,36569,39602
+42059,"Greene, PA",76,"      Arts, entertainment, and recreation",3018,3833,4543
+42059,"Greene, PA",79,"      Accommodation and food services",30028,32736,35059
+42059,"Greene, PA",82,"    Other services (except government and government enterprises)",34875,37919,38747
+42059,"Greene, PA",83,Government and government enterprises,242652,244019,249121
+42059,"Greene, PA",,Addenda:,,,
+42059,"Greene, PA",87,Natural resources and mining,3376398,3014829,2717690
+42059,"Greene, PA",88,Trade,184642,198336,203325
+42059,"Greene, PA",89,Transportation and utilities,464836,616966,689655
+42059,"Greene, PA",90,Manufacturing and information,69164,67890,67338
+42059,"Greene, PA",91,Private goods-producing industries 2,3508176,3165447,2870566
+42059,"Greene, PA",92,Private services-providing industries 3,1181906,1405975,1504392
+42061,"Huntingdon, PA",1,All industry total,1536114,1624031,1677126
+42061,"Huntingdon, PA",2,"  Private industries",1237854,1321065,1368656
+42061,"Huntingdon, PA",3,"    Agriculture, forestry, fishing and hunting",91873,68907,60998
+42061,"Huntingdon, PA",6,"    Mining, quarrying, and oil and gas extraction",20349,24945,10674
+42061,"Huntingdon, PA",10,"    Utilities",12900,11054,11708
+42061,"Huntingdon, PA",11,"    Construction",64826,74378,80247
+42061,"Huntingdon, PA",12,"    Manufacturing",148787,144438,151324
+42061,"Huntingdon, PA",13,"      Durable goods manufacturing",86500,85295,93709
+42061,"Huntingdon, PA",25,"      Nondurable goods manufacturing",62287,59143,57615
+42061,"Huntingdon, PA",34,"    Wholesale trade",77052,80603,83059
+42061,"Huntingdon, PA",35,"    Retail trade",107076,116219,120223
+42061,"Huntingdon, PA",36,"    Transportation and warehousing",51269,75319,79021
+42061,"Huntingdon, PA",45,"    Information",29022,24180,25847
+42061,"Huntingdon, PA",50,"    Finance, insurance, real estate, rental, and leasing",298841,339060,354800
+42061,"Huntingdon, PA",51,"      Finance and insurance",96243,100470,101780
+42061,"Huntingdon, PA",56,"      Real estate and rental and leasing",202598,238590,253020
+42061,"Huntingdon, PA",59,"    Professional and business services",52187,59957,65477
+42061,"Huntingdon, PA",60,"      Professional, scientific, and technical services",21359,24052,26154
+42061,"Huntingdon, PA",64,"      Management of companies and enterprises",6719,7357,8194
+42061,"Huntingdon, PA",65,"      Administrative and support and waste management and remediation services",24110,28548,31129
+42061,"Huntingdon, PA",68,"    Educational services, health care, and social assistance",183311,194671,212180
+42061,"Huntingdon, PA",69,"      Educational services",(D),(D),(D)
+42061,"Huntingdon, PA",70,"      Health care and social assistance",(D),(D),(D)
+42061,"Huntingdon, PA",75,"    Arts, entertainment, recreation, accommodation, and food services",55044,58936,61364
+42061,"Huntingdon, PA",76,"      Arts, entertainment, and recreation",9053,11805,12431
+42061,"Huntingdon, PA",79,"      Accommodation and food services",45991,47131,48934
+42061,"Huntingdon, PA",82,"    Other services (except government and government enterprises)",45317,48398,51734
+42061,"Huntingdon, PA",83,Government and government enterprises,298259,302966,308470
+42061,"Huntingdon, PA",,Addenda:,,,
+42061,"Huntingdon, PA",87,Natural resources and mining,112222,93851,71672
+42061,"Huntingdon, PA",88,Trade,184129,196822,203282
+42061,"Huntingdon, PA",89,Transportation and utilities,64169,86373,90729
+42061,"Huntingdon, PA",90,Manufacturing and information,177809,168618,177170
+42061,"Huntingdon, PA",91,Private goods-producing industries 2,325835,312667,303243
+42061,"Huntingdon, PA",92,Private services-providing industries 3,912019,1008398,1065413
+42063,"Indiana, PA",1,All industry total,4261709,4164162,4202047
+42063,"Indiana, PA",2,"  Private industries",3680043,3569676,3594220
+42063,"Indiana, PA",3,"    Agriculture, forestry, fishing and hunting",32301,16565,22606
+42063,"Indiana, PA",6,"    Mining, quarrying, and oil and gas extraction",331342,358810,311565
+42063,"Indiana, PA",10,"    Utilities",648525,383324,349826
+42063,"Indiana, PA",11,"    Construction",137706,121022,127075
+42063,"Indiana, PA",12,"    Manufacturing",318431,298447,276717
+42063,"Indiana, PA",13,"      Durable goods manufacturing",209974,211515,191384
+42063,"Indiana, PA",25,"      Nondurable goods manufacturing",108458,86932,85334
+42063,"Indiana, PA",34,"    Wholesale trade",267777,276187,287602
+42063,"Indiana, PA",35,"    Retail trade",285600,310970,323616
+42063,"Indiana, PA",36,"    Transportation and warehousing",160009,138056,151754
+42063,"Indiana, PA",45,"    Information",113074,111107,113734
+42063,"Indiana, PA",50,"    Finance, insurance, real estate, rental, and leasing",631643,692272,716199
+42063,"Indiana, PA",51,"      Finance and insurance",232250,266602,291455
+42063,"Indiana, PA",56,"      Real estate and rental and leasing",399393,425669,424743
+42063,"Indiana, PA",59,"    Professional and business services",190808,216490,236224
+42063,"Indiana, PA",60,"      Professional, scientific, and technical services",96039,99884,108094
+42063,"Indiana, PA",64,"      Management of companies and enterprises",42410,57345,64035
+42063,"Indiana, PA",65,"      Administrative and support and waste management and remediation services",52359,59261,64094
+42063,"Indiana, PA",68,"    Educational services, health care, and social assistance",329897,380059,401688
+42063,"Indiana, PA",69,"      Educational services",12765,15418,15905
+42063,"Indiana, PA",70,"      Health care and social assistance",317132,364641,385783
+42063,"Indiana, PA",75,"    Arts, entertainment, recreation, accommodation, and food services",96772,110716,120375
+42063,"Indiana, PA",76,"      Arts, entertainment, and recreation",8786,9444,10523
+42063,"Indiana, PA",79,"      Accommodation and food services",87985,101272,109852
+42063,"Indiana, PA",82,"    Other services (except government and government enterprises)",136157,155652,155241
+42063,"Indiana, PA",83,Government and government enterprises,581666,594486,607827
+42063,"Indiana, PA",,Addenda:,,,
+42063,"Indiana, PA",87,Natural resources and mining,363643,375375,334171
+42063,"Indiana, PA",88,Trade,553377,587157,611217
+42063,"Indiana, PA",89,Transportation and utilities,808535,521380,501579
+42063,"Indiana, PA",90,Manufacturing and information,431505,409554,390451
+42063,"Indiana, PA",91,Private goods-producing industries 2,819780,794844,737963
+42063,"Indiana, PA",92,Private services-providing industries 3,2860263,2774833,2856256
+42065,"Jefferson, PA",1,All industry total,1746642,1844468,1883344
+42065,"Jefferson, PA",2,"  Private industries",1598326,1689463,1722039
+42065,"Jefferson, PA",3,"    Agriculture, forestry, fishing and hunting",38195,47490,33970
+42065,"Jefferson, PA",6,"    Mining, quarrying, and oil and gas extraction",111215,115060,126417
+42065,"Jefferson, PA",10,"    Utilities",4411,4210,3637
+42065,"Jefferson, PA",11,"    Construction",72445,78205,83444
+42065,"Jefferson, PA",12,"    Manufacturing",445554,454120,449023
+42065,"Jefferson, PA",13,"      Durable goods manufacturing",397373,406143,402623
+42065,"Jefferson, PA",25,"      Nondurable goods manufacturing",48181,47976,46400
+42065,"Jefferson, PA",34,"    Wholesale trade",43615,46075,(D)
+42065,"Jefferson, PA",35,"    Retail trade",139816,155334,161352
+42065,"Jefferson, PA",36,"    Transportation and warehousing",72904,100785,104348
+42065,"Jefferson, PA",45,"    Information",36872,36734,36232
+42065,"Jefferson, PA",50,"    Finance, insurance, real estate, rental, and leasing",263075,255870,(D)
+42065,"Jefferson, PA",51,"      Finance and insurance",45532,46280,49918
+42065,"Jefferson, PA",56,"      Real estate and rental and leasing",217543,209591,(D)
+42065,"Jefferson, PA",59,"    Professional and business services",124765,135509,127904
+42065,"Jefferson, PA",60,"      Professional, scientific, and technical services",36688,41350,44068
+42065,"Jefferson, PA",64,"      Management of companies and enterprises",37778,37099,33377
+42065,"Jefferson, PA",65,"      Administrative and support and waste management and remediation services",50300,57060,50458
+42065,"Jefferson, PA",68,"    Educational services, health care, and social assistance",147702,154660,165744
+42065,"Jefferson, PA",69,"      Educational services",4042,4136,4642
+42065,"Jefferson, PA",70,"      Health care and social assistance",143660,150524,161101
+42065,"Jefferson, PA",75,"    Arts, entertainment, recreation, accommodation, and food services",42050,45357,47866
+42065,"Jefferson, PA",76,"      Arts, entertainment, and recreation",6077,5663,6305
+42065,"Jefferson, PA",79,"      Accommodation and food services",35973,39694,41561
+42065,"Jefferson, PA",82,"    Other services (except government and government enterprises)",55706,60053,63248
+42065,"Jefferson, PA",83,Government and government enterprises,148317,155005,161305
+42065,"Jefferson, PA",,Addenda:,,,
+42065,"Jefferson, PA",87,Natural resources and mining,149410,162550,160386
+42065,"Jefferson, PA",88,Trade,183431,201410,(D)
+42065,"Jefferson, PA",89,Transportation and utilities,77315,104995,107986
+42065,"Jefferson, PA",90,Manufacturing and information,482426,490853,485255
+42065,"Jefferson, PA",91,Private goods-producing industries 2,667409,694875,692853
+42065,"Jefferson, PA",92,Private services-providing industries 3,930916,994588,1029185
+42067,"Juniata, PA",1,All industry total,1022985,972614,1025353
+42067,"Juniata, PA",2,"  Private industries",957550,904243,954880
+42067,"Juniata, PA",3,"    Agriculture, forestry, fishing and hunting",123860,96235,122889
+42067,"Juniata, PA",6,"    Mining, quarrying, and oil and gas extraction",154,189,199
+42067,"Juniata, PA",10,"    Utilities",0,3,1541
+42067,"Juniata, PA",11,"    Construction",47120,51442,57260
+42067,"Juniata, PA",12,"    Manufacturing",308377,275109,274602
+42067,"Juniata, PA",13,"      Durable goods manufacturing",140905,161755,159406
+42067,"Juniata, PA",25,"      Nondurable goods manufacturing",167472,113354,115196
+42067,"Juniata, PA",34,"    Wholesale trade",29354,31855,32048
+42067,"Juniata, PA",35,"    Retail trade",60637,67500,71309
+42067,"Juniata, PA",36,"    Transportation and warehousing",91408,61892,62593
+42067,"Juniata, PA",45,"    Information",12170,9217,9426
+42067,"Juniata, PA",50,"    Finance, insurance, real estate, rental, and leasing",146781,158322,163145
+42067,"Juniata, PA",51,"      Finance and insurance",31392,35424,37254
+42067,"Juniata, PA",56,"      Real estate and rental and leasing",115389,122899,125891
+42067,"Juniata, PA",59,"    Professional and business services",35802,39275,40861
+42067,"Juniata, PA",60,"      Professional, scientific, and technical services",(D),(D),(D)
+42067,"Juniata, PA",64,"      Management of companies and enterprises",(D),(D),(D)
+42067,"Juniata, PA",65,"      Administrative and support and waste management and remediation services",22637,23946,24660
+42067,"Juniata, PA",68,"    Educational services, health care, and social assistance",36671,39932,41954
+42067,"Juniata, PA",69,"      Educational services",(D),(D),3079
+42067,"Juniata, PA",70,"      Health care and social assistance",(D),(D),38875
+42067,"Juniata, PA",75,"    Arts, entertainment, recreation, accommodation, and food services",34042,41225,42582
+42067,"Juniata, PA",76,"      Arts, entertainment, and recreation",1809,2414,2469
+42067,"Juniata, PA",79,"      Accommodation and food services",32233,38811,40113
+42067,"Juniata, PA",82,"    Other services (except government and government enterprises)",31175,32046,34471
+42067,"Juniata, PA",83,Government and government enterprises,65435,68371,70474
+42067,"Juniata, PA",,Addenda:,,,
+42067,"Juniata, PA",87,Natural resources and mining,124014,96424,123087
+42067,"Juniata, PA",88,Trade,89991,99355,103358
+42067,"Juniata, PA",89,Transportation and utilities,91408,61895,64134
+42067,"Juniata, PA",90,Manufacturing and information,320547,284327,284028
+42067,"Juniata, PA",91,Private goods-producing industries 2,479511,422975,454949
+42067,"Juniata, PA",92,Private services-providing industries 3,478039,481268,499931
+42069,"Lackawanna, PA",1,All industry total,12138734,12910827,13421381
+42069,"Lackawanna, PA",2,"  Private industries",11087564,11809333,12252361
+42069,"Lackawanna, PA",3,"    Agriculture, forestry, fishing and hunting",3850,11343,9130
+42069,"Lackawanna, PA",6,"    Mining, quarrying, and oil and gas extraction",18360,4859,2111
+42069,"Lackawanna, PA",10,"    Utilities",473038,560560,494115
+42069,"Lackawanna, PA",11,"    Construction",426117,470158,479347
+42069,"Lackawanna, PA",12,"    Manufacturing",1259270,1344889,1387963
+42069,"Lackawanna, PA",13,"      Durable goods manufacturing",684863,716287,750626
+42069,"Lackawanna, PA",25,"      Nondurable goods manufacturing",574407,628603,637336
+42069,"Lackawanna, PA",34,"    Wholesale trade",1047496,1097145,1127120
+42069,"Lackawanna, PA",35,"    Retail trade",988006,1078329,1123768
+42069,"Lackawanna, PA",36,"    Transportation and warehousing",588463,556406,604007
+42069,"Lackawanna, PA",45,"    Information",455415,464749,503010
+42069,"Lackawanna, PA",50,"    Finance, insurance, real estate, rental, and leasing",2069313,2192798,2242641
+42069,"Lackawanna, PA",51,"      Finance and insurance",771846,748326,771916
+42069,"Lackawanna, PA",56,"      Real estate and rental and leasing",1297467,1444473,1470725
+42069,"Lackawanna, PA",59,"    Professional and business services",1081489,1131228,1192799
+42069,"Lackawanna, PA",60,"      Professional, scientific, and technical services",507811,532488,555950
+42069,"Lackawanna, PA",64,"      Management of companies and enterprises",171363,163981,194807
+42069,"Lackawanna, PA",65,"      Administrative and support and waste management and remediation services",402314,434759,442042
+42069,"Lackawanna, PA",68,"    Educational services, health care, and social assistance",1892866,2026259,2163947
+42069,"Lackawanna, PA",69,"      Educational services",371136,381590,395039
+42069,"Lackawanna, PA",70,"      Health care and social assistance",1521730,1644669,1768909
+42069,"Lackawanna, PA",75,"    Arts, entertainment, recreation, accommodation, and food services",486525,558677,587279
+42069,"Lackawanna, PA",76,"      Arts, entertainment, and recreation",128589,147618,159601
+42069,"Lackawanna, PA",79,"      Accommodation and food services",357936,411059,427678
+42069,"Lackawanna, PA",82,"    Other services (except government and government enterprises)",297356,311935,335126
+42069,"Lackawanna, PA",83,Government and government enterprises,1051171,1101494,1169019
+42069,"Lackawanna, PA",,Addenda:,,,
+42069,"Lackawanna, PA",87,Natural resources and mining,22210,16202,11242
+42069,"Lackawanna, PA",88,Trade,2035502,2175474,2250887
+42069,"Lackawanna, PA",89,Transportation and utilities,1061501,1116966,1098122
+42069,"Lackawanna, PA",90,Manufacturing and information,1714685,1809638,1890972
+42069,"Lackawanna, PA",91,Private goods-producing industries 2,1707597,1831249,1878551
+42069,"Lackawanna, PA",92,Private services-providing industries 3,9379966,9978085,10373811
+42071,"Lancaster, PA",1,All industry total,36771488,37995709,39951127
+42071,"Lancaster, PA",2,"  Private industries",34769580,35900199,37740858
+42071,"Lancaster, PA",3,"    Agriculture, forestry, fishing and hunting",1436767,1086970,1440967
+42071,"Lancaster, PA",6,"    Mining, quarrying, and oil and gas extraction",112374,130757,53250
+42071,"Lancaster, PA",10,"    Utilities",230087,225077,219402
+42071,"Lancaster, PA",11,"    Construction",2806953,3033784,3271956
+42071,"Lancaster, PA",12,"    Manufacturing",5998213,5980031,6020911
+42071,"Lancaster, PA",13,"      Durable goods manufacturing",2785621,2889132,2891767
+42071,"Lancaster, PA",25,"      Nondurable goods manufacturing",3212592,3090900,3129144
+42071,"Lancaster, PA",34,"    Wholesale trade",3026838,3186562,3350005
+42071,"Lancaster, PA",35,"    Retail trade",2732002,2982151,3081898
+42071,"Lancaster, PA",36,"    Transportation and warehousing",1926699,1575537,1651179
+42071,"Lancaster, PA",45,"    Information",803532,837452,837500
+42071,"Lancaster, PA",50,"    Finance, insurance, real estate, rental, and leasing",6244017,6593532,6876861
+42071,"Lancaster, PA",51,"      Finance and insurance",1603219,1720289,1814675
+42071,"Lancaster, PA",56,"      Real estate and rental and leasing",4640798,4873243,5062186
+42071,"Lancaster, PA",59,"    Professional and business services",3334942,3566544,3806671
+42071,"Lancaster, PA",60,"      Professional, scientific, and technical services",1979955,2106791,2233912
+42071,"Lancaster, PA",64,"      Management of companies and enterprises",687008,721230,805664
+42071,"Lancaster, PA",65,"      Administrative and support and waste management and remediation services",667979,738523,767095
+42071,"Lancaster, PA",68,"    Educational services, health care, and social assistance",3799503,4102762,4365149
+42071,"Lancaster, PA",69,"      Educational services",417331,431540,449920
+42071,"Lancaster, PA",70,"      Health care and social assistance",3382172,3671222,3915229
+42071,"Lancaster, PA",75,"    Arts, entertainment, recreation, accommodation, and food services",1264728,1450495,1521005
+42071,"Lancaster, PA",76,"      Arts, entertainment, and recreation",286514,344036,365845
+42071,"Lancaster, PA",79,"      Accommodation and food services",978214,1106459,1155160
+42071,"Lancaster, PA",82,"    Other services (except government and government enterprises)",1052924,1148545,1244102
+42071,"Lancaster, PA",83,Government and government enterprises,2001908,2095510,2210269
+42071,"Lancaster, PA",,Addenda:,,,
+42071,"Lancaster, PA",87,Natural resources and mining,1549141,1217727,1494217
+42071,"Lancaster, PA",88,Trade,5758840,6168713,6431903
+42071,"Lancaster, PA",89,Transportation and utilities,2156786,1800614,1870581
+42071,"Lancaster, PA",90,Manufacturing and information,6801745,6817484,6858411
+42071,"Lancaster, PA",91,Private goods-producing industries 2,10354307,10231542,10787084
+42071,"Lancaster, PA",92,Private services-providing industries 3,24415273,25668657,26953774
+42073,"Lawrence, PA",1,All industry total,3877591,4180123,4199654
+42073,"Lawrence, PA",2,"  Private industries",3568098,3861137,3865842
+42073,"Lawrence, PA",3,"    Agriculture, forestry, fishing and hunting",8863,6081,11140
+42073,"Lawrence, PA",6,"    Mining, quarrying, and oil and gas extraction",48994,44513,24967
+42073,"Lawrence, PA",10,"    Utilities",351016,402361,324629
+42073,"Lawrence, PA",11,"    Construction",208726,228431,240221
+42073,"Lawrence, PA",12,"    Manufacturing",497236,535086,495025
+42073,"Lawrence, PA",13,"      Durable goods manufacturing",376564,406949,376660
+42073,"Lawrence, PA",25,"      Nondurable goods manufacturing",120672,128138,118365
+42073,"Lawrence, PA",34,"    Wholesale trade",520455,534033,547137
+42073,"Lawrence, PA",35,"    Retail trade",254140,270918,279911
+42073,"Lawrence, PA",36,"    Transportation and warehousing",123267,112593,107840
+42073,"Lawrence, PA",45,"    Information",68105,66479,71633
+42073,"Lawrence, PA",50,"    Finance, insurance, real estate, rental, and leasing",641759,736631,783060
+42073,"Lawrence, PA",51,"      Finance and insurance",193681,217261,221825
+42073,"Lawrence, PA",56,"      Real estate and rental and leasing",448078,519370,561235
+42073,"Lawrence, PA",59,"    Professional and business services",233850,257984,265033
+42073,"Lawrence, PA",60,"      Professional, scientific, and technical services",100745,105085,115821
+42073,"Lawrence, PA",64,"      Management of companies and enterprises",57358,61391,51419
+42073,"Lawrence, PA",65,"      Administrative and support and waste management and remediation services",75747,91507,97793
+42073,"Lawrence, PA",68,"    Educational services, health care, and social assistance",404269,436840,472677
+42073,"Lawrence, PA",69,"      Educational services",41414,44181,47875
+42073,"Lawrence, PA",70,"      Health care and social assistance",362855,392659,424802
+42073,"Lawrence, PA",75,"    Arts, entertainment, recreation, accommodation, and food services",100301,115054,120541
+42073,"Lawrence, PA",76,"      Arts, entertainment, and recreation",22098,27333,27450
+42073,"Lawrence, PA",79,"      Accommodation and food services",78203,87721,93090
+42073,"Lawrence, PA",82,"    Other services (except government and government enterprises)",107116,114132,122027
+42073,"Lawrence, PA",83,Government and government enterprises,309493,318986,333813
+42073,"Lawrence, PA",,Addenda:,,,
+42073,"Lawrence, PA",87,Natural resources and mining,57857,50594,36107
+42073,"Lawrence, PA",88,Trade,774596,804951,827048
+42073,"Lawrence, PA",89,Transportation and utilities,474283,514954,432469
+42073,"Lawrence, PA",90,Manufacturing and information,565341,601565,566658
+42073,"Lawrence, PA",91,Private goods-producing industries 2,763820,814112,771352
+42073,"Lawrence, PA",92,Private services-providing industries 3,2804278,3047025,3094489
+42075,"Lebanon, PA",1,All industry total,7422232,7790160,8097401
+42075,"Lebanon, PA",2,"  Private industries",6363851,6642055,6877032
+42075,"Lebanon, PA",3,"    Agriculture, forestry, fishing and hunting",326998,215335,322248
+42075,"Lebanon, PA",6,"    Mining, quarrying, and oil and gas extraction",(D),(D),0
+42075,"Lebanon, PA",10,"    Utilities",253572,225781,221034
+42075,"Lebanon, PA",11,"    Construction",323756,389493,385067
+42075,"Lebanon, PA",12,"    Manufacturing",1220775,1329505,1302334
+42075,"Lebanon, PA",13,"      Durable goods manufacturing",498458,491912,483061
+42075,"Lebanon, PA",25,"      Nondurable goods manufacturing",722317,837592,819273
+42075,"Lebanon, PA",34,"    Wholesale trade",(D),(D),(D)
+42075,"Lebanon, PA",35,"    Retail trade",534111,604484,628493
+42075,"Lebanon, PA",36,"    Transportation and warehousing",511594,481014,485504
+42075,"Lebanon, PA",45,"    Information",313363,306907,297828
+42075,"Lebanon, PA",50,"    Finance, insurance, real estate, rental, and leasing",(D),(D),(D)
+42075,"Lebanon, PA",51,"      Finance and insurance",177165,189562,204023
+42075,"Lebanon, PA",56,"      Real estate and rental and leasing",(D),(D),(D)
+42075,"Lebanon, PA",59,"    Professional and business services",415701,429227,449944
+42075,"Lebanon, PA",60,"      Professional, scientific, and technical services",194399,217072,213388
+42075,"Lebanon, PA",64,"      Management of companies and enterprises",55675,34969,41424
+42075,"Lebanon, PA",65,"      Administrative and support and waste management and remediation services",165626,177186,195132
+42075,"Lebanon, PA",68,"    Educational services, health care, and social assistance",593412,637871,673355
+42075,"Lebanon, PA",69,"      Educational services",65081,68434,71823
+42075,"Lebanon, PA",70,"      Health care and social assistance",528331,569438,601532
+42075,"Lebanon, PA",75,"    Arts, entertainment, recreation, accommodation, and food services",198352,222889,232207
+42075,"Lebanon, PA",76,"      Arts, entertainment, and recreation",46179,52094,56661
+42075,"Lebanon, PA",79,"      Accommodation and food services",152172,170795,175546
+42075,"Lebanon, PA",82,"    Other services (except government and government enterprises)",180683,194385,209027
+42075,"Lebanon, PA",83,Government and government enterprises,1058381,1148105,1220369
+42075,"Lebanon, PA",,Addenda:,,,
+42075,"Lebanon, PA",87,Natural resources and mining,(D),(D),322248
+42075,"Lebanon, PA",88,Trade,(D),(D),(D)
+42075,"Lebanon, PA",89,Transportation and utilities,765166,706795,706538
+42075,"Lebanon, PA",90,Manufacturing and information,1534138,1636412,1600162
+42075,"Lebanon, PA",91,Private goods-producing industries 2,(D),(D),2009649
+42075,"Lebanon, PA",92,Private services-providing industries 3,(D),(D),4867383
+42077,"Lehigh, PA",1,All industry total,27975241,30411304,31738508
+42077,"Lehigh, PA",2,"  Private industries",26216873,28556981,29769973
+42077,"Lehigh, PA",3,"    Agriculture, forestry, fishing and hunting",39638,53964,17004
+42077,"Lehigh, PA",6,"    Mining, quarrying, and oil and gas extraction",(D),19681,7344
+42077,"Lehigh, PA",10,"    Utilities",107261,87848,96925
+42077,"Lehigh, PA",11,"    Construction",968747,1022538,1010380
+42077,"Lehigh, PA",12,"    Manufacturing",3476445,3959067,4072695
+42077,"Lehigh, PA",13,"      Durable goods manufacturing",1550984,1653028,1730321
+42077,"Lehigh, PA",25,"      Nondurable goods manufacturing",1925461,2306039,2342374
+42077,"Lehigh, PA",34,"    Wholesale trade",(D),2023012,(D)
+42077,"Lehigh, PA",35,"    Retail trade",1680672,1808339,1860922
+42077,"Lehigh, PA",36,"    Transportation and warehousing",1608305,1978517,1889764
+42077,"Lehigh, PA",45,"    Information",1348452,1328736,1346475
+42077,"Lehigh, PA",50,"    Finance, insurance, real estate, rental, and leasing",(D),4536621,(D)
+42077,"Lehigh, PA",51,"      Finance and insurance",1065738,1127255,1168570
+42077,"Lehigh, PA",56,"      Real estate and rental and leasing",(D),3409366,(D)
+42077,"Lehigh, PA",59,"    Professional and business services",4247896,4468649,4922710
+42077,"Lehigh, PA",60,"      Professional, scientific, and technical services",1593967,1722443,1868922
+42077,"Lehigh, PA",64,"      Management of companies and enterprises",1441622,1512622,1721647
+42077,"Lehigh, PA",65,"      Administrative and support and waste management and remediation services",1212307,1233584,1332141
+42077,"Lehigh, PA",68,"    Educational services, health care, and social assistance",5114304,5635784,6014403
+42077,"Lehigh, PA",69,"      Educational services",290846,300987,331836
+42077,"Lehigh, PA",70,"      Health care and social assistance",4823458,5334797,5682567
+42077,"Lehigh, PA",75,"    Arts, entertainment, recreation, accommodation, and food services",901239,1039637,1134523
+42077,"Lehigh, PA",76,"      Arts, entertainment, and recreation",215567,262933,324227
+42077,"Lehigh, PA",79,"      Accommodation and food services",685673,776705,810296
+42077,"Lehigh, PA",82,"    Other services (except government and government enterprises)",546334,594590,639144
+42077,"Lehigh, PA",83,Government and government enterprises,1758368,1854323,1968535
+42077,"Lehigh, PA",,Addenda:,,,
+42077,"Lehigh, PA",87,Natural resources and mining,(D),73644,24348
+42077,"Lehigh, PA",88,Trade,(D),3831351,(D)
+42077,"Lehigh, PA",89,Transportation and utilities,1715566,2066365,1986689
+42077,"Lehigh, PA",90,Manufacturing and information,4824897,5287803,5419170
+42077,"Lehigh, PA",91,Private goods-producing industries 2,(D),5055249,5107423
+42077,"Lehigh, PA",92,Private services-providing industries 3,(D),23501732,24662550
+42079,"Luzerne, PA",1,All industry total,18118888,19648747,20580464
+42079,"Luzerne, PA",2,"  Private industries",16234992,17691951,18511909
+42079,"Luzerne, PA",3,"    Agriculture, forestry, fishing and hunting",4982,3973,7184
+42079,"Luzerne, PA",6,"    Mining, quarrying, and oil and gas extraction",42178,57556,48964
+42079,"Luzerne, PA",10,"    Utilities",1423351,1550878,1551172
+42079,"Luzerne, PA",11,"    Construction",673927,660746,737153
+42079,"Luzerne, PA",12,"    Manufacturing",2180362,2407338,2477108
+42079,"Luzerne, PA",13,"      Durable goods manufacturing",816140,866197,890843
+42079,"Luzerne, PA",25,"      Nondurable goods manufacturing",1364222,1541141,1586264
+42079,"Luzerne, PA",34,"    Wholesale trade",981301,1000162,1005745
+42079,"Luzerne, PA",35,"    Retail trade",1396565,1523383,1578727
+42079,"Luzerne, PA",36,"    Transportation and warehousing",1442285,1463221,1502906
+42079,"Luzerne, PA",45,"    Information",496821,499630,508721
+42079,"Luzerne, PA",50,"    Finance, insurance, real estate, rental, and leasing",2657518,3143312,3390940
+42079,"Luzerne, PA",51,"      Finance and insurance",872318,938864,984037
+42079,"Luzerne, PA",56,"      Real estate and rental and leasing",1785199,2204448,2406904
+42079,"Luzerne, PA",59,"    Professional and business services",1547320,1725499,1831029
+42079,"Luzerne, PA",60,"      Professional, scientific, and technical services",701221,772306,819493
+42079,"Luzerne, PA",64,"      Management of companies and enterprises",173543,237650,260662
+42079,"Luzerne, PA",65,"      Administrative and support and waste management and remediation services",672557,715543,750875
+42079,"Luzerne, PA",68,"    Educational services, health care, and social assistance",2231905,2389740,2531455
+42079,"Luzerne, PA",69,"      Educational services",279026,286997,295365
+42079,"Luzerne, PA",70,"      Health care and social assistance",1952879,2102743,2236090
+42079,"Luzerne, PA",75,"    Arts, entertainment, recreation, accommodation, and food services",734303,813185,851928
+42079,"Luzerne, PA",76,"      Arts, entertainment, and recreation",125300,146657,154133
+42079,"Luzerne, PA",79,"      Accommodation and food services",609003,666528,697795
+42079,"Luzerne, PA",82,"    Other services (except government and government enterprises)",422176,453328,488877
+42079,"Luzerne, PA",83,Government and government enterprises,1883896,1956796,2068555
+42079,"Luzerne, PA",,Addenda:,,,
+42079,"Luzerne, PA",87,Natural resources and mining,47160,61529,56148
+42079,"Luzerne, PA",88,Trade,2377866,2523545,2584472
+42079,"Luzerne, PA",89,Transportation and utilities,2865635,3014098,3054078
+42079,"Luzerne, PA",90,Manufacturing and information,2677183,2906967,2985829
+42079,"Luzerne, PA",91,Private goods-producing industries 2,2901448,3129613,3270408
+42079,"Luzerne, PA",92,Private services-providing industries 3,13333544,14562338,15241501
+42081,"Lycoming, PA",1,All industry total,7153536,7564150,7698456
+42081,"Lycoming, PA",2,"  Private industries",6414803,6802694,6903138
+42081,"Lycoming, PA",3,"    Agriculture, forestry, fishing and hunting",65186,79494,38120
+42081,"Lycoming, PA",6,"    Mining, quarrying, and oil and gas extraction",924669,672914,636836
+42081,"Lycoming, PA",10,"    Utilities",341177,357862,334514
+42081,"Lycoming, PA",11,"    Construction",197735,215783,210277
+42081,"Lycoming, PA",12,"    Manufacturing",1132374,1269675,1294536
+42081,"Lycoming, PA",13,"      Durable goods manufacturing",484422,509968,511201
+42081,"Lycoming, PA",25,"      Nondurable goods manufacturing",647952,759707,783335
+42081,"Lycoming, PA",34,"    Wholesale trade",286652,302857,307351
+42081,"Lycoming, PA",35,"    Retail trade",440625,484996,495021
+42081,"Lycoming, PA",36,"    Transportation and warehousing",149001,214541,233390
+42081,"Lycoming, PA",45,"    Information",156757,140172,139473
+42081,"Lycoming, PA",50,"    Finance, insurance, real estate, rental, and leasing",1041571,1255858,1299400
+42081,"Lycoming, PA",51,"      Finance and insurance",268161,291501,308221
+42081,"Lycoming, PA",56,"      Real estate and rental and leasing",773411,964358,991180
+42081,"Lycoming, PA",59,"    Professional and business services",393111,430188,444360
+42081,"Lycoming, PA",60,"      Professional, scientific, and technical services",219860,228872,233048
+42081,"Lycoming, PA",64,"      Management of companies and enterprises",36116,42174,51001
+42081,"Lycoming, PA",65,"      Administrative and support and waste management and remediation services",137135,159141,160311
+42081,"Lycoming, PA",68,"    Educational services, health care, and social assistance",908862,956113,1019994
+42081,"Lycoming, PA",69,"      Educational services",70143,77255,83335
+42081,"Lycoming, PA",70,"      Health care and social assistance",838719,878858,936659
+42081,"Lycoming, PA",75,"    Arts, entertainment, recreation, accommodation, and food services",217323,249741,265206
+42081,"Lycoming, PA",76,"      Arts, entertainment, and recreation",39690,45815,51262
+42081,"Lycoming, PA",79,"      Accommodation and food services",177633,203926,213944
+42081,"Lycoming, PA",82,"    Other services (except government and government enterprises)",159759,172501,184660
+42081,"Lycoming, PA",83,Government and government enterprises,738733,761456,795317
+42081,"Lycoming, PA",,Addenda:,,,
+42081,"Lycoming, PA",87,Natural resources and mining,989855,752408,674956
+42081,"Lycoming, PA",88,Trade,727276,787853,802372
+42081,"Lycoming, PA",89,Transportation and utilities,490178,572403,567904
+42081,"Lycoming, PA",90,Manufacturing and information,1289131,1409847,1434010
+42081,"Lycoming, PA",91,Private goods-producing industries 2,2319964,2237866,2179769
+42081,"Lycoming, PA",92,Private services-providing industries 3,4094839,4564828,4723369
+42083,"McKean, PA",1,All industry total,2150387,2346350,2212470
+42083,"McKean, PA",2,"  Private industries",1930558,2117891,1973230
+42083,"McKean, PA",3,"    Agriculture, forestry, fishing and hunting",21588,24763,20726
+42083,"McKean, PA",6,"    Mining, quarrying, and oil and gas extraction",131279,121931,124847
+42083,"McKean, PA",10,"    Utilities",10265,6749,7074
+42083,"McKean, PA",11,"    Construction",52368,65124,68584
+42083,"McKean, PA",12,"    Manufacturing",846693,971651,787150
+42083,"McKean, PA",13,"      Durable goods manufacturing",244965,250542,257435
+42083,"McKean, PA",25,"      Nondurable goods manufacturing",601728,721108,529715
+42083,"McKean, PA",34,"    Wholesale trade",48977,50195,53632
+42083,"McKean, PA",35,"    Retail trade",141571,153618,160086
+42083,"McKean, PA",36,"    Transportation and warehousing",76872,62945,64485
+42083,"McKean, PA",45,"    Information",40526,39337,40169
+42083,"McKean, PA",50,"    Finance, insurance, real estate, rental, and leasing",203567,251313,264102
+42083,"McKean, PA",51,"      Finance and insurance",43692,46252,48724
+42083,"McKean, PA",56,"      Real estate and rental and leasing",159875,205061,215377
+42083,"McKean, PA",59,"    Professional and business services",90374,86936,87145
+42083,"McKean, PA",60,"      Professional, scientific, and technical services",24338,25165,26075
+42083,"McKean, PA",64,"      Management of companies and enterprises",37105,33495,31529
+42083,"McKean, PA",65,"      Administrative and support and waste management and remediation services",28930,28276,29541
+42083,"McKean, PA",68,"    Educational services, health care, and social assistance",174829,188012,196809
+42083,"McKean, PA",69,"      Educational services",25524,25936,26148
+42083,"McKean, PA",70,"      Health care and social assistance",149306,162076,170661
+42083,"McKean, PA",75,"    Arts, entertainment, recreation, accommodation, and food services",43357,44858,47309
+42083,"McKean, PA",76,"      Arts, entertainment, and recreation",4962,4535,4742
+42083,"McKean, PA",79,"      Accommodation and food services",38395,40323,42567
+42083,"McKean, PA",82,"    Other services (except government and government enterprises)",48292,50458,51112
+42083,"McKean, PA",83,Government and government enterprises,219830,228459,239239
+42083,"McKean, PA",,Addenda:,,,
+42083,"McKean, PA",87,Natural resources and mining,152868,146694,145572
+42083,"McKean, PA",88,Trade,190548,203813,213718
+42083,"McKean, PA",89,Transportation and utilities,87137,69695,71559
+42083,"McKean, PA",90,Manufacturing and information,887219,1010988,827320
+42083,"McKean, PA",91,Private goods-producing industries 2,1051929,1183469,1001306
+42083,"McKean, PA",92,Private services-providing industries 3,878629,934422,971924
+42085,"Mercer, PA",1,All industry total,5043149,5295038,5514791
+42085,"Mercer, PA",2,"  Private industries",4574583,4816030,5027523
+42085,"Mercer, PA",3,"    Agriculture, forestry, fishing and hunting",22390,26749,34065
+42085,"Mercer, PA",6,"    Mining, quarrying, and oil and gas extraction",78409,68929,53615
+42085,"Mercer, PA",10,"    Utilities",24085,23592,25723
+42085,"Mercer, PA",11,"    Construction",204228,228540,252836
+42085,"Mercer, PA",12,"    Manufacturing",1151522,1147243,1118339
+42085,"Mercer, PA",13,"      Durable goods manufacturing",876725,875614,841375
+42085,"Mercer, PA",25,"      Nondurable goods manufacturing",274797,271629,276964
+42085,"Mercer, PA",34,"    Wholesale trade",207566,227774,253526
+42085,"Mercer, PA",35,"    Retail trade",416713,446227,461892
+42085,"Mercer, PA",36,"    Transportation and warehousing",251480,252166,270099
+42085,"Mercer, PA",45,"    Information",72830,81998,84634
+42085,"Mercer, PA",50,"    Finance, insurance, real estate, rental, and leasing",859749,936355,1005647
+42085,"Mercer, PA",51,"      Finance and insurance",310272,315510,329530
+42085,"Mercer, PA",56,"      Real estate and rental and leasing",549477,620845,676118
+42085,"Mercer, PA",59,"    Professional and business services",287219,305186,327167
+42085,"Mercer, PA",60,"      Professional, scientific, and technical services",121357,128795,135632
+42085,"Mercer, PA",64,"      Management of companies and enterprises",88128,90084,96399
+42085,"Mercer, PA",65,"      Administrative and support and waste management and remediation services",77733,86307,95136
+42085,"Mercer, PA",68,"    Educational services, health care, and social assistance",692045,728823,781884
+42085,"Mercer, PA",69,"      Educational services",93071,100581,104908
+42085,"Mercer, PA",70,"      Health care and social assistance",598974,628242,676976
+42085,"Mercer, PA",75,"    Arts, entertainment, recreation, accommodation, and food services",169857,192113,197900
+42085,"Mercer, PA",76,"      Arts, entertainment, and recreation",26405,29126,30859
+42085,"Mercer, PA",79,"      Accommodation and food services",143452,162988,167040
+42085,"Mercer, PA",82,"    Other services (except government and government enterprises)",136490,150333,160198
+42085,"Mercer, PA",83,Government and government enterprises,468566,479008,487268
+42085,"Mercer, PA",,Addenda:,,,
+42085,"Mercer, PA",87,Natural resources and mining,100799,95679,87680
+42085,"Mercer, PA",88,Trade,624279,674001,715418
+42085,"Mercer, PA",89,Transportation and utilities,275565,275758,295822
+42085,"Mercer, PA",90,Manufacturing and information,1224352,1229241,1202973
+42085,"Mercer, PA",91,Private goods-producing industries 2,1456550,1471462,1458855
+42085,"Mercer, PA",92,Private services-providing industries 3,3118034,3344569,3568668
+42087,"Mifflin, PA",1,All industry total,2138711,2170404,2340397
+42087,"Mifflin, PA",2,"  Private industries",1995898,2023623,2188044
+42087,"Mifflin, PA",3,"    Agriculture, forestry, fishing and hunting",138511,98667,139486
+42087,"Mifflin, PA",6,"    Mining, quarrying, and oil and gas extraction",0,(D),376
+42087,"Mifflin, PA",10,"    Utilities",6783,5407,5818
+42087,"Mifflin, PA",11,"    Construction",109163,123014,135673
+42087,"Mifflin, PA",12,"    Manufacturing",657811,656170,700362
+42087,"Mifflin, PA",13,"      Durable goods manufacturing",296046,292402,295975
+42087,"Mifflin, PA",25,"      Nondurable goods manufacturing",361765,363768,404388
+42087,"Mifflin, PA",34,"    Wholesale trade",44855,(D),(D)
+42087,"Mifflin, PA",35,"    Retail trade",167457,187389,196226
+42087,"Mifflin, PA",36,"    Transportation and warehousing",131005,104928,109492
+42087,"Mifflin, PA",45,"    Information",19550,19986,18741
+42087,"Mifflin, PA",50,"    Finance, insurance, real estate, rental, and leasing",305361,(D),(D)
+42087,"Mifflin, PA",51,"      Finance and insurance",67337,70788,77447
+42087,"Mifflin, PA",56,"      Real estate and rental and leasing",238024,(D),(D)
+42087,"Mifflin, PA",59,"    Professional and business services",51651,53301,57367
+42087,"Mifflin, PA",60,"      Professional, scientific, and technical services",20596,22441,25886
+42087,"Mifflin, PA",64,"      Management of companies and enterprises",8056,5297,4562
+42087,"Mifflin, PA",65,"      Administrative and support and waste management and remediation services",22999,25562,26919
+42087,"Mifflin, PA",68,"    Educational services, health care, and social assistance",263187,292392,320036
+42087,"Mifflin, PA",69,"      Educational services",5119,5847,5552
+42087,"Mifflin, PA",70,"      Health care and social assistance",258068,286545,314485
+42087,"Mifflin, PA",75,"    Arts, entertainment, recreation, accommodation, and food services",43708,49357,53206
+42087,"Mifflin, PA",76,"      Arts, entertainment, and recreation",4084,4377,4588
+42087,"Mifflin, PA",79,"      Accommodation and food services",39623,44979,48619
+42087,"Mifflin, PA",82,"    Other services (except government and government enterprises)",56856,62579,67575
+42087,"Mifflin, PA",83,Government and government enterprises,142813,146781,152353
+42087,"Mifflin, PA",,Addenda:,,,
+42087,"Mifflin, PA",87,Natural resources and mining,138511,(D),139862
+42087,"Mifflin, PA",88,Trade,212312,(D),(D)
+42087,"Mifflin, PA",89,Transportation and utilities,137789,110335,115310
+42087,"Mifflin, PA",90,Manufacturing and information,677361,676156,719104
+42087,"Mifflin, PA",91,Private goods-producing industries 2,905485,(D),975898
+42087,"Mifflin, PA",92,Private services-providing industries 3,1090413,(D),1212146
+42089,"Monroe, PA",1,All industry total,8302067,9134935,9563316
+42089,"Monroe, PA",2,"  Private industries",7050143,7840829,8220280
+42089,"Monroe, PA",3,"    Agriculture, forestry, fishing and hunting",4952,3297,5047
+42089,"Monroe, PA",6,"    Mining, quarrying, and oil and gas extraction",12889,14809,5432
+42089,"Monroe, PA",10,"    Utilities",16813,17261,18625
+42089,"Monroe, PA",11,"    Construction",243289,269942,272361
+42089,"Monroe, PA",12,"    Manufacturing",1810323,2160165,2165706
+42089,"Monroe, PA",13,"      Durable goods manufacturing",136263,139390,139439
+42089,"Monroe, PA",25,"      Nondurable goods manufacturing",1674059,2020775,2026267
+42089,"Monroe, PA",34,"    Wholesale trade",178730,217270,214289
+42089,"Monroe, PA",35,"    Retail trade",630755,677317,700813
+42089,"Monroe, PA",36,"    Transportation and warehousing",416828,327335,365427
+42089,"Monroe, PA",45,"    Information",101954,87972,89709
+42089,"Monroe, PA",50,"    Finance, insurance, real estate, rental, and leasing",1436187,1597825,1772385
+42089,"Monroe, PA",51,"      Finance and insurance",182728,195110,203109
+42089,"Monroe, PA",56,"      Real estate and rental and leasing",1253459,1402715,1569276
+42089,"Monroe, PA",59,"    Professional and business services",428434,472765,504639
+42089,"Monroe, PA",60,"      Professional, scientific, and technical services",192937,242301,(D)
+42089,"Monroe, PA",64,"      Management of companies and enterprises",40542,40184,(D)
+42089,"Monroe, PA",65,"      Administrative and support and waste management and remediation services",194955,190280,194145
+42089,"Monroe, PA",68,"    Educational services, health care, and social assistance",716599,807040,866778
+42089,"Monroe, PA",69,"      Educational services",20584,20978,22830
+42089,"Monroe, PA",70,"      Health care and social assistance",696015,786061,843948
+42089,"Monroe, PA",75,"    Arts, entertainment, recreation, accommodation, and food services",854154,969146,998962
+42089,"Monroe, PA",76,"      Arts, entertainment, and recreation",95500,100941,100216
+42089,"Monroe, PA",79,"      Accommodation and food services",758654,868205,898746
+42089,"Monroe, PA",82,"    Other services (except government and government enterprises)",198237,218684,240110
+42089,"Monroe, PA",83,Government and government enterprises,1251925,1294107,1343036
+42089,"Monroe, PA",,Addenda:,,,
+42089,"Monroe, PA",87,Natural resources and mining,17841,18106,10479
+42089,"Monroe, PA",88,Trade,809486,894587,915101
+42089,"Monroe, PA",89,Transportation and utilities,433641,344596,384051
+42089,"Monroe, PA",90,Manufacturing and information,1912277,2248137,2255415
+42089,"Monroe, PA",91,Private goods-producing industries 2,2071452,2448213,2448546
+42089,"Monroe, PA",92,Private services-providing industries 3,4978690,5392616,5771735
+42091,"Montgomery, PA",1,All industry total,101985467,105806763,110422372
+42091,"Montgomery, PA",2,"  Private industries",97776604,101394390,105767815
+42091,"Montgomery, PA",3,"    Agriculture, forestry, fishing and hunting",20163,5974,8245
+42091,"Montgomery, PA",6,"    Mining, quarrying, and oil and gas extraction",57123,62867,30867
+42091,"Montgomery, PA",10,"    Utilities",1470483,1540327,1544348
+42091,"Montgomery, PA",11,"    Construction",4689572,5065528,5315427
+42091,"Montgomery, PA",12,"    Manufacturing",15248985,15011174,15073159
+42091,"Montgomery, PA",13,"      Durable goods manufacturing",3111089,3257416,3336607
+42091,"Montgomery, PA",25,"      Nondurable goods manufacturing",12137895,11753758,11736552
+42091,"Montgomery, PA",34,"    Wholesale trade",8610730,9069325,9748632
+42091,"Montgomery, PA",35,"    Retail trade",4829477,5149576,5336077
+42091,"Montgomery, PA",36,"    Transportation and warehousing",1374571,1319595,1370472
+42091,"Montgomery, PA",45,"    Information",4706695,4810515,4866840
+42091,"Montgomery, PA",50,"    Finance, insurance, real estate, rental, and leasing",21130722,22518526,23475546
+42091,"Montgomery, PA",51,"      Finance and insurance",9556844,10131756,10610309
+42091,"Montgomery, PA",56,"      Real estate and rental and leasing",11573878,12386770,12865238
+42091,"Montgomery, PA",59,"    Professional and business services",22248424,22233643,23449095
+42091,"Montgomery, PA",60,"      Professional, scientific, and technical services",14494048,14179998,15052327
+42091,"Montgomery, PA",64,"      Management of companies and enterprises",3644591,3884643,4211263
+42091,"Montgomery, PA",65,"      Administrative and support and waste management and remediation services",4109785,4169003,4185505
+42091,"Montgomery, PA",68,"    Educational services, health care, and social assistance",9468586,10236565,10952177
+42091,"Montgomery, PA",69,"      Educational services",1423682,1450987,1515532
+42091,"Montgomery, PA",70,"      Health care and social assistance",8044904,8785577,9436645
+42091,"Montgomery, PA",75,"    Arts, entertainment, recreation, accommodation, and food services",2292310,2745544,2875153
+42091,"Montgomery, PA",76,"      Arts, entertainment, and recreation",625817,768257,820412
+42091,"Montgomery, PA",79,"      Accommodation and food services",1666493,1977287,2054741
+42091,"Montgomery, PA",82,"    Other services (except government and government enterprises)",1628764,1625230,1721777
+42091,"Montgomery, PA",83,Government and government enterprises,4208863,4412374,4654558
+42091,"Montgomery, PA",,Addenda:,,,
+42091,"Montgomery, PA",87,Natural resources and mining,77286,68841,39112
+42091,"Montgomery, PA",88,Trade,13440207,14218901,15084709
+42091,"Montgomery, PA",89,Transportation and utilities,2845054,2859922,2914820
+42091,"Montgomery, PA",90,Manufacturing and information,19955679,19821689,19939999
+42091,"Montgomery, PA",91,Private goods-producing industries 2,20015842,20145544,20427697
+42091,"Montgomery, PA",92,Private services-providing industries 3,77760762,81248846,85340117
+42093,"Montour, PA",1,All industry total,2406258,2518599,2784723
+42093,"Montour, PA",2,"  Private industries",2277806,2387952,2642052
+42093,"Montour, PA",3,"    Agriculture, forestry, fishing and hunting",31976,12889,31844
+42093,"Montour, PA",6,"    Mining, quarrying, and oil and gas extraction",3546,4042,26396
+42093,"Montour, PA",10,"    Utilities",80744,46304,(D)
+42093,"Montour, PA",11,"    Construction",18391,36876,33246
+42093,"Montour, PA",12,"    Manufacturing",109339,121774,124185
+42093,"Montour, PA",13,"      Durable goods manufacturing",97171,109186,112956
+42093,"Montour, PA",25,"      Nondurable goods manufacturing",12167,12588,11229
+42093,"Montour, PA",34,"    Wholesale trade",(D),(D),(D)
+42093,"Montour, PA",35,"    Retail trade",56715,64392,69315
+42093,"Montour, PA",36,"    Transportation and warehousing",29738,18490,20321
+42093,"Montour, PA",45,"    Information",(D),(D),1133
+42093,"Montour, PA",50,"    Finance, insurance, real estate, rental, and leasing",390796,427070,(D)
+42093,"Montour, PA",51,"      Finance and insurance",310784,340257,(D)
+42093,"Montour, PA",56,"      Real estate and rental and leasing",80013,86813,88449
+42093,"Montour, PA",59,"    Professional and business services",(D),(D),317344
+42093,"Montour, PA",60,"      Professional, scientific, and technical services",51344,53203,(D)
+42093,"Montour, PA",64,"      Management of companies and enterprises",(D),(D),(D)
+42093,"Montour, PA",65,"      Administrative and support and waste management and remediation services",(D),(D),(D)
+42093,"Montour, PA",68,"    Educational services, health care, and social assistance",1190304,1266550,1345049
+42093,"Montour, PA",69,"      Educational services",5664,5825,6204
+42093,"Montour, PA",70,"      Health care and social assistance",1184640,1260724,1338845
+42093,"Montour, PA",75,"    Arts, entertainment, recreation, accommodation, and food services",(D),34170,36147
+42093,"Montour, PA",76,"      Arts, entertainment, and recreation",(D),5004,5279
+42093,"Montour, PA",79,"      Accommodation and food services",26599,29166,30868
+42093,"Montour, PA",82,"    Other services (except government and government enterprises)",35727,36516,38408
+42093,"Montour, PA",83,Government and government enterprises,128452,130647,142671
+42093,"Montour, PA",,Addenda:,,,
+42093,"Montour, PA",87,Natural resources and mining,35521,16930,58240
+42093,"Montour, PA",88,Trade,(D),(D),(D)
+42093,"Montour, PA",89,Transportation and utilities,110481,64794,(D)
+42093,"Montour, PA",90,Manufacturing and information,(D),(D),125318
+42093,"Montour, PA",91,Private goods-producing industries 2,163250,175580,215671
+42093,"Montour, PA",92,Private services-providing industries 3,2114556,2212372,2426381
+42095,"Northampton, PA",1,All industry total,18861912,20199980,20981619
+42095,"Northampton, PA",2,"  Private industries",17446158,18731610,19455654
+42095,"Northampton, PA",3,"    Agriculture, forestry, fishing and hunting",3981,8326,16823
+42095,"Northampton, PA",6,"    Mining, quarrying, and oil and gas extraction",18552,21965,8456
+42095,"Northampton, PA",10,"    Utilities",486296,618210,656221
+42095,"Northampton, PA",11,"    Construction",660217,717489,727825
+42095,"Northampton, PA",12,"    Manufacturing",3648278,3750661,3883040
+42095,"Northampton, PA",13,"      Durable goods manufacturing",1788197,1869674,1878680
+42095,"Northampton, PA",25,"      Nondurable goods manufacturing",1860081,1880987,2004360
+42095,"Northampton, PA",34,"    Wholesale trade",1775209,1823351,1920458
+42095,"Northampton, PA",35,"    Retail trade",1171417,1257852,1303866
+42095,"Northampton, PA",36,"    Transportation and warehousing",1358131,1321165,1318214
+42095,"Northampton, PA",45,"    Information",669773,726032,720029
+42095,"Northampton, PA",50,"    Finance, insurance, real estate, rental, and leasing",3199660,3495705,3594502
+42095,"Northampton, PA",51,"      Finance and insurance",747200,788917,790768
+42095,"Northampton, PA",56,"      Real estate and rental and leasing",2452461,2706789,2803734
+42095,"Northampton, PA",59,"    Professional and business services",1492876,1603268,1668522
+42095,"Northampton, PA",60,"      Professional, scientific, and technical services",707180,744052,804464
+42095,"Northampton, PA",64,"      Management of companies and enterprises",175405,199036,196846
+42095,"Northampton, PA",65,"      Administrative and support and waste management and remediation services",610290,660180,667213
+42095,"Northampton, PA",68,"    Educational services, health care, and social assistance",1627174,1867370,2033025
+42095,"Northampton, PA",69,"      Educational services",567175,629602,660390
+42095,"Northampton, PA",70,"      Health care and social assistance",1059998,1237767,1372635
+42095,"Northampton, PA",75,"    Arts, entertainment, recreation, accommodation, and food services",915276,1068659,1115114
+42095,"Northampton, PA",76,"      Arts, entertainment, and recreation",138474,168122,177928
+42095,"Northampton, PA",79,"      Accommodation and food services",776802,900537,937186
+42095,"Northampton, PA",82,"    Other services (except government and government enterprises)",419317,451558,489557
+42095,"Northampton, PA",83,Government and government enterprises,1415754,1468371,1525965
+42095,"Northampton, PA",,Addenda:,,,
+42095,"Northampton, PA",87,Natural resources and mining,22533,30291,25279
+42095,"Northampton, PA",88,Trade,2946626,3081203,3224324
+42095,"Northampton, PA",89,Transportation and utilities,1844427,1939375,1974436
+42095,"Northampton, PA",90,Manufacturing and information,4318051,4476693,4603069
+42095,"Northampton, PA",91,Private goods-producing industries 2,4331028,4498440,4636144
+42095,"Northampton, PA",92,Private services-providing industries 3,13115130,14233170,14819509
+42097,"Northumberland, PA",1,All industry total,3882264,4163129,4733247
+42097,"Northumberland, PA",2,"  Private industries",3529171,3801620,4356843
+42097,"Northumberland, PA",3,"    Agriculture, forestry, fishing and hunting",100729,91057,64283
+42097,"Northumberland, PA",6,"    Mining, quarrying, and oil and gas extraction",42382,48512,36993
+42097,"Northumberland, PA",10,"    Utilities",34843,52294,51083
+42097,"Northumberland, PA",11,"    Construction",134991,140956,151019
+42097,"Northumberland, PA",12,"    Manufacturing",1215929,1308054,1798957
+42097,"Northumberland, PA",13,"      Durable goods manufacturing",218861,230807,237751
+42097,"Northumberland, PA",25,"      Nondurable goods manufacturing",997068,1077247,1561206
+42097,"Northumberland, PA",34,"    Wholesale trade",160986,167200,168817
+42097,"Northumberland, PA",35,"    Retail trade",220564,239826,247120
+42097,"Northumberland, PA",36,"    Transportation and warehousing",333144,328375,331797
+42097,"Northumberland, PA",45,"    Information",56296,57504,59247
+42097,"Northumberland, PA",50,"    Finance, insurance, real estate, rental, and leasing",502966,552954,583850
+42097,"Northumberland, PA",51,"      Finance and insurance",92232,99585,119336
+42097,"Northumberland, PA",56,"      Real estate and rental and leasing",410734,453369,464514
+42097,"Northumberland, PA",59,"    Professional and business services",222161,262984,276834
+42097,"Northumberland, PA",60,"      Professional, scientific, and technical services",63658,65429,(D)
+42097,"Northumberland, PA",64,"      Management of companies and enterprises",97050,128542,(D)
+42097,"Northumberland, PA",65,"      Administrative and support and waste management and remediation services",61453,69014,73467
+42097,"Northumberland, PA",68,"    Educational services, health care, and social assistance",290208,317995,344658
+42097,"Northumberland, PA",69,"      Educational services",15422,15657,12902
+42097,"Northumberland, PA",70,"      Health care and social assistance",274786,302338,331756
+42097,"Northumberland, PA",75,"    Arts, entertainment, recreation, accommodation, and food services",108391,121043,126181
+42097,"Northumberland, PA",76,"      Arts, entertainment, and recreation",53519,62113,(D)
+42097,"Northumberland, PA",79,"      Accommodation and food services",54872,58930,(D)
+42097,"Northumberland, PA",82,"    Other services (except government and government enterprises)",105581,112866,116005
+42097,"Northumberland, PA",83,Government and government enterprises,353093,361509,376404
+42097,"Northumberland, PA",,Addenda:,,,
+42097,"Northumberland, PA",87,Natural resources and mining,143111,139569,101275
+42097,"Northumberland, PA",88,Trade,381549,407026,415936
+42097,"Northumberland, PA",89,Transportation and utilities,367988,380669,382880
+42097,"Northumberland, PA",90,Manufacturing and information,1272225,1365557,1858204
+42097,"Northumberland, PA",91,Private goods-producing industries 2,1494031,1588579,2051251
+42097,"Northumberland, PA",92,Private services-providing industries 3,2035140,2213041,2305592
+42099,"Perry, PA",1,All industry total,1217273,1289468,1361626
+42099,"Perry, PA",2,"  Private industries",1065924,1131599,1197740
+42099,"Perry, PA",3,"    Agriculture, forestry, fishing and hunting",148441,117508,148222
+42099,"Perry, PA",6,"    Mining, quarrying, and oil and gas extraction",2414,(D),971
+42099,"Perry, PA",10,"    Utilities",4323,4057,4518
+42099,"Perry, PA",11,"    Construction",133807,148526,155260
+42099,"Perry, PA",12,"    Manufacturing",99685,89384,92043
+42099,"Perry, PA",13,"      Durable goods manufacturing",27918,28625,29031
+42099,"Perry, PA",25,"      Nondurable goods manufacturing",71767,60760,63012
+42099,"Perry, PA",34,"    Wholesale trade",(D),(D),(D)
+42099,"Perry, PA",35,"    Retail trade",87428,95300,98975
+42099,"Perry, PA",36,"    Transportation and warehousing",88030,78047,81554
+42099,"Perry, PA",45,"    Information",12067,11185,11336
+42099,"Perry, PA",50,"    Finance, insurance, real estate, rental, and leasing",289667,(D),367665
+42099,"Perry, PA",51,"      Finance and insurance",37389,38755,40934
+42099,"Perry, PA",56,"      Real estate and rental and leasing",252278,(D),326731
+42099,"Perry, PA",59,"    Professional and business services",(D),52201,54652
+42099,"Perry, PA",60,"      Professional, scientific, and technical services",32477,35819,36949
+42099,"Perry, PA",64,"      Management of companies and enterprises",(D),316,(D)
+42099,"Perry, PA",65,"      Administrative and support and waste management and remediation services",(D),16066,(D)
+42099,"Perry, PA",68,"    Educational services, health care, and social assistance",58032,67500,74622
+42099,"Perry, PA",69,"      Educational services",3821,4493,4647
+42099,"Perry, PA",70,"      Health care and social assistance",54211,63007,69975
+42099,"Perry, PA",75,"    Arts, entertainment, recreation, accommodation, and food services",(D),29343,(D)
+42099,"Perry, PA",76,"      Arts, entertainment, and recreation",(D),1037,(D)
+42099,"Perry, PA",79,"      Accommodation and food services",25619,28307,(D)
+42099,"Perry, PA",82,"    Other services (except government and government enterprises)",52211,55998,59552
+42099,"Perry, PA",83,Government and government enterprises,151349,157869,163886
+42099,"Perry, PA",,Addenda:,,,
+42099,"Perry, PA",87,Natural resources and mining,150854,(D),149193
+42099,"Perry, PA",88,Trade,(D),(D),(D)
+42099,"Perry, PA",89,Transportation and utilities,92353,82104,86072
+42099,"Perry, PA",90,Manufacturing and information,111752,100569,103379
+42099,"Perry, PA",91,Private goods-producing industries 2,384346,(D),396497
+42099,"Perry, PA",92,Private services-providing industries 3,681578,(D),801243
+42101,"Philadelphia, PA",1,All industry total,122078607,128685411,134988949
+42101,"Philadelphia, PA",2,"  Private industries",107149068,112995608,118295304
+42101,"Philadelphia, PA",3,"    Agriculture, forestry, fishing and hunting",26170,29608,19684
+42101,"Philadelphia, PA",6,"    Mining, quarrying, and oil and gas extraction",0,239,2455
+42101,"Philadelphia, PA",10,"    Utilities",428611,422433,440493
+42101,"Philadelphia, PA",11,"    Construction",2454118,3074053,3270716
+42101,"Philadelphia, PA",12,"    Manufacturing",5559680,5563192,4779057
+42101,"Philadelphia, PA",13,"      Durable goods manufacturing",1508785,1576133,1465154
+42101,"Philadelphia, PA",25,"      Nondurable goods manufacturing",4050894,3987059,3313903
+42101,"Philadelphia, PA",34,"    Wholesale trade",3769292,3962980,4132838
+42101,"Philadelphia, PA",35,"    Retail trade",4036861,4275101,4371980
+42101,"Philadelphia, PA",36,"    Transportation and warehousing",3341723,3359304,3737161
+42101,"Philadelphia, PA",45,"    Information",8501469,6203921,6480181
+42101,"Philadelphia, PA",50,"    Finance, insurance, real estate, rental, and leasing",25276382,27105540,28188153
+42101,"Philadelphia, PA",51,"      Finance and insurance",9460317,10151006,10499115
+42101,"Philadelphia, PA",56,"      Real estate and rental and leasing",15816066,16954534,17689038
+42101,"Philadelphia, PA",59,"    Professional and business services",21743795,23146828,24421374
+42101,"Philadelphia, PA",60,"      Professional, scientific, and technical services",16289781,17276440,18113491
+42101,"Philadelphia, PA",64,"      Management of companies and enterprises",2892198,3075824,3369850
+42101,"Philadelphia, PA",65,"      Administrative and support and waste management and remediation services",2561816,2794564,2938033
+42101,"Philadelphia, PA",68,"    Educational services, health care, and social assistance",23786295,26007070,28019109
+42101,"Philadelphia, PA",69,"      Educational services",8601279,9247690,9755026
+42101,"Philadelphia, PA",70,"      Health care and social assistance",15185015,16759380,18264083
+42101,"Philadelphia, PA",75,"    Arts, entertainment, recreation, accommodation, and food services",5569479,6972854,7328615
+42101,"Philadelphia, PA",76,"      Arts, entertainment, and recreation",2161067,2938481,3116902
+42101,"Philadelphia, PA",79,"      Accommodation and food services",3408412,4034373,4211713
+42101,"Philadelphia, PA",82,"    Other services (except government and government enterprises)",2655194,2872485,3103489
+42101,"Philadelphia, PA",83,Government and government enterprises,14929539,15689803,16693645
+42101,"Philadelphia, PA",,Addenda:,,,
+42101,"Philadelphia, PA",87,Natural resources and mining,26170,29847,22139
+42101,"Philadelphia, PA",88,Trade,7806153,8238081,8504818
+42101,"Philadelphia, PA",89,Transportation and utilities,3770334,3781737,4177653
+42101,"Philadelphia, PA",90,Manufacturing and information,14061149,11767112,11259237
+42101,"Philadelphia, PA",91,Private goods-producing industries 2,8039967,8667091,8071912
+42101,"Philadelphia, PA",92,Private services-providing industries 3,99109101,104328516,110223392
+42103,"Pike, PA",1,All industry total,1756500,1929936,2003244
+42103,"Pike, PA",2,"  Private industries",1500217,1661693,1720452
+42103,"Pike, PA",3,"    Agriculture, forestry, fishing and hunting",1988,1651,1098
+42103,"Pike, PA",6,"    Mining, quarrying, and oil and gas extraction",21005,22953,8788
+42103,"Pike, PA",10,"    Utilities",(D),6490,6607
+42103,"Pike, PA",11,"    Construction",(D),(D),87881
+42103,"Pike, PA",12,"    Manufacturing",(D),(D),38087
+42103,"Pike, PA",13,"      Durable goods manufacturing",(D),(D),(D)
+42103,"Pike, PA",25,"      Nondurable goods manufacturing",(D),(D),(D)
+42103,"Pike, PA",34,"    Wholesale trade",12713,12957,14266
+42103,"Pike, PA",35,"    Retail trade",138304,150372,158925
+42103,"Pike, PA",36,"    Transportation and warehousing",45085,25995,28939
+42103,"Pike, PA",45,"    Information",45947,48628,49826
+42103,"Pike, PA",50,"    Finance, insurance, real estate, rental, and leasing",(D),737509,760294
+42103,"Pike, PA",51,"      Finance and insurance",75699,85750,87970
+42103,"Pike, PA",56,"      Real estate and rental and leasing",(D),651760,672325
+42103,"Pike, PA",59,"    Professional and business services",114923,130729,142257
+42103,"Pike, PA",60,"      Professional, scientific, and technical services",58418,63193,68904
+42103,"Pike, PA",64,"      Management of companies and enterprises",5052,6508,6678
+42103,"Pike, PA",65,"      Administrative and support and waste management and remediation services",51453,61027,66675
+42103,"Pike, PA",68,"    Educational services, health care, and social assistance",83610,98341,109874
+42103,"Pike, PA",69,"      Educational services",5896,5857,6287
+42103,"Pike, PA",70,"      Health care and social assistance",77714,92484,103587
+42103,"Pike, PA",75,"    Arts, entertainment, recreation, accommodation, and food services",163660,200331,212265
+42103,"Pike, PA",76,"      Arts, entertainment, and recreation",35108,40594,41448
+42103,"Pike, PA",79,"      Accommodation and food services",128551,159738,170817
+42103,"Pike, PA",82,"    Other services (except government and government enterprises)",88086,95234,101343
+42103,"Pike, PA",83,Government and government enterprises,256283,268243,282792
+42103,"Pike, PA",,Addenda:,,,
+42103,"Pike, PA",87,Natural resources and mining,22993,24605,9886
+42103,"Pike, PA",88,Trade,151017,163329,173192
+42103,"Pike, PA",89,Transportation and utilities,(D),32485,35546
+42103,"Pike, PA",90,Manufacturing and information,(D),(D),87913
+42103,"Pike, PA",91,Private goods-producing industries 2,139453,155107,135855
+42103,"Pike, PA",92,Private services-providing industries 3,1360764,1506586,1584597
+42105,"Potter, PA",1,All industry total,930626,1043077,1064567
+42105,"Potter, PA",2,"  Private industries",851895,962756,980071
+42105,"Potter, PA",3,"    Agriculture, forestry, fishing and hunting",41526,25477,18220
+42105,"Potter, PA",6,"    Mining, quarrying, and oil and gas extraction",39722,18141,17348
+42105,"Potter, PA",10,"    Utilities",15368,13938,13391
+42105,"Potter, PA",11,"    Construction",23178,25364,25817
+42105,"Potter, PA",12,"    Manufacturing",64742,66490,65802
+42105,"Potter, PA",13,"      Durable goods manufacturing",62086,63513,62496
+42105,"Potter, PA",25,"      Nondurable goods manufacturing",2656,2977,3306
+42105,"Potter, PA",34,"    Wholesale trade",(D),(D),(D)
+42105,"Potter, PA",35,"    Retail trade",34182,37731,40521
+42105,"Potter, PA",36,"    Transportation and warehousing",40594,115801,115195
+42105,"Potter, PA",45,"    Information",134269,151114,149825
+42105,"Potter, PA",50,"    Finance, insurance, real estate, rental, and leasing",(D),154562,(D)
+42105,"Potter, PA",51,"      Finance and insurance",16709,16131,16806
+42105,"Potter, PA",56,"      Real estate and rental and leasing",(D),138431,(D)
+42105,"Potter, PA",59,"    Professional and business services",34968,39147,39470
+42105,"Potter, PA",60,"      Professional, scientific, and technical services",24890,28242,27191
+42105,"Potter, PA",64,"      Management of companies and enterprises",(D),(D),(D)
+42105,"Potter, PA",65,"      Administrative and support and waste management and remediation services",(D),(D),(D)
+42105,"Potter, PA",68,"    Educational services, health care, and social assistance",87188,91363,98331
+42105,"Potter, PA",69,"      Educational services",(D),(D),(D)
+42105,"Potter, PA",70,"      Health care and social assistance",(D),(D),(D)
+42105,"Potter, PA",75,"    Arts, entertainment, recreation, accommodation, and food services",10527,(D),12031
+42105,"Potter, PA",76,"      Arts, entertainment, and recreation",548,(D),(D)
+42105,"Potter, PA",79,"      Accommodation and food services",9978,(D),(D)
+42105,"Potter, PA",82,"    Other services (except government and government enterprises)",14776,15247,16417
+42105,"Potter, PA",83,Government and government enterprises,78731,80322,84495
+42105,"Potter, PA",,Addenda:,,,
+42105,"Potter, PA",87,Natural resources and mining,81248,43619,35568
+42105,"Potter, PA",88,Trade,(D),(D),(D)
+42105,"Potter, PA",89,Transportation and utilities,55962,129739,128586
+42105,"Potter, PA",90,Manufacturing and information,199010,217604,215628
+42105,"Potter, PA",91,Private goods-producing industries 2,169168,135472,127188
+42105,"Potter, PA",92,Private services-providing industries 3,682727,827283,852883
+42107,"Schuylkill, PA",1,All industry total,5994209,6184410,6491898
+42107,"Schuylkill, PA",2,"  Private industries",5312405,5479617,5755651
+42107,"Schuylkill, PA",3,"    Agriculture, forestry, fishing and hunting",84211,62188,69147
+42107,"Schuylkill, PA",6,"    Mining, quarrying, and oil and gas extraction",114753,159323,219554
+42107,"Schuylkill, PA",10,"    Utilities",111850,113330,108793
+42107,"Schuylkill, PA",11,"    Construction",223067,262643,246992
+42107,"Schuylkill, PA",12,"    Manufacturing",1413142,1394344,1401438
+42107,"Schuylkill, PA",13,"      Durable goods manufacturing",695148,685569,671921
+42107,"Schuylkill, PA",25,"      Nondurable goods manufacturing",717994,708774,729517
+42107,"Schuylkill, PA",34,"    Wholesale trade",228594,241120,191947
+42107,"Schuylkill, PA",35,"    Retail trade",396831,449895,454959
+42107,"Schuylkill, PA",36,"    Transportation and warehousing",580727,542483,580228
+42107,"Schuylkill, PA",45,"    Information",85960,82078,80095
+42107,"Schuylkill, PA",50,"    Finance, insurance, real estate, rental, and leasing",945267,957281,1067691
+42107,"Schuylkill, PA",51,"      Finance and insurance",150394,160523,168306
+42107,"Schuylkill, PA",56,"      Real estate and rental and leasing",794873,796758,899385
+42107,"Schuylkill, PA",59,"    Professional and business services",315076,345858,401728
+42107,"Schuylkill, PA",60,"      Professional, scientific, and technical services",137286,146792,165423
+42107,"Schuylkill, PA",64,"      Management of companies and enterprises",60865,69902,77453
+42107,"Schuylkill, PA",65,"      Administrative and support and waste management and remediation services",116925,129164,158852
+42107,"Schuylkill, PA",68,"    Educational services, health care, and social assistance",531602,565912,610521
+42107,"Schuylkill, PA",69,"      Educational services",19373,19747,21994
+42107,"Schuylkill, PA",70,"      Health care and social assistance",512229,546166,588527
+42107,"Schuylkill, PA",75,"    Arts, entertainment, recreation, accommodation, and food services",144191,157416,166302
+42107,"Schuylkill, PA",76,"      Arts, entertainment, and recreation",37528,41914,44400
+42107,"Schuylkill, PA",79,"      Accommodation and food services",106662,115503,121903
+42107,"Schuylkill, PA",82,"    Other services (except government and government enterprises)",137132,145746,156255
+42107,"Schuylkill, PA",83,Government and government enterprises,681804,704793,736246
+42107,"Schuylkill, PA",,Addenda:,,,
+42107,"Schuylkill, PA",87,Natural resources and mining,198965,221511,288702
+42107,"Schuylkill, PA",88,Trade,625426,691015,646906
+42107,"Schuylkill, PA",89,Transportation and utilities,692577,655813,689021
+42107,"Schuylkill, PA",90,Manufacturing and information,1499102,1476422,1481533
+42107,"Schuylkill, PA",91,Private goods-producing industries 2,1835174,1878497,1937132
+42107,"Schuylkill, PA",92,Private services-providing industries 3,3477231,3601120,3818519
+42109,"Snyder, PA",1,All industry total,2112129,2149352,2202182
+42109,"Snyder, PA",2,"  Private industries",1934166,1969029,2019515
+42109,"Snyder, PA",3,"    Agriculture, forestry, fishing and hunting",186585,149084,185173
+42109,"Snyder, PA",6,"    Mining, quarrying, and oil and gas extraction",3461,3858,1395
+42109,"Snyder, PA",10,"    Utilities",362138,384299,354287
+42109,"Snyder, PA",11,"    Construction",85881,99825,107790
+42109,"Snyder, PA",12,"    Manufacturing",336335,327313,332553
+42109,"Snyder, PA",13,"      Durable goods manufacturing",237203,232238,237167
+42109,"Snyder, PA",25,"      Nondurable goods manufacturing",99132,95074,95385
+42109,"Snyder, PA",34,"    Wholesale trade",69445,75241,75541
+42109,"Snyder, PA",35,"    Retail trade",187823,204721,215580
+42109,"Snyder, PA",36,"    Transportation and warehousing",(D),(D),(D)
+42109,"Snyder, PA",45,"    Information",12690,11380,11803
+42109,"Snyder, PA",50,"    Finance, insurance, real estate, rental, and leasing",(D),(D),(D)
+42109,"Snyder, PA",51,"      Finance and insurance",47182,50765,57601
+42109,"Snyder, PA",56,"      Real estate and rental and leasing",(D),(D),(D)
+42109,"Snyder, PA",59,"    Professional and business services",(D),(D),82569
+42109,"Snyder, PA",60,"      Professional, scientific, and technical services",48990,54640,48994
+42109,"Snyder, PA",64,"      Management of companies and enterprises",(D),(D),(D)
+42109,"Snyder, PA",65,"      Administrative and support and waste management and remediation services",(D),(D),(D)
+42109,"Snyder, PA",68,"    Educational services, health care, and social assistance",174117,181858,180290
+42109,"Snyder, PA",69,"      Educational services",(D),(D),(D)
+42109,"Snyder, PA",70,"      Health care and social assistance",(D),(D),(D)
+42109,"Snyder, PA",75,"    Arts, entertainment, recreation, accommodation, and food services",69493,77173,81066
+42109,"Snyder, PA",76,"      Arts, entertainment, and recreation",7846,9316,9309
+42109,"Snyder, PA",79,"      Accommodation and food services",61647,67857,71756
+42109,"Snyder, PA",82,"    Other services (except government and government enterprises)",54045,58001,63474
+42109,"Snyder, PA",83,Government and government enterprises,177963,180323,182667
+42109,"Snyder, PA",,Addenda:,,,
+42109,"Snyder, PA",87,Natural resources and mining,190047,152942,186568
+42109,"Snyder, PA",88,Trade,257268,279963,291121
+42109,"Snyder, PA",89,Transportation and utilities,(D),(D),(D)
+42109,"Snyder, PA",90,Manufacturing and information,349025,338693,344356
+42109,"Snyder, PA",91,Private goods-producing industries 2,612262,580080,626910
+42109,"Snyder, PA",92,Private services-providing industries 3,1321904,1388949,1392605
+42111,"Somerset, PA",1,All industry total,2838472,2978867,3037840
+42111,"Somerset, PA",2,"  Private industries",2442593,2577737,2623771
+42111,"Somerset, PA",3,"    Agriculture, forestry, fishing and hunting",70679,30653,21701
+42111,"Somerset, PA",6,"    Mining, quarrying, and oil and gas extraction",189850,211277,201222
+42111,"Somerset, PA",10,"    Utilities",57784,59332,51850
+42111,"Somerset, PA",11,"    Construction",97377,117486,128852
+42111,"Somerset, PA",12,"    Manufacturing",345042,365217,350042
+42111,"Somerset, PA",13,"      Durable goods manufacturing",261273,269797,268633
+42111,"Somerset, PA",25,"      Nondurable goods manufacturing",83769,95421,81409
+42111,"Somerset, PA",34,"    Wholesale trade",118215,132637,146426
+42111,"Somerset, PA",35,"    Retail trade",185760,201387,208895
+42111,"Somerset, PA",36,"    Transportation and warehousing",175950,157412,159654
+42111,"Somerset, PA",45,"    Information",25854,25867,27312
+42111,"Somerset, PA",50,"    Finance, insurance, real estate, rental, and leasing",497132,548415,580698
+42111,"Somerset, PA",51,"      Finance and insurance",122275,134230,142497
+42111,"Somerset, PA",56,"      Real estate and rental and leasing",374857,414185,438201
+42111,"Somerset, PA",59,"    Professional and business services",159928,178407,173545
+42111,"Somerset, PA",60,"      Professional, scientific, and technical services",88686,100109,101511
+42111,"Somerset, PA",64,"      Management of companies and enterprises",13453,14198,11388
+42111,"Somerset, PA",65,"      Administrative and support and waste management and remediation services",57789,64101,60646
+42111,"Somerset, PA",68,"    Educational services, health care, and social assistance",277140,289302,304005
+42111,"Somerset, PA",69,"      Educational services",4878,4814,5282
+42111,"Somerset, PA",70,"      Health care and social assistance",272262,284488,298723
+42111,"Somerset, PA",75,"    Arts, entertainment, recreation, accommodation, and food services",155957,166644,168206
+42111,"Somerset, PA",76,"      Arts, entertainment, and recreation",29069,24237,26216
+42111,"Somerset, PA",79,"      Accommodation and food services",126888,142407,141991
+42111,"Somerset, PA",82,"    Other services (except government and government enterprises)",85925,93700,101363
+42111,"Somerset, PA",83,Government and government enterprises,395879,401130,414069
+42111,"Somerset, PA",,Addenda:,,,
+42111,"Somerset, PA",87,Natural resources and mining,260529,241931,222923
+42111,"Somerset, PA",88,Trade,303975,334024,355320
+42111,"Somerset, PA",89,Transportation and utilities,233734,216744,211504
+42111,"Somerset, PA",90,Manufacturing and information,370896,391085,377354
+42111,"Somerset, PA",91,Private goods-producing industries 2,702948,724634,701817
+42111,"Somerset, PA",92,Private services-providing industries 3,1739645,1853103,1921954
+42113,"Sullivan, PA",1,All industry total,473014,379879,326937
+42113,"Sullivan, PA",2,"  Private industries",441405,347183,292568
+42113,"Sullivan, PA",3,"    Agriculture, forestry, fishing and hunting",10132,6064,(D)
+42113,"Sullivan, PA",6,"    Mining, quarrying, and oil and gas extraction",(D),(D),126686
+42113,"Sullivan, PA",10,"    Utilities",2682,2756,2574
+42113,"Sullivan, PA",11,"    Construction",10399,11636,11187
+42113,"Sullivan, PA",12,"    Manufacturing",(D),(D),(D)
+42113,"Sullivan, PA",13,"      Durable goods manufacturing",(D),(D),(D)
+42113,"Sullivan, PA",25,"      Nondurable goods manufacturing",760,762,798
+42113,"Sullivan, PA",34,"    Wholesale trade",5526,6605,(D)
+42113,"Sullivan, PA",35,"    Retail trade",14728,16526,16576
+42113,"Sullivan, PA",36,"    Transportation and warehousing",(D),(D),3814
+42113,"Sullivan, PA",45,"    Information",(D),(D),(D)
+42113,"Sullivan, PA",50,"    Finance, insurance, real estate, rental, and leasing",60249,62304,60824
+42113,"Sullivan, PA",51,"      Finance and insurance",5839,5420,5309
+42113,"Sullivan, PA",56,"      Real estate and rental and leasing",54410,56884,55515
+42113,"Sullivan, PA",59,"    Professional and business services",7482,(D),7807
+42113,"Sullivan, PA",60,"      Professional, scientific, and technical services",4778,4779,4992
+42113,"Sullivan, PA",64,"      Management of companies and enterprises",(D),(D),(D)
+42113,"Sullivan, PA",65,"      Administrative and support and waste management and remediation services",(D),(D),(D)
+42113,"Sullivan, PA",68,"    Educational services, health care, and social assistance",25900,28762,37145
+42113,"Sullivan, PA",69,"      Educational services",(D),(D),(D)
+42113,"Sullivan, PA",70,"      Health care and social assistance",(D),(D),(D)
+42113,"Sullivan, PA",75,"    Arts, entertainment, recreation, accommodation, and food services",7410,8001,8838
+42113,"Sullivan, PA",76,"      Arts, entertainment, and recreation",2849,3342,3724
+42113,"Sullivan, PA",79,"      Accommodation and food services",4561,4659,5114
+42113,"Sullivan, PA",82,"    Other services (except government and government enterprises)",4979,5264,5627
+42113,"Sullivan, PA",83,Government and government enterprises,31609,32696,34369
+42113,"Sullivan, PA",,Addenda:,,,
+42113,"Sullivan, PA",87,Natural resources and mining,(D),(D),(D)
+42113,"Sullivan, PA",88,Trade,20254,23131,(D)
+42113,"Sullivan, PA",89,Transportation and utilities,(D),(D),6388
+42113,"Sullivan, PA",90,Manufacturing and information,(D),(D),(D)
+42113,"Sullivan, PA",91,Private goods-producing industries 2,304768,(D),146395
+42113,"Sullivan, PA",92,Private services-providing industries 3,136637,(D),146173
+42115,"Susquehanna, PA",1,All industry total,3915045,3194314,2615998
+42115,"Susquehanna, PA",2,"  Private industries",3755911,3030979,2444894
+42115,"Susquehanna, PA",3,"    Agriculture, forestry, fishing and hunting",53542,45928,36555
+42115,"Susquehanna, PA",6,"    Mining, quarrying, and oil and gas extraction",2721957,1876349,1306972
+42115,"Susquehanna, PA",10,"    Utilities",30404,34316,33062
+42115,"Susquehanna, PA",11,"    Construction",60882,81069,80791
+42115,"Susquehanna, PA",12,"    Manufacturing",58963,61812,58388
+42115,"Susquehanna, PA",13,"      Durable goods manufacturing",45291,48682,45168
+42115,"Susquehanna, PA",25,"      Nondurable goods manufacturing",13672,13130,13220
+42115,"Susquehanna, PA",34,"    Wholesale trade",57542,59022,60705
+42115,"Susquehanna, PA",35,"    Retail trade",115381,126498,131079
+42115,"Susquehanna, PA",36,"    Transportation and warehousing",44144,109210,116177
+42115,"Susquehanna, PA",45,"    Information",37251,33475,34676
+42115,"Susquehanna, PA",50,"    Finance, insurance, real estate, rental, and leasing",277922,311270,292569
+42115,"Susquehanna, PA",51,"      Finance and insurance",46781,61653,65182
+42115,"Susquehanna, PA",56,"      Real estate and rental and leasing",231141,249617,227387
+42115,"Susquehanna, PA",59,"    Professional and business services",130491,113030,106693
+42115,"Susquehanna, PA",60,"      Professional, scientific, and technical services",97733,76338,70089
+42115,"Susquehanna, PA",64,"      Management of companies and enterprises",7315,7098,6862
+42115,"Susquehanna, PA",65,"      Administrative and support and waste management and remediation services",25443,29594,29742
+42115,"Susquehanna, PA",68,"    Educational services, health care, and social assistance",72821,77709,83942
+42115,"Susquehanna, PA",69,"      Educational services",3056,2815,2882
+42115,"Susquehanna, PA",70,"      Health care and social assistance",69764,74894,81060
+42115,"Susquehanna, PA",75,"    Arts, entertainment, recreation, accommodation, and food services",45144,48920,51897
+42115,"Susquehanna, PA",76,"      Arts, entertainment, and recreation",9444,10604,11236
+42115,"Susquehanna, PA",79,"      Accommodation and food services",35700,38316,40661
+42115,"Susquehanna, PA",82,"    Other services (except government and government enterprises)",49468,52370,51388
+42115,"Susquehanna, PA",83,Government and government enterprises,159133,163335,171104
+42115,"Susquehanna, PA",,Addenda:,,,
+42115,"Susquehanna, PA",87,Natural resources and mining,2775499,1922276,1343526
+42115,"Susquehanna, PA",88,Trade,172922,185521,191785
+42115,"Susquehanna, PA",89,Transportation and utilities,74548,143526,149239
+42115,"Susquehanna, PA",90,Manufacturing and information,96214,95287,93064
+42115,"Susquehanna, PA",91,Private goods-producing industries 2,2895344,2065158,1482705
+42115,"Susquehanna, PA",92,Private services-providing industries 3,860568,965821,962189
+42117,"Tioga, PA",1,All industry total,2133078,2158175,2073907
+42117,"Tioga, PA",2,"  Private industries",1928469,1948437,1856552
+42117,"Tioga, PA",3,"    Agriculture, forestry, fishing and hunting",54184,14922,13231
+42117,"Tioga, PA",6,"    Mining, quarrying, and oil and gas extraction",647268,553566,435759
+42117,"Tioga, PA",10,"    Utilities",37602,49215,39663
+42117,"Tioga, PA",11,"    Construction",41130,48243,48159
+42117,"Tioga, PA",12,"    Manufacturing",172389,171544,171476
+42117,"Tioga, PA",13,"      Durable goods manufacturing",102484,102980,101353
+42117,"Tioga, PA",25,"      Nondurable goods manufacturing",69905,68564,70124
+42117,"Tioga, PA",34,"    Wholesale trade",70487,73099,74255
+42117,"Tioga, PA",35,"    Retail trade",137484,148607,152251
+42117,"Tioga, PA",36,"    Transportation and warehousing",68232,193814,195496
+42117,"Tioga, PA",45,"    Information",60288,57608,56650
+42117,"Tioga, PA",50,"    Finance, insurance, real estate, rental, and leasing",291993,307303,319663
+42117,"Tioga, PA",51,"      Finance and insurance",63185,67809,74120
+42117,"Tioga, PA",56,"      Real estate and rental and leasing",228807,239494,245543
+42117,"Tioga, PA",59,"    Professional and business services",107479,78042,84572
+42117,"Tioga, PA",60,"      Professional, scientific, and technical services",80939,48927,54188
+42117,"Tioga, PA",64,"      Management of companies and enterprises",2504,2561,2541
+42117,"Tioga, PA",65,"      Administrative and support and waste management and remediation services",24035,26554,27843
+42117,"Tioga, PA",68,"    Educational services, health care, and social assistance",149767,154905,160624
+42117,"Tioga, PA",69,"      Educational services",(D),(D),(D)
+42117,"Tioga, PA",70,"      Health care and social assistance",(D),(D),(D)
+42117,"Tioga, PA",75,"    Arts, entertainment, recreation, accommodation, and food services",47192,50922,53997
+42117,"Tioga, PA",76,"      Arts, entertainment, and recreation",5152,6088,6734
+42117,"Tioga, PA",79,"      Accommodation and food services",42040,44834,47262
+42117,"Tioga, PA",82,"    Other services (except government and government enterprises)",42973,46648,50756
+42117,"Tioga, PA",83,Government and government enterprises,204609,209738,217354
+42117,"Tioga, PA",,Addenda:,,,
+42117,"Tioga, PA",87,Natural resources and mining,701452,568487,448991
+42117,"Tioga, PA",88,Trade,207972,221706,226506
+42117,"Tioga, PA",89,Transportation and utilities,105835,243029,235159
+42117,"Tioga, PA",90,Manufacturing and information,232677,229152,228126
+42117,"Tioga, PA",91,Private goods-producing industries 2,914972,788274,668626
+42117,"Tioga, PA",92,Private services-providing industries 3,1013498,1160163,1187927
+42119,"Union, PA",1,All industry total,2280436,2381117,2510482
+42119,"Union, PA",2,"  Private industries",1890106,1977636,2074141
+42119,"Union, PA",3,"    Agriculture, forestry, fishing and hunting",135449,90268,(D)
+42119,"Union, PA",6,"    Mining, quarrying, and oil and gas extraction",38472,44239,16336
+42119,"Union, PA",10,"    Utilities",(D),(D),(D)
+42119,"Union, PA",11,"    Construction",95167,115467,107875
+42119,"Union, PA",12,"    Manufacturing",231787,245518,256170
+42119,"Union, PA",13,"      Durable goods manufacturing",174530,183235,186254
+42119,"Union, PA",25,"      Nondurable goods manufacturing",57257,62283,69916
+42119,"Union, PA",34,"    Wholesale trade",(D),(D),(D)
+42119,"Union, PA",35,"    Retail trade",168591,182853,197247
+42119,"Union, PA",36,"    Transportation and warehousing",65151,60799,70948
+42119,"Union, PA",45,"    Information",19215,16230,17545
+42119,"Union, PA",50,"    Finance, insurance, real estate, rental, and leasing",279479,295284,313035
+42119,"Union, PA",51,"      Finance and insurance",61188,64235,69378
+42119,"Union, PA",56,"      Real estate and rental and leasing",218291,231049,243657
+42119,"Union, PA",59,"    Professional and business services",127275,135643,136348
+42119,"Union, PA",60,"      Professional, scientific, and technical services",49888,52453,53576
+42119,"Union, PA",64,"      Management of companies and enterprises",19386,21419,22333
+42119,"Union, PA",65,"      Administrative and support and waste management and remediation services",58001,61771,60439
+42119,"Union, PA",68,"    Educational services, health care, and social assistance",539486,584527,627007
+42119,"Union, PA",69,"      Educational services",(D),(D),(D)
+42119,"Union, PA",70,"      Health care and social assistance",(D),(D),(D)
+42119,"Union, PA",75,"    Arts, entertainment, recreation, accommodation, and food services",83891,93640,90951
+42119,"Union, PA",76,"      Arts, entertainment, and recreation",7248,8158,8613
+42119,"Union, PA",79,"      Accommodation and food services",76643,85483,82338
+42119,"Union, PA",82,"    Other services (except government and government enterprises)",65210,66730,68929
+42119,"Union, PA",83,Government and government enterprises,390329,403481,436341
+42119,"Union, PA",,Addenda:,,,
+42119,"Union, PA",87,Natural resources and mining,173921,134507,(D)
+42119,"Union, PA",88,Trade,(D),(D),(D)
+42119,"Union, PA",89,Transportation and utilities,(D),(D),(D)
+42119,"Union, PA",90,Manufacturing and information,251002,261748,273715
+42119,"Union, PA",91,Private goods-producing industries 2,500875,495492,(D)
+42119,"Union, PA",92,Private services-providing industries 3,1389231,1482144,(D)
+42121,"Venango, PA",1,All industry total,2076714,2180183,2149235
+42121,"Venango, PA",2,"  Private industries",1820713,1944166,1917227
+42121,"Venango, PA",3,"    Agriculture, forestry, fishing and hunting",12099,10819,12940
+42121,"Venango, PA",6,"    Mining, quarrying, and oil and gas extraction",5681,4338,3762
+42121,"Venango, PA",10,"    Utilities",41471,39840,27149
+42121,"Venango, PA",11,"    Construction",51498,55078,55916
+42121,"Venango, PA",12,"    Manufacturing",590796,649295,579124
+42121,"Venango, PA",13,"      Durable goods manufacturing",381640,409292,389862
+42121,"Venango, PA",25,"      Nondurable goods manufacturing",209157,240003,189263
+42121,"Venango, PA",34,"    Wholesale trade",65066,71352,72712
+42121,"Venango, PA",35,"    Retail trade",158623,171396,177097
+42121,"Venango, PA",36,"    Transportation and warehousing",97800,109254,110252
+42121,"Venango, PA",45,"    Information",50504,45737,45477
+42121,"Venango, PA",50,"    Finance, insurance, real estate, rental, and leasing",329435,324466,336610
+42121,"Venango, PA",51,"      Finance and insurance",66807,69468,71264
+42121,"Venango, PA",56,"      Real estate and rental and leasing",262627,254998,265345
+42121,"Venango, PA",59,"    Professional and business services",99426,111735,117731
+42121,"Venango, PA",60,"      Professional, scientific, and technical services",64790,73433,81501
+42121,"Venango, PA",64,"      Management of companies and enterprises",6322,7607,8553
+42121,"Venango, PA",65,"      Administrative and support and waste management and remediation services",28314,30694,27676
+42121,"Venango, PA",68,"    Educational services, health care, and social assistance",219333,243945,264867
+42121,"Venango, PA",69,"      Educational services",7305,7492,7941
+42121,"Venango, PA",70,"      Health care and social assistance",212027,236453,256927
+42121,"Venango, PA",75,"    Arts, entertainment, recreation, accommodation, and food services",41438,46751,48991
+42121,"Venango, PA",76,"      Arts, entertainment, and recreation",2344,3533,4117
+42121,"Venango, PA",79,"      Accommodation and food services",39094,43218,44873
+42121,"Venango, PA",82,"    Other services (except government and government enterprises)",57543,60160,64599
+42121,"Venango, PA",83,Government and government enterprises,256001,236017,232009
+42121,"Venango, PA",,Addenda:,,,
+42121,"Venango, PA",87,Natural resources and mining,17780,15157,16702
+42121,"Venango, PA",88,Trade,223689,242748,249809
+42121,"Venango, PA",89,Transportation and utilities,139271,149094,137401
+42121,"Venango, PA",90,Manufacturing and information,641301,695032,624601
+42121,"Venango, PA",91,Private goods-producing industries 2,660074,719531,651742
+42121,"Venango, PA",92,Private services-providing industries 3,1160639,1224636,1265484
+42123,"Warren, PA",1,All industry total,1612488,1711953,1726084
+42123,"Warren, PA",2,"  Private industries",1425227,1517617,1526171
+42123,"Warren, PA",3,"    Agriculture, forestry, fishing and hunting",25157,20701,12796
+42123,"Warren, PA",6,"    Mining, quarrying, and oil and gas extraction",35137,33344,33631
+42123,"Warren, PA",10,"    Utilities",16128,16220,17912
+42123,"Warren, PA",11,"    Construction",39527,47924,51975
+42123,"Warren, PA",12,"    Manufacturing",385475,421781,368175
+42123,"Warren, PA",13,"      Durable goods manufacturing",124517,127756,129575
+42123,"Warren, PA",25,"      Nondurable goods manufacturing",260958,294025,238599
+42123,"Warren, PA",34,"    Wholesale trade",22209,22340,23521
+42123,"Warren, PA",35,"    Retail trade",140003,145894,147046
+42123,"Warren, PA",36,"    Transportation and warehousing",76608,98169,98965
+42123,"Warren, PA",45,"    Information",19792,19538,19584
+42123,"Warren, PA",50,"    Finance, insurance, real estate, rental, and leasing",316978,316538,339289
+42123,"Warren, PA",51,"      Finance and insurance",94903,114580,137595
+42123,"Warren, PA",56,"      Real estate and rental and leasing",222074,201958,201693
+42123,"Warren, PA",59,"    Professional and business services",114885,116793,141221
+42123,"Warren, PA",60,"      Professional, scientific, and technical services",32836,(D),(D)
+42123,"Warren, PA",64,"      Management of companies and enterprises",63172,(D),(D)
+42123,"Warren, PA",65,"      Administrative and support and waste management and remediation services",18877,19542,20797
+42123,"Warren, PA",68,"    Educational services, health care, and social assistance",162363,180972,188326
+42123,"Warren, PA",69,"      Educational services",17566,18786,21568
+42123,"Warren, PA",70,"      Health care and social assistance",144797,162185,166758
+42123,"Warren, PA",75,"    Arts, entertainment, recreation, accommodation, and food services",31115,35354,38544
+42123,"Warren, PA",76,"      Arts, entertainment, and recreation",4676,5961,6567
+42123,"Warren, PA",79,"      Accommodation and food services",26438,29393,31978
+42123,"Warren, PA",82,"    Other services (except government and government enterprises)",39852,42050,45186
+42123,"Warren, PA",83,Government and government enterprises,187261,194336,199913
+42123,"Warren, PA",,Addenda:,,,
+42123,"Warren, PA",87,Natural resources and mining,60293,54044,46428
+42123,"Warren, PA",88,Trade,162212,168234,170567
+42123,"Warren, PA",89,Transportation and utilities,92736,114389,116878
+42123,"Warren, PA",90,Manufacturing and information,405267,441319,387759
+42123,"Warren, PA",91,Private goods-producing industries 2,485295,523749,466578
+42123,"Warren, PA",92,Private services-providing industries 3,939932,993868,1059594
+42125,"Washington, PA",1,All industry total,17318338,18129772,18671970
+42125,"Washington, PA",2,"  Private industries",16481276,17270993,17777979
+42125,"Washington, PA",3,"    Agriculture, forestry, fishing and hunting",7367,18940,17501
+42125,"Washington, PA",6,"    Mining, quarrying, and oil and gas extraction",3314791,2587438,2318156
+42125,"Washington, PA",10,"    Utilities",71390,72127,75847
+42125,"Washington, PA",11,"    Construction",856908,918022,919921
+42125,"Washington, PA",12,"    Manufacturing",1227392,1379226,1434707
+42125,"Washington, PA",13,"      Durable goods manufacturing",909703,1029046,1076053
+42125,"Washington, PA",25,"      Nondurable goods manufacturing",317689,350180,358653
+42125,"Washington, PA",34,"    Wholesale trade",1064297,1117264,1142611
+42125,"Washington, PA",35,"    Retail trade",857973,960108,977997
+42125,"Washington, PA",36,"    Transportation and warehousing",812566,1257842,1315085
+42125,"Washington, PA",45,"    Information",883855,901248,944777
+42125,"Washington, PA",50,"    Finance, insurance, real estate, rental, and leasing",3324706,3620905,3700856
+42125,"Washington, PA",51,"      Finance and insurance",580874,618014,653049
+42125,"Washington, PA",56,"      Real estate and rental and leasing",2743832,3002891,3047807
+42125,"Washington, PA",59,"    Professional and business services",1973222,2079561,2432332
+42125,"Washington, PA",60,"      Professional, scientific, and technical services",795703,807504,859108
+42125,"Washington, PA",64,"      Management of companies and enterprises",839989,892724,1167242
+42125,"Washington, PA",65,"      Administrative and support and waste management and remediation services",337529,379334,405982
+42125,"Washington, PA",68,"    Educational services, health care, and social assistance",1126000,1239270,1327552
+42125,"Washington, PA",69,"      Educational services",69424,71165,76384
+42125,"Washington, PA",70,"      Health care and social assistance",1056576,1168105,1251169
+42125,"Washington, PA",75,"    Arts, entertainment, recreation, accommodation, and food services",639594,752033,784779
+42125,"Washington, PA",76,"      Arts, entertainment, and recreation",361819,416835,435114
+42125,"Washington, PA",79,"      Accommodation and food services",277775,335198,349665
+42125,"Washington, PA",82,"    Other services (except government and government enterprises)",321216,367011,385857
+42125,"Washington, PA",83,Government and government enterprises,837062,858779,893992
+42125,"Washington, PA",,Addenda:,,,
+42125,"Washington, PA",87,Natural resources and mining,3322158,2606378,2335657
+42125,"Washington, PA",88,Trade,1922270,2077371,2120608
+42125,"Washington, PA",89,Transportation and utilities,883955,1329969,1390932
+42125,"Washington, PA",90,Manufacturing and information,2111247,2280474,2379484
+42125,"Washington, PA",91,Private goods-producing industries 2,5406458,4903626,4690285
+42125,"Washington, PA",92,Private services-providing industries 3,11074818,12367367,13087694
+42127,"Wayne, PA",1,All industry total,2352106,2540004,2652215
+42127,"Wayne, PA",2,"  Private industries",2005385,2179078,2269665
+42127,"Wayne, PA",3,"    Agriculture, forestry, fishing and hunting",20200,3465,3269
+42127,"Wayne, PA",6,"    Mining, quarrying, and oil and gas extraction",17827,34052,20960
+42127,"Wayne, PA",10,"    Utilities",17864,21901,17687
+42127,"Wayne, PA",11,"    Construction",150040,171462,177541
+42127,"Wayne, PA",12,"    Manufacturing",65662,70067,72761
+42127,"Wayne, PA",13,"      Durable goods manufacturing",43221,47533,49006
+42127,"Wayne, PA",25,"      Nondurable goods manufacturing",22441,22534,23755
+42127,"Wayne, PA",34,"    Wholesale trade",51823,64689,63661
+42127,"Wayne, PA",35,"    Retail trade",383428,420221,435198
+42127,"Wayne, PA",36,"    Transportation and warehousing",68467,46085,49600
+42127,"Wayne, PA",45,"    Information",60751,56307,58431
+42127,"Wayne, PA",50,"    Finance, insurance, real estate, rental, and leasing",615353,684789,706548
+42127,"Wayne, PA",51,"      Finance and insurance",129975,147297,158905
+42127,"Wayne, PA",56,"      Real estate and rental and leasing",485378,537492,547643
+42127,"Wayne, PA",59,"    Professional and business services",118003,127274,139781
+42127,"Wayne, PA",60,"      Professional, scientific, and technical services",56971,59903,63718
+42127,"Wayne, PA",64,"      Management of companies and enterprises",15205,16036,19578
+42127,"Wayne, PA",65,"      Administrative and support and waste management and remediation services",45826,51335,56485
+42127,"Wayne, PA",68,"    Educational services, health care, and social assistance",225116,247300,273974
+42127,"Wayne, PA",69,"      Educational services",6557,6242,6531
+42127,"Wayne, PA",70,"      Health care and social assistance",218559,241057,267443
+42127,"Wayne, PA",75,"    Arts, entertainment, recreation, accommodation, and food services",137927,151053,158457
+42127,"Wayne, PA",76,"      Arts, entertainment, and recreation",16114,19620,20670
+42127,"Wayne, PA",79,"      Accommodation and food services",121812,131433,137787
+42127,"Wayne, PA",82,"    Other services (except government and government enterprises)",72924,80414,91799
+42127,"Wayne, PA",83,Government and government enterprises,346722,360927,382549
+42127,"Wayne, PA",,Addenda:,,,
+42127,"Wayne, PA",87,Natural resources and mining,38027,37516,24228
+42127,"Wayne, PA",88,Trade,435251,484910,498859
+42127,"Wayne, PA",89,Transportation and utilities,86331,67986,67287
+42127,"Wayne, PA",90,Manufacturing and information,126413,126375,131192
+42127,"Wayne, PA",91,Private goods-producing industries 2,253729,279045,274530
+42127,"Wayne, PA",92,Private services-providing industries 3,1751655,1900032,1995135
+42129,"Westmoreland, PA",1,All industry total,17873207,18924094,19387551
+42129,"Westmoreland, PA",2,"  Private industries",16444510,17446559,17847499
+42129,"Westmoreland, PA",3,"    Agriculture, forestry, fishing and hunting",59099,78675,47239
+42129,"Westmoreland, PA",6,"    Mining, quarrying, and oil and gas extraction",516385,551949,548799
+42129,"Westmoreland, PA",10,"    Utilities",383171,391265,388983
+42129,"Westmoreland, PA",11,"    Construction",803256,877902,914512
+42129,"Westmoreland, PA",12,"    Manufacturing",2426295,2577599,2496893
+42129,"Westmoreland, PA",13,"      Durable goods manufacturing",1860302,1947617,1886205
+42129,"Westmoreland, PA",25,"      Nondurable goods manufacturing",565994,629983,610688
+42129,"Westmoreland, PA",34,"    Wholesale trade",1735531,1806505,1967863
+42129,"Westmoreland, PA",35,"    Retail trade",1641666,1745357,1753268
+42129,"Westmoreland, PA",36,"    Transportation and warehousing",900891,1037634,1056243
+42129,"Westmoreland, PA",45,"    Information",325097,320558,321348
+42129,"Westmoreland, PA",50,"    Finance, insurance, real estate, rental, and leasing",3101444,3124334,3207260
+42129,"Westmoreland, PA",51,"      Finance and insurance",664570,729471,777443
+42129,"Westmoreland, PA",56,"      Real estate and rental and leasing",2436874,2394863,2429817
+42129,"Westmoreland, PA",59,"    Professional and business services",1811883,1964705,1960499
+42129,"Westmoreland, PA",60,"      Professional, scientific, and technical services",847670,925598,946455
+42129,"Westmoreland, PA",64,"      Management of companies and enterprises",297975,334882,321884
+42129,"Westmoreland, PA",65,"      Administrative and support and waste management and remediation services",666238,704226,692160
+42129,"Westmoreland, PA",68,"    Educational services, health care, and social assistance",1617911,1732784,1868263
+42129,"Westmoreland, PA",69,"      Educational services",166929,180269,193068
+42129,"Westmoreland, PA",70,"      Health care and social assistance",1450982,1552515,1675195
+42129,"Westmoreland, PA",75,"    Arts, entertainment, recreation, accommodation, and food services",603688,692619,733066
+42129,"Westmoreland, PA",76,"      Arts, entertainment, and recreation",163234,175242,187913
+42129,"Westmoreland, PA",79,"      Accommodation and food services",440454,517377,545154
+42129,"Westmoreland, PA",82,"    Other services (except government and government enterprises)",518193,544672,583262
+42129,"Westmoreland, PA",83,Government and government enterprises,1428697,1477535,1540052
+42129,"Westmoreland, PA",,Addenda:,,,
+42129,"Westmoreland, PA",87,Natural resources and mining,575484,630624,596039
+42129,"Westmoreland, PA",88,Trade,3377197,3551862,3721131
+42129,"Westmoreland, PA",89,Transportation and utilities,1284062,1428898,1445227
+42129,"Westmoreland, PA",90,Manufacturing and information,2751393,2898158,2818241
+42129,"Westmoreland, PA",91,Private goods-producing industries 2,3805036,4086126,4007444
+42129,"Westmoreland, PA",92,Private services-providing industries 3,12639474,13360433,13840055
+42131,"Wyoming, PA",1,All industry total,1976939,1922505,1865587
+42131,"Wyoming, PA",2,"  Private industries",1883402,1829644,1768854
+42131,"Wyoming, PA",3,"    Agriculture, forestry, fishing and hunting",9307,20136,17069
+42131,"Wyoming, PA",6,"    Mining, quarrying, and oil and gas extraction",595056,331160,235546
+42131,"Wyoming, PA",10,"    Utilities",64952,68381,49820
+42131,"Wyoming, PA",11,"    Construction",54113,62378,68062
+42131,"Wyoming, PA",12,"    Manufacturing",453484,497086,524154
+42131,"Wyoming, PA",13,"      Durable goods manufacturing",27564,24581,25048
+42131,"Wyoming, PA",25,"      Nondurable goods manufacturing",425920,472505,499106
+42131,"Wyoming, PA",34,"    Wholesale trade",35620,35540,35999
+42131,"Wyoming, PA",35,"    Retail trade",102545,111739,116697
+42131,"Wyoming, PA",36,"    Transportation and warehousing",123436,253808,257061
+42131,"Wyoming, PA",45,"    Information",49737,47778,47277
+42131,"Wyoming, PA",50,"    Finance, insurance, real estate, rental, and leasing",192501,(D),195132
+42131,"Wyoming, PA",51,"      Finance and insurance",36291,39509,42318
+42131,"Wyoming, PA",56,"      Real estate and rental and leasing",156210,(D),152814
+42131,"Wyoming, PA",59,"    Professional and business services",84957,(D),85060
+42131,"Wyoming, PA",60,"      Professional, scientific, and technical services",(D),(D),(D)
+42131,"Wyoming, PA",64,"      Management of companies and enterprises",(D),(D),(D)
+42131,"Wyoming, PA",65,"      Administrative and support and waste management and remediation services",46329,37500,40691
+42131,"Wyoming, PA",68,"    Educational services, health care, and social assistance",49010,54777,62173
+42131,"Wyoming, PA",69,"      Educational services",1093,1525,1690
+42131,"Wyoming, PA",70,"      Health care and social assistance",47917,53252,60482
+42131,"Wyoming, PA",75,"    Arts, entertainment, recreation, accommodation, and food services",37086,36020,38373
+42131,"Wyoming, PA",76,"      Arts, entertainment, and recreation",4164,4135,5633
+42131,"Wyoming, PA",79,"      Accommodation and food services",32922,31885,32739
+42131,"Wyoming, PA",82,"    Other services (except government and government enterprises)",31598,34941,36432
+42131,"Wyoming, PA",83,Government and government enterprises,93536,92861,96733
+42131,"Wyoming, PA",,Addenda:,,,
+42131,"Wyoming, PA",87,Natural resources and mining,604364,351296,252614
+42131,"Wyoming, PA",88,Trade,138165,147280,152697
+42131,"Wyoming, PA",89,Transportation and utilities,188387,322189,306881
+42131,"Wyoming, PA",90,Manufacturing and information,503221,544864,571432
+42131,"Wyoming, PA",91,Private goods-producing industries 2,1111961,910760,844831
+42131,"Wyoming, PA",92,Private services-providing industries 3,771441,918883,924024
+42133,"York, PA",1,All industry total,25569671,27314282,28433485
+42133,"York, PA",2,"  Private industries",23266859,24863611,25893712
+42133,"York, PA",3,"    Agriculture, forestry, fishing and hunting",97669,40364,24923
+42133,"York, PA",6,"    Mining, quarrying, and oil and gas extraction",61569,68794,25040
+42133,"York, PA",10,"    Utilities",1765597,1893975,1845921
+42133,"York, PA",11,"    Construction",1444741,1638605,1738511
+42133,"York, PA",12,"    Manufacturing",4575941,4989995,5072645
+42133,"York, PA",13,"      Durable goods manufacturing",2794165,3030874,3040370
+42133,"York, PA",25,"      Nondurable goods manufacturing",1781776,1959121,2032275
+42133,"York, PA",34,"    Wholesale trade",1427352,1477322,1580012
+42133,"York, PA",35,"    Retail trade",1420375,1520701,1570410
+42133,"York, PA",36,"    Transportation and warehousing",1240338,1220389,1307487
+42133,"York, PA",45,"    Information",435010,410473,412766
+42133,"York, PA",50,"    Finance, insurance, real estate, rental, and leasing",4362552,4643096,4888646
+42133,"York, PA",51,"      Finance and insurance",791645,840840,890675
+42133,"York, PA",56,"      Real estate and rental and leasing",3570906,3802256,3997971
+42133,"York, PA",59,"    Professional and business services",2371230,2471433,2630693
+42133,"York, PA",60,"      Professional, scientific, and technical services",1092686,1166373,1252864
+42133,"York, PA",64,"      Management of companies and enterprises",569791,578343,632143
+42133,"York, PA",65,"      Administrative and support and waste management and remediation services",708753,726717,745686
+42133,"York, PA",68,"    Educational services, health care, and social assistance",2631554,2886627,3107346
+42133,"York, PA",69,"      Educational services",155394,161407,170724
+42133,"York, PA",70,"      Health care and social assistance",2476160,2725220,2936622
+42133,"York, PA",75,"    Arts, entertainment, recreation, accommodation, and food services",684492,801233,829582
+42133,"York, PA",76,"      Arts, entertainment, and recreation",113674,133781,136759
+42133,"York, PA",79,"      Accommodation and food services",570818,667452,692823
+42133,"York, PA",82,"    Other services (except government and government enterprises)",748437,800606,859730
+42133,"York, PA",83,Government and government enterprises,2302812,2450671,2539773
+42133,"York, PA",,Addenda:,,,
+42133,"York, PA",87,Natural resources and mining,159239,109158,49963
+42133,"York, PA",88,Trade,2847728,2998023,3150422
+42133,"York, PA",89,Transportation and utilities,3005935,3114363,3153408
+42133,"York, PA",90,Manufacturing and information,5010951,5400467,5485411
+42133,"York, PA",91,Private goods-producing industries 2,6179921,6737757,6861119
+42133,"York, PA",92,Private services-providing industries 3,17086937,18125853,19032593
+
+Legend/Footnotes
+1. Gross Domestic Product (GDP) is in thousands of current dollars (not adjusted for inflation). Industry detail is based on the 2017 North American Industry Classification System (NAICS).
+"2. The private goods-producing industries consist of agriculture, forestry, fishing, and hunting; mining, quarrying, and oil and gas extraction; construction; and manufacturing."
+"3. The private services-producing industries consist of utilities; wholesale trade; retail trade; transportation and warehousing, excluding Postal Service; information; finance and insurance; real estate, rental, and leasing; professional, scientific, and technical services; management of companies; administrative and support and waste management and remediation services; educational services; health care and social assistance; arts, entertainment, and recreation; accommodation and food services; and other services (except government and government enterprises)."
+(D) Not shown to avoid disclosure of confidential information; estimates are included in higher-level totals.
+"  Last updated: February 5, 2026-- new statistics for 2024; revised statistics for 2020-2023."
