@@ -113,11 +113,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
+<p><strong>Rsw comment:</strong> Yaelle - You’ve done a tremendous amount of work and carefully followed my guidance from yesterday. This project is in good shape at this point. It is also quite long so we want to find ways to cut it back and emphasize the main findings. I put a few comments under <strong>rsw comment</strong> below.</p>
 <section id="pitch-memo" class="level1">
 <h1>Pitch Memo</h1>
 <section id="in-two-sentences-what-is-this-story-about" class="level2">
 <h2 class="anchored" data-anchor-id="in-two-sentences-what-is-this-story-about">In two sentences, what is this story about?</h2>
-<p>Delaware County is the only county in the greater Philadelphia region whose GDP shrank between 2022 and 2024. Manufacturing industry in Dalaware County lost more than $428 million in output, showing a 12% decline. Meanwhile, neighboring counties like Bucks and Burlington saw their manufacturing GDP grow by double digits over the same period.</p>
+<p><strong>rsw comment</strong> - great focus on an important trend. really captures your attention</p>
+<p>Delaware County is the only county in the greater Philadelphia region whose GDP shrank between 2022 and 2024. Manufacturing industry in <strong>spelling \ Dalaware</strong> County lost more than $428 million in output, showing a 12% decline. Meanwhile, neighboring counties like Bucks and Burlington saw their manufacturing GDP grow by double digits over the same period.</p>
 </section>
 <section id="in-one-sentence-why-tell-this-story-now" class="level2">
 <h2 class="anchored" data-anchor-id="in-one-sentence-why-tell-this-story-now">In one sentence, why tell this story NOW?</h2>
@@ -137,11 +139,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="what-are-three-things-that-surprised-or-interested-you-about-this-story" class="level2">
 <h2 class="anchored" data-anchor-id="what-are-three-things-that-surprised-or-interested-you-about-this-story">What are three things that surprised or interested you about this story?</h2>
+<p><strong>rsw comment</strong> great observation. let’s show this in a chart below.</p>
 <ol type="1">
 <li>Delaware County’s GDP shrank even as personal income grew by 10%. Residents may be earning more by commuting to jobs elsewhere while local economic activity continues to decline. How to explore this with data?</li>
 <li>Philadelphia’s manufacturing sector actually fell harder than Delaware County’s (14% vs.&nbsp;12%), but Philadelphia’s overall GDP remained positive. Delaware County’s economy is far more dependent on manufacturing and has fewer industries to fill the gap.</li>
 <li>Manufacturing’s share of the economy is shrinking across nearly every county in greater Philadelphia.</li>
 </ol>
+<p><strong>rsw comment: how does the decline in manufacturing compare to national trends? it will be on the BEA GDP press release</strong></p>
 </section>
 <section id="context-summarize-any-previous-coverage." class="level2">
 <h2 class="anchored" data-anchor-id="context-summarize-any-previous-coverage.">Context: Summarize any previous coverage.</h2>
@@ -149,13 +153,25 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="photos-video-graphics---how-will-you-make-this-story-visual" class="level2">
 <h2 class="anchored" data-anchor-id="photos-video-graphics---how-will-you-make-this-story-visual">Photos, video, graphics - How will you make this story visual?</h2>
+<p><strong>rsw comments: these charts aren’t displaying properly</strong></p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="../img/GDP_Growth_by_County.png" class="img-fluid figure-img"></p>
 <figcaption>Manufacturing GDP Change by County in Greater Philadelphia</figcaption>
 </figure>
 </div>
-<p><img src="../img/Manufacturing_GDP_Change.png" class="img-fluid" alt="Manufacturing GDP Change by County in Greater Philadelphia"> <img src="../img/Manufacturing_GDP_Percentage_Change.png" class="img-fluid" alt="Percentage change"></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../img/Manufacturing_GDP_Change.png" class="img-fluid figure-img"></p>
+<figcaption>Manufacturing GDP Change by County in Greater Philadelphia</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../img/Manufacturing_GDP_Percentage_Change.png" class="img-fluid figure-img"></p>
+<figcaption>Percentage change</figcaption>
+</figure>
+</div>
 </section>
 <section id="what-other-information-do-you-need-to-gather" class="level2">
 <h2 class="anchored" data-anchor-id="what-other-information-do-you-need-to-gather">What other information do you need to gather?</h2>
@@ -263,6 +279,7 @@ $ x2024    &lt;dbl&gt; 1758017, 10208956, 747750, 476273, 1174999, 292695, 70242
 </section>
 <section id="chart-gdp-growth-by-county" class="level3">
 <h3 class="anchored" data-anchor-id="chart-gdp-growth-by-county">Chart: GDP Growth by County</h3>
+<p><strong>rsw comment: you’ll want this chart at the top of your page</strong></p>
 <div class="cell">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="co"># AI assisted</span></span>
 <span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(philly_gdp, <span class="fu">aes</span>(<span class="at">x =</span> <span class="fu">reorder</span>(county, pct_24_v_22), <span class="at">y =</span> pct_24_v_22, <span class="at">fill =</span> state)) <span class="sc">+</span></span>

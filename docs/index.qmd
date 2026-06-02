@@ -84,12 +84,12 @@ manufacturing losses with growth in other sectors
 
 **rsw comments: these charts aren't displaying properly**
 
-![Manufacturing GDP Change by County in Greater
-Philadelphia](../img/GDP_Growth_by_County.png)
 
-![Manufacturing GDP Change by County in Greater
-Philadelphia](../img/Manufacturing_GDP_Change.png) ![Percentage
-change](../img/Manufacturing_GDP_Percentage_Change.png)
+![Manufacturing GDP Change by County in Greater Philadelphia](../img/GDP_Growth_by_County.png)
+
+![Manufacturing GDP Change by County in Greater Philadelphia](../img/Manufacturing_GDP_Change.png) 
+
+![Percentage change](../img/Manufacturing_GDP_Percentage_Change.png)
 
 ## What other information do you need to gather?
 
