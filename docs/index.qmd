@@ -10,25 +10,13 @@ editor_options:
     wrap: 72
 ---
 
-**Rsw comment:** Yaelle - You've done a tremendous amount of work and
-carefully followed my guidance from yesterday. This project is in good
-shape at this point. It is also quite long so we want to find ways to
-cut it back and emphasize the main findings. I put a few comments under
-**rsw comment** below.
-
 # Pitch Memo
 
 ## In two sentences, what is this story about?
 
-**rsw comment** - great focus on an important trend. really captures
-your attention
+Delaware County is the only county in the greater Philadelphia region whose GDP shrank between 2022 and 2024. Manufacturing industry in Delaware County lost more than $428 million in output, showing a 12% decline. Meanwhile, neighboring counties like Bucks and Burlington saw their manufacturing GDP grow by double digits over the same period.
 
-Delaware County is the only county in the greater Philadelphia region
-whose GDP shrank between 2022 and 2024. Manufacturing industry in
-**spelling \\ Dalaware** County lost more than \$428 million in output,
-showing a 12% decline. Meanwhile, neighboring counties like Bucks and
-Burlington saw their manufacturing GDP grow by double digits over the
-same period.
+![GDP Growth by County](img/GDP_Growth_by_County.png)
 
 ## In one sentence, why tell this story NOW?
 
@@ -38,11 +26,13 @@ greater Philadelphia region's economy has shifted.
 
 ## Who is your target audience?
 
-Residents and workers in the greater Philadelphia area
+Residents and workers in Delaware County and the greater Philadelphia region
 
 ## Three people you can interview for this story
 
-Working on it...
+1. Still finding actual person: An economist at the Federal Reserve Bank of Philadelphia specializing in regional labor markets, who could provide context on the broader manufacturing decline across southeastern Pennsylvania.
+2. [Brian C. Eury](https://www.delcopa.org/ida), Chair of Delaware County Industrial Development Authority, who could speak to what industries the county has tried to attract and whether any economic diversification strategies are underway. (610) 566-2225
+3. A representative  from the [Delaware County Central Labor Council, AFL-CIO](https://paaflcio.org/delaware-county-afl-cio-council/about-us), (maybe Todd Farally the President? but I haven't find his direct contact info), who could speak to job losses across the county's manufacturing sector
 
 ## Potential impact
 
@@ -53,21 +43,29 @@ neighbors.
 
 ## What are three things that surprised or interested you about this story?
 
-**rsw comment** great observation. let's show this in a chart below.
 
 1.  Delaware County's GDP shrank even as personal income grew by 10%.
-    Residents may be earning more by commuting to jobs elsewhere while
-    local economic activity continues to decline. How to explore this
-    with data?
+    Residents may be earning more by commuting to jobs elsewhere. (How to explore this with data?)
+    
+![Personal Income Growth](img/personal_income.png)
+
 2.  Philadelphia's manufacturing sector actually fell harder than
     Delaware County's (14% vs. 12%), but Philadelphia's overall GDP
     remained positive. Delaware County's economy is far more dependent
     on manufacturing and has fewer industries to fill the gap.
-3.  Manufacturing's share of the economy is shrinking across nearly
-    every county in greater Philadelphia.
+    
+![](img/Manufacturing_GDP_Change.png) 
 
-**rsw comment: how does the decline in manufacturing compare to national
-trends? it will be on the BEA GDP press release**
+![](img/Manufacturing_GDP_Percentage_Change.png)
+
+3.  Between 2015 and 2025, transportation equipment manufacturing, historically the largest employer among all manufacturing sub-sectors, lost nearly 1,600 jobs, a 29% decline. 
+
+
+<iframe title="Delaware County's 10 Largest Manufacturing Sub-sectors by Employment in 2025" aria-label="Bar Chart" id="datawrapper-chart-eIeGS" src="https://datawrapper.dwcdn.net/eIeGS/3/" scrolling="no" frameborder="0" style="border: none;" width="100%" height="500" data-external="1"></iframe>
+
+<iframe title="Manufacturing Sub-sectors With More Workers in 2025 Compared With 2015" aria-label="Line chart" id="datawrapper-chart-66d8T" src="https://datawrapper.dwcdn.net/66d8T/1/" scrolling="no" frameborder="0" style="border: none;" width="100%" height="500" data-external="1"></iframe>
+
+<iframe title="Manufacturing Sub-sectors With Less Workers in 2025 Compared in 2015" aria-label="Line chart" id="datawrapper-chart-H3Flo" src="https://datawrapper.dwcdn.net/H3Flo/1/" scrolling="no" frameborder="0" style="border: none;" width="100%" height="500" data-external="1"></iframe>
 
 ## Context: Summarize any previous coverage.
 
@@ -75,21 +73,16 @@ trends? it will be on the BEA GDP press release**
 2023](https://whyy.org/articles/manufacturing-downturn-economy-federal-reserve/)
 that the greater Philadelphia region experienced nine consecutive months
 of manufacturing slowdown, with factory closures and layoffs in
-Philadelphia and King of Prussia. But previous coverage treated the
-region as a whole. No reporting has specifically asked why Delaware
-County, alone among its neighbors, failed to compensate for
-manufacturing losses with growth in other sectors
+Philadelphia and King of Prussia. 
+
+The Federal Reserve Bank of Philadelphia's [May 2026 Manufacturing Business Outlook Survey](https://www.philadelphiafed.org/surveys-and-data/regional-economic-analysis/manufacturing-business-outlook-survey) found that the employment index remained negative for the third time in four months, suggesting the region's manufacturing job losses are ongoing.
+
+According to [Delaware County's official history](https://delcopa.gov/your-county-glance-history), the county has a long history as an industrial hub, home to shipbuilders, locomotive makers, and oil refineries. But the county's manufacturing sector has been shrinking for decades, and the latest BEA data shows it is still losing ground. No reporting has specifically asked why Delaware County has failed to compensate for those losses with growth in other sectors, or what that means for the workers and communities left behind.
 
 ## Photos, video, graphics - How will you make this story visual?
 
-**rsw comments: these charts aren't displaying properly**
+Graphics
 
-
-![Manufacturing GDP Change by County in Greater Philadelphia](../img/GDP_Growth_by_County.png)
-
-![Manufacturing GDP Change by County in Greater Philadelphia](../img/Manufacturing_GDP_Change.png) 
-
-![Percentage change](../img/Manufacturing_GDP_Percentage_Change.png)
 
 ## What other information do you need to gather?
 
@@ -99,10 +92,26 @@ manufacturing losses with growth in other sectors
 -   Population change data would help confirm whether residents are
     leaving the county.
 -   Any specific factory closures during this period?
--   A deeper breakdown of manufacturing sub-sectors would identify which
-    specific industries drove the decline.
+
 
 ## Estimated delivery
+
+Data analysis will be complete by June 7. Interviews will wrap up by June 15. A first draft will be ready by June 17.
+
+
+
+
+
+
+
+
+
+
+***
+***
+***
+
+**The following section contains code for reference (work in progress!!!).**
 
 # Code Memo
 
@@ -142,6 +151,7 @@ https://www.bea.gov/news/2026/gross-domestic-product-county-and-personal-income-
 And more detail: https://www.bea.gov/data/gdp/gdp-by-county
 
 ```{r}
+#| include: false
 gdp_county <- read_csv("https://raw.githubusercontent.com/djnf-data-2026/master/refs/heads/main/data/bea_gdp_2024_county_CAGDP1.csv", skip=3) |> 
   clean_names() |> 
     mutate(across(3:5, as.numeric))
@@ -257,6 +267,7 @@ industry in current
 dollars](https://apps.bea.gov/itable/?ReqID=70&step=1&_gl=1*ov6bhy*_ga*OTk4Njc0OTc1LjE3ODAyODAzNTY.*_ga_J4698JNNFT*czE3ODAzNDIwNjgkbzQkZzEkdDE3ODAzNDIxMzIkajYwJGwwJGgw#eyJhcHBpZCI6NzAsInN0ZXBzIjpbMSwyOSwyNSwzMV0sImRhdGEiOltbIlRhYmxlSWQiLCI1MDEiXSxbIk1ham9yX0FyZWEiLCI0Il1dfQ==)
 
 ```{r}
+#| include: false
 # Merge Pennsylvania and New Jersey industry files
 gdp_industry <- bind_rows(
   read_csv("../CAGDP2_GPD_PA_Industry.csv", skip = 3) |> clean_names(),
@@ -269,6 +280,7 @@ glimpse(gdp_industry)
 ### Filter Private Industry Sub-sectors for Greater Philadelphia
 
 ```{r}
+#| include: false
 # Using Private industries sub-categories only (excluding aggregates to avoid double counting)
 gdp_industry <- gdp_industry |>
  mutate(
@@ -421,3 +433,236 @@ ggplot(philly_manufacturing, aes(x = reorder(county, abs_change), y =abs_change 
 > output and saw its overall GDP turn negative. Maybe its economy is
 > more vulnerable and lacks other industries to fill the gap left by
 > manufacturing's decline.
+
+```{r}
+delaware_all <- gdp_industry |>
+  filter(str_detect(geo_name, "Delaware, PA"))  |>
+  select(geo_name, description, x2022, x2024) |>
+  mutate(pct_24_v_22 = round((x2024 - x2022) / x2022, 4)) |>
+  mutate(x24_v_22 = x2024 - x2022) |>
+  arrange(desc(x24_v_22))
+
+delaware_all
+```
+# Look at Philly metro area
+```{r}
+
+oes_25 <- read_excel("../data_OESM/MSA_M2025_dl.xlsx") |>
+  clean_names()
+
+glimpse(oes_25)
+
+#data source: https://data.bls.gov/oes/#/home
+```
+```{r}
+philly_oes_25 <- oes_25 |>
+  filter(area == "37980") |>
+  select(area, area_title, occ_code, occ_title, o_group,
+         tot_emp, h_mean, a_mean, h_median, a_median) |>
+  mutate(across(6:10, as.numeric)) |>
+  mutate(
+    emp_share = round((tot_emp / tot_emp[occ_code == "00-0000"]) * 100, 2)
+  )
+  
+
+philly_oes_25
+```
+
+```{r}
+philly_oes_25 |>
+  filter(o_group == "detailed") |>
+  summarise(total = sum(emp_share, na.rm = TRUE))
+```
+```{r}
+philly_oes_25 |>
+  filter(o_group == "major") |>
+  arrange(desc(emp_share)) |>
+  select(occ_title, tot_emp, emp_share)
+
+philly_oes_25 |>
+  filter(o_group == "detailed") |>
+  arrange(desc(emp_share)) |>
+  select(occ_title, tot_emp, emp_share)
+```
+```{r}
+
+# 处理单个文件的函数
+process_oes <- function(year) {
+  path <- paste0("../data_OESM/MSA_M", year, "_dl.xlsx")
+  
+  read_excel(path) |>
+    clean_names() |>
+    filter(area == "37980", o_group %in% c("major","total")) |>
+    mutate(tot_emp = as.numeric(tot_emp)) |>
+    select(occ_code, occ_title, tot_emp) |>
+    mutate(
+      emp_share = round((tot_emp / sum(tot_emp[occ_code == "00-0000"])) * 100, 2)
+    ) |>
+    filter(occ_code != "00-0000") |>
+    rename(
+      "{year}_tot_emp" := tot_emp,
+      "{year}_emp_share" := emp_share
+    ) |>
+    select(-occ_code)
+}
+
+# 批量跑2021-2025
+years <- 2021:2025
+oes_list <- map(years, process_oes)
+
+# 以2025前十为基准，依次left_join
+top10_titles <- oes_list[[5]] |>   # [[5]]是2025
+  slice_max(`2025_tot_emp`, n = 5) |>
+  pull(occ_title)
+
+oes_combined <- oes_list |>
+  reduce(left_join, by = "occ_title") |>
+  filter(occ_title %in% top10_titles) |>
+  arrange(desc(`2025_tot_emp`))
+```
+
+```{r}
+oes_wide <- oes_combined |>
+  select(occ_title, `2021_emp_share`, `2022_emp_share`, `2023_emp_share`, 
+         `2024_emp_share`, `2025_emp_share`) |>
+  pivot_longer(
+    cols = -occ_title,
+    names_to = "year",
+    values_to = "emp_share",
+    names_pattern = "(\\d{4})_emp_share"
+  ) |>
+  pivot_wider(
+    names_from = occ_title,
+    values_from = emp_share
+  ) 
+``` 
+
+```{r}
+oes_wide |>
+  mutate(across(
+    -year,
+    \(x) round((x - x[year == "2021"]) / x[year == "2021"] * 100, 2)
+  )) |> write_csv("../data_OESM/philly_emp_growth_datawrapper.csv")
+```
+
+```{r}
+# Quarterly Census of Employment and Wages - QCEW 
+# Source: https://data.bls.gov/cew/apps/table_maker/v4/table_maker.htm#type=7&year=2025&qtr=A&own=5&area=42045&supp=0
+# NAICS Code instruction: https://www.bls.gov/iag/tgs/iag_index_naics.htm
+# data dictionary: https://www.bls.gov/cew/additional-resources/open-data/csv-data-slices.htm 
+# file download: http://www.bls.gov/cew/data/api/2025/a/area/42045.csv
+
+qcew_25 <- read.csv("../data_QCEW/qcew_25.csv")
+
+glimpse(qcew_25)
+
+qcew_25_mfg <- qcew_25 |>
+  filter(
+    area_fips == 42045,
+    str_starts(industry_code, "31") | 
+    str_starts(industry_code, "32") | 
+    str_starts(industry_code, "33")
+  ) |>
+  filter(agglvl_code == 75) |>
+  select(industry_code, year, annual_avg_emplvl) |>
+  arrange(desc(annual_avg_emplvl))
+
+```
+
+```{r}
+naics_labels <- tibble(
+  industry_code = c("311", "312", "313", "314", "315", "316", 
+                    "321", "322", "323", "324", "325", "326", "327",
+                    "331", "332", "333", "334", "335", "336", "337", "339"),
+  industry_title = c(
+    "Food Manufacturing",
+    "Beverage and Tobacco Product Manufacturing",
+    "Textile Mills",
+    "Textile Product Mills",
+    "Apparel Manufacturing",
+    "Leather and Allied Product Manufacturing",
+    "Wood Product Manufacturing",
+    "Paper Manufacturing",
+    "Printing and Related Support Activities",
+    "Petroleum and Coal Products Manufacturing",
+    "Chemical Manufacturing",
+    "Plastics and Rubber Products Manufacturing",
+    "Nonmetallic Mineral Product Manufacturing",
+    "Primary Metal Manufacturing",
+    "Fabricated Metal Product Manufacturing",
+    "Machinery Manufacturing",
+    "Computer and Electronic Product Manufacturing",
+    "Electrical Equipment, Appliance, and Component Manufacturing",
+    "Transportation Equipment Manufacturing",
+    "Furniture and Related Product Manufacturing",
+    "Miscellaneous Manufacturing"
+  )
+)
+
+qcew_25_mfg <- qcew_25 |>
+  filter(
+    area_fips == 42045,
+    str_starts(industry_code, "31") | 
+    str_starts(industry_code, "32") | 
+    str_starts(industry_code, "33")
+  ) |>
+  filter(agglvl_code == 75) |>
+  select(industry_code, year, annual_avg_emplvl) |>
+  left_join(naics_labels, by = "industry_code") |>
+  arrange(desc(annual_avg_emplvl))
+```
+
+```{r}
+years <- 15:25
+
+qcew_all_mfg <- map_dfr(years, function(yr) {
+  path <- paste0("../data_QCEW/qcew_", sprintf("%02d", yr), ".csv")
+  
+  read.csv(path) |>
+    filter(
+      area_fips == 42045,
+      str_starts(industry_code, "31") | 
+      str_starts(industry_code, "32") | 
+      str_starts(industry_code, "33"),
+      agglvl_code == 75
+    ) |>
+    select(industry_code, year, annual_avg_emplvl) |>
+    left_join(naics_labels, by = "industry_code")
+}) |>
+  arrange(year, desc(annual_avg_emplvl))
+
+qcew_wide <- qcew_all_mfg |>
+  select(industry_title, year, annual_avg_emplvl) |>
+  pivot_wider(
+    names_from = year,
+    values_from = annual_avg_emplvl
+  ) |>
+  mutate(across(2:12, as.numeric))
+         
+qcew_wide_top10 <- qcew_wide |>
+  arrange(desc(`2025`)) |>
+  slice_head(n = 10)
+
+write.csv(qcew_wide_top10, "../data_QCEW/qcew_wide_top10.csv", row.names = FALSE)
+
+qcew_growth <- qcew_wide_top10 |>
+  mutate(across(
+    `2015`:`2025`,
+    \(x) round((x - `2015`) / `2015` * 100, 2)
+  )) |>
+  arrange(desc(`2025`))
+
+qcew_growth_long <- qcew_growth |>
+  pivot_longer(
+    cols = `2015`:`2025`,
+    names_to = "year",
+    values_to = "growth_pct"
+  ) |>
+  pivot_wider(
+    names_from = industry_title,
+    values_from = growth_pct
+  ) |>
+  write.csv("../data_QCEW/qcew_grow_15-25.csv", row.names = FALSE)
+
+```
+
