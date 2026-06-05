@@ -1,0 +1,1378 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.25">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Yaelle Tang">
+<meta name="dcterms.date" content="2026-06-01">
+
+<title>Economic portrait of greater Philadelphia</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="draft_files/libs/clipboard/clipboard.min.js"></script>
+<script src="draft_files/libs/quarto-html/quarto.js" type="module"></script>
+<script src="draft_files/libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="draft_files/libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="draft_files/libs/quarto-html/popper.min.js"></script>
+<script src="draft_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="draft_files/libs/quarto-html/anchor.min.js"></script>
+<link href="draft_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="draft_files/libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="draft_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="draft_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="draft_files/libs/bootstrap/bootstrap-d6a003b94517c951b2d65075d42fb01b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+
+
+</head>
+
+<body class="fullcontent quarto-light">
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Economic portrait of greater Philadelphia</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Yaelle Tang <a href="mailto:yueyang_tang@berkeley.edu" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">June 1, 2026</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="pitch-memo" class="level1">
+<h1>Pitch Memo</h1>
+<section id="in-two-sentences-what-is-this-story-about" class="level2">
+<h2 class="anchored" data-anchor-id="in-two-sentences-what-is-this-story-about">In two sentences, what is this story about?</h2>
+<p>Delaware County is the only county in the greater Philadelphia region whose GDP shrank between 2022 and 2024. Manufacturing industry in Delaware County lost more than $428 million in output, showing a 12% decline. Meanwhile, neighboring counties like Bucks and Burlington saw their manufacturing GDP grow by double digits over the same period.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../img/GDP_Growth_by_County.png" class="img-fluid figure-img"></p>
+<figcaption>GDP Growth by County</figcaption>
+</figure>
+</div>
+</section>
+<section id="in-one-sentence-why-tell-this-story-now" class="level2">
+<h2 class="anchored" data-anchor-id="in-one-sentence-why-tell-this-story-now">In one sentence, why tell this story NOW?</h2>
+<p>The Bureau of Economic Analysis (BEA) released its 2024 county-level GDP data on February 5, 2026, offering the most current picture of how the greater Philadelphia region’s economy has shifted.</p>
+</section>
+<section id="who-is-your-target-audience" class="level2">
+<h2 class="anchored" data-anchor-id="who-is-your-target-audience">Who is your target audience?</h2>
+<p>Residents and workers in Delaware County and the greater Philadelphia region</p>
+</section>
+<section id="three-people-you-can-interview-for-this-story" class="level2">
+<h2 class="anchored" data-anchor-id="three-people-you-can-interview-for-this-story">Three people you can interview for this story</h2>
+<ol type="1">
+<li>Still finding actual person: An economist at the Federal Reserve Bank of Philadelphia specializing in regional labor markets, who could provide context on the broader manufacturing decline across southeastern Pennsylvania.</li>
+<li><a href="https://www.delcopa.org/ida">Brian C. Eury</a>, Chair of Delaware County Industrial Development Authority, who could speak to what industries the county has tried to attract and whether any economic diversification strategies are underway. (610) 566-2225</li>
+<li>A representative from the <a href="https://paaflcio.org/delaware-county-afl-cio-council/about-us">Delaware County Central Labor Council, AFL-CIO</a>, (maybe Todd Farally the President? but I haven’t find his direct contact info), who could speak to job losses across the county’s manufacturing sector</li>
+</ol>
+</section>
+<section id="potential-impact" class="level2">
+<h2 class="anchored" data-anchor-id="potential-impact">Potential impact</h2>
+<p>A sustained decline in Delaware County’s manufacturing output likely means fewer stable jobs for working-class residents, reduced tax revenue for local services, and a widening gap between the county and its neighbors.</p>
+</section>
+<section id="what-are-three-things-that-surprised-or-interested-you-about-this-story" class="level2">
+<h2 class="anchored" data-anchor-id="what-are-three-things-that-surprised-or-interested-you-about-this-story">What are three things that surprised or interested you about this story?</h2>
+<ol type="1">
+<li>Delaware County’s GDP shrank even as personal income grew by 10%. Residents may be earning more by commuting to jobs elsewhere. <del>(How to explore this with data?)</del></li>
+</ol>
+<p><strong>this headline needs to be fixed – it bleeds off the page – and the screenshot needs cropping on the top</strong></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/personal_income.png" class="img-fluid figure-img"></p>
+<figcaption>Personal Income Growth</figcaption>
+</figure>
+</div>
+<ol start="2" type="1">
+<li>Philadelphia’s manufacturing sector actually fell harder than Delaware County’s (14% vs.&nbsp;12%), but Philadelphia’s overall GDP remained positive. Delaware County’s economy is far more dependent on manufacturing and has fewer industries to fill the gap.</li>
+</ol>
+<p><img src="../img/Manufacturing_GDP_Change.png" class="img-fluid"></p>
+<p><img src="../img/Manufacturing_GDP_Percentage_Change.png" class="img-fluid"></p>
+<ol start="3" type="1">
+<li>Between 2015 and 2025, transportation equipment manufacturing, historically the largest employer among all manufacturing sub-sectors, lost nearly 1,600 jobs, a 29% decline.</li>
+</ol>
+<p><strong>this chart doesn’t illustrate the decline you describe in point #3. so either revise the chart or the narrative in #3.</strong></p>
+<iframe title="Delaware County's 10 Largest Manufacturing Sub-sectors by Employment in 2025" aria-label="Bar Chart" id="datawrapper-chart-eIeGS" src="https://datawrapper.dwcdn.net/eIeGS/3/" scrolling="no" frameborder="0" style="border: none;" width="100%" height="500" data-external="1">
+</iframe>
+<iframe title="Manufacturing Sub-sectors With More Workers in 2025 Compared With 2015" aria-label="Line chart" id="datawrapper-chart-66d8T" src="https://datawrapper.dwcdn.net/66d8T/1/" scrolling="no" frameborder="0" style="border: none;" width="100%" height="500" data-external="1">
+<p><strong>the annotations on this graphic bleed outside of the boundaries so please revise so all of the wording is visible</strong></p>
+</iframe>
+<iframe title="Manufacturing Sub-sectors With Less Workers in 2025 Compared in 2015" aria-label="Line chart" id="datawrapper-chart-H3Flo" src="https://datawrapper.dwcdn.net/H3Flo/1/" scrolling="no" frameborder="0" style="border: none;" width="100%" height="500" data-external="1">
+</iframe>
+</section>
+<section id="context-summarize-any-previous-coverage." class="level2">
+<h2 class="anchored" data-anchor-id="context-summarize-any-previous-coverage.">Context: Summarize any previous coverage.</h2>
+<p><a href="https://whyy.org/articles/manufacturing-downturn-economy-federal-reserve/">WHYY reported in 2023</a> that the greater Philadelphia region experienced nine consecutive months of manufacturing slowdown, with factory closures and layoffs in Philadelphia and King of Prussia.</p>
+<p>The Federal Reserve Bank of Philadelphia’s <a href="https://www.philadelphiafed.org/surveys-and-data/regional-economic-analysis/manufacturing-business-outlook-survey">May 2026 Manufacturing Business Outlook Survey</a> found that the employment index remained negative for the third time in four months, suggesting the region’s manufacturing job losses are ongoing.</p>
+<p>According to <a href="https://delcopa.gov/your-county-glance-history">Delaware County’s official history</a>, the county has a long history as an industrial hub, home to shipbuilders, locomotive makers, and oil refineries. But the county’s manufacturing sector has been shrinking for decades, and the latest BEA data shows it is still losing ground. No reporting has specifically asked why Delaware County has failed to compensate for those losses with growth in other sectors, or what that means for the workers and communities left behind.</p>
+</section>
+<section id="photos-video-graphics---how-will-you-make-this-story-visual" class="level2">
+<h2 class="anchored" data-anchor-id="photos-video-graphics---how-will-you-make-this-story-visual">Photos, video, graphics - How will you make this story visual?</h2>
+<p>Graphics</p>
+</section>
+<section id="what-other-information-do-you-need-to-gather" class="level2">
+<h2 class="anchored" data-anchor-id="what-other-information-do-you-need-to-gather">What other information do you need to gather?</h2>
+<ul>
+<li>Employment data for Delaware County to understand where workers went as manufacturing shrank, and why personal income continued to rise despite the GDP decline.</li>
+<li>Population change data would help confirm whether residents are leaving the county.</li>
+<li>Any specific factory closures during this period?</li>
+</ul>
+</section>
+<section id="estimated-delivery" class="level2">
+<h2 class="anchored" data-anchor-id="estimated-delivery">Estimated delivery</h2>
+<p>Data analysis will be complete by June 7. Interviews will wrap up by June 15. A first draft will be ready by June 17.</p>
+<hr>
+<hr>
+<hr>
+<p><strong>The following section contains code for reference (work in progress!!!).</strong></p>
+</section>
+</section>
+<section id="code-memo" class="level1">
+<h1>Code Memo</h1>
+<p><strong>Data limitations</strong></p>
+<p>This data series lags significantly. We are working with 2024 data, the most recent available. But it is still the best you can get and you can’t beat the price.</p>
+<section id="setup" class="level2">
+<h2 class="anchored" data-anchor-id="setup">Setup</h2>
+</section>
+<section id="regional-gdp-by-county" class="level2">
+<h2 class="anchored" data-anchor-id="regional-gdp-by-county">Regional GDP by County</h2>
+<p><strong>Data limitations</strong></p>
+<p>This data series lags significantly. We are working with 2024 data, the most recent available. But it is still the best you can get and you can’t beat the price.</p>
+<p><br></p>
+<section id="retrieve-gdp-data" class="level3">
+<h3 class="anchored" data-anchor-id="retrieve-gdp-data">Retrieve GDP Data</h3>
+<p>GDP CAGDP1 County gross domestic product (GDP) summary Real Gross Domestic Product (GDP) (Thousands of chained 2017 dollars) Source Page https://www.bea.gov/news/2026/gross-domestic-product-county-and-personal-income-county-2024</p>
+<p>And more detail: https://www.bea.gov/data/gdp/gdp-by-county</p>
+</section>
+<section id="calculate-change-2024-vs-2022-split-out-state" class="level3">
+<h3 class="anchored" data-anchor-id="calculate-change-2024-vs-2022-split-out-state">Calculate change 2024 vs 2022; split out state</h3>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>gdp_county <span class="ot">&lt;-</span> gdp_county <span class="sc">|&gt;</span> </span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">pct_24_v_22 =</span> (x2024<span class="sc">-</span>x2022)<span class="sc">/</span>x2022,</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>          <span class="at">state =</span> <span class="fu">str_split_fixed</span>(geo_name, <span class="st">", "</span>, <span class="dv">2</span>)[, <span class="dv">2</span>],</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>         <span class="at">county =</span> <span class="fu">str_split_fixed</span>(geo_name, <span class="st">", "</span>, <span class="dv">2</span>)[, <span class="dv">1</span>])  </span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>philly_gdp <span class="ot">&lt;-</span> gdp_county <span class="sc">|&gt;</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(state <span class="sc">==</span> <span class="st">"PA"</span> <span class="sc">|</span> state <span class="sc">==</span> <span class="st">"NJ"</span>) <span class="sc">|&gt;</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(county <span class="sc">%in%</span> <span class="fu">c</span>(<span class="st">"Philadelphia"</span>, <span class="st">"Montgomery"</span>, </span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>                        <span class="st">"Bucks"</span>, <span class="st">"Chester"</span>, </span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>                        <span class="st">"Delaware"</span>, <span class="st">"Gloucester"</span>, </span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>                        <span class="st">"Camden"</span>, <span class="st">"Burlington"</span>)) <span class="sc">|&gt;</span></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(county, state, x2022, x2024, pct_24_v_22) <span class="sc">|&gt;</span></span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="fu">rank</span>(x2022)) <span class="sc">|&gt;</span></span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="fu">rank</span>(x2024)) <span class="sc">|&gt;</span></span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(<span class="fu">desc</span>(pct_24_v_22))</span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>philly_gdp</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 8 × 7
+  county       state     x2022     x2024 pct_24_v_22 `rank(x2022)` `rank(x2024)`
+  &lt;chr&gt;        &lt;chr&gt;     &lt;dbl&gt;     &lt;dbl&gt;       &lt;dbl&gt;         &lt;dbl&gt;         &lt;dbl&gt;
+1 Gloucester   NJ     13994075  14722428     0.0520              1             1
+2 Burlington   NJ     30915417  32395824     0.0479              3             3
+3 Chester      PA     47391773  49491894     0.0443              6             6
+4 Camden       NJ     26094892  27237865     0.0438              2             2
+5 Bucks        PA     36888334  38241897     0.0367              5             5
+6 Philadelphia PA    106999472 109412657     0.0226              8             8
+7 Montgomery   PA     88989489  90035254     0.0118              7             7
+8 Delaware     PA     34288808  34058368    -0.00672             4             4</code></pre>
+</div>
+</div>
+</section>
+<section id="chart-gdp-growth-by-county" class="level3">
+<h3 class="anchored" data-anchor-id="chart-gdp-growth-by-county">Chart: GDP Growth by County</h3>
+<p><strong>rsw comment: you’ll want this chart at the top of your page</strong></p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># AI assisted</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(philly_gdp, <span class="fu">aes</span>(<span class="at">x =</span> <span class="fu">reorder</span>(county, pct_24_v_22), <span class="at">y =</span> pct_24_v_22, <span class="at">fill =</span> state)) <span class="sc">+</span></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_col</span>() <span class="sc">+</span></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">coord_flip</span>() <span class="sc">+</span></span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_y_continuous</span>(<span class="at">labels =</span> scales<span class="sc">::</span>percent) <span class="sc">+</span></span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(</span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>    <span class="at">title =</span> <span class="st">"GDP Growth by County in Greater Philadelphia (2022-2024)"</span>,</span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>    <span class="at">x =</span> <span class="cn">NULL</span>,</span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>    <span class="at">y =</span> <span class="st">"Percent Change"</span>,</span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a>    <span class="at">fill =</span> <span class="st">"State"</span></span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
+<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="draft_files/figure-html/chart-gdp-growth-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+<blockquote class="blockquote">
+<p><strong>Finding:</strong> Delaware County was the only county in the region to see its GDP shrink between 2022 and 2024.</p>
+</blockquote>
+</section>
+</section>
+<section id="part-2-personal-income-by-county" class="level2">
+<h2 class="anchored" data-anchor-id="part-2-personal-income-by-county">Part 2: Personal Income by County</h2>
+<section id="load-and-clean-data" class="level3">
+<h3 class="anchored" data-anchor-id="load-and-clean-data">Load and Clean Data</h3>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># [Personal income (Thousands of dollars)](https://www.bea.gov/news/2026/gross-domestic-product-county-and-personal-income-county-2024)</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="co"># BEA CAINC1 - County Personal Income Summary</span></span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="co"># CAINC1 County personal income summary: personal income, population, per capita personal income</span></span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>cainc1 <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(<span class="st">"../data/bea_gdp_2024_personal_income_county_CAINC1.csv"</span>, <span class="at">skip=</span><span class="dv">3</span>) <span class="sc">|&gt;</span> </span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">clean_names</span>() <span class="sc">|&gt;</span> </span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="fu">across</span>(x2022<span class="sc">:</span>x2024, as.numeric)) <span class="sc">|&gt;</span> </span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(</span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a>    <span class="at">pct_23_v_22 =</span> <span class="fu">round</span>((x2023 <span class="sc">-</span> x2022) <span class="sc">/</span> x2022, <span class="dv">4</span>),</span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a>    <span class="at">pct_24_v_23 =</span> <span class="fu">round</span>((x2024 <span class="sc">-</span> x2023) <span class="sc">/</span> x2023, <span class="dv">4</span>),</span>
+<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a>    <span class="at">pct_24_v_22 =</span> <span class="fu">round</span>((x2024 <span class="sc">-</span> x2022) <span class="sc">/</span> x2022, <span class="dv">4</span>)</span>
+<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a>  )</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: One or more parsing issues, call `problems()` on your data frame for details,
+e.g.:
+  dat &lt;- vroom(...)
+  problems(dat)</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Rows: 3167 Columns: 5
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (5): GeoFIPS, GeoName, 2022, 2023, 2024
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: There were 3 warnings in `mutate()`.
+The first warning was:
+ℹ In argument: `across(x2022:x2024, as.numeric)`.
+Caused by warning:
+! NAs introduced by coercion
+ℹ Run `dplyr::last_dplyr_warnings()` to see the 2 remaining warnings.</code></pre>
+</div>
+</div>
+</section>
+<section id="filter-greater-philadelphia" class="level3">
+<h3 class="anchored" data-anchor-id="filter-greater-philadelphia">Filter Greater Philadelphia</h3>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>philly_income <span class="ot">&lt;-</span> cainc1 <span class="sc">|&gt;</span></span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(<span class="fu">str_detect</span>(geo_name, <span class="st">"Philadelphia, PA|Montgomery, PA|Bucks, PA|Chester, PA|Delaware, PA|Gloucester, NJ|Camden, NJ|Burlington, NJ"</span>)) <span class="sc">|&gt;</span></span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(geo_name, x2022, x2024, pct_24_v_22) <span class="sc">|&gt;</span></span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">separate</span>(geo_name, <span class="at">into =</span> <span class="fu">c</span>(<span class="st">"county"</span>, <span class="st">"state"</span>), <span class="at">sep =</span> <span class="st">", "</span>) <span class="sc">|&gt;</span></span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(<span class="fu">desc</span>(pct_24_v_22))</span>
+<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a>philly_income</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 8 × 5
+  county       state    x2022    x2024 pct_24_v_22
+  &lt;chr&gt;        &lt;chr&gt;    &lt;dbl&gt;    &lt;dbl&gt;       &lt;dbl&gt;
+1 Burlington   NJ    33094170 37195463      0.124 
+2 Chester      PA    55399329 62177057      0.122 
+3 Montgomery   PA    81829035 91769650      0.122 
+4 Bucks        PA    56456435 62844148      0.113 
+5 Camden       NJ    32535048 36195828      0.112 
+6 Gloucester   NJ    19213771 21323961      0.110 
+7 Delaware     PA    45267843 49769749      0.0995
+8 Philadelphia PA    91887036 96312500      0.0482</code></pre>
+</div>
+</div>
+</section>
+<section id="chart-personal-income-growth-by-county" class="level3">
+<h3 class="anchored" data-anchor-id="chart-personal-income-growth-by-county">Chart: Personal Income Growth by County</h3>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="co"># AI assisted</span></span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(philly_income, <span class="fu">aes</span>(<span class="at">x =</span> <span class="fu">reorder</span>(county, pct_24_v_22), <span class="at">y =</span> pct_24_v_22, <span class="at">fill =</span> state)) <span class="sc">+</span></span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_col</span>() <span class="sc">+</span></span>
+<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">coord_flip</span>() <span class="sc">+</span></span>
+<span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_y_continuous</span>(<span class="at">labels =</span> scales<span class="sc">::</span>percent) <span class="sc">+</span></span>
+<span id="cb11-6"><a href="#cb11-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(</span>
+<span id="cb11-7"><a href="#cb11-7" aria-hidden="true" tabindex="-1"></a>    <span class="at">title =</span> <span class="st">"Personal Income Growth by County in Greater Philadelphia (2022-2024)"</span>,</span>
+<span id="cb11-8"><a href="#cb11-8" aria-hidden="true" tabindex="-1"></a>    <span class="at">x =</span> <span class="cn">NULL</span>,</span>
+<span id="cb11-9"><a href="#cb11-9" aria-hidden="true" tabindex="-1"></a>    <span class="at">y =</span> <span class="st">"Percent Change"</span>,</span>
+<span id="cb11-10"><a href="#cb11-10" aria-hidden="true" tabindex="-1"></a>    <span class="at">fill =</span> <span class="st">"State"</span></span>
+<span id="cb11-11"><a href="#cb11-11" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
+<span id="cb11-12"><a href="#cb11-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="draft_files/figure-html/unnamed-chunk-7-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+<blockquote class="blockquote">
+<p><strong>Finding:</strong> Personal income in Delaware County grew 10.98% between 2022 and 2024, yet its GDP was the only one in the region to shrink. Residents may be earning more by working elsewhere while local industries are losing ground.</p>
+</blockquote>
+</section>
+</section>
+<section id="part-3-gdp-by-industry" class="level2">
+<h2 class="anchored" data-anchor-id="part-3-gdp-by-industry">Part 3: GDP by Industry</h2>
+<section id="load-and-clean-data-1" class="level3">
+<h3 class="anchored" data-anchor-id="load-and-clean-data-1">Load and Clean Data</h3>
+<p><em>BEA CAGDP2 — GDP by Industry (Current dollars)</em> <img src="https://apps.bea.gov/itable/?ReqID=70&amp;step=1&amp;_gl=1*ov6bhy*_ga*OTk4Njc0OTc1LjE3ODAyODAzNTY.*_ga_J4698JNNFT*czE3ODAzNDIwNjgkbzQkZzEkdDE3ODAzNDIxMzIkajYwJGwwJGgw#eyJhcHBpZCI6NzAsInN0ZXBzIjpbMSwyOSwyNSwzMV0sImRhdGEiOltbIlRhYmxlSWQiLCI1MDEiXSxbIk1ham9yX0FyZWEiLCI0Il1dfQ==" class="img-fluid" alt="CAGDP2 GDP by industry in current dollars"></p>
+</section>
+<section id="filter-private-industry-sub-sectors-for-greater-philadelphia" class="level3">
+<h3 class="anchored" data-anchor-id="filter-private-industry-sub-sectors-for-greater-philadelphia">Filter Private Industry Sub-sectors for Greater Philadelphia</h3>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb12"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>greater_philly_industry <span class="ot">&lt;-</span> gdp_industry <span class="sc">|&gt;</span></span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(<span class="fu">str_detect</span>(geo_name, <span class="st">"Philadelphia, PA|Montgomery, PA|Bucks, PA|Chester, PA|Delaware, PA|Gloucester, NJ|Camden, NJ|Burlington, NJ"</span>))  <span class="sc">|&gt;</span></span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(description <span class="sc">%in%</span> <span class="fu">c</span>(</span>
+<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Agriculture, forestry, fishing and hunting"</span>,</span>
+<span id="cb12-5"><a href="#cb12-5" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Mining, quarrying, and oil and gas extraction"</span>,</span>
+<span id="cb12-6"><a href="#cb12-6" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Utilities"</span>,</span>
+<span id="cb12-7"><a href="#cb12-7" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Construction"</span>,</span>
+<span id="cb12-8"><a href="#cb12-8" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Manufacturing"</span>,</span>
+<span id="cb12-9"><a href="#cb12-9" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Wholesale trade"</span>,</span>
+<span id="cb12-10"><a href="#cb12-10" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Retail trade"</span>,</span>
+<span id="cb12-11"><a href="#cb12-11" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Transportation and warehousing"</span>,</span>
+<span id="cb12-12"><a href="#cb12-12" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Information"</span>,</span>
+<span id="cb12-13"><a href="#cb12-13" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Finance, insurance, real estate, rental, and leasing"</span>,</span>
+<span id="cb12-14"><a href="#cb12-14" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Professional and business services"</span>,</span>
+<span id="cb12-15"><a href="#cb12-15" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Educational services, health care, and social assistance"</span>,</span>
+<span id="cb12-16"><a href="#cb12-16" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Arts, entertainment, recreation, accommodation, and food services"</span>,</span>
+<span id="cb12-17"><a href="#cb12-17" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Other services (except government and government enterprises)"</span></span>
+<span id="cb12-18"><a href="#cb12-18" aria-hidden="true" tabindex="-1"></a>  )) <span class="sc">|&gt;</span></span>
+<span id="cb12-19"><a href="#cb12-19" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(geo_name, description, x2022, x2024) <span class="sc">|&gt;</span></span>
+<span id="cb12-20"><a href="#cb12-20" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">pct_24_v_22 =</span> <span class="fu">round</span>((x2024 <span class="sc">-</span> x2022) <span class="sc">/</span> x2022, <span class="dv">4</span>)) <span class="sc">|&gt;</span></span>
+<span id="cb12-21"><a href="#cb12-21" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">x24_v_22 =</span> x2024 <span class="sc">-</span> x2022) <span class="sc">|&gt;</span></span>
+<span id="cb12-22"><a href="#cb12-22" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(<span class="fu">desc</span>(x24_v_22))</span>
+<span id="cb12-23"><a href="#cb12-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-24"><a href="#cb12-24" aria-hidden="true" tabindex="-1"></a><span class="fu">glimpse</span>(greater_philly_industry)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Rows: 112
+Columns: 6
+$ geo_name    &lt;chr&gt; "Philadelphia, PA", "Chester, PA", "Philadelphia, PA", "Ph…
+$ description &lt;chr&gt; "Educational services, health care, and social assistance"…
+$ x2022       &lt;dbl&gt; 23786295, 14402941, 25276382, 21743795, 21130722, 5569479,…
+$ x2024       &lt;dbl&gt; 28019109, 17349374, 28188153, 24421374, 23475546, 7328615,…
+$ pct_24_v_22 &lt;dbl&gt; 0.1780, 0.2046, 0.1152, 0.1231, 0.1110, 0.3159, 0.1690, 0.…
+$ x24_v_22    &lt;dbl&gt; 4232814, 2946433, 2911771, 2677579, 2344824, 1759136, 1584…</code></pre>
+</div>
+</div>
+</section>
+<section id="top-10-industries-with-largest-decline-across-the-region" class="level3">
+<h3 class="anchored" data-anchor-id="top-10-industries-with-largest-decline-across-the-region">Top 10 Industries with Largest Decline Across the Region</h3>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb14"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>greater_philly_industry <span class="sc">|&gt;</span></span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">slice_min</span>(x24_v_22, <span class="at">n =</span> <span class="dv">10</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 10 × 6
+   geo_name         description                x2022  x2024 pct_24_v_22 x24_v_22
+   &lt;chr&gt;            &lt;chr&gt;                      &lt;dbl&gt;  &lt;dbl&gt;       &lt;dbl&gt;    &lt;dbl&gt;
+ 1 Philadelphia, PA Information               8.50e6 6.48e6     -0.238  -2021288
+ 2 Philadelphia, PA Manufacturing             5.56e6 4.78e6     -0.140   -780623
+ 3 Delaware, PA     Manufacturing             3.49e6 3.06e6     -0.123   -428787
+ 4 Chester, PA      Information               6.22e6 5.91e6     -0.0493  -306887
+ 5 Montgomery, PA   Manufacturing             1.52e7 1.51e7     -0.0115  -175826
+ 6 Camden, NJ       Manufacturing             2.29e6 2.15e6     -0.0598  -136799
+ 7 Chester, PA      Agriculture, forestry, f… 4.01e5 2.93e5     -0.269   -107686
+ 8 Gloucester, NJ   Utilities                 4.04e5 3.09e5     -0.236    -95262
+ 9 Burlington, NJ   Agriculture, forestry, f… 1.40e5 7.19e4     -0.487    -68145
+10 Bucks, PA        Agriculture, forestry, f… 7.55e4 2.22e4     -0.706    -53294</code></pre>
+</div>
+</div>
+<blockquote class="blockquote">
+<p><strong>Finding:</strong> Delaware County’s manufacturing sector ranks third on the list, which likely explains why it is the only county in the region with negative GDP growth. I decide to have a closer look at Delaware County’s industry breakdown.</p>
+</blockquote>
+</section>
+<section id="which-industries-are-shrinking-in-delaware-county" class="level3">
+<h3 class="anchored" data-anchor-id="which-industries-are-shrinking-in-delaware-county">Which Industries Are Shrinking in Delaware County</h3>
+<p>Focus on Delaware County to identify the main driver of GDP decline</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb16"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a>delaware_gdp_industry <span class="ot">&lt;-</span> greater_philly_industry <span class="sc">|&gt;</span></span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(geo_name <span class="sc">==</span> <span class="st">"Delaware, PA"</span>) <span class="sc">|&gt;</span></span>
+<span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(x2022 <span class="sc">&gt;</span> <span class="dv">0</span>) <span class="sc">|&gt;</span></span>
+<span id="cb16-4"><a href="#cb16-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">abs_change =</span> x2024 <span class="sc">-</span> x2022) <span class="sc">|&gt;</span></span>
+<span id="cb16-5"><a href="#cb16-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(abs_change)</span>
+<span id="cb16-6"><a href="#cb16-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-7"><a href="#cb16-7" aria-hidden="true" tabindex="-1"></a>delaware_gdp_industry</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 14 × 7
+   geo_name     description         x2022  x2024 pct_24_v_22 x24_v_22 abs_change
+   &lt;chr&gt;        &lt;chr&gt;               &lt;dbl&gt;  &lt;dbl&gt;       &lt;dbl&gt;    &lt;dbl&gt;      &lt;dbl&gt;
+ 1 Delaware, PA Manufacturing      3.49e6 3.06e6     -0.123   -428787    -428787
+ 2 Delaware, PA Transportation an… 2.45e6 2.40e6     -0.0184   -45002     -45002
+ 3 Delaware, PA Information        1.89e6 1.86e6     -0.0155   -29394     -29394
+ 4 Delaware, PA Mining, quarrying… 2.06e4 4.96e3     -0.759    -15660     -15660
+ 5 Delaware, PA Agriculture, fore… 4.35e3 1.20e4      1.77       7690       7690
+ 6 Delaware, PA Wholesale trade    1.50e6 1.54e6      0.0306    45824      45824
+ 7 Delaware, PA Utilities          5.61e5 6.42e5      0.144     80743      80743
+ 8 Delaware, PA Construction       1.82e6 1.91e6      0.0529    96130      96130
+ 9 Delaware, PA Other services (e… 9.55e5 1.09e6      0.140    133672     133672
+10 Delaware, PA Retail trade       2.57e6 2.88e6      0.123    314699     314699
+11 Delaware, PA Arts, entertainme… 1.19e6 1.51e6      0.264    315840     315840
+12 Delaware, PA Finance, insuranc… 9.88e6 1.04e7      0.054    533901     533901
+13 Delaware, PA Educational servi… 5.08e6 5.76e6      0.134    678699     678699
+14 Delaware, PA Professional and … 5.85e6 6.57e6      0.124    727266     727266</code></pre>
+</div>
+</div>
+<blockquote class="blockquote">
+<p><strong>Finding:</strong> Manufacturing is the primary driver of Delaware County’s GDP decline, with output falling 12.3% and losing over $428 million between 2022 and 2024.</p>
+</blockquote>
+</section>
+<section id="manufacturing-across-greater-philadelphia" class="level3">
+<h3 class="anchored" data-anchor-id="manufacturing-across-greater-philadelphia">Manufacturing Across Greater Philadelphia</h3>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb18"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a>philly_manufacturing <span class="ot">&lt;-</span> greater_philly_industry <span class="sc">|&gt;</span></span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(description <span class="sc">==</span> <span class="st">"Manufacturing"</span>) <span class="sc">|&gt;</span></span>
+<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(x2022 <span class="sc">&gt;</span> <span class="dv">0</span>) <span class="sc">|&gt;</span> <span class="co">#AI-assisted</span></span>
+<span id="cb18-4"><a href="#cb18-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">abs_change =</span> x2024 <span class="sc">-</span> x2022) <span class="sc">|&gt;</span></span>
+<span id="cb18-5"><a href="#cb18-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">separate</span>(geo_name, <span class="at">into =</span> <span class="fu">c</span>(<span class="st">"county"</span>, <span class="st">"state"</span>), <span class="at">sep =</span> <span class="st">", "</span>) <span class="sc">|&gt;</span></span>
+<span id="cb18-6"><a href="#cb18-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(abs_change)</span>
+<span id="cb18-7"><a href="#cb18-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-8"><a href="#cb18-8" aria-hidden="true" tabindex="-1"></a>philly_manufacturing</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 8 × 8
+  county       state description    x2022  x2024 pct_24_v_22 x24_v_22 abs_change
+  &lt;chr&gt;        &lt;chr&gt; &lt;chr&gt;          &lt;dbl&gt;  &lt;dbl&gt;       &lt;dbl&gt;    &lt;dbl&gt;      &lt;dbl&gt;
+1 Philadelphia PA    Manufacturing 5.56e6 4.78e6     -0.140   -780623    -780623
+2 Delaware     PA    Manufacturing 3.49e6 3.06e6     -0.123   -428787    -428787
+3 Montgomery   PA    Manufacturing 1.52e7 1.51e7     -0.0115  -175826    -175826
+4 Camden       NJ    Manufacturing 2.29e6 2.15e6     -0.0598  -136799    -136799
+5 Gloucester   NJ    Manufacturing 1.72e6 1.90e6      0.105    180729     180729
+6 Chester      PA    Manufacturing 3.77e6 3.99e6      0.0571   215287     215287
+7 Burlington   NJ    Manufacturing 2.58e6 3.02e6      0.170    439705     439705
+8 Bucks        PA    Manufacturing 4.87e6 5.41e6      0.111    541079     541079</code></pre>
+</div>
+</div>
+</section>
+<section id="manufacturing-share-of-total-gdp-by-county" class="level3">
+<h3 class="anchored" data-anchor-id="manufacturing-share-of-total-gdp-by-county">Manufacturing Share of Total GDP by County</h3>
+<p>Compare manufacturing’s share of each county’s economy in 2022 vs 2024</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb20"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a>gdp_industry <span class="sc">|&gt;</span></span>
+<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(<span class="fu">str_detect</span>(geo_name, <span class="st">"Philadelphia, PA|Montgomery, PA|Bucks, PA|Chester, PA|Delaware, PA|Gloucester, NJ|Camden, NJ|Burlington, NJ"</span>)) <span class="sc">|&gt;</span></span>
+<span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(description <span class="sc">%in%</span> <span class="fu">c</span>(<span class="st">"All industry total"</span>, <span class="st">"Manufacturing"</span>)) <span class="sc">|&gt;</span></span>
+<span id="cb20-4"><a href="#cb20-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(x2022 <span class="sc">&gt;</span> <span class="dv">0</span>) <span class="sc">|&gt;</span></span>
+<span id="cb20-5"><a href="#cb20-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(geo_name, description, x2022, x2024) <span class="sc">|&gt;</span></span>
+<span id="cb20-6"><a href="#cb20-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">pivot_wider</span>(<span class="at">names_from =</span> description, <span class="at">values_from =</span> <span class="fu">c</span>(x2022,x2024)) <span class="sc">|&gt;</span></span>
+<span id="cb20-7"><a href="#cb20-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(</span>
+<span id="cb20-8"><a href="#cb20-8" aria-hidden="true" tabindex="-1"></a>    <span class="at">manufacturing_share_22 =</span> <span class="fu">round</span>(x2022_Manufacturing <span class="sc">/</span> <span class="st">`</span><span class="at">x2022_All industry total</span><span class="st">`</span>, <span class="dv">4</span>),</span>
+<span id="cb20-9"><a href="#cb20-9" aria-hidden="true" tabindex="-1"></a>    <span class="at">manufacturing_share_24 =</span> <span class="fu">round</span>(x2024_Manufacturing <span class="sc">/</span> <span class="st">`</span><span class="at">x2024_All industry total</span><span class="st">`</span>, <span class="dv">4</span>),) <span class="sc">|&gt;</span></span>
+<span id="cb20-10"><a href="#cb20-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">separate</span>(geo_name, <span class="at">into =</span> <span class="fu">c</span>(<span class="st">"county"</span>, <span class="st">"state"</span>), <span class="at">sep =</span> <span class="st">", "</span>) <span class="sc">|&gt;</span></span>
+<span id="cb20-11"><a href="#cb20-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(<span class="fu">desc</span>(manufacturing_share_22))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 8 × 8
+  county state x2022_All industry t…¹ x2022_Manufacturing x2024_All industry t…²
+  &lt;chr&gt;  &lt;chr&gt;                  &lt;dbl&gt;               &lt;dbl&gt;                  &lt;dbl&gt;
+1 Montg… PA                 101985467            15248985              110422372
+2 Bucks  PA                  43581226             4870776               48826773
+3 Glouc… NJ                  17242493             1715514               19111129
+4 Delaw… PA                  39895570             3489174               42607881
+5 Camden NJ                  30564484             2289084               34619814
+6 Burli… NJ                  36147688             2583053               40867224
+7 Chest… PA                  53823173             3772843               60160228
+8 Phila… PA                 122078607             5559680              134988949
+# ℹ abbreviated names: ¹​`x2022_All industry total`, ²​`x2024_All industry total`
+# ℹ 3 more variables: x2024_Manufacturing &lt;dbl&gt;, manufacturing_share_22 &lt;dbl&gt;,
+#   manufacturing_share_24 &lt;dbl&gt;</code></pre>
+</div>
+</div>
+<blockquote class="blockquote">
+<p><strong>Findings:</strong> Manufacturing’s share of GDP declined in nearly every county across greater Philadelphia between 2022 and 2024. Manufacturing in Delaware County is shrinking fastest.</p>
+</blockquote>
+</section>
+<section id="charts-manufacturing-gdp-change-by-county" class="level3">
+<h3 class="anchored" data-anchor-id="charts-manufacturing-gdp-change-by-county">Charts: Manufacturing GDP Change by County</h3>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb22"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a><span class="co">#AI-assister</span></span>
+<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(philly_manufacturing, <span class="fu">aes</span>(<span class="at">x =</span> <span class="fu">reorder</span>(county, pct_24_v_22), <span class="at">y =</span> pct_24_v_22, <span class="at">fill =</span> state)) <span class="sc">+</span></span>
+<span id="cb22-3"><a href="#cb22-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_col</span>() <span class="sc">+</span></span>
+<span id="cb22-4"><a href="#cb22-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">coord_flip</span>() <span class="sc">+</span></span>
+<span id="cb22-5"><a href="#cb22-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_y_continuous</span>(<span class="at">labels =</span> scales<span class="sc">::</span>percent) <span class="sc">+</span></span>
+<span id="cb22-6"><a href="#cb22-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(</span>
+<span id="cb22-7"><a href="#cb22-7" aria-hidden="true" tabindex="-1"></a>    <span class="at">title =</span> <span class="st">"Manufacturing GDP Percentage Change by County in Greater Philadelphia (2022-2024)"</span>,</span>
+<span id="cb22-8"><a href="#cb22-8" aria-hidden="true" tabindex="-1"></a>    <span class="at">x =</span> <span class="cn">NULL</span>,</span>
+<span id="cb22-9"><a href="#cb22-9" aria-hidden="true" tabindex="-1"></a>    <span class="at">y =</span> <span class="st">"Percent Change"</span>,</span>
+<span id="cb22-10"><a href="#cb22-10" aria-hidden="true" tabindex="-1"></a>    <span class="at">fill =</span> <span class="st">"State"</span></span>
+<span id="cb22-11"><a href="#cb22-11" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
+<span id="cb22-12"><a href="#cb22-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="draft_files/figure-html/unnamed-chunk-15-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb23"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(philly_manufacturing, <span class="fu">aes</span>(<span class="at">x =</span> <span class="fu">reorder</span>(county, abs_change), <span class="at">y =</span>abs_change , <span class="at">fill =</span> state)) <span class="sc">+</span></span>
+<span id="cb23-2"><a href="#cb23-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_col</span>() <span class="sc">+</span></span>
+<span id="cb23-3"><a href="#cb23-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">coord_flip</span>() <span class="sc">+</span></span>
+<span id="cb23-4"><a href="#cb23-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_y_continuous</span>(<span class="at">labels =</span> scales<span class="sc">::</span>comma) <span class="sc">+</span></span>
+<span id="cb23-5"><a href="#cb23-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(</span>
+<span id="cb23-6"><a href="#cb23-6" aria-hidden="true" tabindex="-1"></a>    <span class="at">title =</span> <span class="st">"Manufacturing GDP Change by County in Greater Philadelphia (2022-2024)"</span>,</span>
+<span id="cb23-7"><a href="#cb23-7" aria-hidden="true" tabindex="-1"></a>    <span class="at">subtitle =</span> <span class="st">"In thousands of dollars"</span>,</span>
+<span id="cb23-8"><a href="#cb23-8" aria-hidden="true" tabindex="-1"></a>    <span class="at">x =</span> <span class="cn">NULL</span>,</span>
+<span id="cb23-9"><a href="#cb23-9" aria-hidden="true" tabindex="-1"></a>    <span class="at">y =</span> <span class="st">"Absolute Change"</span>,</span>
+<span id="cb23-10"><a href="#cb23-10" aria-hidden="true" tabindex="-1"></a>    <span class="at">fill =</span> <span class="st">"State"</span></span>
+<span id="cb23-11"><a href="#cb23-11" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
+<span id="cb23-12"><a href="#cb23-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="draft_files/figure-html/unnamed-chunk-15-2.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+<blockquote class="blockquote">
+<p><strong>Findings:</strong> Philadelphia had the largest manufacturing decline both in percentage terms and absolute value, but its overall GDP remained positive. Delaware County, by contrast, lost 12% of its manufacturing output and saw its overall GDP turn negative. Maybe its economy is more vulnerable and lacks other industries to fill the gap left by manufacturing’s decline.</p>
+</blockquote>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb24"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a>delaware_all <span class="ot">&lt;-</span> gdp_industry <span class="sc">|&gt;</span></span>
+<span id="cb24-2"><a href="#cb24-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(<span class="fu">str_detect</span>(geo_name, <span class="st">"Delaware, PA"</span>))  <span class="sc">|&gt;</span></span>
+<span id="cb24-3"><a href="#cb24-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(geo_name, description, x2022, x2024) <span class="sc">|&gt;</span></span>
+<span id="cb24-4"><a href="#cb24-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">pct_24_v_22 =</span> <span class="fu">round</span>((x2024 <span class="sc">-</span> x2022) <span class="sc">/</span> x2022, <span class="dv">4</span>)) <span class="sc">|&gt;</span></span>
+<span id="cb24-5"><a href="#cb24-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">x24_v_22 =</span> x2024 <span class="sc">-</span> x2022) <span class="sc">|&gt;</span></span>
+<span id="cb24-6"><a href="#cb24-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(<span class="fu">desc</span>(x24_v_22))</span>
+<span id="cb24-7"><a href="#cb24-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-8"><a href="#cb24-8" aria-hidden="true" tabindex="-1"></a>delaware_all</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 35 × 6
+   geo_name     description                    x2022  x2024 pct_24_v_22 x24_v_22
+   &lt;chr&gt;        &lt;chr&gt;                          &lt;dbl&gt;  &lt;dbl&gt;       &lt;dbl&gt;    &lt;dbl&gt;
+ 1 Delaware, PA Private services-providing i… 3.19e7 3.47e7      0.0863  2756246
+ 2 Delaware, PA All industry total            3.99e7 4.26e7      0.068   2712311
+ 3 Delaware, PA Private industries            3.73e7 3.97e7      0.0648  2415618
+ 4 Delaware, PA Real estate and rental and l… 6.32e6 7.06e6      0.116    734971
+ 5 Delaware, PA Professional and business se… 5.85e6 6.57e6      0.124    727266
+ 6 Delaware, PA Educational services, health… 5.08e6 5.76e6      0.134    678699
+ 7 Delaware, PA Finance, insurance, real est… 9.88e6 1.04e7      0.054    533901
+ 8 Delaware, PA Health care and social assis… 3.71e6 4.21e6      0.136    505281
+ 9 Delaware, PA Management of companies and … 2.06e6 2.49e6      0.208    428733
+10 Delaware, PA Trade                         4.06e6 4.42e6      0.0888   360522
+# ℹ 25 more rows</code></pre>
+</div>
+</div>
+</section>
+</section>
+</section>
+<section id="look-at-philly-metro-area" class="level1">
+<h1>Look at Philly metro area</h1>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb26"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a>oes_25 <span class="ot">&lt;-</span> <span class="fu">read_excel</span>(<span class="st">"../data_OESM/MSA_M2025_dl.xlsx"</span>) <span class="sc">|&gt;</span></span>
+<span id="cb26-2"><a href="#cb26-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">clean_names</span>()</span>
+<span id="cb26-3"><a href="#cb26-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-4"><a href="#cb26-4" aria-hidden="true" tabindex="-1"></a><span class="fu">glimpse</span>(oes_25)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Rows: 150,023
+Columns: 32
+$ area         &lt;chr&gt; "10180", "10180", "10180", "10180", "10180", "10180", "10…
+$ area_title   &lt;chr&gt; "Abilene, TX", "Abilene, TX", "Abilene, TX", "Abilene, TX…
+$ area_type    &lt;chr&gt; "4", "4", "4", "4", "4", "4", "4", "4", "4", "4", "4", "4…
+$ prim_state   &lt;chr&gt; "TX", "TX", "TX", "TX", "TX", "TX", "TX", "TX", "TX", "TX…
+$ naics        &lt;chr&gt; "000000", "000000", "000000", "000000", "000000", "000000…
+$ naics_title  &lt;chr&gt; "Cross-industry", "Cross-industry", "Cross-industry", "Cr…
+$ i_group      &lt;chr&gt; "cross-industry", "cross-industry", "cross-industry", "cr…
+$ own_code     &lt;chr&gt; "1235", "1235", "1235", "1235", "1235", "1235", "1235", "…
+$ occ_code     &lt;chr&gt; "00-0000", "11-0000", "11-1011", "11-1021", "11-2021", "1…
+$ occ_title    &lt;chr&gt; "All Occupations", "Management Occupations", "Chief Execu…
+$ o_group      &lt;chr&gt; "total", "major", "detailed", "detailed", "detailed", "de…
+$ tot_emp      &lt;chr&gt; "75070", "5470", "40", "2120", "140", "280", "40", "120",…
+$ emp_prse     &lt;chr&gt; "0", "2.1", "10", "1.6", "6.5", "7.1", "14.1", "4.4000000…
+$ jobs_1000    &lt;chr&gt; "1000", "72.873999999999995", "0.54200000000000004", "28.…
+$ loc_quotient &lt;chr&gt; "1", "1.02", "0.41", "1.25", "0.73", "0.9", "1.1000000000…
+$ pct_total    &lt;lgl&gt; NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, N…
+$ pct_rpt      &lt;lgl&gt; NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, N…
+$ h_mean       &lt;chr&gt; "26.13", "53.94", "99.14", "54.63", "61.98", "61.86", "49…
+$ a_mean       &lt;chr&gt; "54360", "112190", "206200", "113630", "128910", "128680"…
+$ mean_prse    &lt;chr&gt; "0.6", "0.9", "6.3", "1.3", "3.8", "3.1", "3.4", "4.8", "…
+$ h_pct10      &lt;chr&gt; "11.97", "22.98", "42.5", "21.04", "34.14", "30.3", "29.0…
+$ h_pct25      &lt;chr&gt; "14.9", "31.25", "58.65", "27.76", "41.23", "36.770000000…
+$ h_median     &lt;chr&gt; "21.32", "45.9", "79.7", "41.44", "52.45", "53.38", "45.0…
+$ h_pct75      &lt;chr&gt; "29.92", "64.34", "113.51", "67.13", "74.400000000000006"…
+$ h_pct90      &lt;chr&gt; "45.19", "92.98", "187.68", "101.14", "95.07", "104.99", …
+$ a_pct10      &lt;chr&gt; "24900", "47790", "88400", "43770", "71010", "63020", "60…
+$ a_pct25      &lt;chr&gt; "30980", "64990", "121980", "57740", "85770", "76470", "6…
+$ a_median     &lt;chr&gt; "44340", "95480", "165770", "86200", "109100", "111020", …
+$ a_pct75      &lt;chr&gt; "62230", "133840", "236100", "139630", "154750", "161920"…
+$ a_pct90      &lt;chr&gt; "93990", "193390", "390370", "210360", "197740", "218380"…
+$ annual       &lt;chr&gt; NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, N…
+$ hourly       &lt;chr&gt; NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, N…</code></pre>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb28"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a><span class="co">#data source: https://data.bls.gov/oes/#/home</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb29"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a>philly_oes_25 <span class="ot">&lt;-</span> oes_25 <span class="sc">|&gt;</span></span>
+<span id="cb29-2"><a href="#cb29-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(area <span class="sc">==</span> <span class="st">"37980"</span>) <span class="sc">|&gt;</span></span>
+<span id="cb29-3"><a href="#cb29-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(area, area_title, occ_code, occ_title, o_group,</span>
+<span id="cb29-4"><a href="#cb29-4" aria-hidden="true" tabindex="-1"></a>         tot_emp, h_mean, a_mean, h_median, a_median) <span class="sc">|&gt;</span></span>
+<span id="cb29-5"><a href="#cb29-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="fu">across</span>(<span class="dv">6</span><span class="sc">:</span><span class="dv">10</span>, as.numeric)) <span class="sc">|&gt;</span></span>
+<span id="cb29-6"><a href="#cb29-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(</span>
+<span id="cb29-7"><a href="#cb29-7" aria-hidden="true" tabindex="-1"></a>    <span class="at">emp_share =</span> <span class="fu">round</span>((tot_emp <span class="sc">/</span> tot_emp[occ_code <span class="sc">==</span> <span class="st">"00-0000"</span>]) <span class="sc">*</span> <span class="dv">100</span>, <span class="dv">2</span>)</span>
+<span id="cb29-8"><a href="#cb29-8" aria-hidden="true" tabindex="-1"></a>  )</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: There were 5 warnings in `mutate()`.
+The first warning was:
+ℹ In argument: `across(6:10, as.numeric)`.
+Caused by warning:
+! NAs introduced by coercion
+ℹ Run `dplyr::last_dplyr_warnings()` to see the 4 remaining warnings.</code></pre>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb31"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a>philly_oes_25</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 757 × 11
+   area  area_title    occ_code occ_title o_group tot_emp h_mean a_mean h_median
+   &lt;chr&gt; &lt;chr&gt;         &lt;chr&gt;    &lt;chr&gt;     &lt;chr&gt;     &lt;dbl&gt;  &lt;dbl&gt;  &lt;dbl&gt;    &lt;dbl&gt;
+ 1 37980 Philadelphia… 00-0000  All Occu… total   2897830   34.5  71730     26.1
+ 2 37980 Philadelphia… 11-0000  Manageme… major    222640   72.9 151700     63.4
+ 3 37980 Philadelphia… 11-1011  Chief Ex… detail…    4120  163.  338450    141. 
+ 4 37980 Philadelphia… 11-1021  General … detail…   68730   70.0 145650     58.5
+ 5 37980 Philadelphia… 11-2011  Advertis… detail…     660   76.0 157990     70.4
+ 6 37980 Philadelphia… 11-2021  Marketin… detail…    8270   83.1 172890     80.0
+ 7 37980 Philadelphia… 11-2022  Sales Ma… detail…   10200   82.5 171530     75.2
+ 8 37980 Philadelphia… 11-2032  Public R… detail…    1310   70.9 147520     62.2
+ 9 37980 Philadelphia… 11-2033  Fundrais… detail…     950   64.8 134900     59.5
+10 37980 Philadelphia… 11-3012  Administ… detail…    3490   65.2 135580     60.0
+# ℹ 747 more rows
+# ℹ 2 more variables: a_median &lt;dbl&gt;, emp_share &lt;dbl&gt;</code></pre>
+</div>
+</div>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb33"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a>philly_oes_25 <span class="sc">|&gt;</span></span>
+<span id="cb33-2"><a href="#cb33-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(o_group <span class="sc">==</span> <span class="st">"detailed"</span>) <span class="sc">|&gt;</span></span>
+<span id="cb33-3"><a href="#cb33-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(<span class="at">total =</span> <span class="fu">sum</span>(emp_share, <span class="at">na.rm =</span> <span class="cn">TRUE</span>))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 1 × 1
+  total
+  &lt;dbl&gt;
+1  99.3</code></pre>
+</div>
+</div>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb35"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb35-1"><a href="#cb35-1" aria-hidden="true" tabindex="-1"></a>philly_oes_25 <span class="sc">|&gt;</span></span>
+<span id="cb35-2"><a href="#cb35-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(o_group <span class="sc">==</span> <span class="st">"major"</span>) <span class="sc">|&gt;</span></span>
+<span id="cb35-3"><a href="#cb35-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(<span class="fu">desc</span>(emp_share)) <span class="sc">|&gt;</span></span>
+<span id="cb35-4"><a href="#cb35-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(occ_title, tot_emp, emp_share)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 22 × 3
+   occ_title                                          tot_emp emp_share
+   &lt;chr&gt;                                                &lt;dbl&gt;     &lt;dbl&gt;
+ 1 Office and Administrative Support Occupations       320580     11.1 
+ 2 Transportation and Material Moving Occupations      247580      8.54
+ 3 Food Preparation and Serving Related Occupations    235150      8.11
+ 4 Healthcare Support Occupations                      225820      7.79
+ 5 Management Occupations                              222640      7.68
+ 6 Sales and Related Occupations                       221040      7.63
+ 7 Healthcare Practitioners and Technical Occupations  213800      7.38
+ 8 Business and Financial Operations Occupations       200850      6.93
+ 9 Educational Instruction and Library Occupations     199180      6.87
+10 Production Occupations                              111120      3.83
+# ℹ 12 more rows</code></pre>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb37"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb37-1"><a href="#cb37-1" aria-hidden="true" tabindex="-1"></a>philly_oes_25 <span class="sc">|&gt;</span></span>
+<span id="cb37-2"><a href="#cb37-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(o_group <span class="sc">==</span> <span class="st">"detailed"</span>) <span class="sc">|&gt;</span></span>
+<span id="cb37-3"><a href="#cb37-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(<span class="fu">desc</span>(emp_share)) <span class="sc">|&gt;</span></span>
+<span id="cb37-4"><a href="#cb37-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(occ_title, tot_emp, emp_share)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 734 × 3
+   occ_title                                              tot_emp emp_share
+   &lt;chr&gt;                                                    &lt;dbl&gt;     &lt;dbl&gt;
+ 1 Home Health and Personal Care Aides                     158280      5.46
+ 2 Registered Nurses                                        73790      2.55
+ 3 Fast Food and Counter Workers                            69080      2.38
+ 4 General and Operations Managers                          68730      2.37
+ 5 Retail Salespersons                                      63990      2.21
+ 6 Cashiers                                                 54100      1.87
+ 7 Laborers and Freight, Stock, and Material Movers, Hand   51100      1.76
+ 8 Office Clerks, General                                   45660      1.58
+ 9 Stockers and Order Fillers                               45770      1.58
+10 Waiters and Waitresses                                   41900      1.45
+# ℹ 724 more rows</code></pre>
+</div>
+</div>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb39"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb39-1"><a href="#cb39-1" aria-hidden="true" tabindex="-1"></a><span class="co"># 处理单个文件的函数</span></span>
+<span id="cb39-2"><a href="#cb39-2" aria-hidden="true" tabindex="-1"></a>process_oes <span class="ot">&lt;-</span> <span class="cf">function</span>(year) {</span>
+<span id="cb39-3"><a href="#cb39-3" aria-hidden="true" tabindex="-1"></a>  path <span class="ot">&lt;-</span> <span class="fu">paste0</span>(<span class="st">"../data_OESM/MSA_M"</span>, year, <span class="st">"_dl.xlsx"</span>)</span>
+<span id="cb39-4"><a href="#cb39-4" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb39-5"><a href="#cb39-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">read_excel</span>(path) <span class="sc">|&gt;</span></span>
+<span id="cb39-6"><a href="#cb39-6" aria-hidden="true" tabindex="-1"></a>    <span class="fu">clean_names</span>() <span class="sc">|&gt;</span></span>
+<span id="cb39-7"><a href="#cb39-7" aria-hidden="true" tabindex="-1"></a>    <span class="fu">filter</span>(area <span class="sc">==</span> <span class="st">"37980"</span>, o_group <span class="sc">%in%</span> <span class="fu">c</span>(<span class="st">"major"</span>,<span class="st">"total"</span>)) <span class="sc">|&gt;</span></span>
+<span id="cb39-8"><a href="#cb39-8" aria-hidden="true" tabindex="-1"></a>    <span class="fu">mutate</span>(<span class="at">tot_emp =</span> <span class="fu">as.numeric</span>(tot_emp)) <span class="sc">|&gt;</span></span>
+<span id="cb39-9"><a href="#cb39-9" aria-hidden="true" tabindex="-1"></a>    <span class="fu">select</span>(occ_code, occ_title, tot_emp) <span class="sc">|&gt;</span></span>
+<span id="cb39-10"><a href="#cb39-10" aria-hidden="true" tabindex="-1"></a>    <span class="fu">mutate</span>(</span>
+<span id="cb39-11"><a href="#cb39-11" aria-hidden="true" tabindex="-1"></a>      <span class="at">emp_share =</span> <span class="fu">round</span>((tot_emp <span class="sc">/</span> <span class="fu">sum</span>(tot_emp[occ_code <span class="sc">==</span> <span class="st">"00-0000"</span>])) <span class="sc">*</span> <span class="dv">100</span>, <span class="dv">2</span>)</span>
+<span id="cb39-12"><a href="#cb39-12" aria-hidden="true" tabindex="-1"></a>    ) <span class="sc">|&gt;</span></span>
+<span id="cb39-13"><a href="#cb39-13" aria-hidden="true" tabindex="-1"></a>    <span class="fu">filter</span>(occ_code <span class="sc">!=</span> <span class="st">"00-0000"</span>) <span class="sc">|&gt;</span></span>
+<span id="cb39-14"><a href="#cb39-14" aria-hidden="true" tabindex="-1"></a>    <span class="fu">rename</span>(</span>
+<span id="cb39-15"><a href="#cb39-15" aria-hidden="true" tabindex="-1"></a>      <span class="st">"{year}_tot_emp"</span> <span class="sc">:</span><span class="er">=</span> tot_emp,</span>
+<span id="cb39-16"><a href="#cb39-16" aria-hidden="true" tabindex="-1"></a>      <span class="st">"{year}_emp_share"</span> <span class="sc">:</span><span class="er">=</span> emp_share</span>
+<span id="cb39-17"><a href="#cb39-17" aria-hidden="true" tabindex="-1"></a>    ) <span class="sc">|&gt;</span></span>
+<span id="cb39-18"><a href="#cb39-18" aria-hidden="true" tabindex="-1"></a>    <span class="fu">select</span>(<span class="sc">-</span>occ_code)</span>
+<span id="cb39-19"><a href="#cb39-19" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb39-20"><a href="#cb39-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb39-21"><a href="#cb39-21" aria-hidden="true" tabindex="-1"></a><span class="co"># 批量跑2021-2025</span></span>
+<span id="cb39-22"><a href="#cb39-22" aria-hidden="true" tabindex="-1"></a>years <span class="ot">&lt;-</span> <span class="dv">2021</span><span class="sc">:</span><span class="dv">2025</span></span>
+<span id="cb39-23"><a href="#cb39-23" aria-hidden="true" tabindex="-1"></a>oes_list <span class="ot">&lt;-</span> <span class="fu">map</span>(years, process_oes)</span>
+<span id="cb39-24"><a href="#cb39-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb39-25"><a href="#cb39-25" aria-hidden="true" tabindex="-1"></a><span class="co"># 以2025前十为基准，依次left_join</span></span>
+<span id="cb39-26"><a href="#cb39-26" aria-hidden="true" tabindex="-1"></a>top10_titles <span class="ot">&lt;-</span> oes_list[[<span class="dv">5</span>]] <span class="sc">|&gt;</span>   <span class="co"># [[5]]是2025</span></span>
+<span id="cb39-27"><a href="#cb39-27" aria-hidden="true" tabindex="-1"></a>  <span class="fu">slice_max</span>(<span class="st">`</span><span class="at">2025_tot_emp</span><span class="st">`</span>, <span class="at">n =</span> <span class="dv">5</span>) <span class="sc">|&gt;</span></span>
+<span id="cb39-28"><a href="#cb39-28" aria-hidden="true" tabindex="-1"></a>  <span class="fu">pull</span>(occ_title)</span>
+<span id="cb39-29"><a href="#cb39-29" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb39-30"><a href="#cb39-30" aria-hidden="true" tabindex="-1"></a>oes_combined <span class="ot">&lt;-</span> oes_list <span class="sc">|&gt;</span></span>
+<span id="cb39-31"><a href="#cb39-31" aria-hidden="true" tabindex="-1"></a>  <span class="fu">reduce</span>(left_join, <span class="at">by =</span> <span class="st">"occ_title"</span>) <span class="sc">|&gt;</span></span>
+<span id="cb39-32"><a href="#cb39-32" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(occ_title <span class="sc">%in%</span> top10_titles) <span class="sc">|&gt;</span></span>
+<span id="cb39-33"><a href="#cb39-33" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(<span class="fu">desc</span>(<span class="st">`</span><span class="at">2025_tot_emp</span><span class="st">`</span>))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb40"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb40-1"><a href="#cb40-1" aria-hidden="true" tabindex="-1"></a>oes_wide <span class="ot">&lt;-</span> oes_combined <span class="sc">|&gt;</span></span>
+<span id="cb40-2"><a href="#cb40-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(occ_title, <span class="st">`</span><span class="at">2021_emp_share</span><span class="st">`</span>, <span class="st">`</span><span class="at">2022_emp_share</span><span class="st">`</span>, <span class="st">`</span><span class="at">2023_emp_share</span><span class="st">`</span>, </span>
+<span id="cb40-3"><a href="#cb40-3" aria-hidden="true" tabindex="-1"></a>         <span class="st">`</span><span class="at">2024_emp_share</span><span class="st">`</span>, <span class="st">`</span><span class="at">2025_emp_share</span><span class="st">`</span>) <span class="sc">|&gt;</span></span>
+<span id="cb40-4"><a href="#cb40-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">pivot_longer</span>(</span>
+<span id="cb40-5"><a href="#cb40-5" aria-hidden="true" tabindex="-1"></a>    <span class="at">cols =</span> <span class="sc">-</span>occ_title,</span>
+<span id="cb40-6"><a href="#cb40-6" aria-hidden="true" tabindex="-1"></a>    <span class="at">names_to =</span> <span class="st">"year"</span>,</span>
+<span id="cb40-7"><a href="#cb40-7" aria-hidden="true" tabindex="-1"></a>    <span class="at">values_to =</span> <span class="st">"emp_share"</span>,</span>
+<span id="cb40-8"><a href="#cb40-8" aria-hidden="true" tabindex="-1"></a>    <span class="at">names_pattern =</span> <span class="st">"(</span><span class="sc">\\</span><span class="st">d{4})_emp_share"</span></span>
+<span id="cb40-9"><a href="#cb40-9" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">|&gt;</span></span>
+<span id="cb40-10"><a href="#cb40-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">pivot_wider</span>(</span>
+<span id="cb40-11"><a href="#cb40-11" aria-hidden="true" tabindex="-1"></a>    <span class="at">names_from =</span> occ_title,</span>
+<span id="cb40-12"><a href="#cb40-12" aria-hidden="true" tabindex="-1"></a>    <span class="at">values_from =</span> emp_share</span>
+<span id="cb40-13"><a href="#cb40-13" aria-hidden="true" tabindex="-1"></a>  ) </span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb41"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb41-1"><a href="#cb41-1" aria-hidden="true" tabindex="-1"></a>oes_wide <span class="sc">|&gt;</span></span>
+<span id="cb41-2"><a href="#cb41-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="fu">across</span>(</span>
+<span id="cb41-3"><a href="#cb41-3" aria-hidden="true" tabindex="-1"></a>    <span class="sc">-</span>year,</span>
+<span id="cb41-4"><a href="#cb41-4" aria-hidden="true" tabindex="-1"></a>    \(x) <span class="fu">round</span>((x <span class="sc">-</span> x[year <span class="sc">==</span> <span class="st">"2021"</span>]) <span class="sc">/</span> x[year <span class="sc">==</span> <span class="st">"2021"</span>] <span class="sc">*</span> <span class="dv">100</span>, <span class="dv">2</span>)</span>
+<span id="cb41-5"><a href="#cb41-5" aria-hidden="true" tabindex="-1"></a>  )) <span class="sc">|&gt;</span> <span class="fu">write_csv</span>(<span class="st">"../data_OESM/philly_emp_growth_datawrapper.csv"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb42"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb42-1"><a href="#cb42-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Quarterly Census of Employment and Wages - QCEW </span></span>
+<span id="cb42-2"><a href="#cb42-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Source: https://data.bls.gov/cew/apps/table_maker/v4/table_maker.htm#type=7&amp;year=2025&amp;qtr=A&amp;own=5&amp;area=42045&amp;supp=0</span></span>
+<span id="cb42-3"><a href="#cb42-3" aria-hidden="true" tabindex="-1"></a><span class="co"># NAICS Code instruction: https://www.bls.gov/iag/tgs/iag_index_naics.htm</span></span>
+<span id="cb42-4"><a href="#cb42-4" aria-hidden="true" tabindex="-1"></a><span class="co"># data dictionary: https://www.bls.gov/cew/additional-resources/open-data/csv-data-slices.htm </span></span>
+<span id="cb42-5"><a href="#cb42-5" aria-hidden="true" tabindex="-1"></a><span class="co"># file download: http://www.bls.gov/cew/data/api/2025/a/area/42045.csv</span></span>
+<span id="cb42-6"><a href="#cb42-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb42-7"><a href="#cb42-7" aria-hidden="true" tabindex="-1"></a>qcew_25 <span class="ot">&lt;-</span> <span class="fu">read.csv</span>(<span class="st">"../data_QCEW/qcew_25.csv"</span>)</span>
+<span id="cb42-8"><a href="#cb42-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb42-9"><a href="#cb42-9" aria-hidden="true" tabindex="-1"></a><span class="fu">glimpse</span>(qcew_25)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Rows: 1,730
+Columns: 38
+$ area_fips                        &lt;int&gt; 42045, 42045, 42045, 42045, 42045, 42…
+$ own_code                         &lt;int&gt; 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1…
+$ industry_code                    &lt;chr&gt; "10", "10", "102", "1021", "1024", "1…
+$ agglvl_code                      &lt;int&gt; 70, 71, 72, 73, 73, 73, 74, 75, 76, 7…
+$ size_code                        &lt;int&gt; 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0…
+$ year                             &lt;int&gt; 2025, 2025, 2025, 2025, 2025, 2025, 2…
+$ qtr                              &lt;chr&gt; "A", "A", "A", "A", "A", "A", "A", "A…
+$ disclosure_code                  &lt;chr&gt; "", "", "", "", "", "", "", "", "", "…
+$ annual_avg_estabs                &lt;int&gt; 14594, 64, 64, 41, 1, 23, 41, 1, 1, 1…
+$ annual_avg_emplvl                &lt;int&gt; 219161, 1970, 1970, 1020, 1, 950, 102…
+$ total_annual_wages               &lt;dbl&gt; 16404627760, 225873774, 225873774, 11…
+$ taxable_annual_wages             &lt;int&gt; 2114902476, 0, 0, 0, 0, 0, 0, 0, 0, 0…
+$ annual_contributions             &lt;int&gt; 72022640, 0, 0, 0, 0, 0, 0, 0, 0, 0, …
+$ annual_avg_wkly_wage             &lt;int&gt; 1439, 2205, 2205, 2081, 1514, 2338, 2…
+$ avg_annual_pay                   &lt;int&gt; 74852, 114642, 114642, 108227, 78750,…
+$ lq_disclosure_code               &lt;chr&gt; "", "", "", "", "", "", "", "", "", "…
+$ lq_annual_avg_estabs             &lt;dbl&gt; 1.00, 0.88, 0.88, 1.13, 0.54, 0.79, 1…
+$ lq_annual_avg_emplvl             &lt;dbl&gt; 1.00, 0.48, 0.49, 1.10, 0.01, 0.42, 1…
+$ lq_total_annual_wages            &lt;dbl&gt; 1.00, 0.55, 0.56, 1.68, 0.01, 0.45, 1…
+$ lq_taxable_annual_wages          &lt;dbl&gt; 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0…
+$ lq_annual_contributions          &lt;dbl&gt; 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0…
+$ lq_annual_avg_wkly_wage          &lt;dbl&gt; 1.00, 1.15, 1.15, 1.53, 0.81, 1.09, 1…
+$ lq_avg_annual_pay                &lt;dbl&gt; 1.00, 1.14, 1.14, 1.53, 0.81, 1.09, 1…
+$ oty_disclosure_code              &lt;chr&gt; "", "", "", "", "", "", "", "", "", "…
+$ oty_annual_avg_estabs_chg        &lt;int&gt; 170, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0,…
+$ oty_annual_avg_estabs_pct_chg    &lt;dbl&gt; 1.2, 0.0, 0.0, 0.0, 0.0, 4.5, 0.0, 0.…
+$ oty_annual_avg_emplvl_chg        &lt;int&gt; 625, 53, 53, 9, -1, 46, 9, 17, 17, 17…
+$ oty_annual_avg_emplvl_pct_chg    &lt;dbl&gt; 0.3, 2.8, 2.8, 0.9, -50.0, 5.1, 0.9, …
+$ oty_total_annual_wages_chg       &lt;int&gt; 413920994, 18082095, 18082095, 118302…
+$ oty_total_annual_wages_pct_chg   &lt;dbl&gt; 2.6, 8.7, 8.7, 12.0, -63.5, 5.8, 12.0…
+$ oty_taxable_annual_wages_chg     &lt;int&gt; 35138003, 0, 0, 0, 0, 0, 0, 0, 0, 0, …
+$ oty_taxable_annual_wages_pct_chg &lt;dbl&gt; 1.7, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.…
+$ oty_annual_contributions_chg     &lt;int&gt; 3727230, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0…
+$ oty_annual_contributions_pct_chg &lt;dbl&gt; 5.5, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.…
+$ oty_annual_avg_wkly_wage_chg     &lt;int&gt; 32, 121, 121, 207, -67, 17, 207, 731,…
+$ oty_annual_avg_wkly_wage_pct_chg &lt;dbl&gt; 2.3, 5.8, 5.8, 11.0, -4.2, 0.7, 11.0,…
+$ oty_avg_annual_pay_chg           &lt;int&gt; 1680, 6253, 6253, 10774, -3437, 887, …
+$ oty_avg_annual_pay_pct_chg       &lt;dbl&gt; 2.3, 5.8, 5.8, 11.1, -4.2, 0.7, 11.1,…</code></pre>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb44"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb44-1"><a href="#cb44-1" aria-hidden="true" tabindex="-1"></a>qcew_25_mfg <span class="ot">&lt;-</span> qcew_25 <span class="sc">|&gt;</span></span>
+<span id="cb44-2"><a href="#cb44-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(</span>
+<span id="cb44-3"><a href="#cb44-3" aria-hidden="true" tabindex="-1"></a>    area_fips <span class="sc">==</span> <span class="dv">42045</span>,</span>
+<span id="cb44-4"><a href="#cb44-4" aria-hidden="true" tabindex="-1"></a>    <span class="fu">str_starts</span>(industry_code, <span class="st">"31"</span>) <span class="sc">|</span> </span>
+<span id="cb44-5"><a href="#cb44-5" aria-hidden="true" tabindex="-1"></a>    <span class="fu">str_starts</span>(industry_code, <span class="st">"32"</span>) <span class="sc">|</span> </span>
+<span id="cb44-6"><a href="#cb44-6" aria-hidden="true" tabindex="-1"></a>    <span class="fu">str_starts</span>(industry_code, <span class="st">"33"</span>)</span>
+<span id="cb44-7"><a href="#cb44-7" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">|&gt;</span></span>
+<span id="cb44-8"><a href="#cb44-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(agglvl_code <span class="sc">==</span> <span class="dv">75</span>) <span class="sc">|&gt;</span></span>
+<span id="cb44-9"><a href="#cb44-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(industry_code, year, annual_avg_emplvl) <span class="sc">|&gt;</span></span>
+<span id="cb44-10"><a href="#cb44-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(<span class="fu">desc</span>(annual_avg_emplvl))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb45"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb45-1"><a href="#cb45-1" aria-hidden="true" tabindex="-1"></a>naics_labels <span class="ot">&lt;-</span> <span class="fu">tibble</span>(</span>
+<span id="cb45-2"><a href="#cb45-2" aria-hidden="true" tabindex="-1"></a>  <span class="at">industry_code =</span> <span class="fu">c</span>(<span class="st">"311"</span>, <span class="st">"312"</span>, <span class="st">"313"</span>, <span class="st">"314"</span>, <span class="st">"315"</span>, <span class="st">"316"</span>, </span>
+<span id="cb45-3"><a href="#cb45-3" aria-hidden="true" tabindex="-1"></a>                    <span class="st">"321"</span>, <span class="st">"322"</span>, <span class="st">"323"</span>, <span class="st">"324"</span>, <span class="st">"325"</span>, <span class="st">"326"</span>, <span class="st">"327"</span>,</span>
+<span id="cb45-4"><a href="#cb45-4" aria-hidden="true" tabindex="-1"></a>                    <span class="st">"331"</span>, <span class="st">"332"</span>, <span class="st">"333"</span>, <span class="st">"334"</span>, <span class="st">"335"</span>, <span class="st">"336"</span>, <span class="st">"337"</span>, <span class="st">"339"</span>),</span>
+<span id="cb45-5"><a href="#cb45-5" aria-hidden="true" tabindex="-1"></a>  <span class="at">industry_title =</span> <span class="fu">c</span>(</span>
+<span id="cb45-6"><a href="#cb45-6" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Food Manufacturing"</span>,</span>
+<span id="cb45-7"><a href="#cb45-7" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Beverage and Tobacco Product Manufacturing"</span>,</span>
+<span id="cb45-8"><a href="#cb45-8" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Textile Mills"</span>,</span>
+<span id="cb45-9"><a href="#cb45-9" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Textile Product Mills"</span>,</span>
+<span id="cb45-10"><a href="#cb45-10" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Apparel Manufacturing"</span>,</span>
+<span id="cb45-11"><a href="#cb45-11" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Leather and Allied Product Manufacturing"</span>,</span>
+<span id="cb45-12"><a href="#cb45-12" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Wood Product Manufacturing"</span>,</span>
+<span id="cb45-13"><a href="#cb45-13" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Paper Manufacturing"</span>,</span>
+<span id="cb45-14"><a href="#cb45-14" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Printing and Related Support Activities"</span>,</span>
+<span id="cb45-15"><a href="#cb45-15" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Petroleum and Coal Products Manufacturing"</span>,</span>
+<span id="cb45-16"><a href="#cb45-16" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Chemical Manufacturing"</span>,</span>
+<span id="cb45-17"><a href="#cb45-17" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Plastics and Rubber Products Manufacturing"</span>,</span>
+<span id="cb45-18"><a href="#cb45-18" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Nonmetallic Mineral Product Manufacturing"</span>,</span>
+<span id="cb45-19"><a href="#cb45-19" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Primary Metal Manufacturing"</span>,</span>
+<span id="cb45-20"><a href="#cb45-20" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Fabricated Metal Product Manufacturing"</span>,</span>
+<span id="cb45-21"><a href="#cb45-21" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Machinery Manufacturing"</span>,</span>
+<span id="cb45-22"><a href="#cb45-22" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Computer and Electronic Product Manufacturing"</span>,</span>
+<span id="cb45-23"><a href="#cb45-23" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Electrical Equipment, Appliance, and Component Manufacturing"</span>,</span>
+<span id="cb45-24"><a href="#cb45-24" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Transportation Equipment Manufacturing"</span>,</span>
+<span id="cb45-25"><a href="#cb45-25" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Furniture and Related Product Manufacturing"</span>,</span>
+<span id="cb45-26"><a href="#cb45-26" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Miscellaneous Manufacturing"</span></span>
+<span id="cb45-27"><a href="#cb45-27" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb45-28"><a href="#cb45-28" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb45-29"><a href="#cb45-29" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb45-30"><a href="#cb45-30" aria-hidden="true" tabindex="-1"></a>qcew_25_mfg <span class="ot">&lt;-</span> qcew_25 <span class="sc">|&gt;</span></span>
+<span id="cb45-31"><a href="#cb45-31" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(</span>
+<span id="cb45-32"><a href="#cb45-32" aria-hidden="true" tabindex="-1"></a>    area_fips <span class="sc">==</span> <span class="dv">42045</span>,</span>
+<span id="cb45-33"><a href="#cb45-33" aria-hidden="true" tabindex="-1"></a>    <span class="fu">str_starts</span>(industry_code, <span class="st">"31"</span>) <span class="sc">|</span> </span>
+<span id="cb45-34"><a href="#cb45-34" aria-hidden="true" tabindex="-1"></a>    <span class="fu">str_starts</span>(industry_code, <span class="st">"32"</span>) <span class="sc">|</span> </span>
+<span id="cb45-35"><a href="#cb45-35" aria-hidden="true" tabindex="-1"></a>    <span class="fu">str_starts</span>(industry_code, <span class="st">"33"</span>)</span>
+<span id="cb45-36"><a href="#cb45-36" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">|&gt;</span></span>
+<span id="cb45-37"><a href="#cb45-37" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(agglvl_code <span class="sc">==</span> <span class="dv">75</span>) <span class="sc">|&gt;</span></span>
+<span id="cb45-38"><a href="#cb45-38" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(industry_code, year, annual_avg_emplvl) <span class="sc">|&gt;</span></span>
+<span id="cb45-39"><a href="#cb45-39" aria-hidden="true" tabindex="-1"></a>  <span class="fu">left_join</span>(naics_labels, <span class="at">by =</span> <span class="st">"industry_code"</span>) <span class="sc">|&gt;</span></span>
+<span id="cb45-40"><a href="#cb45-40" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(<span class="fu">desc</span>(annual_avg_emplvl))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb46"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb46-1"><a href="#cb46-1" aria-hidden="true" tabindex="-1"></a>years <span class="ot">&lt;-</span> <span class="dv">15</span><span class="sc">:</span><span class="dv">25</span></span>
+<span id="cb46-2"><a href="#cb46-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb46-3"><a href="#cb46-3" aria-hidden="true" tabindex="-1"></a>qcew_all_mfg <span class="ot">&lt;-</span> <span class="fu">map_dfr</span>(years, <span class="cf">function</span>(yr) {</span>
+<span id="cb46-4"><a href="#cb46-4" aria-hidden="true" tabindex="-1"></a>  path <span class="ot">&lt;-</span> <span class="fu">paste0</span>(<span class="st">"../data_QCEW/qcew_"</span>, <span class="fu">sprintf</span>(<span class="st">"%02d"</span>, yr), <span class="st">".csv"</span>)</span>
+<span id="cb46-5"><a href="#cb46-5" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb46-6"><a href="#cb46-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">read.csv</span>(path) <span class="sc">|&gt;</span></span>
+<span id="cb46-7"><a href="#cb46-7" aria-hidden="true" tabindex="-1"></a>    <span class="fu">filter</span>(</span>
+<span id="cb46-8"><a href="#cb46-8" aria-hidden="true" tabindex="-1"></a>      area_fips <span class="sc">==</span> <span class="dv">42045</span>,</span>
+<span id="cb46-9"><a href="#cb46-9" aria-hidden="true" tabindex="-1"></a>      <span class="fu">str_starts</span>(industry_code, <span class="st">"31"</span>) <span class="sc">|</span> </span>
+<span id="cb46-10"><a href="#cb46-10" aria-hidden="true" tabindex="-1"></a>      <span class="fu">str_starts</span>(industry_code, <span class="st">"32"</span>) <span class="sc">|</span> </span>
+<span id="cb46-11"><a href="#cb46-11" aria-hidden="true" tabindex="-1"></a>      <span class="fu">str_starts</span>(industry_code, <span class="st">"33"</span>),</span>
+<span id="cb46-12"><a href="#cb46-12" aria-hidden="true" tabindex="-1"></a>      agglvl_code <span class="sc">==</span> <span class="dv">75</span></span>
+<span id="cb46-13"><a href="#cb46-13" aria-hidden="true" tabindex="-1"></a>    ) <span class="sc">|&gt;</span></span>
+<span id="cb46-14"><a href="#cb46-14" aria-hidden="true" tabindex="-1"></a>    <span class="fu">select</span>(industry_code, year, annual_avg_emplvl) <span class="sc">|&gt;</span></span>
+<span id="cb46-15"><a href="#cb46-15" aria-hidden="true" tabindex="-1"></a>    <span class="fu">left_join</span>(naics_labels, <span class="at">by =</span> <span class="st">"industry_code"</span>)</span>
+<span id="cb46-16"><a href="#cb46-16" aria-hidden="true" tabindex="-1"></a>}) <span class="sc">|&gt;</span></span>
+<span id="cb46-17"><a href="#cb46-17" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(year, <span class="fu">desc</span>(annual_avg_emplvl))</span>
+<span id="cb46-18"><a href="#cb46-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb46-19"><a href="#cb46-19" aria-hidden="true" tabindex="-1"></a>qcew_wide <span class="ot">&lt;-</span> qcew_all_mfg <span class="sc">|&gt;</span></span>
+<span id="cb46-20"><a href="#cb46-20" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(industry_title, year, annual_avg_emplvl) <span class="sc">|&gt;</span></span>
+<span id="cb46-21"><a href="#cb46-21" aria-hidden="true" tabindex="-1"></a>  <span class="fu">pivot_wider</span>(</span>
+<span id="cb46-22"><a href="#cb46-22" aria-hidden="true" tabindex="-1"></a>    <span class="at">names_from =</span> year,</span>
+<span id="cb46-23"><a href="#cb46-23" aria-hidden="true" tabindex="-1"></a>    <span class="at">values_from =</span> annual_avg_emplvl</span>
+<span id="cb46-24"><a href="#cb46-24" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">|&gt;</span></span>
+<span id="cb46-25"><a href="#cb46-25" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="fu">across</span>(<span class="dv">2</span><span class="sc">:</span><span class="dv">12</span>, as.numeric))</span>
+<span id="cb46-26"><a href="#cb46-26" aria-hidden="true" tabindex="-1"></a>         </span>
+<span id="cb46-27"><a href="#cb46-27" aria-hidden="true" tabindex="-1"></a>qcew_wide_top10 <span class="ot">&lt;-</span> qcew_wide <span class="sc">|&gt;</span></span>
+<span id="cb46-28"><a href="#cb46-28" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(<span class="fu">desc</span>(<span class="st">`</span><span class="at">2025</span><span class="st">`</span>)) <span class="sc">|&gt;</span></span>
+<span id="cb46-29"><a href="#cb46-29" aria-hidden="true" tabindex="-1"></a>  <span class="fu">slice_head</span>(<span class="at">n =</span> <span class="dv">10</span>)</span>
+<span id="cb46-30"><a href="#cb46-30" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb46-31"><a href="#cb46-31" aria-hidden="true" tabindex="-1"></a><span class="fu">write.csv</span>(qcew_wide_top10, <span class="st">"../data_QCEW/qcew_wide_top10.csv"</span>, <span class="at">row.names =</span> <span class="cn">FALSE</span>)</span>
+<span id="cb46-32"><a href="#cb46-32" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb46-33"><a href="#cb46-33" aria-hidden="true" tabindex="-1"></a>qcew_growth <span class="ot">&lt;-</span> qcew_wide_top10 <span class="sc">|&gt;</span></span>
+<span id="cb46-34"><a href="#cb46-34" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="fu">across</span>(</span>
+<span id="cb46-35"><a href="#cb46-35" aria-hidden="true" tabindex="-1"></a>    <span class="st">`</span><span class="at">2015</span><span class="st">`</span><span class="sc">:</span><span class="st">`</span><span class="at">2025</span><span class="st">`</span>,</span>
+<span id="cb46-36"><a href="#cb46-36" aria-hidden="true" tabindex="-1"></a>    \(x) <span class="fu">round</span>((x <span class="sc">-</span> <span class="st">`</span><span class="at">2015</span><span class="st">`</span>) <span class="sc">/</span> <span class="st">`</span><span class="at">2015</span><span class="st">`</span> <span class="sc">*</span> <span class="dv">100</span>, <span class="dv">2</span>)</span>
+<span id="cb46-37"><a href="#cb46-37" aria-hidden="true" tabindex="-1"></a>  )) <span class="sc">|&gt;</span></span>
+<span id="cb46-38"><a href="#cb46-38" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(<span class="fu">desc</span>(<span class="st">`</span><span class="at">2025</span><span class="st">`</span>))</span>
+<span id="cb46-39"><a href="#cb46-39" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb46-40"><a href="#cb46-40" aria-hidden="true" tabindex="-1"></a>qcew_growth_long <span class="ot">&lt;-</span> qcew_growth <span class="sc">|&gt;</span></span>
+<span id="cb46-41"><a href="#cb46-41" aria-hidden="true" tabindex="-1"></a>  <span class="fu">pivot_longer</span>(</span>
+<span id="cb46-42"><a href="#cb46-42" aria-hidden="true" tabindex="-1"></a>    <span class="at">cols =</span> <span class="st">`</span><span class="at">2015</span><span class="st">`</span><span class="sc">:</span><span class="st">`</span><span class="at">2025</span><span class="st">`</span>,</span>
+<span id="cb46-43"><a href="#cb46-43" aria-hidden="true" tabindex="-1"></a>    <span class="at">names_to =</span> <span class="st">"year"</span>,</span>
+<span id="cb46-44"><a href="#cb46-44" aria-hidden="true" tabindex="-1"></a>    <span class="at">values_to =</span> <span class="st">"growth_pct"</span></span>
+<span id="cb46-45"><a href="#cb46-45" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">|&gt;</span></span>
+<span id="cb46-46"><a href="#cb46-46" aria-hidden="true" tabindex="-1"></a>  <span class="fu">pivot_wider</span>(</span>
+<span id="cb46-47"><a href="#cb46-47" aria-hidden="true" tabindex="-1"></a>    <span class="at">names_from =</span> industry_title,</span>
+<span id="cb46-48"><a href="#cb46-48" aria-hidden="true" tabindex="-1"></a>    <span class="at">values_from =</span> growth_pct</span>
+<span id="cb46-49"><a href="#cb46-49" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">|&gt;</span></span>
+<span id="cb46-50"><a href="#cb46-50" aria-hidden="true" tabindex="-1"></a>  <span class="fu">write.csv</span>(<span class="st">"../data_QCEW/qcew_grow_15-25.csv"</span>, <span class="at">row.names =</span> <span class="cn">FALSE</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+</section>
+
+</main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
