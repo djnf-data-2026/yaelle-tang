@@ -1,17 +1,13 @@
 ---
 title: "Economic portrait of greater Philadelphia"
-format: 
-  html: 
-    toc: true
-    toc-depth: 2
-editor: visual
 author: 
   - name: Yaelle Tang
     email: yueyang_tang@berkeley.edu
-    url: https://yaelle-tang.github.io/personal-website/
-date: last-modified
-date-format: "YYYY-MM-DD HH:mm"
-
+date: "2026-06-01"
+output: html_document
+editor_options: 
+  markdown: 
+    wrap: 72
 ---
 
 # Pitch Memo
@@ -91,14 +87,14 @@ either revise the chart or the narrative in #3.**
 
 </iframe>
 
-<iframe title="Manufacturing Sub-sectors With More Workers in 2025 Compared With 2015" aria-label="Line chart" id="datawrapper-chart-66d8T" src="https://datawrapper.dwcdn.net/66d8T/1/" scrolling="no" frameborder="0" style="border: none;" width="100%" height="800" data-external="1">
+<iframe title="Manufacturing Sub-sectors With More Workers in 2025 Compared With 2015" aria-label="Line chart" id="datawrapper-chart-66d8T" src="https://datawrapper.dwcdn.net/66d8T/1/" scrolling="no" frameborder="0" style="border: none;" width="100%" height="500" data-external="1">
 
 **the annotations on this graphic bleed outside of the boundaries so
 please revise so all of the wording is visible**
 
 </iframe>
 
-<iframe title="Manufacturing Sub-sectors With Less Workers in 2025 Compared in 2015" aria-label="Line chart" id="datawrapper-chart-H3Flo" src="https://datawrapper.dwcdn.net/H3Flo/1/" scrolling="no" frameborder="0" style="border: none;" width="100%" height="800" data-external="1">
+<iframe title="Manufacturing Sub-sectors With Less Workers in 2025 Compared in 2015" aria-label="Line chart" id="datawrapper-chart-H3Flo" src="https://datawrapper.dwcdn.net/H3Flo/1/" scrolling="no" frameborder="0" style="border: none;" width="100%" height="500" data-external="1">
 
 </iframe>
 
@@ -255,7 +251,7 @@ ggplot(philly_gdp, aes(x = reorder(county, pct_24_v_22), y = pct_24_v_22, fill =
 # [Personal income (Thousands of dollars)](https://www.bea.gov/news/2026/gross-domestic-product-county-and-personal-income-county-2024)
 # BEA CAINC1 - County Personal Income Summary
 # CAINC1 County personal income summary: personal income, population, per capita personal income
-cainc1 <- read_csv("../data/bea_gdp_2024_personal_income_county_CAINC1.csv", skip=3) |> 
+cainc1 <- read_csv("../bea_gdp_2024_personal_income_county_CAINC1.csv", skip=3) |> 
   clean_names() |> 
   mutate(across(x2022:x2024, as.numeric)) |> 
   mutate(
@@ -312,8 +308,8 @@ dollars](https://apps.bea.gov/itable/?ReqID=70&step=1&_gl=1*ov6bhy*_ga*OTk4Njc0O
 #| include: false
 # Merge Pennsylvania and New Jersey industry files
 gdp_industry <- bind_rows(
-  read_csv("../data/CAGDP2_GPD_PA_Industry.csv", skip = 3) |> clean_names(),
-  read_csv("../data/CAGDP2_GPD_NJ_Industry.csv", skip = 3) |> clean_names()
+  read_csv("../CAGDP2_GPD_PA_Industry.csv", skip = 3) |> clean_names(),
+  read_csv("../CAGDP2_GPD_NJ_Industry.csv", skip = 3) |> clean_names()
 )
 
 glimpse(gdp_industry)
