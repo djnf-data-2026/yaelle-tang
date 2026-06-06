@@ -1,5 +1,6 @@
 ---
-title: "Economic portrait of greater Philadelphia"
+title: "Why Is Delaware County the Only Shrinking Economy in Greater Philadelphia?"
+subtitle: "---- Economic Portrait of Greater Philadelphia"
 format: 
   html: 
     toc: true
@@ -15,8 +16,17 @@ date-format: "YYYY-MM-DD HH:mm"
 execute: 
   warning: false # suppress warnings
 ---
+# Overview
 
-# Pitch Memo
+The Bureau of Economic Analysis (BEA) released its 2024 county-level GDP data on February 5, 2026, offering the most current picture of how the greater Philadelphia region's economy has shifted.
+
+This project uses BEA county-level GDP data and Bureau of Labor Statistics(BLS) employment data to explore:
+
+- How is the overall GDP situation in the greater Philadelphia area? 
+- Why is Delaware County the only county whose GDP shrank between 2022 and 2024? Which industries are driving that decline?
+- which sector in this industry saw the steepest drop? 
+- How do residents' personal incomes change?
+
 
 ## What is this story about?
 
@@ -73,69 +83,249 @@ ggplot(philly_gdp, aes(x = reorder(county, pct_24_v_22), y = pct_24_v_22, fill =
 
 ```
 
-> **About the data**
->
-> GDP CAGDP1 County gross domestic product (GDP) summary Real Gross Domestic Product (GDP) (Thousands of chained 2017 dollars) [Source Page](https://www.bea.gov/news/2026/gross-domestic-product-county-and-personal-income-county-2024)
->
-> And more detail: [GDP by County](https://www.bea.gov/data/gdp/gdp-by-county)
+If you are not familiar with the greater Philadelphia region (neither was I before this project!), the following map shows the eight counties covered in this analysis. 
 
-## In one sentence, why tell this story NOW?
+Greater Philadelphia refers to Philadelphia and its surrounding counties in Pennsylvania (Montgomery, Bucks, Chester, and Delaware) and across the Delaware River in New Jersey (Camden, Burlington, and Gloucester).
 
-The Bureau of Economic Analysis (BEA) released its 2024 county-level GDP data on February 5, 2026, offering the most current picture of how the greater Philadelphia region's economy has shifted.
 
-## Who is your target audience?
+<iframe title="GDP Growth by County in Greater Philadelphia (2022-2024)" aria-label="Choropleth map" id="datawrapper-chart-YFVgg" src="https://datawrapper.dwcdn.net/YFVgg/1/" scrolling="no" frameborder="0" style="border: none;" width="600" height="580" data-external="1"></iframe>
 
-Residents and workers in Delaware County and the greater Philadelphia region
+::: {.callout-note collapse="true"}
+## About the data
+GDP CAGDP1 County gross domestic product (GDP) summary Real Gross Domestic Product (GDP) (Thousands of chained 2017 dollars) [Source Page](https://www.bea.gov/news/2026/gross-domestic-product-county-and-personal-income-county-2024)
 
-## Three people you can interview for this story
+And more detail: [GDP by County](https://www.bea.gov/data/gdp/gdp-by-county)
+:::
 
-1.  Still finding actual person: An economist at the Federal Reserve Bank of Philadelphia specializing in regional labor markets, who could provide context on the broader manufacturing decline across southeastern Pennsylvania.
-2.  [Brian C. Eury](https://www.delcopa.org/ida), Chair of Delaware County Industrial Development Authority, who could speak to what industries the county has tried to attract and whether any economic diversification strategies are underway. (610) 566-2225
-3.  A representative from the [Delaware County Central Labor Council, AFL-CIO](https://paaflcio.org/delaware-county-afl-cio-council/about-us), (maybe Todd Farally the President? but I haven't find his direct contact info), who could speak to job losses across the county's manufacturing sector
+According to [Delaware County's official history](https://delcopa.gov/your-county-glance-history), the county has a long history as an industrial hub, home to shipbuilders, locomotive makers, and oil refineries. But the county's manufacturing sector has been shrinking for decades, and the latest BEA data shows it is still losing ground. 
+
+The Federal Reserve Bank of Philadelphia's [May 2026 Manufacturing Business Outlook Survey](https://www.philadelphiafed.org/surveys-and-data/regional-economic-analysis/manufacturing-business-outlook-survey) found that the employment index remained negative for the third time in four months, suggesting the region's manufacturing job losses are ongoing.
+
+[WHYY reported in 2023](https://whyy.org/articles/manufacturing-downturn-economy-federal-reserve/) that the greater Philadelphia region experienced nine consecutive months of manufacturing slowdown, with factory closures and layoffs in Philadelphia and King of Prussia.
+
+No reporting has specifically asked why Delaware County has failed to compensate for those losses with growth in other sectors, or what that means for the workers and communities left behind.
+
+
 
 ## Potential impact
 
 A sustained decline in Delaware County's manufacturing output likely means fewer stable jobs for working-class residents, reduced tax revenue for local services, and a widening gap between the county and its neighbors.
 
-## What are three things that surprised or interested you about this story?
+## Target audience
 
-1.  Delaware County's GDP shrank even as personal income grew by 10%. Residents may be earning more by commuting to jobs elsewhere. ~~(How to explore this with data?)~~
+Residents and workers in Delaware County and the greater Philadelphia region
 
-**this headline needs to be fixed – it bleeds off the page – and the screenshot needs cropping on the top**
+# Data findings
 
-![Personal Income Growth](img/personal_income.png)
+## Industry decline trend cross the greater Philly
 
-2.  Philadelphia's manufacturing sector actually fell harder than Delaware County's (14% vs. 12%), but Philadelphia's overall GDP remained positive. Delaware County's economy is far more dependent on manufacturing and has fewer industries to fill the gap.
+::: {.callout-note collapse="true"}
+## About the data
+BEA CAGDP2 — GDP by Industry (Current dollars)* ![CAGDP2 GDP by industry in current dollars](https://apps.bea.gov/itable/?ReqID=70&step=1&_gl=1*ov6bhy*_ga*OTk4Njc0OTc1LjE3ODAyODAzNTY.*_ga_J4698JNNFT*czE3ODAzNDIwNjgkbzQkZzEkdDE3ODAzNDIxMzIkajYwJGwwJGgw#eyJhcHBpZCI6NzAsInN0ZXBzIjpbMSwyOSwyNSwzMV0sImRhdGEiOltbIlRhYmxlSWQiLCI1MDEiXSxbIk1ham9yX0FyZWEiLCI0Il1dfQ==)
+:::
 
-![](img/Manufacturing_GDP_Change.png)
+I want to see **Top 10 Industries with Largest Decline Across the greater Philly**. Delaware County's manufacturing sector ranks third on the list, which likely explains why it is the only county in the region with negative GDP growth. 
 
-![](img/Manufacturing_GDP_Percentage_Change.png)
+```{r}
+# Load and Clean Data
+# Merge Pennsylvania and New Jersey industry files
+gdp_industry <- bind_rows(
+  read_csv("../data/CAGDP2_GPD_PA_Industry.csv", skip = 3) |> clean_names(),
+  read_csv("../data/CAGDP2_GPD_NJ_Industry.csv", skip = 3) |> clean_names()
+)
 
-3.  Between 2015 and 2025, transportation equipment manufacturing, historically the largest employer among all manufacturing sub-sectors, lost nearly 1,600 jobs, a 29% decline.
+# Using Private industries sub-categories only (excluding aggregates to avoid double counting)
+gdp_industry <- gdp_industry |>
+ mutate(
+  x2022 = as.numeric(x2022),
+  x2023 = as.numeric(x2023),
+  x2024 = as.numeric(x2024)
+)
 
-**this chart doesn't illustrate the decline you describe in point #3. so either revise the chart or the narrative in #3.**
+# AI-assisted
+greater_philly_total <- gdp_industry |>
+  filter(str_detect(geo_name, "Philadelphia, PA|Montgomery, PA|Bucks, PA|Chester, PA|Delaware, PA|Gloucester, NJ|Camden, NJ|Burlington, NJ")) |>
+  filter(line_code == 1) |> 
+  select(geo_name, description, x2022, x2023, x2024) |>
+  mutate(pct_24_v_22 = round((x2024 - x2022) / x2022, 4)) |>
+  arrange(desc(pct_24_v_22))
 
-<iframe title="Delaware County&#39;s 10 Largest Manufacturing Sub-sectors by Employment in 2025" aria-label="Bar Chart" id="datawrapper-chart-eIeGS" src="https://datawrapper.dwcdn.net/eIeGS/3/" scrolling="no" frameborder="0" style="border: none;" width="100%" height="500" data-external="1">
+greater_philly_industry <- gdp_industry |>
+  filter(str_detect(geo_name, "Philadelphia, PA|Montgomery, PA|Bucks, PA|Chester, PA|Delaware, PA|Gloucester, NJ|Camden, NJ|Burlington, NJ"))  |>
+  filter(description %in% c(
+    "Agriculture, forestry, fishing and hunting",
+    "Mining, quarrying, and oil and gas extraction",
+    "Utilities",
+    "Construction",
+    "Manufacturing",
+    "Wholesale trade",
+    "Retail trade",
+    "Transportation and warehousing",
+    "Information",
+    "Finance, insurance, real estate, rental, and leasing",
+    "Professional and business services",
+    "Educational services, health care, and social assistance",
+    "Arts, entertainment, recreation, accommodation, and food services",
+    "Other services (except government and government enterprises)"
+  )) |>
+  select(geo_name, description, x2022, x2024) |>
+  mutate(pct_24_v_22 = round((x2024 - x2022) / x2022, 4)) |>
+  mutate(x24_v_22 = x2024 - x2022) |>
+  arrange(desc(x24_v_22))
+
+greater_philly_industry |>
+  slice_min(x24_v_22, n = 10) |>
+  select(geo_name, description, x24_v_22)
+
+```
+I decide to have a closer look at Delaware County's industry breakdown.
+
+## Which Industry Is Pulling Delaware County's Economy Down?
+
+Manufacturing is the primary driver of Delaware County's GDP decline, with output falling 12.3% and losing over \$428 million between 2022 and 2024.
+
+```{r}
+
+delaware_gdp_industry <- greater_philly_industry |>
+  filter(geo_name == "Delaware, PA") |>
+  filter(x2022 > 0)
+
+delaware_gdp_industry |>
+  select(geo_name, description,pct_24_v_22, x24_v_22) |>
+  arrange(x24_v_22)
+
+
+```
+
+
+## Manufacturing industry GDP trend in greater philly
+
+Philadelphia had the largest manufacturing decline both in percentage terms and absolute value, but its overall GDP remained positive. Delaware County, by contrast, lost 12% of its manufacturing output and saw its overall GDP turn negative. 
+
+Maybe its economy is more vulnerable and lacks other industries to fill the gap left by manufacturing's decline.
+
+```{r}
+philly_manufacturing <- greater_philly_industry |>
+  filter(description == "Manufacturing") |>
+  filter(x2022 > 0) |> #AI-assisted
+  mutate(abs_change = x2024 - x2022) |>
+  separate(geo_name, into = c("county", "state"), sep = ", ") |>
+  arrange(abs_change)
+
+#AI-assister
+ggplot(philly_manufacturing, aes(x = reorder(county, pct_24_v_22), y = pct_24_v_22, fill = state)) +
+  geom_col() +
+  coord_flip() +
+  scale_y_continuous(labels = scales::percent) +
+  labs(
+    title = "Manufacturing GDP Percentage Change by County in Greater Philadelphia (2022-2024)",
+    x = NULL,
+    y = "Percent Change",
+    fill = "State"
+  ) +
+  theme_minimal()
+
+ggplot(philly_manufacturing, aes(x = reorder(county, abs_change), y =abs_change , fill = state)) +
+  geom_col() +
+  coord_flip() +
+  scale_y_continuous(labels = scales::comma) +
+  labs(
+    title = "Manufacturing GDP Change by County in Greater Philadelphia (2022-2024)",
+    subtitle = "In thousands of dollars",
+    x = NULL,
+    y = "Absolute Change",
+    fill = "State"
+  ) +
+  theme_minimal()
+```
+
+
+
+
+## Which Manufacturing Sector Took the Biggest Hit?
+
+Between 2015 and 2025, transportation equipment manufacturing, historically the largest employer among all manufacturing sub-sectors, lost nearly 1,600 jobs, a 29% decline.
+
+::: {.callout-note collapse="true"}
+## About the data
+- BLS - Quarterly Census of Employment and Wages (QCEW)
+- Source: https://data.bls.gov/cew/apps/table_maker/v4/table_maker.htm#type=7&year=2025&qtr=A&own=5&area=42045&supp=0
+- NAICS Code instruction: https://www.bls.gov/iag/tgs/iag_index_naics.htm
+- data dictionary: https://www.bls.gov/cew/additional-resources/open-data/csv-data-slices.htm 
+- file download: http://www.bls.gov/cew/data/api/2025/a/area/42045.csv
+:::
+
+
+<iframe title="Delaware County&#39;s 10 Largest Manufacturing Sub-sectors by Employment in 2025" aria-label="Bar Chart" id="datawrapper-chart-eIeGS" src="https://datawrapper.dwcdn.net/eIeGS/3/" scrolling="no" frameborder="0" style="border: none;" width="100%" height="420" data-external="1">
 
 </iframe>
 
-<iframe title="Manufacturing Sub-sectors With More Workers in 2025 Compared With 2015" aria-label="Line chart" id="datawrapper-chart-66d8T" src="https://datawrapper.dwcdn.net/66d8T/1/" scrolling="no" frameborder="0" style="border: none;" width="100%" height="800" data-external="1">
+<iframe title="Percentage increase in manufacturing sectors from 2015 to 2025 in Delaware County" aria-label="Line chart" id="datawrapper-chart-66d8T" src="https://datawrapper.dwcdn.net/66d8T/3/" scrolling="no" frameborder="0" style="border: none;" width="100%" height="533" data-external="1"></iframe>
 
-**the annotations on this graphic bleed outside of the boundaries so please revise so all of the wording is visible**
+<iframe title="Percentage decline in manufacturing sectors from 2015 to 2025" aria-label="Line chart" id="datawrapper-chart-H3Flo" src="https://datawrapper.dwcdn.net/H3Flo/4/" scrolling="no" frameborder="0" style="border: none;" width="100%" height="658" data-external="1"></iframe>
 
-</iframe>
+### Examples of Recent Closures in Delaware County
+Alloy Surfaces Company in Aston, 
+a defense contractor that manufactured infrared decoys for the U.S. Army and the 
+British Royal Air Force, [announced in July 2025](https://web.archive.org/web/20250711201312/https://www.inquirer.com/business/alloy-surfaces-chemring-philadelphia-delaware-20250711.html) that it would lay off 52 workers and 
+evaluate whether to close or sell its facility. The company, owned by UK-based Chemring 
+Group, once employed 616 workers across three Delaware County sites in 2007 and held 
+a $347 million U.S. Army contract. After rounds of layoffs in 2012 and 2021, Alloy Surfaces was fully closed by the end of 2025.
 
-<iframe title="Manufacturing Sub-sectors With Less Workers in 2025 Compared in 2015" aria-label="Line chart" id="datawrapper-chart-H3Flo" src="https://datawrapper.dwcdn.net/H3Flo/1/" scrolling="no" frameborder="0" style="border: none;" width="100%" height="800" data-external="1">
 
-</iframe>
 
-## Context: Summarize any previous coverage.
+## Residents income
 
-[WHYY reported in 2023](https://whyy.org/articles/manufacturing-downturn-economy-federal-reserve/) that the greater Philadelphia region experienced nine consecutive months of manufacturing slowdown, with factory closures and layoffs in Philadelphia and King of Prussia.
+Personal income in Delaware County grew 10.98% between 2022 and 2024, yet its GDP was the only one in the region to shrink. Residents may be earning more by commuting to jobs elsewhere.  Residents may be earning more by working elsewhere while local industries are losing ground.
 
-The Federal Reserve Bank of Philadelphia's [May 2026 Manufacturing Business Outlook Survey](https://www.philadelphiafed.org/surveys-and-data/regional-economic-analysis/manufacturing-business-outlook-survey) found that the employment index remained negative for the third time in four months, suggesting the region's manufacturing job losses are ongoing.
+::: {.callout-note collapse="true"}
+## About the data
+BEA CAINC1 - County Personal Income Summary : personal income, population, per capita personal income
+Source: [Personal income (Thousands of dollars)](https://www.bea.gov/data/income-saving/personal-income-by-county)
+:::
 
-According to [Delaware County's official history](https://delcopa.gov/your-county-glance-history), the county has a long history as an industrial hub, home to shipbuilders, locomotive makers, and oil refineries. But the county's manufacturing sector has been shrinking for decades, and the latest BEA data shows it is still losing ground. No reporting has specifically asked why Delaware County has failed to compensate for those losses with growth in other sectors, or what that means for the workers and communities left behind.
+```{r}
+#Load and Clean Data
+cainc1 <- read_csv("../data/bea_gdp_2024_personal_income_county_CAINC1.csv", skip=3) |> 
+  clean_names() |> 
+  mutate(across(x2022:x2024, as.numeric)) |> 
+  mutate(
+    pct_23_v_22 = round((x2023 - x2022) / x2022, 4),
+    pct_24_v_23 = round((x2024 - x2023) / x2023, 4),
+    pct_24_v_22 = round((x2024 - x2022) / x2022, 4)
+  )
+
+#Filter Greater Philadelphia
+philly_income <- cainc1 |>
+  filter(str_detect(geo_name, "Philadelphia, PA|Montgomery, PA|Bucks, PA|Chester, PA|Delaware, PA|Gloucester, NJ|Camden, NJ|Burlington, NJ")) |>
+  select(geo_name, x2022, x2024, pct_24_v_22) |>
+  separate(geo_name, into = c("county", "state"), sep = ", ") |>
+  arrange(desc(pct_24_v_22))
+
+#Chart: Personal Income Growth by County
+  #AI assisted
+
+ggplot(philly_income, aes(x = reorder(county, pct_24_v_22), y = pct_24_v_22, fill = state)) +
+  geom_col() +
+  coord_flip() +
+  scale_y_continuous(labels = scales::percent) +
+  labs(
+    title = "Personal Income Growth by County in Greater Philadelphia (2022-2024)",
+    x = NULL,
+    y = "Percent Change",
+    fill = "State"
+  ) +
+  theme_minimal()
+```
+
+
+
+## Potential sources
+
+1.  [Ryotaro Tashiro](https://www.philadelphiafed.org/our-people/ryotaro-tashiro), outreach economist at the Federal Reserve Bank of Philadelphia, who tracks economic trends across the greater Philladelphia area. He is responsible for the [Chamber of Commerce for Greater Philadelphia Economic Outlook Survey](https://www.philadelphiafed.org/surveys-and-data/regional-economic-analysis/chamber-of-commerce-for-greater-philadelphia-economic-outlook-survey). He could provide context on the broader manufacturing decline across southeastern Pennsylvania. 
+2.  [Brian C. Eury](https://www.delcopa.org/ida), Chair of Delaware County Industrial Development Authority, who could speak to what industries the county has tried to attract and whether any economic diversification strategies are underway. (610) 566-2225
+3.  Todd Farally, president of the [Delaware County Central Labor Council, AFL-CIO](https://paaflcio.org/delaware-county-afl-cio-council/about-us), , who could speak to job losses across the county's manufacturing sector
+
 
 ## Photos, video, graphics - How will you make this story visual?
 
@@ -143,10 +333,11 @@ Graphics
 
 ## What other information do you need to gather?
 
--   Employment data for Delaware County to understand where workers went as manufacturing shrank, and why personal income continued to rise despite the GDP decline.
--   Population change data would help confirm whether residents are leaving the county.
--   Any specific factory closures during this period?
-
+- Employment data for Delaware County to understand where workers went as manufacturing shrank, and why personal income continued to rise despite the GDP decline.
+- Population change data would help confirm whether residents are leaving the county.
+- Specific factory closure records from Pennsylvania WARN notices to identify which employers cut jobs during this period.
+- Union activity data, including strike records and contract outcomes, to understand whether workers retained bargaining power as manufacturing shrank.
+    
 ## Estimated delivery
 
 Data analysis will be complete by June 7. Interviews will wrap up by June 15. A first draft will be ready by June 17.

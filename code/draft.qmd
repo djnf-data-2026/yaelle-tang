@@ -209,9 +209,14 @@ philly_gdp <- gdp_county |>
   select(county, state, x2022, x2024, pct_24_v_22) |>
   mutate(rank(x2022)) |>
   mutate(rank(x2024)) |>
+  mutate(pct_24_v_22 = round(pct_24_v_22 * 100, 2)) |>
   arrange(desc(pct_24_v_22))
 
 philly_gdp
+
+philly_gdp |>
+  select(county, pct_24_v_22) |>
+  write.csv("../data/philly_gdp.csv",row.names = FALSE)
 ```
 
 ### Chart: GDP Growth by County
@@ -293,6 +298,8 @@ ggplot(philly_income, aes(x = reorder(county, pct_24_v_22), y = pct_24_v_22, fil
 
 ```{r}
 #| include: false
+
+# Load and Clean Data
 # Merge Pennsylvania and New Jersey industry files
 gdp_industry <- bind_rows(
   read_csv("../data/CAGDP2_GPD_PA_Industry.csv", skip = 3) |> clean_names(),

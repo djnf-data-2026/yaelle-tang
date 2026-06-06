@@ -1,0 +1,205 @@
+---
+title: "code_only"
+author: "Yaelle Tang"
+date: "2026-06-05"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r include=FALSE}
+#Load libraries
+#install.packages("rio")
+library(tidyverse)
+library(readxl)
+library(janitor)
+library(rio)
+```
+
+
+
+```{r chart-gdp-growth echo=TRUE}
+# Retrieve GDP Data
+gdp_county <- read_csv("https://raw.githubusercontent.com/djnf-data-2026/master/refs/heads/main/data/bea_gdp_2024_county_CAGDP1.csv", skip=3) |> 
+  clean_names() |> 
+    mutate(across(3:5, as.numeric))
+
+# Calculate change 2024 vs 2022; split out state
+gdp_county <- gdp_county |> 
+  mutate(pct_24_v_22 = (x2024-x2022)/x2022,
+          state = str_split_fixed(geo_name, ", ", 2)[, 2],
+         county = str_split_fixed(geo_name, ", ", 2)[, 1])  
+
+philly_gdp <- gdp_county |>
+  filter(state == "PA" | state == "NJ") |>
+  filter(county %in% c("Philadelphia", "Montgomery", 
+                        "Bucks", "Chester", 
+                        "Delaware", "Gloucester", 
+                        "Camden", "Burlington")) |>
+  select(county, state, x2022, x2024, pct_24_v_22) |>
+  mutate(rank(x2022)) |>
+  mutate(rank(x2024)) |>
+  arrange(desc(pct_24_v_22))
+
+# Chart: GDP Growth by County
+  # AI assisted
+
+ggplot(philly_gdp, aes(x = reorder(county, pct_24_v_22), y = pct_24_v_22, fill = state)) +
+  geom_col() +
+  coord_flip() +
+  scale_y_continuous(labels = scales::percent) +
+  labs(
+    title = "GDP Growth by County in Greater Philadelphia (2022-2024)",
+    x = NULL,
+    y = "Percent Change",
+    fill = "State"
+  ) +
+  theme_minimal()
+
+```
+
+
+::: {.callout-note collapse="true"}
+## About the data
+BEA CAINC1 - County Personal Income Summary 
+CAINC1 County personal income summary: personal income, population, per capita personal income
+Source: [Personal income (Thousands of dollars)](https://www.bea.gov/news/2026/gross-domestic-product-county-and-personal-income-county-2024)
+:::
+
+```{r}
+#Load and Clean Data
+cainc1 <- read_csv("../data/bea_gdp_2024_personal_income_county_CAINC1.csv", skip=3) |> 
+  clean_names() |> 
+  mutate(across(x2022:x2024, as.numeric)) |> 
+  mutate(
+    pct_23_v_22 = round((x2023 - x2022) / x2022, 4),
+    pct_24_v_23 = round((x2024 - x2023) / x2023, 4),
+    pct_24_v_22 = round((x2024 - x2022) / x2022, 4)
+  )
+
+#Filter Greater Philadelphia
+philly_income <- cainc1 |>
+  filter(str_detect(geo_name, "Philadelphia, PA|Montgomery, PA|Bucks, PA|Chester, PA|Delaware, PA|Gloucester, NJ|Camden, NJ|Burlington, NJ")) |>
+  select(geo_name, x2022, x2024, pct_24_v_22) |>
+  separate(geo_name, into = c("county", "state"), sep = ", ") |>
+  arrange(desc(pct_24_v_22))
+
+#Chart: Personal Income Growth by County
+  #AI assisted
+
+ggplot(philly_income, aes(x = reorder(county, pct_24_v_22), y = pct_24_v_22, fill = state)) +
+  geom_col() +
+  coord_flip() +
+  scale_y_continuous(labels = scales::percent) +
+  labs(
+    title = "Personal Income Growth by County in Greater Philadelphia (2022-2024)",
+    x = NULL,
+    y = "Percent Change",
+    fill = "State"
+  ) +
+  theme_minimal()
+```
+*BEA CAGDP2 — GDP by Industry (Current dollars)* ![CAGDP2 GDP by industry in current dollars](https://apps.bea.gov/itable/?ReqID=70&step=1&_gl=1*ov6bhy*_ga*OTk4Njc0OTc1LjE3ODAyODAzNTY.*_ga_J4698JNNFT*czE3ODAzNDIwNjgkbzQkZzEkdDE3ODAzNDIxMzIkajYwJGwwJGgw#eyJhcHBpZCI6NzAsInN0ZXBzIjpbMSwyOSwyNSwzMV0sImRhdGEiOltbIlRhYmxlSWQiLCI1MDEiXSxbIk1ham9yX0FyZWEiLCI0Il1dfQ==)
+
+```{r}
+# Load and Clean Data
+# Merge Pennsylvania and New Jersey industry files
+gdp_industry <- bind_rows(
+  read_csv("../data/CAGDP2_GPD_PA_Industry.csv", skip = 3) |> clean_names(),
+  read_csv("../data/CAGDP2_GPD_NJ_Industry.csv", skip = 3) |> clean_names()
+)
+
+# Using Private industries sub-categories only (excluding aggregates to avoid double counting)
+gdp_industry <- gdp_industry |>
+ mutate(
+  x2022 = as.numeric(x2022),
+  x2023 = as.numeric(x2023),
+  x2024 = as.numeric(x2024)
+)
+
+# AI-assisted
+greater_philly_total <- gdp_industry |>
+  filter(str_detect(geo_name, "Philadelphia, PA|Montgomery, PA|Bucks, PA|Chester, PA|Delaware, PA|Gloucester, NJ|Camden, NJ|Burlington, NJ")) |>
+  filter(line_code == 1) |> 
+  select(geo_name, description, x2022, x2023, x2024) |>
+  mutate(pct_24_v_22 = round((x2024 - x2022) / x2022, 4)) |>
+  arrange(desc(pct_24_v_22))
+
+greater_philly_industry <- gdp_industry |>
+  filter(str_detect(geo_name, "Philadelphia, PA|Montgomery, PA|Bucks, PA|Chester, PA|Delaware, PA|Gloucester, NJ|Camden, NJ|Burlington, NJ"))  |>
+  filter(description %in% c(
+    "Agriculture, forestry, fishing and hunting",
+    "Mining, quarrying, and oil and gas extraction",
+    "Utilities",
+    "Construction",
+    "Manufacturing",
+    "Wholesale trade",
+    "Retail trade",
+    "Transportation and warehousing",
+    "Information",
+    "Finance, insurance, real estate, rental, and leasing",
+    "Professional and business services",
+    "Educational services, health care, and social assistance",
+    "Arts, entertainment, recreation, accommodation, and food services",
+    "Other services (except government and government enterprises)"
+  )) |>
+  select(geo_name, description, x2022, x2024) |>
+  mutate(pct_24_v_22 = round((x2024 - x2022) / x2022, 4)) |>
+  mutate(x24_v_22 = x2024 - x2022) |>
+  arrange(desc(x24_v_22))
+
+greater_philly_industry |>
+  slice_min(x24_v_22, n = 10) |>
+  select(geo_name, description, x24_v_22)
+
+delaware_gdp_industry <- greater_philly_industry |>
+  filter(geo_name == "Delaware, PA") |>
+  filter(x2022 > 0) |>
+  mutate(abs_change = x2024 - x2022) |>
+  arrange(abs_change)
+
+delaware_gdp_industry |>
+  select(geo_name, description, x24_v_22)
+
+
+```
+
+> **Finding:** Delaware County's manufacturing sector ranks third on the list, which likely explains why it is the only county in the region with negative GDP growth. I decide to have a closer look at Delaware County's industry breakdown.
+
+```{r}
+philly_manufacturing <- greater_philly_industry |>
+  filter(description == "Manufacturing") |>
+  filter(x2022 > 0) |> #AI-assisted
+  mutate(abs_change = x2024 - x2022) |>
+  separate(geo_name, into = c("county", "state"), sep = ", ") |>
+  arrange(abs_change)
+
+#AI-assister
+ggplot(philly_manufacturing, aes(x = reorder(county, pct_24_v_22), y = pct_24_v_22, fill = state)) +
+  geom_col() +
+  coord_flip() +
+  scale_y_continuous(labels = scales::percent) +
+  labs(
+    title = "Manufacturing GDP Percentage Change by County in Greater Philadelphia (2022-2024)",
+    x = NULL,
+    y = "Percent Change",
+    fill = "State"
+  ) +
+  theme_minimal()
+
+ggplot(philly_manufacturing, aes(x = reorder(county, abs_change), y =abs_change , fill = state)) +
+  geom_col() +
+  coord_flip() +
+  scale_y_continuous(labels = scales::comma) +
+  labs(
+    title = "Manufacturing GDP Change by County in Greater Philadelphia (2022-2024)",
+    subtitle = "In thousands of dollars",
+    x = NULL,
+    y = "Absolute Change",
+    fill = "State"
+  ) +
+  theme_minimal()
+```
+> **Findings:** Philadelphia had the largest manufacturing decline both in percentage terms and absolute value, but its overall GDP remained positive. Delaware County, by contrast, lost 12% of its manufacturing output and saw its overall GDP turn negative. Maybe its economy is more vulnerable and lacks other industries to fill the gap left by manufacturing's decline.
