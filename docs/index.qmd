@@ -320,7 +320,7 @@ ggplot(philly_income, aes(x = reorder(county, pct_24_v_22), y = pct_24_v_22, fil
 
 # Future Work
 
-## What other information do you need to gather?
+## Other information that I need to gather
 
 - Employment data for Delaware County to understand where workers went as manufacturing shrank, and why personal income continued to rise despite the GDP decline.
 - Population change data would help confirm whether residents are leaving the county.
