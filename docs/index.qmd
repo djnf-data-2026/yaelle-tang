@@ -115,7 +115,7 @@ A sustained decline in Delaware County's manufacturing output likely means fewer
 
 Residents and workers in Delaware County and the greater Philadelphia region
 
-# Data findings
+# Data Findings
 
 ## Industry decline trend cross the greater Philly
 
@@ -142,7 +142,7 @@ gdp_industry <- gdp_industry |>
   x2024 = as.numeric(x2024)
 )
 
-# AI-assisted
+  # AI-assisted
 greater_philly_total <- gdp_industry |>
   filter(str_detect(geo_name, "Philadelphia, PA|Montgomery, PA|Bucks, PA|Chester, PA|Delaware, PA|Gloucester, NJ|Camden, NJ|Burlington, NJ")) |>
   filter(line_code == 1) |> 
@@ -212,19 +212,19 @@ philly_manufacturing <- greater_philly_industry |>
   separate(geo_name, into = c("county", "state"), sep = ", ") |>
   arrange(abs_change)
 
-#AI-assister
+  #AI assisted
 ggplot(philly_manufacturing, aes(x = reorder(county, pct_24_v_22), y = pct_24_v_22, fill = state)) +
   geom_col() +
   coord_flip() +
   scale_y_continuous(labels = scales::percent) +
   labs(
-    title = "Manufacturing GDP Percentage Change by County in Greater Philadelphia (2022-2024)",
+    title = "Manufacturing GDP %Change by County in Greater Philadelphia (2022-2024)",
     x = NULL,
     y = "Percent Change",
     fill = "State"
   ) +
   theme_minimal()
-
+  #AI assisted
 ggplot(philly_manufacturing, aes(x = reorder(county, abs_change), y =abs_change , fill = state)) +
   geom_col() +
   coord_flip() +
@@ -318,18 +318,7 @@ ggplot(philly_income, aes(x = reorder(county, pct_24_v_22), y = pct_24_v_22, fil
   theme_minimal()
 ```
 
-
-
-## Potential sources
-
-1.  [Ryotaro Tashiro](https://www.philadelphiafed.org/our-people/ryotaro-tashiro), outreach economist at the Federal Reserve Bank of Philadelphia, who tracks economic trends across the greater Philladelphia area. He is responsible for the [Chamber of Commerce for Greater Philadelphia Economic Outlook Survey](https://www.philadelphiafed.org/surveys-and-data/regional-economic-analysis/chamber-of-commerce-for-greater-philadelphia-economic-outlook-survey). He could provide context on the broader manufacturing decline across southeastern Pennsylvania. 
-2.  [Brian C. Eury](https://www.delcopa.org/ida), Chair of Delaware County Industrial Development Authority, who could speak to what industries the county has tried to attract and whether any economic diversification strategies are underway. (610) 566-2225
-3.  Todd Farally, president of the [Delaware County Central Labor Council, AFL-CIO](https://paaflcio.org/delaware-county-afl-cio-council/about-us), , who could speak to job losses across the county's manufacturing sector
-
-
-## Photos, video, graphics - How will you make this story visual?
-
-Graphics
+# Future Work
 
 ## What other information do you need to gather?
 
@@ -337,6 +326,13 @@ Graphics
 - Population change data would help confirm whether residents are leaving the county.
 - Specific factory closure records from Pennsylvania WARN notices to identify which employers cut jobs during this period.
 - Union activity data, including strike records and contract outcomes, to understand whether workers retained bargaining power as manufacturing shrank.
+
+## Potential sources
+
+1.  [Ryotaro Tashiro](https://www.philadelphiafed.org/our-people/ryotaro-tashiro), outreach economist at the Federal Reserve Bank of Philadelphia, who tracks economic trends across the greater Philladelphia area. He is responsible for the [Chamber of Commerce for Greater Philadelphia Economic Outlook Survey](https://www.philadelphiafed.org/surveys-and-data/regional-economic-analysis/chamber-of-commerce-for-greater-philadelphia-economic-outlook-survey). He could provide context on the broader manufacturing decline across southeastern Pennsylvania. 
+2.  [Brian C. Eury](https://www.delcopa.org/ida), Chair of Delaware County Industrial Development Authority, who could speak to what industries the county has tried to attract and whether any economic diversification strategies are underway. (610) 566-2225
+3.  Todd Farally, president of the [Delaware County Central Labor Council, AFL-CIO](https://paaflcio.org/delaware-county-afl-cio-council/about-us), , who could speak to job losses across the county's manufacturing sector
+
     
 ## Estimated delivery
 

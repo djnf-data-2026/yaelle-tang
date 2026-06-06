@@ -89,16 +89,18 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#potential-impact" id="toc-potential-impact" class="nav-link" data-scroll-target="#potential-impact">Potential impact</a></li>
   <li><a href="#target-audience" id="toc-target-audience" class="nav-link" data-scroll-target="#target-audience">Target audience</a></li>
   </ul></li>
-  <li><a href="#data-findings" id="toc-data-findings" class="nav-link" data-scroll-target="#data-findings">Data findings</a>
+  <li><a href="#data-findings" id="toc-data-findings" class="nav-link" data-scroll-target="#data-findings">Data Findings</a>
   <ul class="collapse">
   <li><a href="#industry-decline-trend-cross-the-greater-philly" id="toc-industry-decline-trend-cross-the-greater-philly" class="nav-link" data-scroll-target="#industry-decline-trend-cross-the-greater-philly">Industry decline trend cross the greater Philly</a></li>
   <li><a href="#which-industry-is-pulling-delaware-countys-economy-down" id="toc-which-industry-is-pulling-delaware-countys-economy-down" class="nav-link" data-scroll-target="#which-industry-is-pulling-delaware-countys-economy-down">Which Industry Is Pulling Delaware County’s Economy Down?</a></li>
   <li><a href="#manufacturing-industry-gdp-trend-in-greater-philly" id="toc-manufacturing-industry-gdp-trend-in-greater-philly" class="nav-link" data-scroll-target="#manufacturing-industry-gdp-trend-in-greater-philly">Manufacturing industry GDP trend in greater philly</a></li>
   <li><a href="#which-manufacturing-sector-took-the-biggest-hit" id="toc-which-manufacturing-sector-took-the-biggest-hit" class="nav-link" data-scroll-target="#which-manufacturing-sector-took-the-biggest-hit">Which Manufacturing Sector Took the Biggest Hit?</a></li>
   <li><a href="#residents-income" id="toc-residents-income" class="nav-link" data-scroll-target="#residents-income">Residents income</a></li>
-  <li><a href="#potential-sources" id="toc-potential-sources" class="nav-link" data-scroll-target="#potential-sources">Potential sources</a></li>
-  <li><a href="#photos-video-graphics---how-will-you-make-this-story-visual" id="toc-photos-video-graphics---how-will-you-make-this-story-visual" class="nav-link" data-scroll-target="#photos-video-graphics---how-will-you-make-this-story-visual">Photos, video, graphics - How will you make this story visual?</a></li>
+  </ul></li>
+  <li><a href="#future-work" id="toc-future-work" class="nav-link" data-scroll-target="#future-work">Future Work</a>
+  <ul class="collapse">
   <li><a href="#what-other-information-do-you-need-to-gather" id="toc-what-other-information-do-you-need-to-gather" class="nav-link" data-scroll-target="#what-other-information-do-you-need-to-gather">What other information do you need to gather?</a></li>
+  <li><a href="#potential-sources" id="toc-potential-sources" class="nav-link" data-scroll-target="#potential-sources">Potential sources</a></li>
   <li><a href="#estimated-delivery" id="toc-estimated-delivery" class="nav-link" data-scroll-target="#estimated-delivery">Estimated delivery</a></li>
   </ul></li>
   </ul>
@@ -126,7 +128,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">2026-06-06 01:24</p>
+      <p class="date">2026-06-06 01:34</p>
     </div>
   </div>
   
@@ -235,7 +237,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 </section>
 <section id="data-findings" class="level1">
-<h1>Data findings</h1>
+<h1>Data Findings</h1>
 <section id="industry-decline-trend-cross-the-greater-philly" class="level2">
 <h2 class="anchored" data-anchor-id="industry-decline-trend-cross-the-greater-philly">Industry decline trend cross the greater Philly</h2>
 <div class="callout callout-style-default callout-note callout-titled">
@@ -273,7 +275,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>  <span class="at">x2024 =</span> <span class="fu">as.numeric</span>(x2024)</span>
 <span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a>)</span>
 <span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a><span class="co"># AI-assisted</span></span>
+<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a>  <span class="co"># AI-assisted</span></span>
 <span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a>greater_philly_total <span class="ot">&lt;-</span> gdp_industry <span class="sc">|&gt;</span></span>
 <span id="cb2-18"><a href="#cb2-18" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(<span class="fu">str_detect</span>(geo_name, <span class="st">"Philadelphia, PA|Montgomery, PA|Bucks, PA|Chester, PA|Delaware, PA|Gloucester, NJ|Camden, NJ|Burlington, NJ"</span>)) <span class="sc">|&gt;</span></span>
 <span id="cb2-19"><a href="#cb2-19" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(line_code <span class="sc">==</span> <span class="dv">1</span>) <span class="sc">|&gt;</span> </span>
@@ -375,13 +377,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">separate</span>(geo_name, <span class="at">into =</span> <span class="fu">c</span>(<span class="st">"county"</span>, <span class="st">"state"</span>), <span class="at">sep =</span> <span class="st">", "</span>) <span class="sc">|&gt;</span></span>
 <span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(abs_change)</span>
 <span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a><span class="co">#AI-assister</span></span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a>  <span class="co">#AI assisted</span></span>
 <span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(philly_manufacturing, <span class="fu">aes</span>(<span class="at">x =</span> <span class="fu">reorder</span>(county, pct_24_v_22), <span class="at">y =</span> pct_24_v_22, <span class="at">fill =</span> state)) <span class="sc">+</span></span>
 <span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_col</span>() <span class="sc">+</span></span>
 <span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">coord_flip</span>() <span class="sc">+</span></span>
 <span id="cb6-12"><a href="#cb6-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_y_continuous</span>(<span class="at">labels =</span> scales<span class="sc">::</span>percent) <span class="sc">+</span></span>
 <span id="cb6-13"><a href="#cb6-13" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(</span>
-<span id="cb6-14"><a href="#cb6-14" aria-hidden="true" tabindex="-1"></a>    <span class="at">title =</span> <span class="st">"Manufacturing GDP Percentage Change by County in Greater Philadelphia (2022-2024)"</span>,</span>
+<span id="cb6-14"><a href="#cb6-14" aria-hidden="true" tabindex="-1"></a>    <span class="at">title =</span> <span class="st">"Manufacturing GDP %Change by County in Greater Philadelphia (2022-2024)"</span>,</span>
 <span id="cb6-15"><a href="#cb6-15" aria-hidden="true" tabindex="-1"></a>    <span class="at">x =</span> <span class="cn">NULL</span>,</span>
 <span id="cb6-16"><a href="#cb6-16" aria-hidden="true" tabindex="-1"></a>    <span class="at">y =</span> <span class="st">"Percent Change"</span>,</span>
 <span id="cb6-17"><a href="#cb6-17" aria-hidden="true" tabindex="-1"></a>    <span class="at">fill =</span> <span class="st">"State"</span></span>
@@ -397,18 +399,19 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 <details class="code-fold">
 <summary>Show code</summary>
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(philly_manufacturing, <span class="fu">aes</span>(<span class="at">x =</span> <span class="fu">reorder</span>(county, abs_change), <span class="at">y =</span>abs_change , <span class="at">fill =</span> state)) <span class="sc">+</span></span>
-<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_col</span>() <span class="sc">+</span></span>
-<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">coord_flip</span>() <span class="sc">+</span></span>
-<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_y_continuous</span>(<span class="at">labels =</span> scales<span class="sc">::</span>comma) <span class="sc">+</span></span>
-<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(</span>
-<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a>    <span class="at">title =</span> <span class="st">"Manufacturing GDP Change by County in Greater Philadelphia (2022-2024)"</span>,</span>
-<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a>    <span class="at">subtitle =</span> <span class="st">"In thousands of dollars"</span>,</span>
-<span id="cb7-8"><a href="#cb7-8" aria-hidden="true" tabindex="-1"></a>    <span class="at">x =</span> <span class="cn">NULL</span>,</span>
-<span id="cb7-9"><a href="#cb7-9" aria-hidden="true" tabindex="-1"></a>    <span class="at">y =</span> <span class="st">"Absolute Change"</span>,</span>
-<span id="cb7-10"><a href="#cb7-10" aria-hidden="true" tabindex="-1"></a>    <span class="at">fill =</span> <span class="st">"State"</span></span>
-<span id="cb7-11"><a href="#cb7-11" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
-<span id="cb7-12"><a href="#cb7-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>  <span class="co">#AI assisted</span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(philly_manufacturing, <span class="fu">aes</span>(<span class="at">x =</span> <span class="fu">reorder</span>(county, abs_change), <span class="at">y =</span>abs_change , <span class="at">fill =</span> state)) <span class="sc">+</span></span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_col</span>() <span class="sc">+</span></span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">coord_flip</span>() <span class="sc">+</span></span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_y_continuous</span>(<span class="at">labels =</span> scales<span class="sc">::</span>comma) <span class="sc">+</span></span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(</span>
+<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a>    <span class="at">title =</span> <span class="st">"Manufacturing GDP Change by County in Greater Philadelphia (2022-2024)"</span>,</span>
+<span id="cb7-8"><a href="#cb7-8" aria-hidden="true" tabindex="-1"></a>    <span class="at">subtitle =</span> <span class="st">"In thousands of dollars"</span>,</span>
+<span id="cb7-9"><a href="#cb7-9" aria-hidden="true" tabindex="-1"></a>    <span class="at">x =</span> <span class="cn">NULL</span>,</span>
+<span id="cb7-10"><a href="#cb7-10" aria-hidden="true" tabindex="-1"></a>    <span class="at">y =</span> <span class="st">"Absolute Change"</span>,</span>
+<span id="cb7-11"><a href="#cb7-11" aria-hidden="true" tabindex="-1"></a>    <span class="at">fill =</span> <span class="st">"State"</span></span>
+<span id="cb7-12"><a href="#cb7-12" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
+<span id="cb7-13"><a href="#cb7-13" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </details>
 <div class="cell-output-display">
 <div>
@@ -518,18 +521,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 </section>
-<section id="potential-sources" class="level2">
-<h2 class="anchored" data-anchor-id="potential-sources">Potential sources</h2>
-<ol type="1">
-<li><a href="https://www.philadelphiafed.org/our-people/ryotaro-tashiro">Ryotaro Tashiro</a>, outreach economist at the Federal Reserve Bank of Philadelphia, who tracks economic trends across the greater Philladelphia area. He is responsible for the <a href="https://www.philadelphiafed.org/surveys-and-data/regional-economic-analysis/chamber-of-commerce-for-greater-philadelphia-economic-outlook-survey">Chamber of Commerce for Greater Philadelphia Economic Outlook Survey</a>. He could provide context on the broader manufacturing decline across southeastern Pennsylvania.</li>
-<li><a href="https://www.delcopa.org/ida">Brian C. Eury</a>, Chair of Delaware County Industrial Development Authority, who could speak to what industries the county has tried to attract and whether any economic diversification strategies are underway. (610) 566-2225</li>
-<li>Todd Farally, president of the <a href="https://paaflcio.org/delaware-county-afl-cio-council/about-us">Delaware County Central Labor Council, AFL-CIO</a>, , who could speak to job losses across the county’s manufacturing sector</li>
-</ol>
 </section>
-<section id="photos-video-graphics---how-will-you-make-this-story-visual" class="level2">
-<h2 class="anchored" data-anchor-id="photos-video-graphics---how-will-you-make-this-story-visual">Photos, video, graphics - How will you make this story visual?</h2>
-<p>Graphics</p>
-</section>
+<section id="future-work" class="level1">
+<h1>Future Work</h1>
 <section id="what-other-information-do-you-need-to-gather" class="level2">
 <h2 class="anchored" data-anchor-id="what-other-information-do-you-need-to-gather">What other information do you need to gather?</h2>
 <ul>
@@ -538,6 +532,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li>Specific factory closure records from Pennsylvania WARN notices to identify which employers cut jobs during this period.</li>
 <li>Union activity data, including strike records and contract outcomes, to understand whether workers retained bargaining power as manufacturing shrank.</li>
 </ul>
+</section>
+<section id="potential-sources" class="level2">
+<h2 class="anchored" data-anchor-id="potential-sources">Potential sources</h2>
+<ol type="1">
+<li><a href="https://www.philadelphiafed.org/our-people/ryotaro-tashiro">Ryotaro Tashiro</a>, outreach economist at the Federal Reserve Bank of Philadelphia, who tracks economic trends across the greater Philladelphia area. He is responsible for the <a href="https://www.philadelphiafed.org/surveys-and-data/regional-economic-analysis/chamber-of-commerce-for-greater-philadelphia-economic-outlook-survey">Chamber of Commerce for Greater Philadelphia Economic Outlook Survey</a>. He could provide context on the broader manufacturing decline across southeastern Pennsylvania.</li>
+<li><a href="https://www.delcopa.org/ida">Brian C. Eury</a>, Chair of Delaware County Industrial Development Authority, who could speak to what industries the county has tried to attract and whether any economic diversification strategies are underway. (610) 566-2225</li>
+<li>Todd Farally, president of the <a href="https://paaflcio.org/delaware-county-afl-cio-council/about-us">Delaware County Central Labor Council, AFL-CIO</a>, , who could speak to job losses across the county’s manufacturing sector</li>
+</ol>
 </section>
 <section id="estimated-delivery" class="level2">
 <h2 class="anchored" data-anchor-id="estimated-delivery">Estimated delivery</h2>
